@@ -1,0 +1,9 @@
+# Standardized CIP Database Validation — Python dependencies
+# Requires Python 3.9+
+#   pip install -r ValidationsTool/requirements.txt
+#
+# Frontend libraries (PDF.js, marked.js) load from a CDN — nothing to install.
+
+flask>=2.2,<4
+pandas>=2.0
+numpy>=1.24
