@@ -15,3 +15,7 @@ Edit this file to manage the quick-pick notes shown on the Manual Check page. **
 
 #### Review status
 - Needs second review
+
+#### Correct
+
+- More money will be spent in the future

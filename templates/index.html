@@ -53,6 +53,11 @@
         </label>
         <button id="p1-extra-apply">Apply</button>
       </div>
+      <div class="status-filter-row hidden" id="p1-status-row">
+        <span>Filter calc by <code>status</code>:</span>
+        <span id="p1-status-options"></span>
+        <span id="p1-status-info" class="muted"></span>
+      </div>
       <div class="stat-row">
         <div class="stat"><span id="p1-rows-with-total">—</span><label>Rows with total</label></div>
         <div class="stat"><span id="p1-rows-missing-total">—</span><label>Rows missing total</label></div>
@@ -69,7 +74,10 @@
         <tbody></tbody>
       </table>
 
-      <h3>Offenders <small>(click name to open in Manual Check)</small></h3>
+      <div class="section-head">
+        <h3>Offenders <small>(click name to open in Manual Check)</small></h3>
+        <button id="p1-offenders-export" class="secondary-btn">Export CSV</button>
+      </div>
       <div class="table-scroll">
         <table class="data-table" id="p1-offenders-table">
           <thead>
@@ -130,9 +138,14 @@
       </div>
 
       <h3>Duplicate projects <small>(by ID, same CIP year)</small></h3>
+      <div class="dup-actions">
+        <button id="p1-dup-select-exact">Select all exact duplicates</button>
+        <span id="p1-dup-sel-info" class="muted">0 groups selected · 0 rows to delete</span>
+        <button id="p1-dup-delete" class="danger-btn" disabled>Delete selected (keep one each)</button>
+      </div>
       <div class="table-scroll">
         <table class="data-table" id="p1-dup-id-table">
-          <thead><tr><th>CIP Year</th><th>Project ID</th><th>Project Name</th><th>Label</th><th>Count</th><th>Source Pages</th></tr></thead>
+          <thead><tr><th class="dup-cb-cell"></th><th>CIP Year</th><th>Project ID</th><th>Project Name</th><th>Label</th><th>Count</th><th>Source Pages</th></tr></thead>
           <tbody></tbody>
         </table>
       </div>
@@ -188,6 +201,10 @@
     <!-- Left -->
     <div class="left-panel" id="p2-left-panel">
       <div class="left-section" id="p2-row-list-section">
+        <div id="p2-saved-sample-banner" class="saved-sample-banner hidden">
+          <span id="p2-saved-sample-info"></span>
+          <button id="p2-load-saved-sample-btn">Load saved sample</button>
+        </div>
         <div class="left-section-header">Select a Project</div>
         <div id="p2-row-list" class="row-list">
           <div class="empty-state">Select a city and file to begin.</div>
@@ -331,6 +348,19 @@
     <div class="modal-actions">
       <button id="reset-cancel">Cancel</button>
       <button id="reset-confirm" class="danger-btn" disabled>Confirm reset</button>
+    </div>
+  </div>
+</div>
+
+<!-- Bulk duplicate-delete confirmation modal -->
+<div id="dup-delete-modal" class="modal-overlay hidden">
+  <div class="modal-box">
+    <h3>⚠ Delete duplicate rows</h3>
+    <p id="dup-delete-summary"></p>
+    <p class="muted">Deleted rows are excluded from Combine and the Quality Report but stay in the CSV (struck-through, restorable in Manual Check).</p>
+    <div class="modal-actions">
+      <button id="dup-delete-cancel">Cancel</button>
+      <button id="dup-delete-confirm" class="danger-btn">Confirm delete</button>
     </div>
   </div>
 </div>

@@ -161,8 +161,9 @@ def get_files(city):
     return pairs
 
 
-def run_validation(city, extra_cols=None):
+def run_validation(city, extra_cols=None, status_filter=None):
     extra_cols = extra_cols or []
+    status_filter = status_filter or []
     csv_dir = BASE_DIR / city / 'CSV'
     city_slug = city.lower().replace(' ', '_')
     exclude = {f'{city_slug}_cip_quality_issues.csv', f'{city_slug}_cip_long.csv'}
@@ -175,12 +176,16 @@ def run_validation(city, extra_cols=None):
     for p in csv_files:
         df = pd.read_csv(p, dtype=str).fillna('')
         df['source_file'] = p.name
+        df['_row_idx'] = range(len(df))      # original index within its source file
         dfs.append(df)
 
     combined = pd.concat(dfs, ignore_index=True, sort=False).fillna('')
     for c in ID_COLS + [LABEL_COL, NOTES_COL]:
         if c not in combined.columns:
             combined[c] = ''
+
+    # The Quality Report describes the dataset Combine will finalize → drop soft-deleted rows.
+    combined = combined[combined[LABEL_COL] != 'deleted'].reset_index(drop=True)
 
     year_cols = sorted(c for c in combined.columns if c.startswith('year_'))
 
@@ -212,9 +217,22 @@ def run_validation(city, extra_cols=None):
     )
     combined.loc[~valid_total, 'residual'] = float('nan')
 
+    # Optional `status` column → filter that affects ONLY the Project Investment Check.
+    has_status = 'status' in combined.columns
+    status_values = (
+        sorted({s for s in combined['status'].astype(str).str.strip() if s})
+        if has_status else []
+    )
+    applied_status = [s for s in status_filter if s in status_values]
+    if applied_status:
+        inv = combined[combined['status'].astype(str).str.strip().isin(applied_status)]
+    else:
+        inv = combined
+    inv_valid_total = valid_total.loc[inv.index]
+
     n_total = len(combined)
-    n_with_total = int(valid_total.sum())
-    n_no_total = int((~valid_total).sum())
+    n_with_total = int(inv_valid_total.sum())
+    n_no_total = int((~inv_valid_total).sum())
     unique_project_ids = int(
         combined[combined['project_id'].astype(str).str.strip() != '']['project_id'].nunique()
     )
@@ -222,7 +240,7 @@ def run_validation(city, extra_cols=None):
     # Per-column missing ratio (treat empty / whitespace / common null markers as missing)
     null_markers = {'', 'nan', 'na', 'n/a', 'tbd'}
     year_col_pattern = re.compile(r'^year_\d{4}$')
-    skip_cols = {'source_file', LABEL_COL, NOTES_COL,
+    skip_cols = {'source_file', '_row_idx', LABEL_COL, NOTES_COL,
                  '_total_n', '_prev_n', 'year_sum', '_extra_sum', 'residual'}  # internal / computed columns
 
     def _missing_for(df):
@@ -253,8 +271,8 @@ def run_validation(city, extra_cols=None):
             stem = file_stems.get(source_file, str(source_file).removesuffix('.csv'))
             missing_by_column_per_file[stem] = _missing_for(group)
 
-    abs_res = combined.loc[valid_total, 'residual'].abs()
-    flagged = combined[combined['residual'].abs() > TOL].copy()
+    abs_res = inv.loc[inv_valid_total, 'residual'].abs()
+    flagged = inv[inv['residual'].abs() > TOL].copy()
 
     buckets = {
         'le2': int((abs_res <= TOL).sum()),
@@ -264,7 +282,7 @@ def run_validation(city, extra_cols=None):
     }
 
     by_year = flagged.groupby('cip_year').size()
-    tot_year = combined[valid_total].groupby('cip_year').size()
+    tot_year = inv[inv_valid_total].groupby('cip_year').size()
     year_int_pat = re.compile(r'^year_(\d{4})$')
     year_cols_all = sorted(c for c in combined.columns if year_int_pat.match(c))
     period_nulls = {'', '-', 'nan', 'na', 'n/a', 'tbd'}
@@ -281,11 +299,11 @@ def run_validation(city, extra_cols=None):
         return f'{lo}' if lo == hi else f'{lo} – {hi}'
 
     flagged_by_year = []
-    for yr in sorted(combined['cip_year'].unique()):
+    for yr in sorted(inv['cip_year'].unique()):
         f_n = int(by_year.get(yr, 0))
         t_n = int(tot_year.get(yr, 0))
         pct = round(100 * f_n / t_n, 1) if t_n else 0.0
-        period = _time_period_for(combined[combined['cip_year'] == yr])
+        period = _time_period_for(inv[inv['cip_year'] == yr])
         flagged_by_year.append({
             'cip_year': str(yr),
             'time_period': period,
@@ -314,8 +332,38 @@ def run_validation(city, extra_cols=None):
     dup_id_grouped = dup_id_grouped[dup_id_grouped['count'] > 1].sort_values('count', ascending=False)
     dup_id_total_groups = int(len(dup_id_grouped))
     dup_id_total_rows = int(dup_id_grouped['count'].sum()) if dup_id_total_groups else 0
-    dup_id_list = [
-        {
+
+    # Per-group member rows + exact-duplicate detection (identical on all cols except source_page)
+    stem_by_csv = {f['csv']: f['stem'] for f in get_files(city)}
+    META = {'source_file', '_row_idx', LABEL_COL, NOTES_COL,
+            '_total_n', '_prev_n', 'year_sum', '_extra_sum', 'residual'}
+    cmp_cols = [c for c in combined.columns if c not in META and c != 'source_page']
+    dup_keys = set(zip(dup_id_grouped['cip_year'], dup_id_grouped['project_id']))
+    members_by_key = {}
+    if dup_keys:
+        for (cy, pid), g in pid_clean.groupby(['cip_year', 'project_id']):
+            if (cy, pid) not in dup_keys:
+                continue
+            members, sigs = [], set()
+            for _, row in g.iterrows():
+                stem = stem_by_csv.get(row['source_file'], str(row['source_file'])[:-4])
+                members.append({'stem': stem, 'row_index': int(row['_row_idx']),
+                                'source_page': str(row['source_page'])})
+                sigs.add(tuple(str(row[c]) for c in cmp_cols))
+            full = len(sigs) == 1
+            members_by_key[(cy, pid)] = {
+                'members': members,
+                'full_duplicate': full,
+                'delete_members': (
+                    [{'stem': m['stem'], 'row_index': m['row_index']} for m in members[1:]]
+                    if full else []
+                ),
+            }
+
+    dup_id_list = []
+    for _, r in dup_id_grouped.iterrows():
+        extra = members_by_key.get((r['cip_year'], r['project_id']), {})
+        dup_id_list.append({
             'cip_year': str(r['cip_year']),
             'project_id': str(r['project_id']),
             'project_name': str(r['project_name']),
@@ -323,21 +371,28 @@ def run_validation(city, extra_cols=None):
             'source_pages': r['source_pages'],
             'labels': r['labels'],
             'notes': r['notes'],
-        }
-        for _, r in dup_id_grouped.iterrows()
-    ]
+            'full_duplicate': extra.get('full_duplicate', False),
+            'members': extra.get('members', []),
+            'delete_members': extra.get('delete_members', []),
+        })
 
     show_cols = ['cip_year', 'source_page', 'project_id', 'project_name',
                  'previous_appropriations', 'project_total', 'year_sum', 'residual',
                  LABEL_COL, NOTES_COL]
+    # Also carry the exact source location so clicking opens the right row,
+    # even when the file name differs from the cip_year column (e.g. DC).
+    nav_cols = ['source_file', '_row_idx']
     all_flagged = flagged.reindex(
         flagged['residual'].abs().sort_values(ascending=False).index
-    )[show_cols]
+    )[show_cols + [c for c in nav_cols if c in flagged.columns]]
 
-    offenders_list = [
-        {col: safe(row[col]) for col in show_cols}
-        for _, row in all_flagged.iterrows()
-    ]
+    offenders_list = []
+    for _, row in all_flagged.iterrows():
+        item = {col: safe(row[col]) for col in show_cols}
+        src = row.get('source_file', '') if 'source_file' in all_flagged.columns else ''
+        item['stem'] = stem_by_csv.get(src, str(src)[:-4] if src else '')
+        item['row_index'] = int(row['_row_idx']) if '_row_idx' in all_flagged.columns else None
+        offenders_list.append(item)
 
     # Pass 2
     wide_for_melt = combined[ID_COLS + year_cols].copy()
@@ -366,6 +421,8 @@ def run_validation(city, extra_cols=None):
         'unique_project_ids': unique_project_ids,
         'missing_by_column': missing_by_column,
         'missing_by_column_per_file': missing_by_column_per_file,
+        'has_status': has_status,
+        'status_values': status_values,
         'pass1': {
             'rows_with_total': n_with_total,
             'rows_missing_total': n_no_total,
@@ -373,6 +430,8 @@ def run_validation(city, extra_cols=None):
             'flagged_by_year': flagged_by_year,
             'metadata_only': meta_only_count,
             'offenders': offenders_list,
+            'applied_status': applied_status,
+            'inv_rows': int(len(inv)),
         },
         'duplicates': {
             'by_id_groups': dup_id_total_groups,
@@ -801,16 +860,17 @@ def api_combine(city):
         dfs.append(df)
 
     combined = pd.concat(dfs, ignore_index=True, sort=False).fillna('')
-    for c in ID_COLS:
+    for c in ID_COLS + [LABEL_COL, NOTES_COL]:
         if c not in combined.columns:
             combined[c] = ''
 
     year_cols = sorted(c for c in combined.columns if c.startswith('year_'))
+    id_cols_ext = ID_COLS + [LABEL_COL, NOTES_COL]
 
     # Pass 2: melt wide → long
-    wide_for_melt = combined[ID_COLS + year_cols].copy()
+    wide_for_melt = combined[id_cols_ext + year_cols].copy()
     long = wide_for_melt.melt(
-        id_vars=ID_COLS, value_vars=year_cols,
+        id_vars=id_cols_ext, value_vars=year_cols,
         var_name='plan_year', value_name='invest',
     )
     long['plan_year'] = long['plan_year'].str.replace('year_', '', regex=False)
@@ -822,7 +882,7 @@ def api_combine(city):
     long = long.sort_values(
         ['cip_year', 'department', 'project_id', 'plan_year']
     ).reset_index(drop=True)
-    long = long[ID_COLS + ['plan_year', 'invest']]
+    long = long[id_cols_ext + ['plan_year', 'invest']]
 
     # Generate output filename, never overwriting
     now = datetime.now()
@@ -1016,6 +1076,74 @@ def api_delete_row(city, stem, idx):
     return jsonify({'ok': True})
 
 
+@app.route('/api/cities/<city>/bulk_delete', methods=['POST'])
+def api_bulk_delete(city):
+    """Soft-delete many rows at once (label='deleted'). Body: {rows:[{stem,row_index}], note}."""
+    data = request.get_json() or {}
+    rows = data.get('rows', [])
+    note = (data.get('note') or '').strip() or 'Bulk-removed exact duplicate (kept one copy)'
+    if not rows:
+        return jsonify({'error': 'No rows provided'}), 400
+
+    by_stem = {}
+    for r in rows:
+        by_stem.setdefault(r['stem'], set()).add(int(r['row_index']))
+
+    deleted = 0
+    for stem, idxs in by_stem.items():
+        match = next((f for f in get_files(city) if f['stem'] == stem), None)
+        if not match:
+            continue
+        csv_path = BASE_DIR / city / 'CSV' / match['csv']
+        df = pd.read_csv(csv_path, dtype=str).fillna('')
+        if LABEL_COL not in df.columns:
+            df[LABEL_COL] = ''
+        if NOTES_COL not in df.columns:
+            df[NOTES_COL] = ''
+
+        val_dir = _val_dir(city)
+        val_dir.mkdir(parents=True, exist_ok=True)
+        val_path = val_dir / f'{stem}.json'
+        records = []
+        if val_path.exists():
+            with open(val_path, encoding='utf-8') as f:
+                records = json.load(f)
+
+        ts = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        log_lines = []
+        for idx in idxs:
+            if idx >= len(df):
+                continue
+            pid = str(df.at[idx, 'project_id']) if 'project_id' in df.columns else ''
+            pname = str(df.at[idx, 'project_name']) if 'project_name' in df.columns else ''
+            spg = str(df.at[idx, 'source_page']) if 'source_page' in df.columns else ''
+            prior = next((r for r in records if r.get('row_index') == idx), None)
+            edits = prior.get('edits', []) if prior else []
+            records = [r for r in records if r.get('row_index') != idx]
+            records.append({
+                'timestamp': datetime.now().isoformat(timespec='seconds'),
+                'city': city, 'file_stem': stem, 'row_index': idx,
+                'project_name': pname, 'project_id': pid, 'source_page': spg,
+                'status': 'deleted', 'notes': note, 'edits': edits,
+            })
+            df.at[idx, LABEL_COL] = 'deleted'
+            df.at[idx, NOTES_COL] = note
+            log_lines.append(
+                f'- {ts} — {city}/{stem} row {idx} [{pid} — {pname} p.{spg}] **DELETED (bulk)**\n'
+                f'  - note: "{note}"'
+            )
+            deleted += 1
+
+        df.to_csv(csv_path, index=False)
+        with open(val_path, 'w', encoding='utf-8') as f:
+            json.dump(records, f, indent=2)
+        if log_lines:
+            with open(val_dir / 'edit_log.md', 'a', encoding='utf-8') as f:
+                f.write('\n'.join(log_lines) + '\n')
+
+    return jsonify({'ok': True, 'deleted': deleted})
+
+
 @app.route('/api/cities/<city>/reset_validation', methods=['POST'])
 def api_reset_validation(city):
     """DANGEROUS: per-city wipe of validation records.
@@ -1065,7 +1193,8 @@ def api_reset_validation(city):
 def api_validate(city):
     extra = request.args.get('extra', '')
     extra_cols = [c.strip() for c in extra.split(',') if c.strip()]
-    return jsonify(run_validation(city, extra_cols=extra_cols))
+    status_filter = [s for s in request.args.getlist('status') if s.strip()]
+    return jsonify(run_validation(city, extra_cols=extra_cols, status_filter=status_filter))
 
 
 @app.route('/api/instructions')
@@ -1160,10 +1289,33 @@ def api_sample(city):
     if request.method == 'GET':
         if not sample_path.exists():
             return jsonify({'items': [], 'total_rows': 0, 'sample_size': 0,
-                            'percent': 3.0, 'exists': False})
+                            'percent': 3.0, 'exists': False,
+                            'validated_count': 0, 'validated_pct': 0.0})
         with open(sample_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
         data['exists'] = True
+        # Count how many sampled rows have already been reviewed (any non-empty label)
+        items = data.get('items', [])
+        by_stem = {}
+        for it in items:
+            by_stem.setdefault(it['file_stem'], set()).add(it['row_index'])
+        validated = 0
+        vdir = _val_dir(city)
+        for stem, idx_set in by_stem.items():
+            jp = vdir / f'{stem}.json'
+            if not jp.exists():
+                continue
+            try:
+                with open(jp, encoding='utf-8') as f:
+                    recs = json.load(f)
+            except (json.JSONDecodeError, OSError):
+                continue
+            for r in recs:
+                if r.get('row_index') in idx_set and compute_label(r):
+                    validated += 1
+        data['validated_count'] = validated
+        total = data.get('sample_size') or len(items)
+        data['validated_pct'] = round(validated / total * 100, 1) if total else 0.0
         return jsonify(data)
 
     body = request.get_json(silent=True) or {}

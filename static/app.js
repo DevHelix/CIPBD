@@ -8,9 +8,12 @@ const state = {
     city: null,
     offenders: [],
     dupId: [],
+    dupSelected: new Set(),   // selected dup-group keys: `cip_year|project_id`
+    dupByKey: {},             // key -> dup group object (for delete lookup)
     missing: [],          // currently-displayed dataset
     missingAll: [],       // city-wide
     missingPerFile: {},   // {stem: [rows...]}
+    statusFilter: new Set(),  // Section-B status filter values
     pages: { offenders: 1, dupId: 1, missing: 1 },
     perPage: 10,
   },
@@ -122,7 +125,10 @@ const p1Spinner = document.getElementById('p1-spinner');
 const p1Content = document.getElementById('p1-content');
 const p1Empty = document.getElementById('p1-empty');
 
-p1City.addEventListener('change', () => { p1RunBtn.disabled = !p1City.value; });
+p1City.addEventListener('change', () => {
+  p1RunBtn.disabled = !p1City.value;
+  state.p1.statusFilter = new Set();   // status differs per city; reset on change
+});
 
 async function runP1Validation() {
   const city = p1City.value;
@@ -133,8 +139,11 @@ async function runP1Validation() {
   p1Empty.classList.add('hidden');
   try {
     const extra = (document.getElementById('p1-extra-cols').value || '').trim();
-    const url = `/api/cities/${encodeURIComponent(city)}/validate`
-      + (extra ? `?extra=${encodeURIComponent(extra)}` : '');
+    const params = new URLSearchParams();
+    if (extra) params.set('extra', extra);
+    state.p1.statusFilter.forEach((s) => params.append('status', s));
+    const qs = params.toString();
+    const url = `/api/cities/${encodeURIComponent(city)}/validate${qs ? `?${qs}` : ''}`;
     const data = await api.get(url);
     renderPage1(data, city);
     p1Content.classList.remove('hidden');
@@ -155,10 +164,75 @@ async function runP1Validation() {
   }
 }
 
+// ── CSV download helpers ────────────────────────────────────────────────────
+function toCsv(headers, rows) {
+  const esc = (v) => {
+    const s = v == null ? '' : String(v);
+    return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+  };
+  return [headers.join(','), ...rows.map((r) => r.map(esc).join(','))].join('\r\n');
+}
+function downloadText(filename, text) {
+  const blob = new Blob([text], { type: 'text/csv;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(a.href);
+}
+
+// Export the full Offenders list (all pages; reflects the active status filter)
+document.getElementById('p1-offenders-export').addEventListener('click', () => {
+  const offs = state.p1.offenders || [];
+  if (!offs.length) { showToast('No offenders to export'); return; }
+  const headers = ['CIP Year', 'Page', 'Project ID', 'Project Name', 'Label',
+                   'Prev. Approp.', 'Project Total', 'Year Sum', 'Residual', 'Notes'];
+  const rows = offs.map((r) => [
+    r.cip_year ?? '', r.source_page ?? '', r.project_id ?? '', r.project_name ?? '',
+    r.validation_label ?? '', r.previous_appropriations ?? '', r.project_total ?? '',
+    r.year_sum != null ? r.year_sum.toFixed(1) : '',
+    r.residual != null ? r.residual.toFixed(1) : '',
+    r.notes ?? '',
+  ]);
+  const city = state.p1.city || 'city';
+  downloadText(`${city}_offenders_${offs.length}.csv`, toCsv(headers, rows));
+});
+
 p1RunBtn.addEventListener('click', runP1Validation);
 document.getElementById('p1-extra-apply').addEventListener('click', () => {
   if (p1City.value) runP1Validation();
 });
+
+// Section B: status filter (shown only when the data has a `status` column)
+function renderStatusFilter(data) {
+  const row = document.getElementById('p1-status-row');
+  const opts = document.getElementById('p1-status-options');
+  const info = document.getElementById('p1-status-info');
+  if (!data.has_status || !(data.status_values || []).length) {
+    row.classList.add('hidden');
+    opts.innerHTML = '';
+    info.textContent = '';
+    return;
+  }
+  row.classList.remove('hidden');
+  opts.innerHTML = data.status_values.map((s) => {
+    const checked = state.p1.statusFilter.has(s) ? ' checked' : '';
+    return `<label class="status-opt"><input type="checkbox" value="${escHtml(s)}"${checked}> ${escHtml(s)}</label>`;
+  }).join('');
+  opts.querySelectorAll('input[type="checkbox"]').forEach((cb) => {
+    cb.addEventListener('change', () => {
+      if (cb.checked) state.p1.statusFilter.add(cb.value);
+      else state.p1.statusFilter.delete(cb.value);
+      runP1Validation();
+    });
+  });
+  const applied = data.pass1.applied_status || [];
+  info.textContent = applied.length
+    ? `· showing ${(data.pass1.inv_rows || 0).toLocaleString()} rows (${applied.join(', ')})`
+    : '· all rows';
+}
 
 function renderPage1(data, city) {
   state.p1.city = city;
@@ -209,6 +283,9 @@ function renderPage1(data, city) {
   const residualGt2 = (b['2_100'] || 0) + (b['100_1000'] || 0) + (b['gt1000'] || 0);
   document.getElementById('p1-residual-gt2').textContent = residualGt2.toLocaleString();
 
+  // Section B status filter (only when the data has a `status` column)
+  renderStatusFilter(data);
+
   // Flagged rows by CIP year — two-column layout, per-cell highlight
   const years = p1.flagged_by_year;
   const half = Math.ceil(years.length / 2);
@@ -242,7 +319,11 @@ function renderPage1(data, city) {
   const dup = data.duplicates || { by_id_groups: 0, by_id_rows: 0, by_id: [] };
   document.getElementById('p1-dup-id-groups').textContent = dup.by_id_groups.toLocaleString();
   document.getElementById('p1-dup-id-rows').textContent = dup.by_id_rows.toLocaleString();
+  state.p1.dupSelected = new Set();
+  state.p1.dupByKey = {};
+  (state.p1.dupId || []).forEach((r) => { state.p1.dupByKey[`${r.cip_year}|${r.project_id}`] = r; });
   renderPaginatedTable('dupId');
+  updateDupSelInfo();
 }
 
 // Render a validation_label cell; hovering shows the note (if any) via title.
@@ -269,7 +350,8 @@ function renderPaginatedTable(which) {
           <td>${r.source_page ?? '—'}</td>
           <td>${escHtml(r.project_id) || '—'}</td>
           <td><span class="top10-link" data-city="${state.p1.city}" data-year="${r.cip_year}"
-                    data-proj="${encodeURIComponent(r.project_id ?? '')}">${escHtml(r.project_name) || '—'}</span></td>
+                    data-proj="${encodeURIComponent(r.project_id ?? '')}"
+                    data-stem="${escHtml(r.stem ?? '')}" data-idx="${r.row_index != null ? r.row_index : ''}">${escHtml(r.project_name) || '—'}</span></td>
           ${labelCell(r.validation_label, r.notes)}
           <td>${escHtml(r.previous_appropriations) || '—'}</td>
           <td>${escHtml(r.project_total) || '—'}</td>
@@ -279,8 +361,11 @@ function renderPaginatedTable(which) {
       },
       wireLinks: (tbody) => {
         tbody.querySelectorAll('.top10-link').forEach((el) => {
-          el.addEventListener('click', () =>
-            navigateToPage2(el.dataset.city, el.dataset.year, decodeURIComponent(el.dataset.proj)));
+          el.addEventListener('click', () => {
+            const idx = el.dataset.idx === '' ? null : Number(el.dataset.idx);
+            navigateToPage2(el.dataset.city, el.dataset.year,
+              decodeURIComponent(el.dataset.proj), el.dataset.stem || null, idx);
+          });
         });
       },
     },
@@ -289,19 +374,36 @@ function renderPaginatedTable(which) {
       tbody: '#p1-dup-id-table tbody',
       pag: '[data-pag="dupId"]',
       empty: '#p1-no-dup-id',
-      rowFn: (r) => `<tr class="flagged">
+      rowFn: (r) => {
+        const key = `${r.cip_year}|${r.project_id}`;
+        const checked = state.p1.dupSelected.has(key) ? ' checked' : '';
+        const cbCell = r.full_duplicate
+          ? `<td class="dup-cb-cell"><input type="checkbox" class="dup-cb" data-key="${escHtml(key)}"${checked}></td>`
+          : '<td class="dup-cb-cell"><input type="checkbox" disabled title="Not an exact duplicate — review in Manual Check"></td>';
+        return `<tr class="flagged">
+        ${cbCell}
         <td>${escHtml(r.cip_year)}</td>
         <td><span class="top10-link" data-city="${state.p1.city}" data-year="${r.cip_year}"
-                  data-proj="${encodeURIComponent(r.project_id)}">${escHtml(r.project_id)}</span></td>
+                  data-proj="${encodeURIComponent(r.project_id)}"
+                  data-stem="${escHtml((r.members && r.members[0] && r.members[0].stem) || '')}">${escHtml(r.project_id)}</span></td>
         <td>${escHtml(r.project_name)}</td>
         ${labelCell(r.labels, r.notes)}
         <td>${r.count}</td>
         <td>${escHtml(r.source_pages)}</td>
-      </tr>`,
+      </tr>`;
+      },
       wireLinks: (tbody) => {
         tbody.querySelectorAll('.top10-link').forEach((el) => {
           el.addEventListener('click', () =>
-            navigateToPage2(el.dataset.city, el.dataset.year, decodeURIComponent(el.dataset.proj)));
+            navigateToPage2(el.dataset.city, el.dataset.year,
+              decodeURIComponent(el.dataset.proj), el.dataset.stem || null));
+        });
+        tbody.querySelectorAll('.dup-cb').forEach((cb) => {
+          cb.addEventListener('change', () => {
+            if (cb.checked) state.p1.dupSelected.add(cb.dataset.key);
+            else state.p1.dupSelected.delete(cb.dataset.key);
+            updateDupSelInfo();
+          });
         });
       },
     },
@@ -345,6 +447,71 @@ document.addEventListener('click', (e) => {
   if (state.p1.pages[which] < 1) state.p1.pages[which] = 1;
   if (which === 'missing') renderMissingTable();
   else renderPaginatedTable(which);
+});
+
+// ── Section D: duplicate selection + bulk delete ───────────────────────────
+function dupDeleteTargets() {
+  // Flatten delete_members across all selected groups → [{stem, row_index}]
+  const rows = [];
+  state.p1.dupSelected.forEach((key) => {
+    const g = state.p1.dupByKey[key];
+    if (g && g.delete_members) rows.push(...g.delete_members);
+  });
+  return rows;
+}
+function updateDupSelInfo() {
+  const nGroups = state.p1.dupSelected.size;
+  const nRows = dupDeleteTargets().length;
+  const info = document.getElementById('p1-dup-sel-info');
+  if (info) info.textContent = `${nGroups} group${nGroups === 1 ? '' : 's'} selected · ${nRows} row${nRows === 1 ? '' : 's'} to delete`;
+  const btn = document.getElementById('p1-dup-delete');
+  if (btn) btn.disabled = nRows === 0;
+}
+
+document.getElementById('p1-dup-select-exact').addEventListener('click', () => {
+  state.p1.dupSelected = new Set();
+  (state.p1.dupId || []).forEach((r) => {
+    if (r.full_duplicate) state.p1.dupSelected.add(`${r.cip_year}|${r.project_id}`);
+  });
+  renderPaginatedTable('dupId');
+  updateDupSelInfo();
+});
+
+document.getElementById('p1-dup-delete').addEventListener('click', () => {
+  const rows = dupDeleteTargets();
+  if (!rows.length) return;
+  const nGroups = state.p1.dupSelected.size;
+  document.getElementById('dup-delete-summary').textContent =
+    `Delete ${rows.length} duplicate row${rows.length === 1 ? '' : 's'} across ${nGroups} group${nGroups === 1 ? '' : 's'}? One copy per group is kept. This is reversible via Restore in Manual Check.`;
+  document.getElementById('dup-delete-modal').classList.remove('hidden');
+});
+document.getElementById('dup-delete-cancel').addEventListener('click', () => {
+  document.getElementById('dup-delete-modal').classList.add('hidden');
+});
+document.getElementById('dup-delete-modal').addEventListener('click', (e) => {
+  if (e.target.id === 'dup-delete-modal') e.currentTarget.classList.add('hidden');
+});
+document.getElementById('dup-delete-confirm').addEventListener('click', async () => {
+  const rows = dupDeleteTargets();
+  const city = state.p1.city;
+  if (!rows.length || !city) return;
+  const btn = document.getElementById('dup-delete-confirm');
+  btn.disabled = true;
+  try {
+    const res = await api.post(`/api/cities/${encodeURIComponent(city)}/bulk_delete`, { rows });
+    document.getElementById('dup-delete-modal').classList.add('hidden');
+    if (res && res.ok) {
+      showToast(`Deleted ${res.deleted} duplicate row${res.deleted === 1 ? '' : 's'}`);
+      await runP1Validation();   // refresh all sections (deleted rows now excluded)
+    } else {
+      showToast((res && res.error) || 'Bulk delete failed');
+    }
+  } catch (e) {
+    showToast('Bulk delete failed — see console');
+    console.error(e);
+  } finally {
+    btn.disabled = false;
+  }
 });
 
 // ── Section C: column-completeness two-column renderer ─────────────────────
@@ -429,23 +596,31 @@ function cycleScope(dir) {
 document.getElementById('p1-scope-prev-btn').addEventListener('click', () => cycleScope(-1));
 document.getElementById('p1-scope-next-btn').addEventListener('click', () => cycleScope(1));
 
-async function navigateToPage2(city, cipYear, projectId) {
+async function navigateToPage2(city, cipYear, projectId, stem, rowIndex) {
   document.querySelector('[data-page="page2"]').click();
   const p2CityEl = document.getElementById('p2-city-select');
   p2CityEl.value = city;
   await onP2CityChange(city);
   const files = await api.get(`/api/cities/${encodeURIComponent(city)}/files`);
-  const match = files.find((f) => f.stem.startsWith(String(cipYear)));
+  // Prefer the exact source file (handles file name ≠ cip_year column, e.g. DC).
+  // Fall back to the old year-based guess only if no stem was provided.
+  let match = stem ? files.find((f) => f.stem === stem) : null;
+  if (!match) match = files.find((f) => f.stem.startsWith(String(cipYear)));
   if (!match) return;
   const p2FileEl = document.getElementById('p2-file-select');
   p2FileEl.value = match.stem;
   await onP2FileChange(match.stem);
+  // Exact row known (offender) → select it directly.
+  if (rowIndex != null && state.p2.rows.some((r) => r.index === rowIndex)) {
+    selectRow(rowIndex);
+    return;
+  }
   if (projectId) {
     // Populate the Project ID filter so the user sees every matching row
     const idFilter = document.getElementById('p2-id-filter');
     idFilter.value = projectId;
     renderRowList();
-    // If only one row matches, auto-select it (offender case)
+    // If only one row matches, auto-select it
     const matches = state.p2.rows.filter(
       (r) => r.project_id.toLowerCase() === projectId.toLowerCase()
     );
@@ -540,6 +715,7 @@ async function onP2CityChange(city) {
   p2FileSelect.disabled = false;
   p2FileSelect.value = '__all__';
   await loadAllFiles();
+  fetchSavedSampleStatus();
 }
 
 async function loadAllFiles() {
@@ -606,10 +782,23 @@ function labelFor(v) {
   return '';
 }
 const LABEL_GLYPH = { validated: '✓', incorrect: '✗', edited: '✎', deleted: '🗑' };
-function badgeHtml(v) {
-  const label = labelFor(v);
-  if (!label) return '';
+function badgeFromLabel(label) {
+  if (!label || !LABEL_GLYPH[label]) return '';
   return `<span class="badge ${label}">${LABEL_GLYPH[label]}</span>`;
+}
+function badgeHtml(v) {
+  return badgeFromLabel(labelFor(v));
+}
+
+// Patch a cross-file item's stored label after a save, so its badge stays correct
+// when the user moves to a different file.
+function updateCrossFileItemLabel(stem, idx) {
+  const lbl = labelFor(state.p2.validations[idx]);
+  [state.p2All.items, state.p2Sample.items].forEach((coll) => {
+    if (!coll) return;
+    const it = coll.find((x) => x.file_stem === stem && x.row_index === idx);
+    if (it) it.validation_label = lbl;
+  });
 }
 
 // Shared cross-file list renderer (used by both Sample and All-files modes).
@@ -637,12 +826,14 @@ function renderCrossFileList(items, emptyMsg) {
   listEl.innerHTML = filtered.map((r) => {
     const isSel = state.p2.stem === r.file_stem && state.p2.selectedRow === r.row_index;
     const sel = isSel ? ' selected' : '';
-    const v = state.p2.stem === r.file_stem ? state.p2.validations[r.row_index] : null;
-    const delCls = labelFor(v) === 'deleted' ? ' deleted' : '';
+    // Live label for the loaded file (reflects unsaved-then-saved changes); else stored label
+    const liveV = state.p2.stem === r.file_stem ? state.p2.validations[r.row_index] : null;
+    const label = liveV ? labelFor(liveV) : (r.validation_label || '');
+    const delCls = label === 'deleted' ? ' deleted' : '';
     return `<div class="row-item sample-item${sel}${delCls}"
           data-stem="${escHtml(r.file_stem)}" data-idx="${r.row_index}">
       <span class="file-tag">${escHtml(r.file_stem)}</span>
-      ${badgeHtml(v)}
+      ${badgeFromLabel(label)}
       <span class="row-name" title="${escHtml(r.project_name)}">${escHtml(r.project_name) || '(unnamed)'}</span>
       <span class="row-page">p.${escHtml(r.source_page)}</span>
     </div>`;
@@ -748,8 +939,36 @@ async function loadSample(force) {
   p2LabelFilterBtn.disabled = false;
   updateSampleUi();
   renderRowList();
+  hideSavedSampleBanner();   // we're now in sample mode
   showToast(force ? 'Sample regenerated' : `Sample loaded (${data.sample_size} of ${data.total_rows})`);
 }
+
+// ── Saved-sample banner (Manual Check) ────────────────────────────────────
+function hideSavedSampleBanner() {
+  document.getElementById('p2-saved-sample-banner').classList.add('hidden');
+}
+async function fetchSavedSampleStatus() {
+  const city = state.p2.city;
+  const banner = document.getElementById('p2-saved-sample-banner');
+  if (!city) { banner.classList.add('hidden'); return; }
+  // Don't show the banner if we're already in sample mode
+  if (state.p2Sample.active) { banner.classList.add('hidden'); return; }
+  try {
+    const d = await fetch(`/api/cities/${encodeURIComponent(city)}/sample`,
+                          { cache: 'no-store' }).then((r) => r.json());
+    if (!d.exists || !d.items || d.items.length === 0) {
+      banner.classList.add('hidden');
+      return;
+    }
+    const when = d.generated_at || '(unknown date)';
+    document.getElementById('p2-saved-sample-info').textContent =
+      `Saved sample · created ${when} · ${d.validated_count}/${d.sample_size} validated (${d.validated_pct.toFixed(1)}%)`;
+    banner.classList.remove('hidden');
+  } catch (e) {
+    banner.classList.add('hidden');
+  }
+}
+document.getElementById('p2-load-saved-sample-btn').addEventListener('click', () => loadSample(false));
 
 async function selectSampleItem(stem, rowIndex) {
   if (state.p2.stem !== stem) {
@@ -785,7 +1004,57 @@ document.getElementById('p2-sample-exit-btn').addEventListener('click', () => {
   updateSampleUi();
   // Return to the dropdown's current selection (defaults to All files)
   onP2FileChange(p2FileSelect.value || '__all__');
+  fetchSavedSampleStatus();
 });
+
+// Money parser mirroring the backend parse_money (for the live detail calc).
+function parseMoneyJS(x) {
+  let s = (x == null ? '' : String(x)).trim();
+  if (s === '' || s === '-') return 0;
+  if (['nan', 'na', 'n/a', 'tbd'].includes(s.toLowerCase())) return 0;
+  let neg = false;
+  if (/^\(.*\)$/.test(s)) { neg = true; s = s.slice(1, -1); }
+  s = s.replace(/[$,\s]/g, '');
+  const v = parseFloat(s);
+  return isNaN(v) ? NaN : (neg ? -v : v);
+}
+const fmtNum = (n) => (Number.isFinite(n)
+  ? n.toLocaleString(undefined, { maximumFractionDigits: 1 }) : '—');
+
+// Recompute Σ year_* and Residual from the detail panel's CURRENT input values.
+function recomputeDetailCalc() {
+  const tbody = document.querySelector('#p2-detail-table tbody');
+  if (!tbody) return;
+  const valOf = (col) => {
+    const el = tbody.querySelector(`.editable[data-col="${col}"]`);
+    if (el) return el.value;
+    const i = state.p2.detailColumns.indexOf(col);
+    return i >= 0 ? state.p2.detailOriginal[i] : '';
+  };
+  let sum = 0;
+  state.p2.detailColumns.forEach((c) => {
+    if (/^year_\d{4}$/.test(c)) {
+      const v = parseMoneyJS(valOf(c));
+      if (Number.isFinite(v)) sum += v;
+    }
+  });
+  const total = parseMoneyJS(valOf('project_total'));
+  const prev = parseMoneyJS(valOf('previous_appropriations'));
+  const prevSafe = Number.isFinite(prev) ? prev : 0;
+  const sumEl = document.getElementById('p2-calc-sum');
+  const resEl = document.getElementById('p2-calc-residual');
+  if (sumEl) sumEl.textContent = `Sum ${fmtNum(sum)}`;
+  if (resEl) {
+    if (!Number.isFinite(total)) {
+      resEl.textContent = 'Residual —';
+      resEl.classList.remove('over-tol');
+    } else {
+      const residual = total - prevSafe - sum;
+      resEl.textContent = `Residual ${fmtNum(residual)}`;
+      resEl.classList.toggle('over-tol', Math.abs(residual) > 2);
+    }
+  }
+}
 
 async function selectRow(idx) {
   state.p2.selectedRow = idx;
@@ -810,7 +1079,9 @@ async function selectRow(idx) {
       ? `<textarea class="editable" data-col="${escHtml(col)}" rows="2">${escHtml(val)}</textarea>`
       : `<input class="editable" data-col="${escHtml(col)}" type="text" value="${escHtml(val)}">`;
     return `<tr><td>${escHtml(col)}</td><td>${inputEl}</td></tr>`;
-  }).join('');
+  }).join('')
+    + `<tr id="p2-calc-row" class="calc-row"><td>Σ year_* · Residual</td>`
+    + `<td><span id="p2-calc-sum"></span> · <span id="p2-calc-residual"></span></td></tr>`;
 
   // Track edits
   tbody.querySelectorAll('.editable').forEach((el, i) => {
@@ -827,8 +1098,10 @@ async function selectRow(idx) {
       }
       document.getElementById('p2-save-edits-btn').disabled =
         Object.keys(state.p2.detailEdited).length === 0;
+      recomputeDetailCalc();
     });
   });
+  recomputeDetailCalc();
 
   document.getElementById('p2-row-detail').classList.remove('hidden');
   document.getElementById('p2-row-detail-empty').classList.add('hidden');
@@ -891,6 +1164,7 @@ document.getElementById('p2-save-edits-btn').addEventListener('click', async () 
     // Mark this row as edited so its label/badge flips to ✎ (unless already deleted)
     const prev = state.p2.validations[selectedRow] || {};
     state.p2.validations[selectedRow] = { ...prev, edited: true };
+    updateCrossFileItemLabel(state.p2.stem, selectedRow);
 
     // Refresh row metadata shown in the list if it changed
     const refreshKeys = ['project_name', 'project_id', 'source_page'];
@@ -922,6 +1196,7 @@ async function saveValidation() {
   });
   const prev = state.p2.validations[selectedRow] || {};
   state.p2.validations[selectedRow] = { ...prev, status: verdict, notes };
+  updateCrossFileItemLabel(stem, selectedRow);
   renderRowList();
   showToast(`Saved as "${verdict}"`);
 }
@@ -1025,6 +1300,7 @@ document.getElementById('p2-delete-confirm-btn').addEventListener('click', async
   if (result && result.ok) {
     const prev = state.p2.validations[selectedRow] || {};
     state.p2.validations[selectedRow] = { ...prev, status: 'deleted', notes: note };
+    updateCrossFileItemLabel(stem, selectedRow);
     resetDeleteConfirm();
     renderRowList();
     showToast('Project marked deleted');
