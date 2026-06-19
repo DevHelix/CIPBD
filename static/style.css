@@ -779,13 +779,19 @@ table { font-size: 90%; }
   cursor: default;
 }
 .detail-toolbar-actions { display: flex; gap: 8px; align-items: center; }
-/* Secondary (outline) button — used for "Open Current CSV" */
-.detail-toolbar .secondary-btn {
+/* Secondary (outline) button — shared style (Export CSV, Open Current CSV, …) */
+.secondary-btn {
   background: var(--surface);
   color: var(--primary);
   border: 1px solid var(--primary);
+  border-radius: 4px;
+  padding: 4px 12px;
+  font-family: inherit;
+  font-size: 11.5px;
+  font-weight: 600;
+  cursor: pointer;
 }
-.detail-toolbar .secondary-btn:hover { background: var(--primary-tint); }
+.secondary-btn:hover { background: var(--primary-tint); }
 
 .detail-table { width: 100%; }
 .detail-table td { vertical-align: top; }

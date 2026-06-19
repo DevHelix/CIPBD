@@ -351,6 +351,7 @@ function renderPaginatedTable(which) {
           <td>${escHtml(r.project_id) || '—'}</td>
           <td><span class="top10-link" data-city="${state.p1.city}" data-year="${r.cip_year}"
                     data-proj="${encodeURIComponent(r.project_id ?? '')}"
+                    data-name="${encodeURIComponent(r.project_name ?? '')}"
                     data-stem="${escHtml(r.stem ?? '')}" data-idx="${r.row_index != null ? r.row_index : ''}">${escHtml(r.project_name) || '—'}</span></td>
           ${labelCell(r.validation_label, r.notes)}
           <td>${escHtml(r.previous_appropriations) || '—'}</td>
@@ -364,7 +365,8 @@ function renderPaginatedTable(which) {
           el.addEventListener('click', () => {
             const idx = el.dataset.idx === '' ? null : Number(el.dataset.idx);
             navigateToPage2(el.dataset.city, el.dataset.year,
-              decodeURIComponent(el.dataset.proj), el.dataset.stem || null, idx);
+              decodeURIComponent(el.dataset.proj), el.dataset.stem || null, idx,
+              decodeURIComponent(el.dataset.name || ''));
           });
         });
       },
@@ -385,6 +387,7 @@ function renderPaginatedTable(which) {
         <td>${escHtml(r.cip_year)}</td>
         <td><span class="top10-link" data-city="${state.p1.city}" data-year="${r.cip_year}"
                   data-proj="${encodeURIComponent(r.project_id)}"
+                  data-name="${encodeURIComponent(r.project_name ?? '')}"
                   data-stem="${escHtml((r.members && r.members[0] && r.members[0].stem) || '')}">${escHtml(r.project_id)}</span></td>
         <td>${escHtml(r.project_name)}</td>
         ${labelCell(r.labels, r.notes)}
@@ -396,7 +399,8 @@ function renderPaginatedTable(which) {
         tbody.querySelectorAll('.top10-link').forEach((el) => {
           el.addEventListener('click', () =>
             navigateToPage2(el.dataset.city, el.dataset.year,
-              decodeURIComponent(el.dataset.proj), el.dataset.stem || null));
+              decodeURIComponent(el.dataset.proj), el.dataset.stem || null, null,
+              decodeURIComponent(el.dataset.name || '')));
         });
         tbody.querySelectorAll('.dup-cb').forEach((cb) => {
           cb.addEventListener('change', () => {
@@ -596,7 +600,7 @@ function cycleScope(dir) {
 document.getElementById('p1-scope-prev-btn').addEventListener('click', () => cycleScope(-1));
 document.getElementById('p1-scope-next-btn').addEventListener('click', () => cycleScope(1));
 
-async function navigateToPage2(city, cipYear, projectId, stem, rowIndex) {
+async function navigateToPage2(city, cipYear, projectId, stem, rowIndex, projectName) {
   document.querySelector('[data-page="page2"]').click();
   const p2CityEl = document.getElementById('p2-city-select');
   p2CityEl.value = city;
@@ -610,22 +614,31 @@ async function navigateToPage2(city, cipYear, projectId, stem, rowIndex) {
   const p2FileEl = document.getElementById('p2-file-select');
   p2FileEl.value = match.stem;
   await onP2FileChange(match.stem);
+
+  // Narrow the list to this project: filter by project_id, or by project_name
+  // when the id is empty.
+  const idStr = (projectId || '').trim();
+  const nameStr = (projectName || '').trim();
+  if (idStr) {
+    document.getElementById('p2-id-filter').value = idStr;
+  } else if (nameStr) {
+    document.getElementById('p2-name-filter').value = nameStr;
+  }
+  renderRowList();
+
   // Exact row known (offender) → select it directly.
   if (rowIndex != null && state.p2.rows.some((r) => r.index === rowIndex)) {
     selectRow(rowIndex);
     return;
   }
-  if (projectId) {
-    // Populate the Project ID filter so the user sees every matching row
-    const idFilter = document.getElementById('p2-id-filter');
-    idFilter.value = projectId;
-    renderRowList();
-    // If only one row matches, auto-select it
-    const matches = state.p2.rows.filter(
-      (r) => r.project_id.toLowerCase() === projectId.toLowerCase()
-    );
-    if (matches.length === 1) selectRow(matches[0].index);
+  // Otherwise auto-select when exactly one row matches.
+  let matches = [];
+  if (idStr) {
+    matches = state.p2.rows.filter((r) => r.project_id.toLowerCase() === idStr.toLowerCase());
+  } else if (nameStr) {
+    matches = state.p2.rows.filter((r) => r.project_name.toLowerCase() === nameStr.toLowerCase());
   }
+  if (matches.length === 1) selectRow(matches[0].index);
 }
 
 // ═══════════════════════════════════════════════════════════════════════════
