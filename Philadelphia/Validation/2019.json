@@ -1,0 +1,122 @@
+[
+  {
+    "timestamp": "2026-07-03T13:36:36",
+    "city": "Philadelphia",
+    "file_stem": "2019",
+    "row_index": 58,
+    "project_name": "City Council - ITEF CD4-FY00",
+    "project_id": "FIN.20H",
+    "source_page": 45,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-07-03T13:36:53",
+    "city": "Philadelphia",
+    "file_stem": "2019",
+    "row_index": 85,
+    "project_name": "City Council - ITEF CD8-FY11",
+    "project_id": "FIN.24I",
+    "source_page": 53,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-07-03T14:00:54",
+    "city": "Philadelphia",
+    "file_stem": "2019",
+    "row_index": 102,
+    "project_name": "City Council - ITEF CD10-FY11",
+    "project_id": "FIN.26H",
+    "source_page": 57,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-07-03T14:01:08",
+    "city": "Philadelphia",
+    "file_stem": "2019",
+    "row_index": 107,
+    "project_name": "Fire Station Renovations - Ramps, Sidewalks, Paving",
+    "project_id": "FIRE.27.4",
+    "source_page": 61,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-07-03T14:01:30",
+    "city": "Philadelphia",
+    "file_stem": "2019",
+    "row_index": 7,
+    "project_name": "Neighborhood Commercial Centers-Site Improvements",
+    "project_id": "COM.6.1",
+    "source_page": 26,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-07-03T16:06:35",
+    "city": "Philadelphia",
+    "file_stem": "2019",
+    "row_index": 128,
+    "project_name": "Vehicles: Streets Department",
+    "project_id": "FIRE.30.2",
+    "source_page": 68,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-07-03T16:07:33",
+    "city": "Philadelphia",
+    "file_stem": "2019",
+    "row_index": 129,
+    "project_name": "Vehicles: Various Departments",
+    "project_id": "FIRE.30.3",
+    "source_page": 68,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-07-03T16:08:11",
+    "city": "Philadelphia",
+    "file_stem": "2019",
+    "row_index": 172,
+    "project_name": "Network Infrastructure Stabilization & Enhancement",
+    "project_id": "HS.41.1",
+    "source_page": 97,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-07-03T16:08:29",
+    "city": "Philadelphia",
+    "file_stem": "2019",
+    "row_index": 190,
+    "project_name": "Exterior Improvements",
+    "project_id": "PPR.45.2",
+    "source_page": 105,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-07-03T16:08:44",
+    "city": "Philadelphia",
+    "file_stem": "2019",
+    "row_index": 216,
+    "project_name": "Improvements to Existing Recreation Facilities-CD2-FY14",
+    "project_id": "PPR.48F",
+    "source_page": 113,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  }
+]

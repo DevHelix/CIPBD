@@ -1,0 +1,193 @@
+{
+  "items": [
+    {
+      "file_stem": "2019",
+      "row_index": 7,
+      "project_name": "Neighborhood Commercial Centers-Site Improvements",
+      "project_id": "COM.6.1",
+      "source_page": "26",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2019",
+      "row_index": 58,
+      "project_name": "City Council - ITEF CD4-FY00",
+      "project_id": "FIN.20H",
+      "source_page": "45",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2019",
+      "row_index": 85,
+      "project_name": "City Council - ITEF CD8-FY11",
+      "project_id": "FIN.24I",
+      "source_page": "53",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2019",
+      "row_index": 102,
+      "project_name": "Fire Facilities Kitchens/Bathroom Restoration",
+      "project_id": "FIRE.27.7",
+      "source_page": "61",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2019",
+      "row_index": 107,
+      "project_name": "Fire Department Interior and Exterior Renovations-FY16",
+      "project_id": "FIRE.27D",
+      "source_page": "62",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2019",
+      "row_index": 128,
+      "project_name": "Health Department Equipment and Improvements-FY19",
+      "project_id": "HLTH.34A",
+      "source_page": "77",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2019",
+      "row_index": 129,
+      "project_name": "Health Department Equipment and Improvements-FY16",
+      "project_id": "HLTH.34D",
+      "source_page": "78",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2019",
+      "row_index": 172,
+      "project_name": "Parks and Recreation Projects-FY19",
+      "project_id": "PPR.46A",
+      "source_page": "108",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2019",
+      "row_index": 190,
+      "project_name": "Improvements to Existing Recreation Facilities-CD2-FY06",
+      "project_id": "PPR.48N",
+      "source_page": "114",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2019",
+      "row_index": 216,
+      "project_name": "Improvements to Existing Recreation Facilities-CD5-FY14",
+      "project_id": "PPR.51F",
+      "source_page": "121",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2019",
+      "row_index": 218,
+      "project_name": "Improvements to Existing Recreation Facilities-CD5-FY12",
+      "project_id": "PPR.51H",
+      "source_page": "121",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2019",
+      "row_index": 247,
+      "project_name": "Improvements to Existing Recreation Facilities-CD8-FY18",
+      "project_id": "PPR.54B",
+      "source_page": "129",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2019",
+      "row_index": 333,
+      "project_name": "Rehabilitation of Stairways in Manayunk and Citywide-FY16",
+      "project_id": "ST.76A",
+      "source_page": "173",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2019",
+      "row_index": 364,
+      "project_name": "Expansion of Conveyance Systems",
+      "project_id": "WATER.87.3",
+      "source_page": "194",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2020",
+      "row_index": 1,
+      "project_name": "Airfield Area",
+      "project_id": "AVN.2.1",
+      "source_page": "21",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2020",
+      "row_index": 12,
+      "project_name": "Industrial Districts-FY17",
+      "project_id": "COM.7A",
+      "source_page": "29",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2020",
+      "row_index": 16,
+      "project_name": "Improvements, Engineering and Administration",
+      "project_id": "COM.10.1",
+      "source_page": "30",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2020",
+      "row_index": 110,
+      "project_name": "Fire Department Interior and Exterior Renovations-FY19",
+      "project_id": "FIRE.26B",
+      "source_page": "65",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2020",
+      "row_index": 187,
+      "project_name": "Improvements to Existing Recreation Facilities-CD2-FY14",
+      "project_id": "PPR.46G",
+      "source_page": "112",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2020",
+      "row_index": 235,
+      "project_name": "Improvements to Existing Recreation Facilities-CD6-FY07",
+      "project_id": "PPR.50K",
+      "source_page": "125",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2020",
+      "row_index": 256,
+      "project_name": "Improvements to Existing Recreation Facilities-CD8-FY07",
+      "project_id": "PPR.52L",
+      "source_page": "131",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2020",
+      "row_index": 335,
+      "project_name": "Street Lighting Improvements-FY20",
+      "project_id": "ST.73A",
+      "source_page": "176",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2020",
+      "row_index": 341,
+      "project_name": "Vision Zero - Traffic Safety Improvements",
+      "project_id": "ST.75.4",
+      "source_page": "179",
+      "validation_label": ""
+    }
+  ],
+  "total_rows": 751,
+  "sample_size": 23,
+  "percent": 3.0,
+  "generated_at": "2026-07-03 13:29:15",
+  "city": "Philadelphia"
+}
