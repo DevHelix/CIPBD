@@ -12,7 +12,7 @@ from datetime import datetime
 from flask import Flask, jsonify, request, send_file, render_template
 
 TOOL_DIR = Path(__file__).parent            # ValidationsTool/
-BASE_DIR = TOOL_DIR                         # city folders live inside the tool directory
+BASE_DIR = TOOL_DIR.parent                  # city folders live next to the tool directory
 TOL = 2  # |residual| tolerance in $K
 
 
