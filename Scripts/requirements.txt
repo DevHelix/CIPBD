@@ -1,0 +1,6 @@
+# Philadelphia CIP parser dependencies
+pdfplumber
+pymupdf          # replaces pdf2image (no poppler needed on Windows)
+pytesseract
+pandas
+pillow
