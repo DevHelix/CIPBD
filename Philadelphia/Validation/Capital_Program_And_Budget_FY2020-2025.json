@@ -1,0 +1,368 @@
+[
+  {
+    "timestamp": "2026-06-19T03:42:12",
+    "city": "Philadelphia",
+    "file_stem": "Capital_Program_And_Budget_FY2020-2025",
+    "row_index": 1,
+    "project_name": "Philadelphia Museum of Art - Building Rehabilitation-FY19",
+    "project_id": "1A",
+    "source_page": 18,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-06-19T03:42:18",
+    "city": "Philadelphia",
+    "file_stem": "Capital_Program_And_Budget_FY2020-2025",
+    "row_index": 0,
+    "project_name": "Interior and Exterior Improvements",
+    "project_id": "1.1",
+    "source_page": 18,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-06-19T03:42:33",
+    "city": "Philadelphia",
+    "file_stem": "Capital_Program_And_Budget_FY2020-2025",
+    "row_index": 2,
+    "project_name": "Airfield Area",
+    "project_id": "2.1",
+    "source_page": 21,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-06-19T03:52:51",
+    "city": "Philadelphia",
+    "file_stem": "Capital_Program_And_Budget_FY2020-2025",
+    "row_index": 3,
+    "project_name": "Terminal Area",
+    "project_id": "2.1",
+    "source_page": 21,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-06-19T03:52:54",
+    "city": "Philadelphia",
+    "file_stem": "Capital_Program_And_Budget_FY2020-2025",
+    "row_index": 4,
+    "project_name": "Terminal Area-FY19",
+    "project_id": "3A",
+    "source_page": 21,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-06-19T03:52:57",
+    "city": "Philadelphia",
+    "file_stem": "Capital_Program_And_Budget_FY2020-2025",
+    "row_index": 5,
+    "project_name": "Outside Terminal Area (OTA)",
+    "project_id": "4.1",
+    "source_page": 22,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-06-19T03:55:33",
+    "city": "Philadelphia",
+    "file_stem": "Capital_Program_And_Budget_FY2020-2025",
+    "row_index": 6,
+    "project_name": "Outside Terminal Area (OTA)-FY19",
+    "project_id": "4A",
+    "source_page": 22,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-06-19T03:55:44",
+    "city": "Philadelphia",
+    "file_stem": "Capital_Program_And_Budget_FY2020-2025",
+    "row_index": 7,
+    "project_name": "Other Airport Services",
+    "project_id": "5.1",
+    "source_page": 23,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-06-19T03:55:57",
+    "city": "Philadelphia",
+    "file_stem": "Capital_Program_And_Budget_FY2020-2025",
+    "row_index": 8,
+    "project_name": "Other Airport Services-FY19",
+    "project_id": "5A",
+    "source_page": 23,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-06-19T03:56:08",
+    "city": "Philadelphia",
+    "file_stem": "Capital_Program_And_Budget_FY2020-2025",
+    "row_index": 9,
+    "project_name": "Neighborhood Commercial Centers-Site Improvements",
+    "project_id": "6.1",
+    "source_page": 26,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-06-19T03:56:14",
+    "city": "Philadelphia",
+    "file_stem": "Capital_Program_And_Budget_FY2020-2025",
+    "row_index": 10,
+    "project_name": "Neighborhood Commercial Centers - Site Improvements-FY19",
+    "project_id": "6A",
+    "source_page": 26,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": null,
+    "city": "Philadelphia",
+    "file_stem": "Capital_Program_And_Budget_FY2020-2025",
+    "row_index": 99,
+    "project_name": "Fuel Site Environmental Remediation",
+    "project_id": "29.2",
+    "source_page": "67",
+    "status": "",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-06-19T15:20:16",
+        "column": "project_id",
+        "old": "2",
+        "new": "29.2"
+      }
+    ]
+  },
+  {
+    "timestamp": null,
+    "city": "Philadelphia",
+    "file_stem": "Capital_Program_And_Budget_FY2020-2025",
+    "row_index": 100,
+    "project_name": "Fuel Dispensing & Monitoring",
+    "project_id": "29.3",
+    "source_page": "67",
+    "status": "",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-06-19T15:20:46",
+        "column": "project_id",
+        "old": "2.3",
+        "new": "29.3"
+      }
+    ]
+  },
+  {
+    "timestamp": null,
+    "city": "Philadelphia",
+    "file_stem": "Capital_Program_And_Budget_FY2020-2025",
+    "row_index": 256,
+    "project_name": "Police Academy Firearms Training Facility Improvements",
+    "project_id": "66.5",
+    "source_page": "148",
+    "status": "",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-06-19T15:21:37",
+        "column": "project_id",
+        "old": "4.5",
+        "new": "66.4"
+      },
+      {
+        "timestamp": "2026-06-19T15:23:01",
+        "column": "project_id",
+        "old": "66.4",
+        "new": "66.5"
+      }
+    ]
+  },
+  {
+    "timestamp": null,
+    "city": "Philadelphia",
+    "file_stem": "Capital_Program_And_Budget_FY2020-2025",
+    "row_index": 255,
+    "project_name": "Police Districts Security Improvements",
+    "project_id": "66.4",
+    "source_page": "148",
+    "status": "",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-06-19T15:22:55",
+        "column": "project_id",
+        "old": "4",
+        "new": "66.4"
+      }
+    ]
+  },
+  {
+    "timestamp": null,
+    "city": "Philadelphia",
+    "file_stem": "Capital_Program_And_Budget_FY2020-2025",
+    "row_index": 170,
+    "project_name": "Exterior Improvements",
+    "project_id": "45.2",
+    "source_page": "105",
+    "status": "",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-06-19T15:23:35",
+        "column": "project_id",
+        "old": "2",
+        "new": "45.2"
+      }
+    ]
+  },
+  {
+    "timestamp": null,
+    "city": "Philadelphia",
+    "file_stem": "Capital_Program_And_Budget_FY2020-2025",
+    "row_index": 171,
+    "project_name": "Interior Improvements",
+    "project_id": "45.3",
+    "source_page": "105",
+    "status": "",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-06-19T15:24:04",
+        "column": "project_id",
+        "old": "2.3",
+        "new": "45.3"
+      }
+    ]
+  },
+  {
+    "timestamp": null,
+    "city": "Philadelphia",
+    "file_stem": "Capital_Program_And_Budget_FY2020-2025",
+    "row_index": 172,
+    "project_name": "Bridge Improvements Citywide",
+    "project_id": "45.4",
+    "source_page": "105",
+    "status": "",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-06-19T15:24:10",
+        "column": "project_id",
+        "old": "2.4",
+        "new": "45.4"
+      }
+    ]
+  },
+  {
+    "timestamp": null,
+    "city": "Philadelphia",
+    "file_stem": "Capital_Program_And_Budget_FY2020-2025",
+    "row_index": 173,
+    "project_name": "Park and Street Trees Removal and Planting",
+    "project_id": "45.5",
+    "source_page": "105",
+    "status": "",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-06-19T15:24:17",
+        "column": "project_id",
+        "old": "2.5",
+        "new": "45.5"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-19T15:24:46",
+    "city": "Philadelphia",
+    "file_stem": "Capital_Program_And_Budget_FY2020-2025",
+    "row_index": 332,
+    "project_name": "Vision Zero - Automated Red Light Enforcement (ARLE)",
+    "project_id": "81.4",
+    "source_page": "182",
+    "status": "correct",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-06-19T15:24:49",
+        "column": "project_id",
+        "old": "4",
+        "new": "81.4"
+      }
+    ]
+  },
+  {
+    "timestamp": null,
+    "city": "Philadelphia",
+    "file_stem": "Capital_Program_And_Budget_FY2020-2025",
+    "row_index": 333,
+    "project_name": "Vision Zero - Dedicated and Non-Matching Fund Projects",
+    "project_id": "81.5",
+    "source_page": "182",
+    "status": "",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-06-19T15:25:06",
+        "column": "project_id",
+        "old": "4.5",
+        "new": "81.5"
+      }
+    ]
+  },
+  {
+    "timestamp": null,
+    "city": "Philadelphia",
+    "file_stem": "Capital_Program_And_Budget_FY2020-2025",
+    "row_index": 334,
+    "project_name": "Vision Zero - Traffic Safety Improvements",
+    "project_id": "81.6",
+    "source_page": "182",
+    "status": "",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-06-19T15:25:16",
+        "column": "project_id",
+        "old": "4.6",
+        "new": "81.6"
+      }
+    ]
+  },
+  {
+    "timestamp": null,
+    "city": "Philadelphia",
+    "file_stem": "Capital_Program_And_Budget_FY2020-2025",
+    "row_index": 133,
+    "project_name": "Rebuilding Community Infrastructure",
+    "project_id": "37.5",
+    "source_page": "85",
+    "status": "",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-06-19T15:26:47",
+        "column": "project_id",
+        "old": "5",
+        "new": "37.5"
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+- 2026-06-19 15:20:16 — Philadelphia/Capital_Program_And_Budget_FY2020-2025 row 99 [29.2 — Fuel Site Environmental Remediation p.67]
+  - **project_id**: "2" → "29.2"
+- 2026-06-19 15:20:46 — Philadelphia/Capital_Program_And_Budget_FY2020-2025 row 100 [29.3 — Fuel Dispensing & Monitoring p.67]
+  - **project_id**: "2.3" → "29.3"
+- 2026-06-19 15:21:37 — Philadelphia/Capital_Program_And_Budget_FY2020-2025 row 256 [66.4 — Police Academy Firearms Training Facility Improvements p.148]
+  - **project_id**: "4.5" → "66.4"
+- 2026-06-19 15:22:55 — Philadelphia/Capital_Program_And_Budget_FY2020-2025 row 255 [66.4 — Police Districts Security Improvements p.148]
+  - **project_id**: "4" → "66.4"
+- 2026-06-19 15:23:01 — Philadelphia/Capital_Program_And_Budget_FY2020-2025 row 256 [66.5 — Police Academy Firearms Training Facility Improvements p.148]
+  - **project_id**: "66.4" → "66.5"
+- 2026-06-19 15:23:35 — Philadelphia/Capital_Program_And_Budget_FY2020-2025 row 170 [45.2 — Exterior Improvements p.105]
+  - **project_id**: "2" → "45.2"
+- 2026-06-19 15:24:04 — Philadelphia/Capital_Program_And_Budget_FY2020-2025 row 171 [45.3 — Interior Improvements p.105]
+  - **project_id**: "2.3" → "45.3"
+- 2026-06-19 15:24:10 — Philadelphia/Capital_Program_And_Budget_FY2020-2025 row 172 [45.4 — Bridge Improvements Citywide p.105]
+  - **project_id**: "2.4" → "45.4"
+- 2026-06-19 15:24:17 — Philadelphia/Capital_Program_And_Budget_FY2020-2025 row 173 [45.5 — Park and Street Trees Removal and Planting p.105]
+  - **project_id**: "2.5" → "45.5"
+- 2026-06-19 15:24:49 — Philadelphia/Capital_Program_And_Budget_FY2020-2025 row 332 [81.4 — Vision Zero - Automated Red Light Enforcement (ARLE) p.182]
+  - **project_id**: "4" → "81.4"
+- 2026-06-19 15:25:06 — Philadelphia/Capital_Program_And_Budget_FY2020-2025 row 333 [81.5 — Vision Zero - Dedicated and Non-Matching Fund Projects p.182]
+  - **project_id**: "4.5" → "81.5"
+- 2026-06-19 15:25:16 — Philadelphia/Capital_Program_And_Budget_FY2020-2025 row 334 [81.6 — Vision Zero - Traffic Safety Improvements p.182]
+  - **project_id**: "4.6" → "81.6"
+- 2026-06-19 15:26:47 — Philadelphia/Capital_Program_And_Budget_FY2020-2025 row 133 [37.5 — Rebuilding Community Infrastructure p.85]
+  - **project_id**: "5" → "37.5"

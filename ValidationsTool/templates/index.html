@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Standardized CIP Database Validation Tool</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+</head>
+<body>
+
+<!-- ── Navigation ─────────────────────────────────────────────────────────── -->
+<header>
+  <div class="app-title">Standardized CIP Database Validation Tool</div>
+  <nav class="nav-tabs">
+    <button class="tab-btn active" data-page="page1">Quality Report</button>
+    <button class="tab-btn" data-page="page2">Manual Check</button>
+    <button class="tab-btn" data-page="page3">Combine</button>
+    <button class="tab-btn" data-page="page4">Instructions</button>
+  </nav>
+</header>
+
+<!-- ── Page 1: Automated Quality Dashboard ───────────────────────────────── -->
+<div id="page1" class="page active">
+  <div class="toolbar">
+    <label>City:
+      <select id="p1-city-select"><option value="">— select —</option></select>
+    </label>
+    <button id="p1-run-btn" disabled>Run Validation</button>
+    <span id="p1-spinner" class="spinner hidden"></span>
+  </div>
+
+  <div id="p1-content" class="page-content hidden">
+    <section class="card">
+      <h2>A · Load Summary</h2>
+      <p class="muted">Quick overview of the loaded CSVs: how many files and rows, unique projects, and plan-year coverage.</p>
+      <div class="stat-row">
+        <div class="stat"><span id="p1-csv-count">—</span><label>CSV files</label></div>
+        <div class="stat"><span id="p1-total-rows">—</span><label>Total rows</label></div>
+        <div class="stat"><span id="p1-distinct-projects">—</span><label>Distinct projects</label></div>
+        <div class="stat"><span id="p1-year-range">—</span><label>Plan year range</label></div>
+      </div>
+      <div id="p1-csv-list" class="file-list collapsed"></div>
+      <button id="p1-csv-toggle" class="show-more-btn hidden">Show more</button>
+    </section>
+
+    <section class="card">
+      <h2>B · Project Investment Check</h2>
+      <p class="muted">Checks <code>project_total ≈ previous_appropriations + sum(year_*)</code>. Rows with |residual| &gt; 2 ($K) are flagged.</p>
+      <div class="extra-cols-row">
+        <label>+ extra right-side columns:
+          <input id="p1-extra-cols" type="text" placeholder="comma-separated column names">
+        </label>
+        <button id="p1-extra-apply">Apply</button>
+      </div>
+      <div class="stat-row">
+        <div class="stat"><span id="p1-rows-with-total">—</span><label>Rows with total</label></div>
+        <div class="stat"><span id="p1-rows-missing-total">—</span><label>Rows missing total</label></div>
+        <div class="stat"><span id="p1-residual-gt2">—</span><label>Investment Residual &gt; 2</label></div>
+        <div class="stat"><span id="p1-metadata-only">—</span><label>Metadata-only flagged</label></div>
+      </div>
+
+      <h3>Flagged rows by CIP year</h3>
+      <table class="data-table two-col-table" id="p1-year-table">
+        <thead><tr>
+          <th>CIP Year</th><th>Time Period</th><th>Flagged</th><th>Total</th><th>%</th>
+          <th class="col-divider">CIP Year</th><th>Time Period</th><th>Flagged</th><th>Total</th><th>%</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+
+      <h3>Offenders <small>(click name to open in Manual Check)</small></h3>
+      <div class="table-scroll">
+        <table class="data-table" id="p1-offenders-table">
+          <thead>
+            <tr>
+              <th>CIP Year</th><th>Page</th><th>Project ID</th><th>Project Name</th><th>Label</th>
+              <th>Prev. Approp.</th><th>Project Total</th><th>Year Sum</th><th>Residual</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="pagination" data-pag="offenders">
+        <button data-pg="offenders-prev">◀ Prev</button>
+        <span>Page <span class="page-current">1</span> of <span class="page-total">1</span>
+              <small class="page-count">(0 total)</small></span>
+        <button data-pg="offenders-next">Next ▶</button>
+      </div>
+      <p id="p1-no-offenders" class="hidden muted">No flagged rows — all residuals within tolerance.</p>
+    </section>
+
+    <section class="card">
+      <h2>C · Column Completeness Check</h2>
+      <p class="muted">Percent of rows where the column is empty / NA / TBD. Sorted high to low. <code>year_XXXX</code> columns are not shown.</p>
+      <div class="scope-row">
+        <label>Scope:
+          <select id="p1-missing-scope">
+            <option value="__all__">All files combined</option>
+          </select>
+        </label>
+        <button id="p1-scope-prev-btn" class="scope-nav-btn" title="Previous file">◀ Prev file</button>
+        <button id="p1-scope-next-btn" class="scope-nav-btn" title="Next file">Next file ▶</button>
+        <span id="p1-missing-scope-info" class="muted"></span>
+      </div>
+      <div class="table-scroll">
+        <table class="data-table two-col-table" id="p1-missing-table">
+          <thead><tr>
+            <th>Column</th><th>Missing</th><th>Total</th><th>Missing %</th>
+            <th class="col-divider">Column</th><th>Missing</th><th>Total</th><th>Missing %</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="pagination" data-pag="missing">
+        <button data-pg="missing-prev">◀ Prev</button>
+        <span>Page <span class="page-current">1</span> of <span class="page-total">1</span>
+              <small class="page-count">(0 total)</small></span>
+        <button data-pg="missing-next">Next ▶</button>
+      </div>
+      <p id="p1-no-missing" class="hidden muted">No columns to display.</p>
+    </section>
+
+    <section class="card">
+      <h2>D · Duplicate Projects Check</h2>
+      <p class="muted">Rows that share the same <code>project_id</code> within the same CIP year. Click a project ID to open the matching rows in Manual Check.</p>
+      <div class="stat-row">
+        <div class="stat"><span id="p1-dup-id-groups">—</span><label>Duplicate ID groups</label></div>
+        <div class="stat"><span id="p1-dup-id-rows">—</span><label>Rows in ID duplicates</label></div>
+      </div>
+
+      <h3>Duplicate projects <small>(by ID, same CIP year)</small></h3>
+      <div class="table-scroll">
+        <table class="data-table" id="p1-dup-id-table">
+          <thead><tr><th>CIP Year</th><th>Project ID</th><th>Project Name</th><th>Label</th><th>Count</th><th>Source Pages</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="pagination" data-pag="dupId">
+        <button data-pg="dupId-prev">◀ Prev</button>
+        <span>Page <span class="page-current">1</span> of <span class="page-total">1</span>
+              <small class="page-count">(0 total)</small></span>
+        <button data-pg="dupId-next">Next ▶</button>
+      </div>
+      <p id="p1-no-dup-id" class="hidden muted">No duplicate project IDs found within the same CIP year.</p>
+    </section>
+  </div>
+
+  <div id="p1-empty" class="empty-state">Select a city and click <strong>Run Validation</strong>.</div>
+</div>
+
+<!-- ── Page 2: Manual Verification ──────────────────────────────────────────── -->
+<div id="page2" class="page hidden">
+  <div class="toolbar toolbar-p2">
+    <label>City:
+      <select id="p2-city-select"><option value="">— select —</option></select>
+    </label>
+    <label>File:
+      <select id="p2-file-select" disabled><option value="">— select —</option></select>
+    </label>
+    <label>Project Name:
+      <input id="p2-name-filter" type="text" placeholder="filter…" disabled>
+    </label>
+    <label>Project ID:
+      <input id="p2-id-filter" type="text" placeholder="filter…" disabled>
+    </label>
+    <label class="sample-pct" title="Sample percentage (1–100)">%:
+      <input id="p2-sample-pct" type="number" value="3" min="1" max="100" step="1">
+    </label>
+    <button id="p2-sample-btn" disabled title="Random sample (≥1 row per file)">Sample</button>
+    <button id="p2-sample-regen-btn" class="hidden" title="Regenerate random sample with current %">↻</button>
+    <button id="p2-sample-exit-btn" class="hidden" title="Return to single-file view">✕ Exit sample</button>
+    <label class="label-filter">Validation Label:
+      <span class="label-filter-box">
+        <button id="p2-label-filter-btn" type="button" disabled>All</button>
+        <div id="p2-label-filter-menu" class="label-filter-menu hidden">
+          <label><input type="checkbox" value="validated"> validated</label>
+          <label><input type="checkbox" value="edited"> edited</label>
+          <label><input type="checkbox" value="incorrect"> incorrect</label>
+          <label><input type="checkbox" value="deleted"> deleted</label>
+        </div>
+      </span>
+    </label>
+    <span id="p2-sample-info" class="muted hidden" style="margin-left:auto"></span>
+  </div>
+
+  <div class="two-panel">
+    <!-- Left -->
+    <div class="left-panel" id="p2-left-panel">
+      <div class="left-section" id="p2-row-list-section">
+        <div class="left-section-header">Select a Project</div>
+        <div id="p2-row-list" class="row-list">
+          <div class="empty-state">Select a city and file to begin.</div>
+        </div>
+      </div>
+
+      <div class="resizer-h" data-resize="left-vertical-1"></div>
+
+      <div class="left-section" id="p2-row-detail-section">
+        <div id="p2-row-detail" class="row-detail hidden">
+          <div class="detail-toolbar">
+            <span class="left-section-header" style="padding:0">Project Information</span>
+            <span class="detail-toolbar-actions">
+              <button id="p2-open-csv-btn" class="secondary-btn" title="Open this file's CSV in your default app">Open Current CSV</button>
+              <button id="p2-save-edits-btn" disabled>Save Edits</button>
+            </span>
+          </div>
+          <div class="table-scroll">
+            <table class="data-table detail-table" id="p2-detail-table">
+              <thead><tr><th>Column</th><th>Value</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+        <div id="p2-row-detail-empty" class="empty-state">Click a project to see its details.</div>
+      </div>
+
+      <div id="p2-validation-section" class="left-section">
+        <div id="p2-validation" class="validation-panel hidden">
+          <div class="left-section-header" style="padding:0 0 8px">Validation</div>
+          <div class="verdict-btns">
+            <button id="p2-correct-btn" class="verdict-btn correct">✓ Correct</button>
+            <button id="p2-incorrect-btn" class="verdict-btn incorrect">✗ Incorrect</button>
+            <select id="p2-more-select" class="verdict-select" title="More actions">
+              <option value="">More</option>
+              <option value="delete">Delete project</option>
+            </select>
+          </div>
+          <select id="p2-notes-common" class="common-note-select"><option value="">+ Common note…</option></select>
+          <textarea id="p2-notes" placeholder="Notes (optional, saved on blur)…" rows="1"></textarea>
+          <div id="p2-delete-confirm" class="delete-confirm hidden">
+            <div class="delete-warn">Mark this project as deleted? A note is required.</div>
+            <select id="p2-delete-common" class="common-note-select"><option value="">+ Common note…</option></select>
+            <textarea id="p2-delete-note" placeholder="Reason for deletion (required)…" rows="2"></textarea>
+            <div class="delete-actions">
+              <button id="p2-delete-cancel">Cancel</button>
+              <button id="p2-delete-confirm-btn" disabled>Confirm delete</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="resizer-v" data-resize="main-horizontal"></div>
+
+    <!-- Right: PDF viewer -->
+    <div class="right-panel">
+      <div class="pdf-toolbar">
+        <button id="pdf-prev" disabled>◀ Prev</button>
+        <span>Page</span>
+        <input id="pdf-page-input" type="number" min="1" value="1" disabled>
+        <span>/ <span id="pdf-total-pages">—</span></span>
+        <button id="pdf-next" disabled>Next ▶</button>
+        <button id="pdf-rotate" disabled title="Rotate page 90° clockwise">↻ Rotate</button>
+        <label class="pdf-adjust" title="Offset applied to source_page when opening a row (e.g. +2)">
+          Adjust <input id="pdf-adjust" type="number" value="0" step="1">
+        </label>
+        <button id="pdf-open-btn" disabled title="Open this PDF in your default app">Open Current PDF</button>
+      </div>
+      <div class="pdf-container">
+        <canvas id="pdf-canvas"></canvas>
+        <div id="pdf-placeholder" class="empty-state" style="color:#ccc;">PDF will appear here.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── Page 3: Combine by City ──────────────────────────────────────────────── -->
+<div id="page3" class="page hidden">
+  <div class="toolbar">
+    <label>City:
+      <select id="p3-city-select"><option value="">— select —</option></select>
+    </label>
+    <button id="p3-run-btn" disabled>Combine to Long CSV</button>
+    <span id="p3-spinner" class="spinner hidden"></span>
+  </div>
+
+  <div class="page-content">
+    <section class="card">
+      <h2>Combine all CSVs &amp; transform to long format</h2>
+      <p class="muted">
+        Loads every CSV in the city's <code>CSV/</code> folder, combines them, then pivots the
+        <code>year_*</code> columns into <code>(plan_year, invest)</code> rows. Writes
+        <code>{City}_cip_long_MMDD.csv</code> into the city folder, and a matching
+        <code>{City}_cip_long_MMDD.md</code> report (load summary, investment check,
+        column completeness, duplicates, and edit history). Existing files are never
+        overwritten — a time suffix is added when needed.
+      </p>
+
+      <div id="p3-result" class="hidden">
+        <div class="combine-success">
+          <span class="combine-check">✓</span>
+          <span>Combined successfully — <code id="p3-output-name"></code></span>
+        </div>
+        <div class="combine-actions">
+          <button id="p3-open-csv">Open CSV</button>
+          <button id="p3-open-md">Open report (.md)</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="p3-report-card" class="card hidden">
+      <article id="p3-report" class="markdown-body"></article>
+    </section>
+  </div>
+</div>
+
+<!-- ── Page 4: Instructions ─────────────────────────────────────────────────── -->
+<div id="page4" class="page hidden">
+  <article id="instructions-content" class="markdown-body">
+    <p class="empty-state">Loading instructions…</p>
+  </article>
+</div>
+
+<!-- Toast -->
+<div id="toast" class="toast hidden"></div>
+
+<footer class="app-footer">Version 1.0 | Urban Infrastructure Lab | University of Washington</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/marked@13.0.3/marked.min.js"></script>
+<script src="/static/app.js"></script>
+</body>
+</html>
