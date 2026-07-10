@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "2026-07-09T15:54:06",
+    "city": "Philadelphia",
+    "file_stem": "2020",
+    "row_index": 117,
+    "project_name": "Fire Facilities - Exterior renovation",
+    "project_id": "FIRE.26.7",
+    "source_page": 64,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-07-09T15:54:20",
+    "city": "Philadelphia",
+    "file_stem": "2020",
+    "row_index": 394,
+    "project_name": "Material Requisition",
+    "project_id": "ST.75.2",
+    "source_page": 179,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-07-09T15:55:08",
+    "city": "Philadelphia",
+    "file_stem": "2020",
+    "row_index": 404,
+    "project_name": "Regional Rail Substation Improvements (RRD)",
+    "project_id": "ST.76.3",
+    "source_page": 184,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  }
+]

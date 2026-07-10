@@ -118,5 +118,77 @@
     "status": "correct",
     "notes": "",
     "edits": []
+  },
+  {
+    "timestamp": "2026-07-09T15:51:06",
+    "city": "Philadelphia",
+    "file_stem": "2019",
+    "row_index": 74,
+    "project_name": "City Council - ITEF CD6-FY09",
+    "project_id": "FIN.22J",
+    "source_page": 49,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-07-09T15:51:11",
+    "city": "Philadelphia",
+    "file_stem": "2019",
+    "row_index": 31,
+    "project_name": "North Delaware River Waterfront-FY16",
+    "project_id": "COM.14C",
+    "source_page": 33,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-07-09T15:52:18",
+    "city": "Philadelphia",
+    "file_stem": "2019",
+    "row_index": 99,
+    "project_name": "City Council - ITEF CD10-FY17",
+    "project_id": "FIN.26C",
+    "source_page": 56,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-07-09T15:52:43",
+    "city": "Philadelphia",
+    "file_stem": "2019",
+    "row_index": 191,
+    "project_name": "Interior Improvements",
+    "project_id": "PPR.45.3",
+    "source_page": 105,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-07-09T15:52:53",
+    "city": "Philadelphia",
+    "file_stem": "2019",
+    "row_index": 280,
+    "project_name": "Improvements to Existing Recreation Facilities-CD8-FY14",
+    "project_id": "PPR.54F",
+    "source_page": 130,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-07-09T15:53:48",
+    "city": "Philadelphia",
+    "file_stem": "2019",
+    "row_index": 433,
+    "project_name": "Improvements to Collector System-FY14",
+    "project_id": "WATER.86E",
+    "source_page": 193,
+    "status": "correct",
+    "notes": "",
+    "edits": []
   }
 ]
