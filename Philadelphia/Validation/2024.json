@@ -1,0 +1,74 @@
+[
+  {
+    "timestamp": "2026-07-10T13:24:43",
+    "city": "Philadelphia",
+    "file_stem": "2024",
+    "row_index": 7,
+    "project_name": "Neighborhood Commercial Centers-Site Improvements",
+    "project_id": "COM.6.1",
+    "source_page": 40,
+    "status": "incorrect",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-07-10T13:25:06",
+    "city": "Philadelphia",
+    "file_stem": "2024",
+    "row_index": 123,
+    "project_name": "Electronic Health Records",
+    "project_id": "HLTH.31.2",
+    "source_page": 105,
+    "status": "incorrect",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-07-10T13:25:26",
+    "city": "Philadelphia",
+    "file_stem": "2024",
+    "row_index": 124,
+    "project_name": "Health Department Equipment and Improvements-FY24",
+    "project_id": "HLTH.31A",
+    "source_page": 105,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-07-10T15:38:49",
+    "city": "Philadelphia",
+    "file_stem": "2024",
+    "row_index": 145,
+    "project_name": "OSH Facility Renovations-FY24",
+    "project_id": "OHS.34A",
+    "source_page": 120,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-07-10T15:39:12",
+    "city": "Philadelphia",
+    "file_stem": "2024",
+    "row_index": 273,
+    "project_name": "Police Facilities - Renovations-FY24",
+    "project_id": "POL.58A",
+    "source_page": 191,
+    "status": "incorrect",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-07-10T15:43:30",
+    "city": "Philadelphia",
+    "file_stem": "2024",
+    "row_index": 282,
+    "project_name": "Prison Campus Paving",
+    "project_id": "PRS.59.7",
+    "source_page": 196,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  }
+]
