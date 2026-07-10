@@ -2,80 +2,176 @@
   "items": [
     {
       "file_stem": "2019",
-      "row_index": 31,
-      "project_name": "North Delaware River Waterfront-FY16",
-      "project_id": "COM.14C",
-      "source_page": "33",
+      "row_index": 189,
+      "project_name": "Schuylkill River Retaining Wall Reconstruction",
+      "project_id": "PPR.45.1",
+      "source_page": "104",
       "validation_label": ""
     },
     {
       "file_stem": "2019",
-      "row_index": 74,
-      "project_name": "City Council - ITEF CD6-FY09",
-      "project_id": "FIN.22J",
-      "source_page": "49",
-      "validation_label": ""
-    },
-    {
-      "file_stem": "2019",
-      "row_index": 99,
-      "project_name": "City Council - ITEF CD10-FY17",
-      "project_id": "FIN.26C",
-      "source_page": "56",
-      "validation_label": ""
-    },
-    {
-      "file_stem": "2019",
-      "row_index": 191,
-      "project_name": "Interior Improvements",
-      "project_id": "PPR.45.3",
-      "source_page": "105",
-      "validation_label": ""
-    },
-    {
-      "file_stem": "2019",
-      "row_index": 280,
-      "project_name": "Improvements to Existing Recreation Facilities-CD8-FY14",
-      "project_id": "PPR.54F",
-      "source_page": "130",
-      "validation_label": ""
-    },
-    {
-      "file_stem": "2019",
-      "row_index": 433,
-      "project_name": "Improvements to Collector System-FY14",
-      "project_id": "WATER.86E",
-      "source_page": "193",
+      "row_index": 414,
+      "project_name": "Traffic Control-FY14",
+      "project_id": "ST.81F",
+      "source_page": "183",
       "validation_label": ""
     },
     {
       "file_stem": "2020",
-      "row_index": 117,
-      "project_name": "Fire Facilities - Exterior renovation",
-      "project_id": "FIRE.26.7",
-      "source_page": "64",
+      "row_index": 65,
+      "project_name": "City Council - ITEF CD5-FY17",
+      "project_id": "FIN.20D",
+      "source_page": "48",
       "validation_label": ""
     },
     {
       "file_stem": "2020",
-      "row_index": 394,
-      "project_name": "Material Requisition",
-      "project_id": "ST.75.2",
-      "source_page": "179",
+      "row_index": 177,
+      "project_name": "Improvements to Existing Facilities - Building & Site",
+      "project_id": "PPR.40.2",
+      "source_page": "100",
       "validation_label": ""
     },
     {
       "file_stem": "2020",
-      "row_index": 404,
-      "project_name": "Regional Rail Substation Improvements (RRD)",
-      "project_id": "ST.76.3",
-      "source_page": "184",
+      "row_index": 225,
+      "project_name": "Improvements to Existing Recreation Facilities-CD3",
+      "project_id": "PPR.47.1",
+      "source_page": "114",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2020",
+      "row_index": 261,
+      "project_name": "Improvements to Existing Recreation Facilities-CD6-FY16",
+      "project_id": "PPR.50E",
+      "source_page": "124",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2020",
+      "row_index": 299,
+      "project_name": "Improvements to Existing Recreation Facilities-CD9-FY05",
+      "project_id": "PPR.53M",
+      "source_page": "134",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2020",
+      "row_index": 397,
+      "project_name": "Automated Red Light Enforcement Project (ARLE)",
+      "project_id": "ST.75.5",
+      "source_page": "180",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2021",
+      "row_index": 19,
+      "project_name": "City Council - ITEF CD1-FY\u00a516",
+      "project_id": "FINAN.16F",
+      "source_page": "71",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2021",
+      "row_index": 48,
+      "project_name": "City Council - TEF CD5-FY18",
+      "project_id": "FINAN.20D",
+      "source_page": "79",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2021",
+      "row_index": 92,
+      "project_name": "City Council - TEF CD9-FY17",
+      "project_id": "FINAN.24E",
+      "source_page": "89",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2021",
+      "row_index": 128,
+      "project_name": "Health Facility Renovations-FY\u00a521",
+      "project_id": "HEALT.33A",
+      "source_page": "118",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2021",
+      "row_index": 160,
+      "project_name": "Buildings, Courts, Play Areas, Athletic Fields-FY15",
+      "project_id": "PARKS.39F",
+      "source_page": "148",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2022",
+      "row_index": 142,
+      "project_name": "Improvements te Existing Recreation Facilities-CD5-F\u00a522",
+      "project_id": "PARKS.48A",
+      "source_page": "156",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2022",
+      "row_index": 172,
+      "project_name": "Modernization of Sanitation Facilities-F\u00a522",
+      "project_id": "STREE.70A",
+      "source_page": "217",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2023",
+      "row_index": 196,
+      "project_name": "Federal Aid Highway Program-FY21",
+      "project_id": "STREE.69C",
+      "source_page": "223",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2024",
+      "row_index": 86,
+      "project_name": "Fleet Management Facilities-FY\u00a523",
+      "project_id": "FLEET.27B",
+      "source_page": "92",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2024",
+      "row_index": 97,
+      "project_name": "Health Department Equipment and improvements-FY21",
+      "project_id": "HEALT.31D",
+      "source_page": "106",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2024",
+      "row_index": 160,
+      "project_name": "Rehabilitation of Stairways in Manayunk and Citywide-FY16",
+      "project_id": "STREE.65F",
+      "source_page": "219",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2025",
+      "row_index": 148,
+      "project_name": "Fire Department Interior and Exterior Renovations-FY23",
+      "project_id": "FIREF.26C",
+      "source_page": "84",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2025",
+      "row_index": 174,
+      "project_name": "Health Department Equipment and Improvements-FY25",
+      "project_id": "HEALT.31A",
+      "source_page": "100",
       "validation_label": ""
     }
   ],
-  "total_rows": 894,
-  "sample_size": 9,
+  "total_rows": 2075,
+  "sample_size": 21,
   "percent": 1.0,
-  "generated_at": "2026-07-09 15:50:28",
+  "generated_at": "2026-07-09 17:08:08",
   "city": "Philadelphia"
 }
