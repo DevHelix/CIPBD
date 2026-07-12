@@ -119,6 +119,69 @@ Project names had a funding amount + source code appended (e.g. `500CN`). These 
 
 ---
 
+## Batch 2 – Remaining OCR corrections
+
+### 2021.csv (1 row)
+
+| project_id | Field | Old value | New value |
+|------------|-------|-----------|-----------|
+| ZOO.82.1 | project_name | City-owned Building Renovation Roofs and Building Envelope 2500N | City-owned Building Renovation Roofs and Building Envelope |
+
+### 2022.csv (5 fields across 4 rows)
+
+| project_id | Field | Old value | New value | Notes |
+|------------|-------|-----------|-----------|-------|
+| OIT.38C | project_total | 12.536 | 12536 | comma-decimal |
+| TRN.75.1 | year_2023 | 1096.823 | 1096 | decimal noise stripped |
+| TRN.75.1 | project_total | 7030.823 | 7030 | decimal noise stripped |
+| COM.6.4 | project_total | 7002.5 | 9500 | updated to match year-sum after year_2026 fix |
+| TRN.74.1 | project_total | 4748.272 | 6019 | updated to match year-sum after year_2025 fix; still incomplete multi-source |
+
+### 2024.csv (24 rows)
+
+**Description bleeds (3 rows)**
+
+| project_id | Old project_description (truncated) | New project_description |
+|------------|-------------------------------------|------------------------|
+| FIN.25C | See description under line item 25. 171 25D. City Council - ITEF CD10-FY21 See description under line item 25. | See description under line item 25. |
+| OHS.34A | See description under line item 34. 2,500 | See description under line item 34. |
+| POL.58A | See description under line item 58. 10,457 | See description under line item 58. |
+
+**Value-duplicated carry-through rows (21 rows) — year_2030 zeroed, project_total halved**
+
+| project_id | Old total | New total |
+|------------|-----------|-----------|
+| FIN.161 | 56 | 28 |
+| FIN.17C | 82 | 41 |
+| FIN.21C | 180 | 90 |
+| FIN.221 | 158 | 79 |
+| FIN.230 | 68 | 34 |
+| PRK.401 | 64 | 32 |
+| PRK.43B | 110 | 55 |
+| PRK.430 | 80 | 40 |
+| PRK.441 | 112 | 56 |
+| PRK.440 | 20 | 10 |
+| PRK.451 | 116 | 58 |
+| PRK.450 | 100 | 50 |
+| PRK.46C | 82 | 41 |
+| PRK.500 | 118 | 59 |
+| PRK.53A | 182 | 91 |
+| PRK.54A | 116 | 58 |
+| PRK.56A | 30 | 15 |
+| REC.62B | 186 | 93 |
+| REC.62C | 58 | 29 |
+| TRN.73A | 88 | 44 |
+| TRN.73B | 190 | 95 |
+
+### 2025.csv (2 rows)
+
+| project_id | Fields corrected | Notes |
+|------------|-----------------|-------|
+| ART.1.1 | project_description, project_total, year_2026–2031, start_year, end_year | All year values were absorbed into description; extracted from PDF p.28. total=12500, year_2026=2500, year_2027–2031=2000 each |
+| ART.1A | project_description, year_2026, year_2031, start_year, end_year | Description bleed stripped; year_2031 cleared, year_2026=2000 set; start/end year corrected from 2031→2026 |
+
+---
+
 ## Pending
 
 - **Fix A** (on hold): `FIRE.9.140` in `2023.csv` — OCR confirms this should be `FIRE.9.10`. Awaiting approval.

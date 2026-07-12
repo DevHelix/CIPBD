@@ -1136,11 +1136,18 @@
     "row_index": 162,
     "project_name": "Citywide Technology Improvements & Enhancements-FY20",
     "project_id": "OIT.38C",
-    "source_page": 129,
+    "source_page": "129",
     "status": "incorrect",
     "issue_type": "description_bleed",
     "notes": "Description absorbs trailing funding value \"1,000\". Strip trailing number from project_description.",
-    "edits": []
+    "edits": [
+      {
+        "timestamp": "2026-07-12T16:29:07",
+        "column": "year_2023",
+        "old": "12.536",
+        "new": "12536"
+      }
+    ]
   },
   {
     "timestamp": "2026-07-10T16:40:14",

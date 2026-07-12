@@ -2534,72 +2534,7 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
-    "city": "Philadelphia",
-    "file_stem": "2023",
-    "row_index": 377,
-    "project_name": "Meter Replacement",
-    "project_id": "WAT.79.2",
-    "source_page": 250,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"5,000\". Strip trailing number from project_description.",
-    "edits": []
-  },
-  {
-    "timestamp": "2026-07-10T16:40:14",
-    "city": "Philadelphia",
-    "file_stem": "2023",
-    "row_index": 379,
-    "project_name": "Improvements to Conveyance System-FY23",
-    "project_id": "WAT.79A",
-    "source_page": 250,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"14,319\". Strip trailing number from project_description.",
-    "edits": []
-  },
-  {
-    "timestamp": "2026-07-10T16:40:14",
-    "city": "Philadelphia",
-    "file_stem": "2023",
-    "row_index": 380,
-    "project_name": "Improvements to Conveyance System-FY22",
-    "project_id": "WAT.79B",
-    "source_page": 251,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"50\". Strip trailing number from project_description.",
-    "edits": []
-  },
-  {
-    "timestamp": "2026-07-10T16:40:14",
-    "city": "Philadelphia",
-    "file_stem": "2023",
-    "row_index": 382,
-    "project_name": "Engineering and Administration",
-    "project_id": "WAT.80.1",
-    "source_page": 252,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"12,806\". Strip trailing number from project_description.",
-    "edits": []
-  },
-  {
-    "timestamp": "2026-07-10T16:40:14",
-    "city": "Philadelphia",
-    "file_stem": "2023",
-    "row_index": 384,
-    "project_name": "Engineering and Material Support-FY23",
-    "project_id": "WAT.80A",
-    "source_page": 252,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"3,010\". Strip trailing number from project_description.",
-    "edits": []
-  },
-  {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-10T23:07:43",
     "city": "Philadelphia",
     "file_stem": "2023",
     "row_index": 130,
@@ -2608,7 +2543,38 @@
     "source_page": 108,
     "status": "incorrect",
     "issue_type": "year_truncation",
-    "notes": "year_2029=7 \u2192 should be 700 (OCR dropped two digits); year_2025 also missing. PDF shows 5000/1000/700/300/500/700 across years, total 8,200. CSV total=6507 is wrong.",
+    "notes": "year_2029=7 should be 700; year_2025 missing (should be 1,000). PDF p108: 5000/1000/700/300/500/700=8,200 total. CSV had total=6507.",
     "edits": []
+  },
+  {
+    "timestamp": null,
+    "city": "Philadelphia",
+    "file_stem": "2023",
+    "row_index": 179,
+    "project_name": "Neighborhood Parks-FY21",
+    "project_id": "PRK.41C",
+    "source_page": "140",
+    "status": "",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-07-12T12:25:15",
+        "column": "project_total",
+        "old": "3750.0",
+        "new": "1750.0"
+      },
+      {
+        "timestamp": "2026-07-12T12:25:15",
+        "column": "year_2024",
+        "old": "3750.0",
+        "new": "1750.0"
+      },
+      {
+        "timestamp": "2026-07-12T12:25:15",
+        "column": "project_description",
+        "old": "See description under line item 44 250 41D. Neighborhood Parks-FY20 See description under line item 41 2,000 41E. Neighborhood Parks-FY19 See description under line item 41 1,500",
+        "new": "See description under line item 41."
+      }
+    ]
   }
 ]

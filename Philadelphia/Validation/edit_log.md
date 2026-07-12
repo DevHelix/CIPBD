@@ -24,3 +24,13 @@
   - **project_id**: "4.6" → "81.6"
 - 2026-06-19 15:26:47 — Philadelphia/Capital_Program_And_Budget_FY2020-2025 row 133 [37.5 — Rebuilding Community Infrastructure p.85]
   - **project_id**: "5" → "37.5"
+- 2026-07-10 22:52:43 — Philadelphia/2023 row 7 [COM.6.1 — Neighborhood Commercial Centers-Site Improvements p.42]
+  - **project_id**: "COM.6.4" → "COM.6.1"
+  - **project_total**: "11000.0" → "13500"
+  - **year_2025**: "" → "2500.0"
+- 2026-07-12 12:25:15 — Philadelphia/2023 row 179 [PRK.41C — Neighborhood Parks-FY21 p.140]
+  - **project_total**: "3750.0" → "1750.0"
+  - **year_2024**: "3750.0" → "1750.0"
+  - **project_description**: "See description under line item 44 250 41D. Neighborhood Parks-FY20 See description under line item 41 2,000 41E. Neighborhood Parks-FY19 See description under line item 41 1,500" → "See description under line item 41."
+- 2026-07-12 16:29:07 — Philadelphia/2022 row 162 [OIT.38C — Citywide Technology Improvements & Enhancements-FY20 p.129]
+  - **year_2023**: "12.536" → "12536"
