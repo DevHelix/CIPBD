@@ -2469,112 +2469,245 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-12T16:43:12.873747",
     "city": "Philadelphia",
     "file_stem": "2023",
-    "row_index": 363,
-    "project_name": "Station Accessibility Program (CTD)",
-    "project_id": "TRN.75.2",
-    "source_page": 241,
+    "row_index": 0,
+    "project_name": "Airfield Area",
+    "project_id": "AVN.2.1",
+    "source_page": "35",
+    "status": "incorrect",
+    "issue_type": "description_bleed+missing_years",
+    "notes": "Description contains embedded funding codes. Year columns empty \u2014 needs OCR reconstruction.",
+    "edits": {}
+  },
+  {
+    "timestamp": "2026-07-12T16:43:12.873747",
+    "city": "Philadelphia",
+    "file_stem": "2023",
+    "row_index": 1,
+    "project_name": "Airfield Area-FY23",
+    "project_id": "AVN.2A",
+    "source_page": "35",
     "status": "incorrect",
     "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"1,047\". Strip trailing number from project_description.",
-    "edits": []
-  },
-  {
-    "timestamp": "2026-07-10T16:40:14",
-    "city": "Philadelphia",
-    "file_stem": "2023",
-    "row_index": 368,
-    "project_name": "SEPTA Passenger Information, Communications, and System Controls-FY23",
-    "project_id": "TRN.76A",
-    "source_page": 243,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"95\". Strip trailing number from project_description.",
-    "edits": []
-  },
-  {
-    "timestamp": "2026-07-10T16:40:14",
-    "city": "Philadelphia",
-    "file_stem": "2023",
-    "row_index": 371,
-    "project_name": "Collector System Improvements",
-    "project_id": "TRN.78.4",
-    "source_page": 248,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"100\". Strip trailing number from project_description.",
-    "edits": []
-  },
-  {
-    "timestamp": "2026-07-10T16:40:14",
-    "city": "Philadelphia",
-    "file_stem": "2023",
-    "row_index": 373,
-    "project_name": "Improvements to Collector System-FY23",
-    "project_id": "TRN.78A",
-    "source_page": 248,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"25,916\". Strip trailing number from project_description.",
-    "edits": []
-  },
-  {
-    "timestamp": "2026-07-10T16:40:14",
-    "city": "Philadelphia",
-    "file_stem": "2023",
-    "row_index": 376,
-    "project_name": "Reconstruction of Conveyance Systems",
-    "project_id": "WAT.79.1",
-    "source_page": 250,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"100\". Strip trailing number from project_description.",
-    "edits": []
-  },
-  {
-    "timestamp": "2026-07-10T23:07:43",
-    "city": "Philadelphia",
-    "file_stem": "2023",
-    "row_index": 130,
-    "project_name": "Interior and Exterior Renovations",
-    "project_id": "HLTH.33.1",
-    "source_page": 108,
-    "status": "incorrect",
-    "issue_type": "year_truncation",
-    "notes": "year_2029=7 should be 700; year_2025 missing (should be 1,000). PDF p108: 5000/1000/700/300/500/700=8,200 total. CSV had total=6507.",
-    "edits": []
-  },
-  {
-    "timestamp": null,
-    "city": "Philadelphia",
-    "file_stem": "2023",
-    "row_index": 179,
-    "project_name": "Neighborhood Parks-FY21",
-    "project_id": "PRK.41C",
-    "source_page": "140",
-    "status": "",
-    "notes": "",
-    "edits": [
-      {
-        "timestamp": "2026-07-12T12:25:15",
-        "column": "project_total",
-        "old": "3750.0",
-        "new": "1750.0"
-      },
-      {
-        "timestamp": "2026-07-12T12:25:15",
-        "column": "year_2024",
-        "old": "3750.0",
-        "new": "1750.0"
-      },
-      {
-        "timestamp": "2026-07-12T12:25:15",
-        "column": "project_description",
-        "old": "See description under line item 44 250 41D. Neighborhood Parks-FY20 See description under line item 41 2,000 41E. Neighborhood Parks-FY19 See description under line item 41 1,500",
-        "new": "See description under line item 41."
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "See description under line item 2 15,000 XT 10,000 FT",
+        "new": "See description under line item 2 15,000 XT"
       }
-    ]
+    }
+  },
+  {
+    "timestamp": "2026-07-12T16:43:12.873747",
+    "city": "Philadelphia",
+    "file_stem": "2023",
+    "row_index": 107,
+    "project_name": "Fleet Management Facilities-FY21",
+    "project_id": "FIRE.27C",
+    "source_page": "92",
+    "status": "incorrect",
+    "issue_type": "description_bleed",
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "See description under line item 27. 9CT",
+        "new": "See description under line item 27."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-12T16:43:12.873747",
+    "city": "Philadelphia",
+    "file_stem": "2023",
+    "row_index": 224,
+    "project_name": "Improvements to Existing Recreation Facilities-CD5-FY09",
+    "project_id": "PRK.480",
+    "source_page": "163",
+    "status": "incorrect",
+    "issue_type": "description_bleed",
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "See description under line item 48. 61 48P. Improvements to Existing Recreation Facilities-CD5-FY08 See description under line item 48. 48Q. Improvements to Existing Recreation Facilities-CD5-FY07 See description under line item 48. 126 48R. Improvements to Existing Recreation Facilities-CD5-FY06 See description under line item 48. 48S. Improvements to Existing Recreation Facilities-CD5-FY02 See description under line item 48. 4CT",
+        "new": "See description under line item 48."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-12T16:43:12.873747",
+    "city": "Philadelphia",
+    "file_stem": "2023",
+    "row_index": 297,
+    "project_name": "Records Improvements-FY20",
+    "project_id": "REC.64A",
+    "source_page": "210",
+    "status": "incorrect",
+    "issue_type": "description_bleed+missing_years",
+    "notes": "Description contains embedded funding codes. Year columns empty \u2014 needs OCR reconstruction.",
+    "edits": {}
+  },
+  {
+    "timestamp": "2026-07-12T16:43:12.873747",
+    "city": "Philadelphia",
+    "file_stem": "2023",
+    "row_index": 298,
+    "project_name": "Records Improvements-FY18",
+    "project_id": "REC.64B",
+    "source_page": "210",
+    "status": "incorrect",
+    "issue_type": "description_bleed",
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "Improvements to Records department facilities and assets. 93 CT",
+        "new": "Improvements to Records department facilities and assets."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-12T16:43:12.873747",
+    "city": "Philadelphia",
+    "file_stem": "2023",
+    "row_index": 299,
+    "project_name": "Records Improvements-FY15",
+    "project_id": "REC.64C",
+    "source_page": "210",
+    "status": "incorrect",
+    "issue_type": "description_bleed",
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "Improvements to Records department facilities and assets. 29 CT",
+        "new": "Improvements to Records department facilities and assets."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-12T16:43:12.873747",
+    "city": "Philadelphia",
+    "file_stem": "2023",
+    "row_index": 330,
+    "project_name": "Modernization of Sanitation Facilities-FY21",
+    "project_id": "STR.70C",
+    "source_page": "226",
+    "status": "incorrect",
+    "issue_type": "description_bleed",
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "See description under line item 70. 3,950 70D. Modernization of Sanitation Facilities-FY20 See description under line item 70. 2,200 70E. Modernization of Sanitation Facilities-FY18 See description under line item 70. 7CT",
+        "new": "See description under line item 70."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-12T16:43:12.873747",
+    "city": "Philadelphia",
+    "file_stem": "2023",
+    "row_index": 356,
+    "project_name": "Regional Rail Substation Improvements (RRD)",
+    "project_id": "TRN.4",
+    "source_page": "240",
+    "status": "incorrect",
+    "issue_type": "description_bleed",
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "Replace components of the traction supply system for 401 power SEPTA's Regional Rail 186 service. 17,601SO",
+        "new": "Replace components of the traction supply system for 401 power SEPTA's Regional Rail 186 service."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-12T16:43:12.873747",
+    "city": "Philadelphia",
+    "file_stem": "2023",
+    "row_index": 358,
+    "project_name": "Regional Rail Division Bridge Improvement Program (RRD)",
+    "project_id": "TRN.4.6",
+    "source_page": "240",
+    "status": "incorrect",
+    "issue_type": "description_bleed",
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "Provide for the rehabilitation replacement of bridges, 28,597 or restoring bridges to a state of good repair. 3,050SO",
+        "new": "Provide for the rehabilitation replacement of bridges, 28,597 or restoring bridges to a state of good repair."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-12T16:43:12.873747",
+    "city": "Philadelphia",
+    "file_stem": "2023",
+    "row_index": 365,
+    "project_name": "City Hall Station and 15th Street Renovations (CTD)",
+    "project_id": "TRN.3.4",
+    "source_page": "242",
+    "status": "incorrect",
+    "issue_type": "description_bleed",
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "Rehabilitate City Hall Station the Broad Street Line and on renovations to 15th Street Station on the Market-Frankford Line. 140SO",
+        "new": "Rehabilitate City Hall Station the Broad Street Line and on renovations to 15th Street Station on the Market-Frankford Line."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-12T16:43:12.873747",
+    "city": "Philadelphia",
+    "file_stem": "2023",
+    "row_index": 374,
+    "project_name": "Improvements to Collector System-FY22",
+    "project_id": "WAT.78B",
+    "source_page": "249",
+    "status": "incorrect",
+    "issue_type": "description_bleed",
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "See description under line item 78. 16 XR",
+        "new": "See description under line item 78."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-12T16:43:12.873747",
+    "city": "Philadelphia",
+    "file_stem": "2023",
+    "row_index": 375,
+    "project_name": "Improvements to Collector System-FY21",
+    "project_id": "WAT.78C",
+    "source_page": "249",
+    "status": "incorrect",
+    "issue_type": "description_bleed",
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "See description under line item 78. 23,087 XT 78D. Improvements to Collector System-FY17 See description under line item 78. 19 XR TO 78E. Improvements to Collector System-FY16 See description under line item 78. 96 XR",
+        "new": "See description under line item 78."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-12T16:43:12.873747",
+    "city": "Philadelphia",
+    "file_stem": "2023",
+    "row_index": 381,
+    "project_name": "Improvements to Conveyance System-FY21",
+    "project_id": "WAT.79C",
+    "source_page": "251",
+    "status": "incorrect",
+    "issue_type": "description_bleed",
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "See description under line item 79. 12,346 79D. Improvements to Conveyance System-FY20 See description under line item 79. 35,000 Totals CONVEYANCE SYSTEMS - CAPITAL - 51,319XR",
+        "new": "See description under line item 79."
+      }
+    }
   }
 ]

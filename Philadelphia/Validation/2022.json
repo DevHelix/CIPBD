@@ -2554,94 +2554,258 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-12T16:40:57.222081",
     "city": "Philadelphia",
     "file_stem": "2022",
-    "row_index": 386,
-    "project_name": "Engineering and Material Support-FY21",
-    "project_id": "WAT.80B",
-    "source_page": 243,
+    "row_index": 0,
+    "project_name": "Airfield Area",
+    "project_id": "AVN.2.1",
+    "source_page": "36",
     "status": "incorrect",
-    "issue_type": "description_bleed+comma_decimal",
-    "notes": "Description absorbs trailing value \"4,258\" (same as total=4.258 which should be 4,258). Fix both.",
-    "edits": []
+    "issue_type": "description_bleed+missing_years",
+    "notes": "Description contains embedded funding codes. Year columns empty \u2014 needs OCR reconstruction.",
+    "edits": {}
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-12T16:40:57.222081",
     "city": "Philadelphia",
     "file_stem": "2022",
-    "row_index": 389,
-    "project_name": "Improvements to Treatment Facilities-FY21",
-    "project_id": "WAT.81B",
-    "source_page": 244,
+    "row_index": 52,
+    "project_name": "City Council - ITEF CD2-FY14",
+    "project_id": "FIN.171",
+    "source_page": "62",
     "status": "incorrect",
     "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"60,600\". Strip trailing number from project_description.",
-    "edits": []
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "See description under line item 17 125 17J. City Council - ITEF CD2-FY13 See description under line item 17. 9CT 17K. City Council - ITEF CD2-FY12 See description under line item 17. 41 17L. City Council - ITEF CD2-FY11 See description under line item 17. 141 17M. City Council - ITEF CD2-FY10 See description under line item 17.",
+        "new": "See description under line item 17 125 17J. City Council - ITEF CD2-FY13 See description under line item 17."
+      }
+    }
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-12T16:40:57.222081",
     "city": "Philadelphia",
     "file_stem": "2022",
-    "row_index": 391,
-    "project_name": "City-owned Building Renovation Roofs and Building Envelope",
-    "project_id": "ZOO.82.1",
-    "source_page": 248,
+    "row_index": 134,
+    "project_name": "Health Facility Renovations-FY21",
+    "project_id": "HLTH.33B",
+    "source_page": "108",
     "status": "incorrect",
     "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"1,000\". Strip trailing number from project_description.",
-    "edits": []
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "See description under line item 33. 162 CT",
+        "new": "See description under line item 33."
+      }
+    }
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-12T16:40:57.222081",
     "city": "Philadelphia",
     "file_stem": "2022",
-    "row_index": 385,
-    "project_name": "Engineering and Material Support-FY22",
-    "project_id": "WAT.80A",
-    "source_page": 243,
+    "row_index": 135,
+    "project_name": "Health Facility Renovations-FY20",
+    "project_id": "HLTH.33C",
+    "source_page": "108",
     "status": "incorrect",
-    "issue_type": "comma_decimal",
-    "notes": "total=8.211 \u2192 should be 8,211; comma in thousands misread as decimal point",
-    "edits": []
+    "issue_type": "description_bleed+missing_years",
+    "notes": "Description contains embedded funding codes. Year columns empty \u2014 needs OCR reconstruction.",
+    "edits": {}
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-12T16:40:57.222081",
     "city": "Philadelphia",
     "file_stem": "2022",
-    "row_index": 9,
-    "project_name": "Neighborhood Commercial Centers-Site Improvements",
-    "project_id": "COM.6.4",
-    "source_page": 43,
+    "row_index": 150,
+    "project_name": "OSH Facility Renovations-FY20",
+    "project_id": "OHS.36C",
+    "source_page": "121",
     "status": "incorrect",
-    "issue_type": "comma_decimal",
-    "notes": "year_2026=2.5 \u2192 should be 2,500; comma misread as decimal. Total inflated by error.",
-    "edits": []
+    "issue_type": "description_bleed",
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "See description under line item 36. 400 Totals FAMILY CARE FACILITIES CAPITAL - - 1,500CN",
+        "new": "See description under line item 36."
+      }
+    }
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-12T16:40:57.222081",
     "city": "Philadelphia",
     "file_stem": "2022",
-    "row_index": 366,
-    "project_name": "City Transit Division Loop Improvements (CTD)",
-    "project_id": "TRN.3",
-    "source_page": 233,
+    "row_index": 163,
+    "project_name": "ITEF - Building & Site Infrastructure",
+    "project_id": "PRK.39.1",
+    "source_page": "134",
     "status": "incorrect",
-    "issue_type": "multi_source_partial",
-    "notes": "year_2023=1 captures only \"1 TO\" line; CN+SO sources (82+2276) missing. All year values and total are undercount from one funding source per year.",
-    "edits": []
+    "issue_type": "description_bleed",
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "Roof Replacement, Boilers, HVAC, Electrical Upgrades, 4,000 CN 1,400 CN 1,500 CN 1,500CN = 1,500CN Plumbing, Facade Rehabilitation and Interior Improvements",
+        "new": "Roof Replacement, Boilers, HVAC, Electrical Upgrades, Plumbing, Facade Rehabilitation and Interior Improvements"
+      }
+    }
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-12T16:40:57.222081",
     "city": "Philadelphia",
     "file_stem": "2022",
-    "row_index": 369,
-    "project_name": "SEPTA Key (New Payment Technologies) (ALL)",
-    "project_id": "TRN.76.1",
-    "source_page": 233,
+    "row_index": 164,
+    "project_name": "Swimming Pool Improvements",
+    "project_id": "PRK.39.2",
+    "source_page": "134",
     "status": "incorrect",
-    "issue_type": "multi_source_partial",
-    "notes": "year_2024=7 captures only \"7 TO\" line; FO+CN+SO sources (~9,282 total for that year) missing.",
-    "edits": []
+    "issue_type": "description_bleed",
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "Make capital improvements to pools, including site 750 CN 7S0CN 750 CN 1,600 CN 1,010CN = 1,100CN swimming and system infrastructure",
+        "new": "Make capital improvements to pools, including site 7S0CN swimming and system infrastructure"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-12T16:40:57.222081",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 165,
+    "project_name": "Life Safety Improvements",
+    "project_id": "PRK.39.3",
+    "source_page": "134",
+    "status": "incorrect",
+    "issue_type": "description_bleed",
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "Make life safety improvements including installation of fire alarm 750 CN 1,500 CN 1500CN = 1,500CN systems and security surveillance systems at various Parks and Recreation facilities",
+        "new": "Make life safety improvements including installation of fire alarm systems and security surveillance systems at various Parks and Recreation facilities"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-12T16:40:57.222081",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 166,
+    "project_name": "Buildings, Courts, Play Areas, Athletic Fields-FY22",
+    "project_id": "PRK.39A",
+    "source_page": "134",
+    "status": "incorrect",
+    "issue_type": "description_bleed",
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "See description under line item 39. 7,805 CT",
+        "new": "See description under line item 39."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-12T16:40:57.222081",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 167,
+    "project_name": "Buildings, Courts, Play Areas, Athletic Fields-FY21",
+    "project_id": "PRK.39B",
+    "source_page": "134",
+    "status": "incorrect",
+    "issue_type": "description_bleed",
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "See description under line item 39. 12,936 CR",
+        "new": "See description under line item 39."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-12T16:40:57.222081",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 168,
+    "project_name": "Buildings, Courts, Play Areas, Athletic Fields-FY20",
+    "project_id": "PRK.39C",
+    "source_page": "134",
+    "status": "incorrect",
+    "issue_type": "description_bleed",
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "See description under line item 39. 63 CT",
+        "new": "See description under line item 39."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-12T16:40:57.222081",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 296,
+    "project_name": "Records Improvements-FY20",
+    "project_id": "REC.64A",
+    "source_page": "203",
+    "status": "incorrect",
+    "issue_type": "description_bleed+missing_years",
+    "notes": "Description contains embedded funding codes. Year columns empty \u2014 needs OCR reconstruction.",
+    "edits": {}
+  },
+  {
+    "timestamp": "2026-07-12T16:40:57.222081",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 297,
+    "project_name": "Records Improvements-FY18",
+    "project_id": "REC.64B",
+    "source_page": "203",
+    "status": "incorrect",
+    "issue_type": "description_bleed",
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "See description under line item 64 93 CT",
+        "new": "See description under line item 64"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-12T16:40:57.222081",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 298,
+    "project_name": "Records Improvements-FY15",
+    "project_id": "REC.64C",
+    "source_page": "203",
+    "status": "incorrect",
+    "issue_type": "description_bleed",
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "See description under line item 64. 29 CT",
+        "new": "See description under line item 64."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-12T16:40:57.222081",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 332,
+    "project_name": "Modernization of Sanitation Facilities-FY20",
+    "project_id": "STR.70C",
+    "source_page": "218",
+    "status": "incorrect",
+    "issue_type": "description_bleed",
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "See description under line item 70. 2,200 70D. Modernization of Sanitation Facilities-FY18 See description under line item 70. 7CT",
+        "new": "See description under line item 70."
+      }
+    }
   }
 ]

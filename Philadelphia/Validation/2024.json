@@ -2940,5 +2940,140 @@
     "issue_type": "value_duplicated",
     "notes": "PDF: 2 CT carry-forward. CSV total=4 with year_2025=2 and year_2030=2; value duplicated. Correct: total=2, year_2025=2 only.",
     "edits": []
+  },
+  {
+    "timestamp": "2026-07-12T16:43:12.873747",
+    "city": "Philadelphia",
+    "file_stem": "2024",
+    "row_index": 6,
+    "project_name": "Other Airport Services",
+    "project_id": "AVN.5.1",
+    "source_page": "35",
+    "status": "incorrect",
+    "issue_type": "description_bleed+missing_years",
+    "notes": "Description contains embedded funding codes. Year columns empty \u2014 needs OCR reconstruction.",
+    "edits": {}
+  },
+  {
+    "timestamp": "2026-07-12T16:43:12.873747",
+    "city": "Philadelphia",
+    "file_stem": "2024",
+    "row_index": 101,
+    "project_name": "Fire Department Interior and Exterior Renovations-FY22",
+    "project_id": "FIRE.26C",
+    "source_page": "88",
+    "status": "incorrect",
+    "issue_type": "description_bleed",
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "See description under line item 26. 945 26D. Fire Department Interior and Exterior Renovations-FY20 See description under line item 26. 215 26E. Fire Department Interior and Exterior Renovations-FY18 See description under line item 26. 1,089 26F. Fire Department Interior and Exterior Renovations-FY16 See description under line item 26. 8CT",
+        "new": "See description under line item 26."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-12T16:43:12.873747",
+    "city": "Philadelphia",
+    "file_stem": "2024",
+    "row_index": 156,
+    "project_name": "Energy and Sustainability Improvements-FY22",
+    "project_id": "SUST.35C",
+    "source_page": "125",
+    "status": "incorrect",
+    "issue_type": "description_bleed",
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "See description under line item 35. 3CT 35D. Energy and Sustainability Improvements-FY21 See description under line item 35. 114.CR",
+        "new": "See description under line item 35."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-12T16:43:12.873747",
+    "city": "Philadelphia",
+    "file_stem": "2024",
+    "row_index": 261,
+    "project_name": "Parkland - Site Improvements-FY13",
+    "project_id": "PRK.54B",
+    "source_page": "183",
+    "status": "incorrect",
+    "issue_type": "description_bleed+missing_years",
+    "notes": "Description contains embedded funding codes. Year columns empty \u2014 needs OCR reconstruction.",
+    "edits": {}
+  },
+  {
+    "timestamp": "2026-07-12T16:43:12.873747",
+    "city": "Philadelphia",
+    "file_stem": "2024",
+    "row_index": 325,
+    "project_name": "Federal Aid Highway Program-FY16",
+    "project_id": "STR.661",
+    "source_page": "225",
+    "status": "incorrect",
+    "issue_type": "description_bleed",
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "See description under line item 66. 209 CT",
+        "new": "See description under line item 66."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-12T16:43:12.873747",
+    "city": "Philadelphia",
+    "file_stem": "2024",
+    "row_index": 378,
+    "project_name": "Improvements to Collector System-FY23",
+    "project_id": "WAT.75B",
+    "source_page": "251",
+    "status": "incorrect",
+    "issue_type": "description_bleed",
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "See description under line item 75. 7,215 XR 77,518 XT",
+        "new": "See description under line item 75."
+      }
+    }
+  },
+  {
+    "timestamp": null,
+    "city": "Philadelphia",
+    "file_stem": "2024",
+    "row_index": 165,
+    "project_name": "Life Safety Improvements",
+    "project_id": "PRK.37.3",
+    "source_page": "135",
+    "status": "",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-07-13T17:30:07",
+        "column": "project_description",
+        "old": "Make life safety improvements including installation of fire alarm 247 systems and security surveillance systems at various Parks and 250 Recreation facilities.",
+        "new": "Make life safety improvements including installation of fire alarm systems and security surveillance systems at various Parks and Recreation facilities."
+      },
+      {
+        "timestamp": "2026-07-13T17:31:21",
+        "column": "year_2030",
+        "old": "2997.0",
+        "new": "500.0"
+      },
+      {
+        "timestamp": "2026-07-13T17:31:21",
+        "column": "project_total",
+        "old": "5494.0",
+        "new": "2997.0"
+      },
+      {
+        "timestamp": "2026-07-13T17:31:24",
+        "column": "project_type",
+        "old": "See description under line item 44. 7CT",
+        "new": "See description under line item 44."
+      }
+    ]
   }
 ]

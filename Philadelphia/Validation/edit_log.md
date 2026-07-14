@@ -34,3 +34,10 @@
   - **project_description**: "See description under line item 44 250 41D. Neighborhood Parks-FY20 See description under line item 41 2,000 41E. Neighborhood Parks-FY19 See description under line item 41 1,500" → "See description under line item 41."
 - 2026-07-12 16:29:07 — Philadelphia/2022 row 162 [OIT.38C — Citywide Technology Improvements & Enhancements-FY20 p.129]
   - **year_2023**: "12.536" → "12536"
+- 2026-07-13 17:30:07 — Philadelphia/2024 row 165 [PRK.37.3 — Life Safety Improvements p.135]
+  - **project_description**: "Make life safety improvements including installation of fire alarm 247 systems and security surveillance systems at various Parks and 250 Recreation facilities." → "Make life safety improvements including installation of fire alarm systems and security surveillance systems at various Parks and Recreation facilities."
+- 2026-07-13 17:31:21 — Philadelphia/2024 row 165 [PRK.37.3 — Life Safety Improvements p.135]
+  - **year_2030**: "2997.0" → "500.0"
+  - **project_total**: "5494.0" → "2997.0"
+- 2026-07-13 17:31:24 — Philadelphia/2024 row 165 [PRK.37.3 — Life Safety Improvements p.135]
+  - **project_type**: "See description under line item 44. 7CT" → "See description under line item 44."
