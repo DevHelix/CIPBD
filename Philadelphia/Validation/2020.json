@@ -34,5 +34,41 @@
     "status": "correct",
     "notes": "",
     "edits": []
+  },
+  {
+    "timestamp": "2026-07-16T00:11:03",
+    "city": "Philadelphia",
+    "file_stem": "2020",
+    "row_index": 65,
+    "project_name": "City Council - ITEF CD5-FY17",
+    "project_id": "FIN.20D",
+    "source_page": 48,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-07-16T00:11:22",
+    "city": "Philadelphia",
+    "file_stem": "2020",
+    "row_index": 177,
+    "project_name": "Improvements to Existing Facilities - Building & Site",
+    "project_id": "PPR.40.2",
+    "source_page": 100,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-07-16T00:11:26",
+    "city": "Philadelphia",
+    "file_stem": "2020",
+    "row_index": 225,
+    "project_name": "Improvements to Existing Recreation Facilities-CD3",
+    "project_id": "PPR.47.1",
+    "source_page": 114,
+    "status": "correct",
+    "notes": "",
+    "edits": []
   }
 ]

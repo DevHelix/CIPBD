@@ -41,3 +41,8 @@
   - **project_total**: "5494.0" → "2997.0"
 - 2026-07-13 17:31:24 — Philadelphia/2024 row 165 [PRK.37.3 — Life Safety Improvements p.135]
   - **project_type**: "See description under line item 44. 7CT" → "See description under line item 44."
+- 2026-07-13 18:01:23 — Philadelphia/2024 row 350 [STR.70.8 — Automated Red Light Enforcement Project (ARLE) p.233]
+  - **project_id**: "STR.7.8" → "STR.70.8"
+  - **project_total**: "15000.0" → "18000.0"
+- 2026-07-13 18:06:14 — Philadelphia/2024 row 350 [STR.70.8 — Automated Red Light Enforcement Project (ARLE) p.233]
+  - **year_2030**: "" → "3000.0"

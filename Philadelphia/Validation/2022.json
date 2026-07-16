@@ -25,17 +25,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 4,
     "project_name": "Outside Terminal Area (OTA)",
     "project_id": "AVN.4.14",
-    "source_page": 37,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"2,500\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "37",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "This includes the Airport arrival and departure 2,000 program roadways, and areas on which a hotel, parking facilities, and car 32,200 rental entities operate.",
+        "to": "This includes the Airport arrival and departure program roadways, and areas on which a hotel, parking facilities, and car rental entities operate."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -64,17 +69,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 7,
     "project_name": "Other Airport Services",
     "project_id": "AVN.5.1",
-    "source_page": 38,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"195\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "38",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "This program includes expenses and airport revenues which 8,795 are not directly accounted for in the Airfield Area, Terminal Area, 3,510 or Outside Terminal Area. Also included here are PNE projects.",
+        "to": "This program includes expenses and airport revenues which are not directly accounted for in the Airfield Area, Terminal Area, or Outside Terminal Area. Also included here are PNE projects."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -103,17 +113,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 13,
     "project_name": "Neighborhood Commercial Centers - Site Improvements-FY20",
     "project_id": "COM.6C",
-    "source_page": 44,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"717\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "44",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 6. 2,500 6D. Neighborhood Commercial Centers - Site Improvements-FY19 See description under line item 6. 1,784 6E. Neighborhood Commercial Centers - Site Improvements-FY17 See description under line item 6. 6F. Neighborhood Commercial Centers - Site Improvements-FY16 See description under line item 6. 1,544 6G. Neighborhood Commercial Centers - Site Improvements-FY14 See description under line item 6.",
+        "to": "See description under line item 6. D. Neighborhood Commercial Centers - Site Improvements-FY See description under line item 6. E. Neighborhood Commercial Centers - Site Improvements-FY See description under line item 6. F. Neighborhood Commercial Centers - Site Improvements-FY See description under line item 6. G. Neighborhood Commercial Centers - Site Improvements-FY See description under line item 6."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -194,17 +209,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 29,
     "project_name": "Schuylkill Riverfront Improvements",
     "project_id": "COM.13.4",
-    "source_page": 49,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"1,000\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "49",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Complement public and private reinvestment through capital 3,000 improvements to the Schuylkill River Trail.",
+        "to": "Complement public and private reinvestment through capital improvements to the Schuylkill River Trail."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -233,17 +253,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 32,
     "project_name": "Schuylkill River Waterfront-FY20",
     "project_id": "COM.13C",
-    "source_page": 50,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"500\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "50",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 13. 3,038 13D. Schuylkill River Waterfront-FY19 See description under line item 13. 4,000 13E. Schuylkill River Waterfront-FY17 See description under line item 13. 4,500 13F. Schuylkill River Waterfront-FY16 See description under line item 13.",
+        "to": "See description under line item 13. D. Schuylkill River Waterfront-FY See description under line item 13. E. Schuylkill River Waterfront-FY See description under line item 13. F. Schuylkill River Waterfront-FY See description under line item 13."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -311,17 +336,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 41,
     "project_name": "Improvements to Facilities-FY20",
     "project_id": "FIN.15C",
-    "source_page": 57,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"1,112\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "57",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 15. 11,822 15D. Improvements to Facilities-FY19 See description under line item 15. 2,913 15E. Improvements to Facilities-FY18 See description under line item 15. 590 15F. Improvements to Facilities-FY17 See description under line item 15.",
+        "to": "See description under line item 15. D. Improvements to Facilities-FY See description under line item 15. E. Improvements to Facilities-FY See description under line item 15. F. Improvements to Facilities-FY See description under line item 15."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -363,17 +393,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 46,
     "project_name": "City Council - ITEF CD1-FY20",
     "project_id": "FIN.16C",
-    "source_page": 59,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"27\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "59",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 16. 347 16D. City Council - ITEF CD1-FY19 See description under line item 16. 79 16E. City Council - ITEF CD1-FY18 See description under line item 16. 26 16F. City Council - ITEF CD1-FY17 See description under line item 16. 210 16G. City Council - ITEF CD1-FY16 See description under line item 16.",
+        "to": "See description under line item 16. D. City Council - ITEF CD-FY See description under line item 16. E. City Council - ITEF CD-FY See description under line item 16. F. City Council - ITEF CD-FY See description under line item 16. G. City Council - ITEF CD-FY See description under line item 16."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -389,17 +424,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 51,
     "project_name": "City Council - ITEF CD2-FY20",
     "project_id": "FIN.17C",
-    "source_page": 61,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"19\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "61",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 17 145 17D. City Council - ITEF CD2-FY19 See description under line item 17. 330 17E. City Council - ITEF CD2-FY18 See description under line item 17. 81 17F. City Council - ITEF CD2-FY17 See description under line item 17. 71 17G. City Council - ITEF CD2-FY16 See description under line item 17.",
+        "to": "See description under line item 17 D. City Council - ITEF CD-FY See description under line item 17. E. City Council - ITEF CD-FY See description under line item 17. F. City Council - ITEF CD-FY See description under line item 17. G. City Council - ITEF CD-FY See description under line item 17."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -480,17 +520,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 65,
     "project_name": "City Council - ITEF CD5-FY20",
     "project_id": "FIN.20C",
-    "source_page": 68,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"207\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "68",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 20. 510 20D. City Council - ITEF CD5-FY19 See description under line item 20. 1,500 20E. City Council - ITEF CD5-FY18 See description under line item 20. 510 20F. City Council - ITEF CD5-FY17 See description under line item 20. 410 20G. City Council - ITEF CD5-FY16 See description under line item 20. 410 20H. City Council - ITEF CD5-FY15 See description under line item 20.",
+        "to": "See description under line item 20. D. City Council - ITEF CD-FY See description under line item 20. E. City Council - ITEF CD-FY See description under line item 20. F. City Council - ITEF CD-FY See description under line item 20. G. City Council - ITEF CD-FY See description under line item 20. H. City Council - ITEF CD-FY See description under line item 20."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -571,30 +616,40 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 80,
     "project_name": "City Council - ITEF CD8-FY20",
     "project_id": "FIN.23C",
-    "source_page": 74,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"410\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "74",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 23. 510 23D. City Council - ITEF CD8-FY19 See description under line item 23. 510 23E. City Council - ITEF CD8-FY18 See description under line item 23. 296 23F. City Council - ITEF CD8-FY17 See description under line item 23.",
+        "to": "See description under line item 23. D. City Council - ITEF CD-FY See description under line item 23. E. City Council - ITEF CD-FY See description under line item 23. F. City Council - ITEF CD-FY See description under line item 23."
+      }
+    }
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 81,
     "project_name": "City Council - ITEF CD8-FY14",
     "project_id": "FIN.231",
-    "source_page": 75,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"40\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "75",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 23. 409 23J. City Council - ITEF CD8-FY13 See description under line item 23. 379 23K. City Council - ITEF CD8-FY12 See description under line item 23. 23L. City Council - ITEF CD8-FY11 See description under line item 23.",
+        "to": "See description under line item 23. J. City Council - ITEF CD-FY See description under line item 23. K. City Council - ITEF CD-FY See description under line item 23. L. City Council - ITEF CD-FY See description under line item 23."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -623,17 +678,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 85,
     "project_name": "City Council - ITEF CD9-FY20",
     "project_id": "FIN.24C",
-    "source_page": 77,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"410\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "77",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 24 510 S10 24D. City Council - ITEF CD9-FY19 See description under line item 24. 510 24E. City Council - ITEF CD9-FY18 See description under line item 24 510 24F. City Council - ITEF CD9-FY17 See description under line item 24. 410 24G, City Council - ITEF CD9-FY16 See description under line item 24.",
+        "to": "See description under line item 24 S D. City Council - ITEF CD-FY See description under line item 24. E. City Council - ITEF CD-FY See description under line item 24 F. City Council - ITEF CD-FY See description under line item 24. G, City Council - ITEF CD-FY See description under line item 24."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -662,17 +722,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 90,
     "project_name": "City Council - ITEF CD10-FY20",
     "project_id": "FIN.25C",
-    "source_page": 79,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"373\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "79",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 25. 510 S10 25D. City Council - ITEF CD10-FY19 See description under line item 25. 510 25E. City Council - ITEF CD10-FY18 See description under line item 25. 510 25F. City Council - ITEF CD10-FY17 See description under line item 25. 410 25G, City Council - ITEF CD10-FY16 See description under line item 25.",
+        "to": "See description under line item 25. S D. City Council - ITEF CD-FY See description under line item 25. E. City Council - ITEF CD-FY See description under line item 25. F. City Council - ITEF CD-FY See description under line item 25. G, City Council - ITEF CD-FY See description under line item 25."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -753,17 +818,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 104,
     "project_name": "Fire Department Interior and Exterior Renovations-FY20",
     "project_id": "FIRE.26C",
-    "source_page": 88,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"6\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "88",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 26. 215 26D. Fire Department Interior and Exterior Renovations-FY19 See description under line item 26.",
+        "to": "See description under line item 26. D. Fire Department Interior and Exterior Renovations-FY See description under line item 26."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -831,17 +901,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 114,
     "project_name": "Fuel Tank Replacement-FY20",
     "project_id": "FIRE.28C",
-    "source_page": 94,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"87\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "94",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 28. 1,500 28D. Fuel Tank Replacement-FY19 See description under line item 28. 22 28E. Fuel Tank Replacement-FY17 See description under line item 28.",
+        "to": "See description under line item 28. D. Fuel Tank Replacement-FY See description under line item 28. E. Fuel Tank Replacement-FY See description under line item 28."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -870,17 +945,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 120,
     "project_name": "Vehicle Purchases-FY20",
     "project_id": "FIRE.29C",
-    "source_page": 95,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"3,074\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "95",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 29. 3,652 29D. Vehicle Purchases-FY19 See description under line item 29.",
+        "to": "See description under line item 29. D. Vehicle Purchases-FY See description under line item 29."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -922,17 +1002,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 127,
     "project_name": "Equipment and Renovations Various Sites",
     "project_id": "HLTH.32.2",
-    "source_page": 106,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"10,000\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "106",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Replace and update equipment and perform renovations at 5,000 various sites.",
+        "to": "Replace and update equipment and perform renovations at various sites."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -961,17 +1046,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 130,
     "project_name": "Health Department Equipment and Improvements-FY20",
     "project_id": "HLTH.32C",
-    "source_page": 107,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"15,500\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "107",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 32. 11,203 32D. Health Department Equipment and Improvements-FY19 See description under line item 32.",
+        "to": "See description under line item 32. D. Health Department Equipment and Improvements-FY See description under line item 32."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -987,17 +1077,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 139,
     "project_name": "Rebuilding Community Infrastructure",
     "project_id": "MDO.35.3",
-    "source_page": 112,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"2,900\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "112",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Leverage existing resources as part of the Rebuilding 2,000 Community Infrastructure Initiative.",
+        "to": "Leverage existing resources as part of the Rebuilding Community Infrastructure Initiative."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -1091,17 +1186,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 157,
     "project_name": "Energy and Sustainability Improvements-FY20",
     "project_id": "SUST.37C",
-    "source_page": 125,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"21\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "125",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 37 367 37D. Sustainability and Energy Improvements-FY18 See description under line item 37.",
+        "to": "See description under line item 37 D. Sustainability and Energy Improvements-FY See description under line item 37."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -1130,24 +1230,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 162,
     "project_name": "Citywide Technology Improvements & Enhancements-FY20",
     "project_id": "OIT.38C",
     "source_page": "129",
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"1,000\". Strip trailing number from project_description.",
-    "edits": [
-      {
-        "timestamp": "2026-07-12T16:29:07",
-        "column": "year_2023",
-        "old": "12.536",
-        "new": "12536"
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 38. 12,536 38D. Citywide Technology Improvements & Enhancements-FY19 See description under line item 38. 11,671 38E. Citywide Technology Improvements & Enhancements-FY18 See description under line item 38. 4,057 38F. Citywide Technology Improvements & Enhancements-FY17 See description under line item 38. 2,894 38G. Citywide Technology Improvements & Enhancements-FY16 See description under line item 38.",
+        "to": "See description under line item 38. D. Citywide Technology Improvements & Enhancements-FY See description under line item 38. E. Citywide Technology Improvements & Enhancements-FY See description under line item 38. F. Citywide Technology Improvements & Enhancements-FY See description under line item 38. G. Citywide Technology Improvements & Enhancements-FY See description under line item 38."
       }
-    ]
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -1189,43 +1287,58 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 175,
     "project_name": "Neighborhood Park Improvements - Citywide",
     "project_id": "PRK.41.3",
-    "source_page": 136,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"1,000\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "136",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Rehabilitate parks throughout the City such FDR 20,175 various as Park.",
+        "to": "Rehabilitate parks throughout the City such FDR various as Park."
+      }
+    }
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 180,
     "project_name": "Interior Improvements.",
     "project_id": "PRK.2",
-    "source_page": 139,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"100\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "139",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Replace deteriorating structural, HVAC, plumbing and electrical 250 systems.",
+        "to": "Replace deteriorating structural, HVAC, plumbing and electrical systems."
+      }
+    }
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 184,
     "project_name": "Recreation Trails at Various Locations",
     "project_id": "PRK.6",
-    "source_page": 140,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"1,000\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "140",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Improve existing trails and access to new areas throughout the 2,000 city and Park system.",
+        "to": "Improve existing trails and access to new areas throughout the city and Park system."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -1241,30 +1354,40 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 189,
     "project_name": "Natural Lands/Large Manicured Parks-FY20",
     "project_id": "PRK.42C",
-    "source_page": 141,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"2,150\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "141",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 42. 146 42D. Natural Lands/Large Manicured Parks-FY19 See description under line item 42.",
+        "to": "See description under line item 42. D. Natural Lands/Large Manicured Parks-FY See description under line item 42."
+      }
+    }
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 190,
     "project_name": "Grant Funded Recreation Projects",
     "project_id": "PRK.43.1",
-    "source_page": 142,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"1,000\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "142",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Provide appropriation authority for State, Federal and Private 2,000 Grants and appropriate matching City funds.",
+        "to": "Provide appropriation authority for State, Federal and Private Grants and appropriate matching City funds."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -1306,17 +1429,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 198,
     "project_name": "Parks and Recreation Projects-FY20",
     "project_id": "PRK.43C",
-    "source_page": 144,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"181\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "144",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 43. 1,394 43D. Parks and Recreation Projects-FY19 See description under line item 43.",
+        "to": "See description under line item 43. D. Parks and Recreation Projects-FY See description under line item 43."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -1345,43 +1473,58 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 203,
     "project_name": "Improvements to Existing Recreation Facilities-CD2-FY20",
     "project_id": "PRK.45C",
-    "source_page": 147,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"41\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "147",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 45. 100 45D. Improvements to Existing Recreation Facilities-CD2-FY19 See description under line item 45. 184 45E. Improvements to Existing Recreation Facilities-CD2-FY18 See description under line item 45. 23 45F. Improvements to Existing Recreation Facilities-CD2-FY17 See description under line item 45. 282 45G. Improvements to Existing Recreation Facilities-CD2-FY16 See description under line item 45.",
+        "to": "See description under line item 45. D. Improvements to Existing Recreation Facilities-CD-FY See description under line item 45. E. Improvements to Existing Recreation Facilities-CD-FY See description under line item 45. F. Improvements to Existing Recreation Facilities-CD-FY See description under line item 45. G. Improvements to Existing Recreation Facilities-CD-FY See description under line item 45."
+      }
+    }
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 204,
     "project_name": "Improvements to Existing Recreation Facilities-CD2-FY14",
     "project_id": "PRK.451",
-    "source_page": 148,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"40\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "148",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 45. 104 45J. Improvements to Existing Recreation Facilities-CD2-FY13 See description under line item 45. 250 45K. Improvements to Existing Recreation Facilities-CD2-FY12 See description under line item 45. 82 45L. Improvements to Existing Recreation Facilities-CD2-FY11 See description under line item 45. 36 45M. Improvements to Existing Recreation Facilities-CD2-FY10 See description under line item 45.",
+        "to": "See description under line item 45. J. Improvements to Existing Recreation Facilities-CD-FY See description under line item 45. K. Improvements to Existing Recreation Facilities-CD-FY See description under line item 45. L. Improvements to Existing Recreation Facilities-CD-FY See description under line item 45. M. Improvements to Existing Recreation Facilities-CD-FY See description under line item 45."
+      }
+    }
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 205,
     "project_name": "Improvements to Existing Recreation Facilities-CD2-FY08",
     "project_id": "PRK.450",
-    "source_page": 149,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"8\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "149",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 45. 38 45P. Improvements to Existing Recreation Facilities-CD2-FY07 See description under line item 45. 45Q. Improvements to Existing Recreation Facilities-CD2-FY06 See description under line item 45. 14 45R. Improvements to Existing Recreation Facilities-CD2-FY05 See description under line item 45. 13 45S. Improvements to Existing Recreation Facilities-CD2-FY02 See description under line item 45.",
+        "to": "See description under line item 45. P. Improvements to Existing Recreation Facilities-CD-FY See description under line item 45. Q. Improvements to Existing Recreation Facilities-CD-FY See description under line item 45. R. Improvements to Existing Recreation Facilities-CD-FY See description under line item 45. S. Improvements to Existing Recreation Facilities-CD-FY See description under line item 45."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -1423,30 +1566,40 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 210,
     "project_name": "Improvements to Existing Recreation Facilities-CD3-FY15",
     "project_id": "PRK.461",
-    "source_page": 151,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"13\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "151",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 46. 478 46J. Improvements to Existing Recreation Facilities-CD3-FY14 See description under line item 46.",
+        "to": "See description under line item 46. J. Improvements to Existing Recreation Facilities-CD-FY See description under line item 46."
+      }
+    }
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 211,
     "project_name": "Improvements to Existing Recreation Facilities-CD3-FY15",
     "project_id": "PRK.461-2",
-    "source_page": 152,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"56\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "152",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 46. 478 46J. Improvements to Existing Recreation Facilities-CD3-FY14 See description under line item 46. 13 46K. Improvements to Existing Recreation Facilities-CD3-FY13 See description under line item 46.",
+        "to": "See description under line item 46. J. Improvements to Existing Recreation Facilities-CD-FY See description under line item 46. K. Improvements to Existing Recreation Facilities-CD-FY See description under line item 46."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -1501,30 +1654,40 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 219,
     "project_name": "Improvements to Existing Recreation Facilities-CD5-FY20",
     "project_id": "PRK.48C",
-    "source_page": 156,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"217\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "156",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 48. 744 48D. Improvements to Existing Recreation Facilities-CD5-FY19 See description under line item 48.",
+        "to": "See description under line item 48. D. Improvements to Existing Recreation Facilities-CD-FY See description under line item 48."
+      }
+    }
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 221,
     "project_name": "Improvements to Existing Recreation Facilities-CD5-FY08",
     "project_id": "PRK.480",
-    "source_page": 158,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"126\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "158",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 48. 48P. Improvements to Existing Recreation Facilities-CD5-FY07 See description under line item 48.",
+        "to": "See description under line item 48. P. Improvements to Existing Recreation Facilities-CD-FY See description under line item 48."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -1553,17 +1716,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 225,
     "project_name": "Improvements to Existing Recreation Facilities-CD6-FY20",
     "project_id": "PRK.49C",
-    "source_page": 160,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"19\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "160",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 49. 627 49D. Improvements to Existing Recreation Facilities-CD6-FY19 See description under line item 49. 112 49E. Improvements to Existing Recreation Facilities-CD6-FY18 See description under line item 49. 69 49F. Improvements to Existing Recreation Facilities-CD6-FY17 See description under line item 49.",
+        "to": "See description under line item 49. D. Improvements to Existing Recreation Facilities-CD-FY See description under line item 49. E. Improvements to Existing Recreation Facilities-CD-FY See description under line item 49. F. Improvements to Existing Recreation Facilities-CD-FY See description under line item 49."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -1631,30 +1799,40 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 240,
     "project_name": "Improvements to Existing Recreation Facilities-CD9-FY20",
     "project_id": "PRK.52C",
-    "source_page": 169,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"790\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "169",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 52. 790 52D. Improvements to Existing Recreation Facilities-CD9-FY19 See description under line item 52.",
+        "to": "See description under line item 52. D. Improvements to Existing Recreation Facilities-CD-FY See description under line item 52."
+      }
+    }
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 241,
     "project_name": "Improvements to Existing Recreation Facilities-CD9-FY14",
     "project_id": "PRK.521",
-    "source_page": 170,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"88\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "170",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 52. 84 52J. Improvements to Existing Recreation Facilities-CD9-FY13 See description under line item 52.",
+        "to": "See description under line item 52. J. Improvements to Existing Recreation Facilities-CD-FY See description under line item 52."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -1683,30 +1861,40 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 245,
     "project_name": "Improvements to Existing Recreation Facilities-CD10-FY20",
     "project_id": "PRK.53C",
-    "source_page": 172,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"85\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "172",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 53. 39 53D. Improvements to Existing Recreation Facilities-CD10-FY19 See description under line item 53. 176 53E. Improvements to Existing Recreation Facilities-CD10-FY18 See description under line item 53. 54 53F. Improvements to Existing Recreation Facilities-CD10-FY17 See description under line item 53.",
+        "to": "See description under line item 53. D. Improvements to Existing Recreation Facilities-CD-FY See description under line item 53. E. Improvements to Existing Recreation Facilities-CD-FY See description under line item 53. F. Improvements to Existing Recreation Facilities-CD-FY See description under line item 53."
+      }
+    }
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 246,
     "project_name": "Improvements to Existing Recreation Facilities-CD10-FY14",
     "project_id": "PRK.531",
-    "source_page": 173,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"531\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "173",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 53. 38 53J. Improvements to Existing Recreation Facilities-CD10-FY13 See description under line item 53. 213 53K. Improvements to Existing Recreation Facilities-CD10-FY12 See description under line item 53. 239 53L. Improvements to Existing Recreation Facilities-CD10-FY11 See description under line item 53.",
+        "to": "See description under line item 53. J. Improvements to Existing Recreation Facilities-CD-FY See description under line item 53. K. Improvements to Existing Recreation Facilities-CD-FY See description under line item 53. L. Improvements to Existing Recreation Facilities-CD-FY See description under line item 53."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -1852,17 +2040,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 273,
     "project_name": "Police Facilities - Renovations-FY20",
     "project_id": "POL.60C",
-    "source_page": 185,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"61\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "185",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 60. 446 60D. Police Facilities - Renovations-FY19 See description under line item 60.",
+        "to": "See description under line item 60. D. Police Facilities - Renovations-FY See description under line item 60."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -1956,17 +2149,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 295,
     "project_name": "Improvements to Municipal Facilities-FY20",
     "project_id": "PPD.63C",
-    "source_page": 198,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"115\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "198",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 63. 6,043 63D. Improvements to Municipal Facilities-FY19 See description under line item 63. 1,440 63E. Improvements to Municipal Facilities-FY18 See description under line item 63. 1,100 63F. Improvements to Municipal Facilities-FY17 See description under line item 63.",
+        "to": "See description under line item 63. D. Improvements to Municipal Facilities-FY See description under line item 63. E. Improvements to Municipal Facilities-FY See description under line item 63. F. Improvements to Municipal Facilities-FY See description under line item 63."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -2034,17 +2232,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 311,
     "project_name": "Reconstruction/Resurfacing of Streets-FY20",
     "project_id": "STR.66C",
-    "source_page": 210,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"267\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "210",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 66. 1,500 66D. Reconstruction/Resurfacing of Streets-FY19 See description under line item 66, 1,000 66E. Reconstruction/Resurfacing of Streets-FY14 See description under line item 66.",
+        "to": "See description under line item 66. D. Reconstruction/Resurfacing of Streets-FY See description under line item 66, E. Reconstruction/Resurfacing of Streets-FY See description under line item 66."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -2073,30 +2276,40 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 315,
     "project_name": "Highways Citywide-FY20",
     "project_id": "STR.68C",
-    "source_page": 211,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"171\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "211",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 68. 1,000 68D. Rehabilitation of Stairways in Manayunk and Citywide-FY16 See description under line item 68.",
+        "to": "See description under line item 68. D. Rehabilitation of Stairways in Manayunk and Citywide-FY See description under line item 68."
+      }
+    }
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 316,
     "project_name": "Citywide 3R",
     "project_id": "STR.69.1",
-    "source_page": 213,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"1,438\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "213",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Resurface, reconstruct and restore city highways that are eligible 14,800 for federal funds; modernize and facilities and 2,700 preserve infrastructure.",
+        "to": "Resurface, reconstruct and restore city highways that are eligible for federal funds; modernize and facilities and preserve infrastructure."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -2112,17 +2325,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 324,
     "project_name": "Federal Aid Highway Program-FY20",
     "project_id": "STR.69C",
-    "source_page": 215,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"244\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "215",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 69. 48,622 69D. Federal Aid Highway Program-FY19 See description under line item 69. 3,461 69E. Federal Aid Highway Program-FY18 See description under line item 69.",
+        "to": "See description under line item 69. D. Federal Aid Highway Program-FY See description under line item 69. E. Federal Aid Highway Program-FY See description under line item 69."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -2151,17 +2369,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 333,
     "project_name": "Street Lighting Improvements",
     "project_id": "STR.71.1",
-    "source_page": 219,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"300\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "219",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Purchase new fiberglass poles and energy-efficient LED 500 luminaires to replace obsolete luminaires and aluminum poles.",
+        "to": "Purchase new fiberglass poles and energy-efficient LED luminaires to replace obsolete luminaires and aluminum poles."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -2203,30 +2426,40 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 346,
     "project_name": "Signal Synchronization/Modernization",
     "project_id": "STR.2",
-    "source_page": 223,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"200\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "223",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Install and modernize signals at existing and new intersections 500 and replace signal support.",
+        "to": "Install and modernize signals at existing and new intersections and replace signal support."
+      }
+    }
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 349,
     "project_name": "Signal Synchronization - Transit Improvements",
     "project_id": "STR.2.5",
-    "source_page": 223,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"1,200\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "223",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Philadelphia's strategic transportation plan, CONNECT, laid out 500 goals of a City Transit Plan and Implementing transit 1,200 improvements on five high priority corridors.",
+        "to": "Philadelphia's strategic transportation plan, CONNECT, laid out goals of a City Transit Plan and Implementing transit improvements on five high priority corridors."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -2281,56 +2514,76 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 356,
     "project_name": "State of Good Repair Program (ALL)",
     "project_id": "TRN.74.2",
-    "source_page": 230,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"374\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "230",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Fund a group of capital improvements designed to bring 39,599 facilities and systems to state of good and/or enhance 696 a repair system capabilities and safety.",
+        "to": "Fund a group of capital improvements designed to bring facilities and systems to state of good and/or enhance a repair system capabilities and safety."
+      }
+    }
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 357,
     "project_name": "Maintenance & Transportation Facilities and Roofs",
     "project_id": "TRN.74.3",
-    "source_page": 230,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"106\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "230",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Improve SEPTA\u2019s bus and rail maintenance shops, facilities 19,154 maintenance shops and office buildings to bring facilities and 484 systems to a state of good repair.",
+        "to": "Improve SEPTA\u2019s bus and rail maintenance shops, facilities maintenance shops and office buildings to bring facilities and systems to a state of good repair."
+      }
+    }
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 358,
     "project_name": "Regional Rail Substation Improvements (RRD)",
     "project_id": "TRN.4",
-    "source_page": 231,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"161\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "231",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Replace components of the traction supply system for 763 power SEPTA's Regional Rail service.",
+        "to": "Replace components of the traction supply system for power SEPTA's Regional Rail service."
+      }
+    }
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 360,
     "project_name": "Regional Rail Division Bridge Improvement Program (RRD)",
     "project_id": "TRN.4.6",
-    "source_page": 231,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"140\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "231",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Provide for the rehabilitation replacement of bridges, restoring 9,791 or bridges to a state of good repair.",
+        "to": "Provide for the rehabilitation replacement of bridges, restoring or bridges to a state of good repair."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -2359,43 +2612,58 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 364,
     "project_name": "Railroad and Transit Stations and Parking Improvements",
     "project_id": "TRN.75.1",
-    "source_page": 232,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"1,092\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "232",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Renovate various railroad and transit stations, including 4.823 improvements to parking facilities.",
+        "to": "Renovate various railroad and transit stations, including. improvements to parking facilities."
+      }
+    }
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 365,
     "project_name": "Station Accessibility Program (CTD)",
     "project_id": "TRN.75.2",
-    "source_page": 232,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"843\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "232",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Make ADA accessibility improvements to 40th Street, Arrott 4,255 Transportation Center (Margaret-Orthodox), 12,489 Susquehanna-Dauphin, Tasker-Morris, and Erie Stations.",
+        "to": "Make ADA accessibility improvements to th Street, Arrott Transportation Center (Margaret-Orthodox), Susquehanna-Dauphin, Tasker-Morris, and Erie Stations."
+      }
+    }
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 367,
     "project_name": "City Hall Station and 15th Street Renovations (CTD)",
     "project_id": "TRN.3.4",
-    "source_page": 233,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"150\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "233",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Rehabilitate City Hall Station on the Broad Street Line and renovations to 15th Street Station on the Market-Frankford Line.",
+        "to": "Rehabilitate City Hall Station on the Broad Street Line and renovations to th Street Station on the Market-Frankford Line."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -2424,30 +2692,40 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 371,
     "project_name": "Locomotives and Regional Rail Cars",
     "project_id": "TRN.77.1",
-    "source_page": 234,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"169\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "234",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Acquire locomotives, multi-level coach cars, and electric multiple unit (EMU) railcars to replace vehicles that have reached the end of their useful life and accommodate ridership growth. Rail Vehicle / Equipment Acquisition and Improvement Program-FY22 77A. See description under line item 77.",
+        "to": "Acquire locomotives, multi-level coach cars, and electric multiple unit (EMU) railcars to replace vehicles that have reached the end of their useful life and accommodate ridership growth. Rail Vehicle / Equipment Acquisition and Improvement Program-FY A. See description under line item 77."
+      }
+    }
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 372,
     "project_name": "Collector System Improvements",
     "project_id": "WAT.78.14",
-    "source_page": 239,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"100\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "239",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Reconstruct and rehabilitate the public collection system 26,747 citywide and construction of storm flood relief sewers to mitigate 100 flooding in sections of the city that flood during major storms.",
+        "to": "Reconstruct and rehabilitate the public collection system citywide and construction of storm flood relief sewers to mitigate flooding in sections of the city that flood during major storms."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -2476,17 +2754,22 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:40:14",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 376,
     "project_name": "Improvements to Collector System-FY20",
     "project_id": "WAT.78C",
-    "source_page": 240,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"29\". Strip trailing number from project_description.",
-    "edits": []
+    "source_page": "240",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 78. 10,098 78D. Improvements to Collector System-FY17 See description under line item 78. 100 78E. Improvements to Collector System-FY16 See description under line item 78. 105 78F. Improvements to Collector System-FY14 See description under line item 78.",
+        "to": "See description under line item 78. D. Improvements to Collector System-FY See description under line item 78. E. Improvements to Collector System-FY See description under line item 78. F. Improvements to Collector System-FY See description under line item 78."
+      }
+    }
   },
   {
     "timestamp": "2026-07-10T16:40:14",
@@ -2554,33 +2837,38 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-12T16:40:57.222081",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 0,
     "project_name": "Airfield Area",
     "project_id": "AVN.2.1",
     "source_page": "36",
-    "status": "incorrect",
-    "issue_type": "description_bleed+missing_years",
-    "notes": "Description contains embedded funding codes. Year columns empty \u2014 needs OCR reconstruction.",
-    "edits": {}
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "This program includes the areas of the Airport reserved for 47,705 XN 13,156 XN 13,177 XN 13,280XN_ aircraft operations and aircraft-related activities, and other 5,100 SB 2,895SB 1,403 SB 1,406 SB 1,409 SB 1,420SB appurtenances on the Airport related to the use of the Airport. 39,695 FB 22,530FB = 10,921FB 10,947 FB 10,964 11,050",
+        "to": "This program includes the areas of the Airport reserved for XN XN XN XN_ aircraft operations and aircraft-related activities, and other SB SB SB SB SB SB appurtenances on the Airport related to the use of the Airport. FB FB = FB FB"
+      }
+    }
   },
   {
-    "timestamp": "2026-07-12T16:40:57.222081",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 52,
     "project_name": "City Council - ITEF CD2-FY14",
     "project_id": "FIN.171",
     "source_page": "62",
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
     "edits": {
       "project_description": {
-        "old": "See description under line item 17 125 17J. City Council - ITEF CD2-FY13 See description under line item 17. 9CT 17K. City Council - ITEF CD2-FY12 See description under line item 17. 41 17L. City Council - ITEF CD2-FY11 See description under line item 17. 141 17M. City Council - ITEF CD2-FY10 See description under line item 17.",
-        "new": "See description under line item 17 125 17J. City Council - ITEF CD2-FY13 See description under line item 17."
+        "from": "See description under line item 17 125 17J. City Council - ITEF CD2-FY13 See description under line item 17.",
+        "to": "See description under line item 17 J. City Council - ITEF CD-FY See description under line item 17."
       }
     }
   },
@@ -2603,17 +2891,22 @@
     }
   },
   {
-    "timestamp": "2026-07-12T16:40:57.222081",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 135,
     "project_name": "Health Facility Renovations-FY20",
     "project_id": "HLTH.33C",
     "source_page": "108",
-    "status": "incorrect",
-    "issue_type": "description_bleed+missing_years",
-    "notes": "Description contains embedded funding codes. Year columns empty \u2014 needs OCR reconstruction.",
-    "edits": {}
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 33. 19 CT 4,000CN 1,000 CN_\u2014 1,000 CN 1,000 CN 6,000 CN 6,000 88,203CR 10,500CR 10,500CR 10,500CR 10,500 CR 1,681 CT 5,000 SB 5,000 SB 5,000 SB 5,000 SB 5,000 SB 20,000 ST",
+        "to": "See description under line item 33. CT CN CN_\u2014 CN CN CN CR CR CR CR CR CT SB SB SB SB SB ST"
+      }
+    }
   },
   {
     "timestamp": "2026-07-12T16:40:57.222081",
@@ -2652,20 +2945,20 @@
     }
   },
   {
-    "timestamp": "2026-07-12T16:40:57.222081",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 164,
     "project_name": "Swimming Pool Improvements",
     "project_id": "PRK.39.2",
     "source_page": "134",
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
     "edits": {
       "project_description": {
-        "old": "Make capital improvements to pools, including site 750 CN 7S0CN 750 CN 1,600 CN 1,010CN = 1,100CN swimming and system infrastructure",
-        "new": "Make capital improvements to pools, including site 7S0CN swimming and system infrastructure"
+        "from": "Make capital improvements to pools, including site 7S0CN swimming and system infrastructure",
+        "to": "Make capital improvements to pools, including site SCN swimming and system infrastructure"
       }
     }
   },
@@ -2742,17 +3035,22 @@
     }
   },
   {
-    "timestamp": "2026-07-12T16:40:57.222081",
+    "timestamp": "2026-07-16T07:19:40.794284Z",
     "city": "Philadelphia",
     "file_stem": "2022",
     "row_index": 296,
     "project_name": "Records Improvements-FY20",
     "project_id": "REC.64A",
     "source_page": "203",
-    "status": "incorrect",
-    "issue_type": "description_bleed+missing_years",
-    "notes": "Description contains embedded funding codes. Year columns empty \u2014 needs OCR reconstruction.",
-    "edits": {}
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 64. 4CR",
+        "to": "See description under line item 64. CR"
+      }
+    }
   },
   {
     "timestamp": "2026-07-12T16:40:57.222081",
@@ -2805,6 +3103,2742 @@
       "project_description": {
         "old": "See description under line item 70. 2,200 70D. Modernization of Sanitation Facilities-FY18 See description under line item 70. 7CT",
         "new": "See description under line item 70."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 1,
+    "project_name": "Airfield Area-FY22",
+    "project_id": "AVN.2A",
+    "source_page": "36",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 2. 3,000 XT",
+        "to": "See description under line item 2. XT"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 2,
+    "project_name": "Terminal Area",
+    "project_id": "AVN.3.1",
+    "source_page": "37",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "This program includes the Airport passenger terminal buildings, 83,500 including the available for baggage handling systems, 17,000 areas and the sidewalk and curb adjacent to the landside of the 2,000 terminal buildings 3,000",
+        "to": "This program includes the Airport passenger terminal buildings, including the available for baggage handling systems, areas and the sidewalk and curb adjacent to the landside of the terminal buildings"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 8,
+    "project_name": "Other Airport Services-FY22",
+    "project_id": "AVN.5A",
+    "source_page": "38",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 5. 4,000 \u20184,000",
+        "to": "See description under line item 5. \u2018"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 9,
+    "project_name": "Neighborhood Commercial Centers-Site Improvements",
+    "project_id": "COM.6.4",
+    "source_page": "43",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Upgrade curbs, sidewalks, lighting, landscaping, and parking 1,000 in commercial corridors to complement public and private investment.",
+        "to": "Upgrade curbs, sidewalks, lighting, landscaping, and parking in commercial corridors to complement public and private investment."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 10,
+    "project_name": "Market East Public Infrastructure",
+    "project_id": "COM.6.2",
+    "source_page": "43",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Fund improvements to infrastructure in Market Street East area 2,000 of Center City to support additional commercial, residential, and retail development.",
+        "to": "Fund improvements to infrastructure in Market Street East area of Center City to support additional commercial, residential, and retail development."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 14,
+    "project_name": "Lower Schuylkill River Industrial District",
+    "project_id": "COM.7.1",
+    "source_page": "45",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Design, fabrication & installation of streetscape improvements 500 to support development sites in the Innovation District portion of the Lower Schuylkill River.",
+        "to": "Design, fabrication & installation of streetscape improvements to support development sites in the Innovation District portion of the Lower Schuylkill River."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 16,
+    "project_name": "Industrial Districts-FY21",
+    "project_id": "COM.7B",
+    "source_page": "45",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 7 1,000",
+        "to": "See description under line item 7"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 17,
+    "project_name": "Industrial Districts-FY17",
+    "project_id": "COM.7C",
+    "source_page": "46",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 7. 800 7D. Industrial Districts-FY16 See description under line item 7 1,000",
+        "to": "See description under line item 7. D. Industrial Districts-FY See description under line item 7"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 18,
+    "project_name": "Navy Yard Infrastructure Improvements",
+    "project_id": "COM.8.1",
+    "source_page": "46",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Make infrastructure improvements in support of public and 1,750 private development.",
+        "to": "Make infrastructure improvements in support of public and private development."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 21,
+    "project_name": "Improvements, Engineering and Administration",
+    "project_id": "COM.10.1",
+    "source_page": "47",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Conduct architectural, and environmental studies 10,000 engineering, related to land acquisition and development. al PIDC Landbank Acquisition & Improvements",
+        "to": "Conduct architectural, and environmental studies engineering, related to land acquisition and development. al PIDC Landbank Acquisition & Improvements"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 23,
+    "project_name": "Penn's Landing Improvements",
+    "project_id": "COM.12.1",
+    "source_page": "48",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Make improvements to Penn's Landing 12,000",
+        "to": "Make improvements to Penn's Landing"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 24,
+    "project_name": "Master Plan Implementation",
+    "project_id": "COM.12.2",
+    "source_page": "48",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Implement the Central Delaware Waterfront Master Plan through 750 construction, improvement, or acquisition of City assets.",
+        "to": "Implement the Central Delaware Waterfront Master Plan through construction, improvement, or acquisition of City assets."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 25,
+    "project_name": "General Site Improvements",
+    "project_id": "COM.12.3",
+    "source_page": "48",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Implement infrastructure and site improvements support of 750 in public and private development.",
+        "to": "Implement infrastructure and site improvements support of in public and private development."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 33,
+    "project_name": "North Delaware River Waterfront",
+    "project_id": "COM.14.1",
+    "source_page": "51",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Complement public and reinvestment and help 1,000 private implement the Greenway Master Plan through public improvements along the North Delaware Greenway.",
+        "to": "Complement public and reinvestment and help private implement the Greenway Master Plan through public improvements along the North Delaware Greenway."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 37,
+    "project_name": "Administration - ITEF",
+    "project_id": "FIN.15.1",
+    "source_page": "56",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Fund critical renovations and other improvements to City-owned 1,500 facilities.",
+        "to": "Fund critical renovations and other improvements to City-owned facilities."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 38,
+    "project_name": "IlJA Matching Funds",
+    "project_id": "FIN.15.2",
+    "source_page": "56",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Funding to match Infrastructure Investment and Jobs Act grant 60,000 funds.",
+        "to": "Funding to match Infrastructure Investment and Jobs Act grant funds."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 43,
+    "project_name": "City Council - ITEF CD1",
+    "project_id": "FIN.16.1",
+    "source_page": "58",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Fund critical renovations and other improvements to City-owned 510 sites as needed",
+        "to": "Fund critical renovations and other improvements to City-owned sites as needed"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 47,
+    "project_name": "City Council - ITEF CD1-FY14",
+    "project_id": "FIN.161",
+    "source_page": "60",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 16. 16J. City Council - ITEF CD1-FY13 See description under line item 16.",
+        "to": "See description under line item 16. J. City Council - ITEF CD-FY See description under line item 16."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 48,
+    "project_name": "City Council - ITEF CD2",
+    "project_id": "FIN.17.1",
+    "source_page": "60",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Fund critical renovations and other improvements to City-owned 510 sites as needed",
+        "to": "Fund critical renovations and other improvements to City-owned sites as needed"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 49,
+    "project_name": "City Council - ITEF CD2-FY22",
+    "project_id": "FIN.17A",
+    "source_page": "60",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 17 255",
+        "to": "See description under line item 17"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 53,
+    "project_name": "City Council - ITEF CD3",
+    "project_id": "FIN.18.1",
+    "source_page": "63",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Fund critical renovations and other improvements to City-owned 510 sites as needed.",
+        "to": "Fund critical renovations and other improvements to City-owned sites as needed."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 56,
+    "project_name": "City Council - ITEF CD3-FY20",
+    "project_id": "FIN.18C",
+    "source_page": "63",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 18. 510 18D. City Council - ITEF CD3-FY19 See description under line item 18. 510 S10",
+        "to": "See description under line item 18. D. City Council - ITEF CD-FY See description under line item 18. S"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 57,
+    "project_name": "City Council - ITEF CD4",
+    "project_id": "FIN.19.1",
+    "source_page": "65",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Fund critical renovations and other improvements to City-owned 510 sites as needed.",
+        "to": "Fund critical renovations and other improvements to City-owned sites as needed."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 62,
+    "project_name": "City Council - ITEF CDS",
+    "project_id": "FIN.20.1",
+    "source_page": "67",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Fund critical renovations and other improvements to City-owned 510 sites as needed.",
+        "to": "Fund critical renovations and other improvements to City-owned sites as needed."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 64,
+    "project_name": "City Council - ITEF CD5-FY21",
+    "project_id": "FIN.20B",
+    "source_page": "67",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 20 255",
+        "to": "See description under line item 20"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 66,
+    "project_name": "City Council - ITEF CD5-FY14",
+    "project_id": "FIN.201",
+    "source_page": "69",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 20. 340 20J. City Council - ITEF CD5-FY12 See description under line item 20. 210 20K. City Council - ITEF CD5-FY11 See description under line item 20. 41 OO 20L. City Council - ITEF CD5-FY10 See description under line item 20.",
+        "to": "See description under line item 20. J. City Council - ITEF CD-FY See description under line item 20. K. City Council - ITEF CD-FY See description under line item 20. OO L. City Council - ITEF CD-FY See description under line item 20."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 67,
+    "project_name": "City Council ITEF CD6",
+    "project_id": "FIN.21",
+    "source_page": "69",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "-",
+        "to": ""
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 68,
+    "project_name": "City Council - ITEF CD6",
+    "project_id": "FIN.21.1",
+    "source_page": "69",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Fund critical renovations and other improvements to City-owned 510 sites as needed",
+        "to": "Fund critical renovations and other improvements to City-owned sites as needed"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 69,
+    "project_name": "City Council - ITEF CD6-FY22",
+    "project_id": "FIN.21A",
+    "source_page": "70",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 21 255",
+        "to": "See description under line item 21"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 70,
+    "project_name": "City Council - ITEF CD6-FY21",
+    "project_id": "FIN.21B",
+    "source_page": "70",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 21 179",
+        "to": "See description under line item 21"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 71,
+    "project_name": "City Council - ITEF CD6-FY20",
+    "project_id": "FIN.21C",
+    "source_page": "70",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 21 510 21D. City Council - ITEF CD6-FY19 See description under line item 21 434 21E, City Council - ITEF CD6-FY18 See description under line item 21 238 21F. City Council - ITEF CD6-FY17 See description under line item 21 387",
+        "to": "See description under line item 21 D. City Council - ITEF CD-FY See description under line item 21 E, City Council - ITEF CD-FY See description under line item 21 F. City Council - ITEF CD-FY See description under line item 21"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 72,
+    "project_name": "City Council - ITEF CD7",
+    "project_id": "FIN.22.1",
+    "source_page": "71",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Fund critical renovations and other improvements to City-owned 510 sites as needed.",
+        "to": "Fund critical renovations and other improvements to City-owned sites as needed."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 77,
+    "project_name": "City Council - ITEF CD8",
+    "project_id": "FIN.23.1",
+    "source_page": "73",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Fund critical renovations and other improvements to City-owned 510 sites as needed",
+        "to": "Fund critical renovations and other improvements to City-owned sites as needed"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 82,
+    "project_name": "City Council - ITEF CD9",
+    "project_id": "FIN.24.1",
+    "source_page": "76",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Fund critical renovations and other improvements to City-owned 510 sites as needed",
+        "to": "Fund critical renovations and other improvements to City-owned sites as needed"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 86,
+    "project_name": "City Council - ITEF CD9-FY14",
+    "project_id": "FIN.241",
+    "source_page": "78",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 24 16 24J. City Council - ITEF CD9-FY11 See description under line item 24.",
+        "to": "See description under line item 24 J. City Council - ITEF CD-FY See description under line item 24."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 87,
+    "project_name": "City Council - ITEF CD10",
+    "project_id": "FIN.25.1",
+    "source_page": "78",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Fund critical renovations and other improvements to City-owned 510 sites as needed",
+        "to": "Fund critical renovations and other improvements to City-owned sites as needed"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 91,
+    "project_name": "City Council - ITEF CD10-FY13",
+    "project_id": "FIN.251",
+    "source_page": "80",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 25. 32 25J. City Council - ITEF CD10-FY12 See description under line item 25. 25K. City Council - ITEF CD10-FY11 See description under line item 25. 71: 25L. City Council - ITEF CD10-FY06 See description under line item 25. 45 OB 25M. City Council - ITEF CD10-FY03 See description under line item 25.",
+        "to": "See description under line item 25. J. City Council - ITEF CD-FY See description under line item 25. K. City Council - ITEF CD-FY See description under line item 25.: L. City Council - ITEF CD-FY See description under line item 25. OB M. City Council - ITEF CD-FY See description under line item 25."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 93,
+    "project_name": "Health and Safety Improvements",
+    "project_id": "FIRE.26.2",
+    "source_page": "86",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Health and Safety Improvements 500",
+        "to": "Health and Safety Improvements"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 95,
+    "project_name": "Fire Station Renovations - Ramps, Sidewalks, Paving",
+    "project_id": "FIRE.26.4",
+    "source_page": "86",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Design and construct concrete site work 500",
+        "to": "Design and construct concrete site work"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 98,
+    "project_name": "Fire Protection Systems",
+    "project_id": "FIRE.6.7",
+    "source_page": "87",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Installation of fire protection system 500",
+        "to": "Installation of fire protection system"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 100,
+    "project_name": "Fire Facilities - Exterior renovation",
+    "project_id": "FIRE.6.9",
+    "source_page": "87",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Exterior renovations 200",
+        "to": "Exterior renovations"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 101,
+    "project_name": "Structural Renovations",
+    "project_id": "FIRE.6.10",
+    "source_page": "87",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Structural Renovations 200",
+        "to": "Structural Renovations"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 105,
+    "project_name": "Interior and Exterior Improvements",
+    "project_id": "FIRE.27.1",
+    "source_page": "92",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Perform interior and exterior improvements, including 1,000 various HVAC and equipment improvements at various Fleet Management garages.",
+        "to": "Perform interior and exterior improvements, including various HVAC and equipment improvements at various Fleet Management garages."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 109,
+    "project_name": "Fuel Dispensing & Monitoring",
+    "project_id": "FIRE.28.1",
+    "source_page": "93",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Replace fuel dispensing systems with more efficient and 750 improved monitoring technology.",
+        "to": "Replace fuel dispensing systems with more efficient and improved monitoring technology."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 115,
+    "project_name": "Vehicles: Various Departments",
+    "project_id": "FIRE.29.1",
+    "source_page": "94",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Purchase specialty vehicles used equipment for 1,000 as various departments.",
+        "to": "Purchase specialty vehicles used equipment for as various departments."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 116,
+    "project_name": "Vehicles: Fire Department",
+    "project_id": "FIRE.29.2",
+    "source_page": "94",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Purchase specialty vehicles used equipment by the Fire 9,000 as Department.",
+        "to": "Purchase specialty vehicles used equipment by the Fire as Department."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 117,
+    "project_name": "Vehicles: Streets Department",
+    "project_id": "FIRE.3",
+    "source_page": "95",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Purchase specialty vehicles used equipment for the Streets 3,300 as Department.",
+        "to": "Purchase specialty vehicles used equipment for the Streets as Department."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 121,
+    "project_name": "Rebuilding Community Infrastructure",
+    "project_id": "LIB.30.4",
+    "source_page": "100",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Make improvements to Library facilities through the Rebuilding 1,000 Community Infrastructure Initiative.",
+        "to": "Make improvements to Library facilities through the Rebuilding Community Infrastructure Initiative."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 125,
+    "project_name": "Free Library Improvements-FY19",
+    "project_id": "LIB.30C",
+    "source_page": "101",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 30. 1,000 30D. Free Library Improvements-FY18 See description under line item 30. 829 30E. Free Library Improvements-FY14 See description under line item 30. 690 30F. Free Library Improvements-FY09 See description under line item 30. 4cT",
+        "to": "See description under line item 30. D. Free Library Improvements-FY See description under line item 30. E. Free Library Improvements-FY See description under line item 30. F. Free Library Improvements-FY See description under line item 30. cT"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 126,
+    "project_name": "Electronic Health Records",
+    "project_id": "HLTH.32.1",
+    "source_page": "106",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Implement and improve Electronic Health Records (EHR) 500 system. -",
+        "to": "Implement and improve Electronic Health Records (EHR) system."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 131,
+    "project_name": "HVAC and Infrastructure Improvements",
+    "project_id": "HLTH.33.1",
+    "source_page": "107",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Replace/upgrade HVAC, infrastructure, and safety systems at 4,000 various health centers.",
+        "to": "Replace/upgrade HVAC, infrastructure, and safety systems at various health centers."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 136,
+    "project_name": "Equipment and Renovations - Philadelphia Nursing Home-FY19",
+    "project_id": "HLTH.34C",
+    "source_page": "109",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Perform ongoing renovations and procure equipment at the 956 Philadelphia Nursing Home.",
+        "to": "Perform ongoing renovations and procure equipment at the Philadelphia Nursing Home."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 137,
+    "project_name": "Improvements to Animal Care & Control Team facility",
+    "project_id": "MDO.35.1",
+    "source_page": "112",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Replace existing animal kennels 250",
+        "to": "Replace existing animal kennels"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 145,
+    "project_name": "Interior and Exterior Improvements",
+    "project_id": "OHS.36.1",
+    "source_page": "120",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Perform improvement projects associated with 500 various homeless shelters.",
+        "to": "Perform improvement projects associated with various homeless shelters."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 146,
+    "project_name": "MEP Improvements",
+    "project_id": "OHS.36.2",
+    "source_page": "120",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Mechanical, Electrical, and/or Plumbing Improvements at S00 homeless shelters.-",
+        "to": "Mechanical, Electrical, and/or Plumbing Improvements at S homeless shelters."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 149,
+    "project_name": "OSH Facility Renovations-FY21",
+    "project_id": "OHS.36B",
+    "source_page": "120",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 36, 520",
+        "to": "See description under line item 36,"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 151,
+    "project_name": "Greenworks Sustainability Fund",
+    "project_id": "SUST.37.1",
+    "source_page": "124",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Improve efficiency, sustainability, and climate resilience 150 energy at various locations to help accelerate high performance 250 projects that reduce the environmental impact of City government.",
+        "to": "Improve efficiency, sustainability, and climate resilience energy at various locations to help accelerate high performance projects that reduce the environmental impact of City government."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 152,
+    "project_name": "Building Automation Systems (BAS) Upgrades and Installatior",
+    "project_id": "SUST.37.2",
+    "source_page": "124",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Many of these systems obsolete and need to be upgraded 200 are in order to increase HVAC reliability and cyber-security in many buildings.",
+        "to": "Many of these systems obsolete and need to be upgraded are in order to increase HVAC reliability and cyber-security in many buildings."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 153,
+    "project_name": "LED Lighting in City Facilities",
+    "project_id": "SUST.37.3",
+    "source_page": "124",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "LED lighting improves occupant comfort, reduces energy use 150 and lowers operating costs.",
+        "to": "LED lighting improves occupant comfort, reduces energy use and lowers operating costs."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 155,
+    "project_name": "Energy and Sustainability Improvements-FY22",
+    "project_id": "SUST.37A",
+    "source_page": "124",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 37, 250",
+        "to": "See description under line item 37,"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 158,
+    "project_name": "Network Infrastructure Stabilization & Enhancement",
+    "project_id": "OIT.38.1",
+    "source_page": "128",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Stabilize, and enhance the network infrastructure that 5,615 secure, provides the computing foundation for the City\u2019s business operations.",
+        "to": "Stabilize, and enhance the network infrastructure that secure, provides the computing foundation for the City\u2019s business operations."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 159,
+    "project_name": "Citywide and Departmental Applications",
+    "project_id": "OIT.38.2",
+    "source_page": "128",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Replace and modernize legacy applications and create new 16,362 applications that improve business processes to increase operational efficiency and reduce costs/risks of older applications.",
+        "to": "Replace and modernize legacy applications and create new applications that improve business processes to increase operational efficiency and reduce costs/risks of older applications."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 169,
+    "project_name": "Rebuilding Community Infrastructure",
+    "project_id": "PRK.40.1",
+    "source_page": "135",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Make improvements to Parks and Recreation facilities through 7,000 the Rebuilding Community Infrastructure Initiative.",
+        "to": "Make improvements to Parks and Recreation facilities through the Rebuilding Community Infrastructure Initiative."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 173,
+    "project_name": "Life Safety Site Improvements",
+    "project_id": "PRK.41.1",
+    "source_page": "136",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Make life safety including fire alarm 445 improvements systems, security surveillance systems, footways, lighting, fencing at various neighborhood parks and facilities.",
+        "to": "Make life safety including fire alarm improvements systems, security surveillance systems, footways, lighting, fencing at various neighborhood parks and facilities."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 176,
+    "project_name": "Neighborhood Parks-FY22",
+    "project_id": "PRK.41A",
+    "source_page": "137",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 41 10,450",
+        "to": "See description under line item 41"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 177,
+    "project_name": "Neighborhood Parks-FY21",
+    "project_id": "PRK.41B",
+    "source_page": "137",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 44 250",
+        "to": "See description under line item 44"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 178,
+    "project_name": "Neighborhood Parks-FY20",
+    "project_id": "PRK.41C",
+    "source_page": "137",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 41 2,000 41D. Neighborhood Parks-FY19 See description under line item 41 1,500",
+        "to": "See description under line item 41 D. Neighborhood Parks-FY See description under line item 41"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 179,
+    "project_name": "Exterior Improvements",
+    "project_id": "PRK.42.1",
+    "source_page": "138",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Restore the exterior of historic structures, 460",
+        "to": "Restore the exterior of historic structures,"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 181,
+    "project_name": "Park and Street Trees Removal and Planting",
+    "project_id": "PRK.2.3",
+    "source_page": "139",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Plant trees throughout the city and dead and diseased 500 remove trees.",
+        "to": "Plant trees throughout the city and dead and diseased remove trees."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 182,
+    "project_name": "Creek Banks, Terrain, Drainage, Paths, Bridges and Infrastruc",
+    "project_id": "PRK.2.4",
+    "source_page": "139",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Stabilize creek banks, embankments, dams, outfalls and 1,000 tributaries to control water runoff and along waterways 350 erosion and bridge improvements",
+        "to": "Stabilize creek banks, embankments, dams, outfalls and tributaries to control water runoff and along waterways erosion and bridge improvements"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 183,
+    "project_name": "Improvements to Footways & Roadways.",
+    "project_id": "PRK.2.5",
+    "source_page": "139",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Improve footways and roadways including installation of 400 guiderails, fencing and gates- Citywide.",
+        "to": "Improve footways and roadways including installation of guiderails, fencing and gates- Citywide."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 185,
+    "project_name": "Horticultural Center - Building and Site Improvements",
+    "project_id": "PRK.6.7",
+    "source_page": "140",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Replace the roof and make structural upgrades and site 150 improvements including lighting and pathways.",
+        "to": "Replace the roof and make structural upgrades and site improvements including lighting and pathways."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 186,
+    "project_name": "Schuylkill River Retaining Wall Reconstruction",
+    "project_id": "PRK.6.8",
+    "source_page": "140",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Improve the retaining wall on the Schuylkill River. S00",
+        "to": "Improve the retaining wall on the Schuylkill River. S"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 188,
+    "project_name": "Natural Lands/Large Manicured Parks-FY21",
+    "project_id": "PRK.42B",
+    "source_page": "141",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 42. \u201cW207",
+        "to": "See description under line item 42. \u201cW"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 192,
+    "project_name": "Cobbs Creek Golf Course",
+    "project_id": "PRK.2.3-2",
+    "source_page": "143",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Major Improvement to Cobbs Creek Golf Course 1,500",
+        "to": "Major Improvement to Cobbs Creek Golf Course"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 193,
+    "project_name": "Hartranft Recreation Center and Pool",
+    "project_id": "PRK.2.4-2",
+    "source_page": "143",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Improvements to Hartranft Recreation Center and Pool 3,000",
+        "to": "Improvements to Hartranft Recreation Center and Pool"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 194,
+    "project_name": "Benjamin Franklin Parkway",
+    "project_id": "PRK.2.5-2",
+    "source_page": "143",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Master Plan for B F Parkway (Logan Circle to Eakins OvalO 1,000",
+        "to": "Master Plan for B F Parkway (Logan Circle to Eakins OvalO"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 199,
+    "project_name": "Improvements to Existing Recreation Facilities-CD1",
+    "project_id": "PRK.44.1",
+    "source_page": "145",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Renovate existing recreation facilities in the Department of Parks 790 and Recreation.",
+        "to": "Renovate existing recreation facilities in the Department of Parks and Recreation."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 201,
+    "project_name": "Improvements to Existing Recreation Facilities-CD1-FY19",
+    "project_id": "PRK.44C",
+    "source_page": "146",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 44 44 44D. Improvements to Existing Recreation Facilities-CD1-FY18 See description under line item 44. 310 44E. Improvements to Existing Recreation Facilities-CD1-FY17 See description under line item 44 96 44F. Improvements to Existing Recreation Facilities-CD1-FY16 See description under line item 44. 31 44G, Improvements to Existing Recreation Facilities-CD1-FY13 See description under line item 44.",
+        "to": "See description under line item 44 D. Improvements to Existing Recreation Facilities-CD-FY See description under line item 44. E. Improvements to Existing Recreation Facilities-CD-FY See description under line item 44 F. Improvements to Existing Recreation Facilities-CD-FY See description under line item 44. G, Improvements to Existing Recreation Facilities-CD-FY See description under line item 44."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 206,
+    "project_name": "Improvements to Existing Recreation Facilities-CD3",
+    "project_id": "PRK.46.1",
+    "source_page": "150",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Renovate existing recreation facilities in the Department of Parks 790 and Recreation.",
+        "to": "Renovate existing recreation facilities in the Department of Parks and Recreation."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 212,
+    "project_name": "Improvements to Existing Recreation Facilities-CD4",
+    "project_id": "PRK.47.1",
+    "source_page": "153",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Renovate existing recreation facilities in the Department of Parks 790 and Recreation.",
+        "to": "Renovate existing recreation facilities in the Department of Parks and Recreation."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 215,
+    "project_name": "Improvements to Existing Recreation Facilities-CD4-FY20",
+    "project_id": "PRK.47C",
+    "source_page": "153",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 47 101",
+        "to": "See description under line item 47"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 216,
+    "project_name": "Improvements to Existing Recreation Facilities-CD5",
+    "project_id": "PRK.48.1",
+    "source_page": "156",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Renovate facilities the Department of Parks 790 existing recreation in and Recreation.",
+        "to": "Renovate facilities the Department of Parks existing recreation in and Recreation."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 220,
+    "project_name": "Improvements to Existing Recreation Facilities-CD5-FY14",
+    "project_id": "PRK.481",
+    "source_page": "157",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 48. 26 48J. Improvements to Existing Recreation Facilities-CD5-FY13 See description under line item 48.",
+        "to": "See description under line item 48. J. Improvements to Existing Recreation Facilities-CD-FY See description under line item 48."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 222,
+    "project_name": "Improvements to Existing Recreation Facilities-CD6",
+    "project_id": "PRK.49.1",
+    "source_page": "159",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Renovate existing recreation facilities in the Department of Parks 790 and Recreation.",
+        "to": "Renovate existing recreation facilities in the Department of Parks and Recreation."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 226,
+    "project_name": "Improvements to Existing Recreation Facilities-CD7",
+    "project_id": "PRK.50.1",
+    "source_page": "163",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Renovate existing recreation facilities in the Department of Parks 790 and Recreation.",
+        "to": "Renovate existing recreation facilities in the Department of Parks and Recreation."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 227,
+    "project_name": "Improvements to Existing Recreation Facilities-CD7-FY22",
+    "project_id": "PRK.50A",
+    "source_page": "163",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 50, 395",
+        "to": "See description under line item 50,"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 231,
+    "project_name": "Improvements to Existing Recreation Facilities-CD8",
+    "project_id": "PRK.51.1",
+    "source_page": "165",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Renovate existing recreation facilities the Department of Parks 790 in and Recreation.",
+        "to": "Renovate existing recreation facilities the Department of Parks in and Recreation."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 232,
+    "project_name": "Improvements to Existing Recreation Facilities-CD8-FY22",
+    "project_id": "PRK.51A",
+    "source_page": "165",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 51 395",
+        "to": "See description under line item 51"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 233,
+    "project_name": "Improvements to Existing Recreation Facilities-CD8-FY21",
+    "project_id": "PRK.51B",
+    "source_page": "165",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 51 395",
+        "to": "See description under line item 51"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 234,
+    "project_name": "Improvements to Existing Recreation Facilities-CD8-FY20",
+    "project_id": "PRK.51C",
+    "source_page": "166",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 51 729 51D. Improvements to Existing Recreation Facilities-CD8-FY19 See description under line item 51 44 OA 51E. Improvements to Existing Recreation Facilities-CD8-FY18 See description under line item 51 872 $72 51F. Improvements to Existing Recreation Facilities-CD8-FY17 See description under line item 51 625 51G. Improvements to Existing Recreation Facilities-CD8-FY16 See description under line item 51 248 51H. Improvements to Existing Recreation Facilities-CD8-FY15 See description under line item 51 50",
+        "to": "See description under line item 51 D. Improvements to Existing Recreation Facilities-CD-FY See description under line item 51 OA E. Improvements to Existing Recreation Facilities-CD-FY See description under line item 51 $ F. Improvements to Existing Recreation Facilities-CD-FY See description under line item 51 G. Improvements to Existing Recreation Facilities-CD-FY See description under line item 51 H. Improvements to Existing Recreation Facilities-CD-FY See description under line item 51"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 235,
+    "project_name": "Improvements to Existing Recreation Facilities-CD8-FY14",
+    "project_id": "PRK.511",
+    "source_page": "167",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 51 21 51J. Improvements to Existing Recreation Facilities-CD8-FY13 See description under line item 51 209 51K. Improvements to Existing Recreation Facilities-CD8-FY11 See description under line item 51 50 51L. Improvements to Existing Recreation Facilities-CD8-FY09 See description under line item 51 29 51M. Improvements to Existing Recreation Facilities-CD8-FY08 See description under line item 51 363 51N. Improvements to Existing Recreation Facilities-CD8-FY07 See description under line item 51",
+        "to": "See description under line item 51 J. Improvements to Existing Recreation Facilities-CD-FY See description under line item 51 K. Improvements to Existing Recreation Facilities-CD-FY See description under line item 51 L. Improvements to Existing Recreation Facilities-CD-FY See description under line item 51 M. Improvements to Existing Recreation Facilities-CD-FY See description under line item 51 N. Improvements to Existing Recreation Facilities-CD-FY See description under line item 51"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 236,
+    "project_name": "Improvements to Existing Recreation Facilities-CD8-FY05",
+    "project_id": "PRK.510",
+    "source_page": "168",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 51 68 51P. Improvements to Existing Recreation Facilities-CD8-FY04 See description under line item 51 55 51Q. Improvements to Existing Recreation Facilities-CD8-FY03 See description under line item 51 51R. Improvements to Existing Recreation Facilities-CD8-FY02 See description under line item 51 25 51S. Improvements to Existing Recreation Facilities-CD8-FY01 See description under line item 51 6",
+        "to": "See description under line item 51 P. Improvements to Existing Recreation Facilities-CD-FY See description under line item 51 Q. Improvements to Existing Recreation Facilities-CD-FY See description under line item 51 R. Improvements to Existing Recreation Facilities-CD-FY See description under line item 51 S. Improvements to Existing Recreation Facilities-CD-FY See description under line item 51"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 237,
+    "project_name": "Improvements to Existing Recreation Facilities-CD9",
+    "project_id": "PRK.52.1",
+    "source_page": "169",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Renovate existing recreation facilities in the Department of Parks 790 and Recreation.",
+        "to": "Renovate existing recreation facilities in the Department of Parks and Recreation."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 242,
+    "project_name": "Improvements to Existing Recreation Facilities-CD10",
+    "project_id": "PRK.53.1",
+    "source_page": "171",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Renovate existing recreation facilities in the Department of Parks 790 and Recreation.",
+        "to": "Renovate existing recreation facilities in the Department of Parks and Recreation."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 248,
+    "project_name": "Improvements to the Mann Center for the Performing Arts",
+    "project_id": "PRK.54.1",
+    "source_page": "174",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Perform various improvement projects at the Mann Center. S00",
+        "to": "Perform various improvement projects at the Mann Center. S"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 249,
+    "project_name": "Improvements to the Various Cultural Facilities",
+    "project_id": "PRK.54.2",
+    "source_page": "174",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Perform various improvement projects at cultural facilities 1,600 throughout the city.",
+        "to": "Perform various improvement projects at cultural facilities throughout the city."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 251,
+    "project_name": "Cultural Facilities Improvements-FY20",
+    "project_id": "PRK.54B",
+    "source_page": "175",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 54 500 S500",
+        "to": "See description under line item 54 S"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 252,
+    "project_name": "Cultural Facilities Improvements-FY18",
+    "project_id": "PRK.54C",
+    "source_page": "175",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 54. 79 54D. Cultural Facilities Improvements-FY14 See description under line item 54. 3,200 54E. Cultural Facilities Improvements-FY13 See description under line item 54 16",
+        "to": "See description under line item 54. D. Cultural Facilities Improvements-FY See description under line item 54. E. Cultural Facilities Improvements-FY See description under line item 54"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 256,
+    "project_name": "Parkland - Site Improvements-FY14",
+    "project_id": "PRK.56A",
+    "source_page": "176",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Improvements to Parkland 58",
+        "to": "Improvements to Parkland"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 258,
+    "project_name": "Parkland - Site Improvements-FY11",
+    "project_id": "PRK.56C",
+    "source_page": "177",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Improvements to Parkland 500 56D. Parkland - Site Improvements-FY10 Improvements to Parkland 10 56E. Parkland - Site Improvements-FY09 Improvements to Parkland 55",
+        "to": "Improvements to Parkland D. Parkland - Site Improvements-FY Improvements to Parkland E. Parkland - Site Improvements-FY Improvements to Parkland"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 259,
+    "project_name": "Roadways, Footways, and Parking-FY14",
+    "project_id": "PRK.57A",
+    "source_page": "178",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Improvements to Roadways, Footways, and Parking 30",
+        "to": "Improvements to Roadways, Footways, and Parking"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 260,
+    "project_name": "Roadways, Footways, and Parking-FY13",
+    "project_id": "PRK.57B",
+    "source_page": "178",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Improvements to Roadways, Footways, and Parking 9cT",
+        "to": "Improvements to Roadways, Footways, and Parking cT"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 261,
+    "project_name": "Roadways, Footways, and Parking-FY11",
+    "project_id": "PRK.57C",
+    "source_page": "178",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Improvements to Roadways, Footways, and Parking 1,000",
+        "to": "Improvements to Roadways, Footways, and Parking"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 262,
+    "project_name": "Improvements to Existing Recreation Facilities - Infrastructure-FY13",
+    "project_id": "PRK.58A",
+    "source_page": "179",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Improvements to Existing Recreation Facilities - Infrastructure 15",
+        "to": "Improvements to Existing Recreation Facilities - Infrastructure"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 263,
+    "project_name": "Improvements to Existing Recreation Facilities - Infrastructure-FY12",
+    "project_id": "PRK.58B",
+    "source_page": "179",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Improvements to Existing Recreation Facilities - Infrastructure 478",
+        "to": "Improvements to Existing Recreation Facilities - Infrastructure"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 267,
+    "project_name": "New Police Facilities",
+    "project_id": "POL.60.1",
+    "source_page": "184",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Design, Construct and renovate police facilities including 1, 3, 5, 7,400 12, 14,15, 16, 17, 18, 19, 22, 26, 35, 39, 400 N. Broad, Fire Arms Training Facility and Highway Patrol",
+        "to": "Design, Construct and renovate police facilities including N. Broad, Fire Arms Training Facility and Highway Patrol"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 270,
+    "project_name": "Exterior \u2014- General Building Construction",
+    "project_id": "POL.4",
+    "source_page": "185",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Design and construct exterior renovations at Police 500 various Facilities",
+        "to": "Design and construct exterior renovations at Police various Facilities"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 274,
+    "project_name": "Prison System Renovations",
+    "project_id": "PRS.61",
+    "source_page": "190",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "-",
+        "to": ""
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 275,
+    "project_name": "RCF and CFCF Locks Replacement",
+    "project_id": "PRS.61.1",
+    "source_page": "190",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "New Maximum Security Locks 4,400",
+        "to": "New Maximum Security Locks"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 277,
+    "project_name": "Prisons Facilities Infrastructure Improvements",
+    "project_id": "PRS.61.3",
+    "source_page": "190",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Design and construct building system improvements at 1,000 Detention Center, Philadelphia Industrial Correctional Center, Curran-Fromhold Correctional Facility and Riverside Correctional Facility Renovation",
+        "to": "Design and construct building system improvements at Detention Center, Philadelphia Industrial Correctional Center, Curran-Fromhold Correctional Facility and Riverside Correctional Facility Renovation"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 278,
+    "project_name": "Prison Campus Paving",
+    "project_id": "PRS.61.4",
+    "source_page": "190",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Prison Campus Paving 500",
+        "to": "Prison Campus Paving"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 279,
+    "project_name": "Prison System - Renovations-FY22",
+    "project_id": "PRS.61A",
+    "source_page": "190",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 61 1,100",
+        "to": "See description under line item 61"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 280,
+    "project_name": "Prison System - Renovations-FY21",
+    "project_id": "PRS.61B",
+    "source_page": "191",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 61 650",
+        "to": "See description under line item 61"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 281,
+    "project_name": "Prison System - Renovations-FY20",
+    "project_id": "PRS.61C",
+    "source_page": "191",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 61 8,751 61D. Prison System - Renovations-FY17 See description under line item 61 145 61E. Prison System - Renovations-FY16 See description under line item 61 19",
+        "to": "See description under line item 61 D. Prison System - Renovations-FY See description under line item 61 E. Prison System - Renovations-FY See description under line item 61"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 282,
+    "project_name": "Asbestos Abatement & Environmental Remediation",
+    "project_id": "PPD.62.1",
+    "source_page": "195",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Provide environmental abatement and monitoring at facilities 500 air Citywide.",
+        "to": "Provide environmental abatement and monitoring at facilities air Citywide."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 286,
+    "project_name": "City Improvements",
+    "project_id": "PPD.63.1",
+    "source_page": "196",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Fund critical renovations and other improvements to City owned 500 facilities.",
+        "to": "Fund critical renovations and other improvements to City owned facilities."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 287,
+    "project_name": "Triplex Facilities Improvements Projects",
+    "project_id": "PPD.63.2",
+    "source_page": "196",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Perform improvement projects associated with the 444.CN various Criminal Justice Center, Municipal Services Building, and One Parkway Building",
+        "to": "Perform improvement projects associated with the.CN various Criminal Justice Center, Municipal Services Building, and One Parkway Building"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 299,
+    "project_name": "Bridge Reconstruction, Rehabilitation, and Restoration",
+    "project_id": "STR.65.1",
+    "source_page": "206",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Reconstruction, rehabilitation, and restoration of existing 500 bridges.",
+        "to": "Reconstruction, rehabilitation, and restoration of existing bridges."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 300,
+    "project_name": "Act 13 - Stabilize Structurally Deficient Bridges",
+    "project_id": "STR.65.2",
+    "source_page": "206",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Reconstruction, rehabilitation, and restoration of existing 3,000 bridges",
+        "to": "Reconstruction, rehabilitation, and restoration of existing bridges"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 301,
+    "project_name": "Bridge Reconstruction and Improvements - Act 89 & Act 44 (fk",
+    "project_id": "STR.65.3",
+    "source_page": "206",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Reconstruction, rehabilitation, and restoration of existing 100 bridges. Formerly funded under Act 26, the allocation of these funds was modified by State Acts 89 and 44.",
+        "to": "Reconstruction, rehabilitation, and restoration of existing bridges. Formerly funded under Act the allocation of these funds was modified by State Acts and."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 305,
+    "project_name": "Bridge Reconstruction & Improvements-FY20",
+    "project_id": "STR.65C",
+    "source_page": "207",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 65. 2,802 \u201c425533 65D. Bridge Reconstruction & Improvements-FY19 See description under line item 65. 1,016 \u201c205%",
+        "to": "See description under line item 65. \u201c D. Bridge Reconstruction & Improvements-FY See description under line item 65. \u201c%"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 306,
+    "project_name": "Reconstruction/Resurfacing and ADA Ramp Reconstruction",
+    "project_id": "STR.66.1",
+    "source_page": "209",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Resurface and reconstruct neighborhood streets and Fairmount 1,849 Park roads; design, reconstruct and verify ADA 27,000 ramps.",
+        "to": "Resurface and reconstruct neighborhood streets and Fairmount Park roads; design, reconstruct and verify ADA ramps."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 308,
+    "project_name": "ADA Evaluation",
+    "project_id": "STR.66.3",
+    "source_page": "209",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Professional to provide analysis and of certain 2,250 services survey features within the pedestrian right of way.",
+        "to": "Professional to provide analysis and of certain services survey features within the pedestrian right of way."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 312,
+    "project_name": "Rehabilitation of Public Stairways Citywide",
+    "project_id": "STR.68.1",
+    "source_page": "211",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Analysis, design and rehabilitation of existing public stairways 500 and retaining walls throughout the City.",
+        "to": "Analysis, design and rehabilitation of existing public stairways and retaining walls throughout the City."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 317,
+    "project_name": "County Fee for Local Capital Projects",
+    "project_id": "STR.69.2",
+    "source_page": "213",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "For citywide state-funded highway, bridge and transportation 2,000 projects, including traffic calming, roadway and bridge rehabilitation & traffic safety improvement consistent with Vision Zero objectives.",
+        "to": "For citywide state-funded highway, bridge and transportation projects, including traffic calming, roadway and bridge rehabilitation & traffic safety improvement consistent with Vision Zero objectives."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 318,
+    "project_name": "Transportation Engineering and Restoration Fund (TERF)",
+    "project_id": "STR.69.3",
+    "source_page": "213",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Improve federally-funded highway and transportation networks 500 citywide.",
+        "to": "Improve federally-funded highway and transportation networks citywide."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 322,
+    "project_name": "Federal Aid Highway Program-FY22",
+    "project_id": "STR.69A",
+    "source_page": "214",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 69, 5,000",
+        "to": "See description under line item 69,"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 325,
+    "project_name": "Northwest Transfer Top Load Conversion",
+    "project_id": "STR.70.1",
+    "source_page": "217",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Modemize the Sanitation Division's Northwest Transfer Station 3,000 crane and packer waste processing system.",
+        "to": "Modemize the Sanitation Division's Northwest Transfer Station crane and packer waste processing system."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 326,
+    "project_name": "Area 6 Service Building HVAC and Electrical Improvements",
+    "project_id": "STR.70.2",
+    "source_page": "217",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "To determine the optimal solution to replace the existing heating 500 system at the Sanitation Area 6 Service Building and Fleet Shop.",
+        "to": "To determine the optimal solution to replace the existing heating system at the Sanitation Area Service Building and Fleet Shop."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 327,
+    "project_name": "Mechanical Cleaning Support Facillity",
+    "project_id": "STR.70.3",
+    "source_page": "217",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "To locate the site for consolidated mechanical cleaning 500 operations.",
+        "to": "To locate the site for consolidated mechanical cleaning operations."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 328,
+    "project_name": "Roof Replacement at 26th and Glenwood",
+    "project_id": "STR.70.4",
+    "source_page": "217",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Replacement of the roof at the Sanitation Facility/Fleet Tire Shop 200 at 26th and Glenwood and associated rehab work. The project will also rehab the building skin and plumbing associated the boiler.",
+        "to": "Replacement of the roof at the Sanitation Facility/Fleet Tire Shop at th and Glenwood and associated rehab work. The project will also rehab the building skin and plumbing associated the boiler."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 334,
+    "project_name": "Martin Luther King Drive - Street Lighting Improvements",
+    "project_id": "STR.71.2",
+    "source_page": "219",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Replace direct burial street light poles with new foundations and 550 poles.",
+        "to": "Replace direct burial street light poles with new foundations and poles."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 335,
+    "project_name": "Street Alley Lighting Improvements",
+    "project_id": "STR.71.3",
+    "source_page": "219",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Purchase new fiberglass poles and energy efficient LED 350 luminaires to replace obsolete luminaires and aluminum poles that have reached the end of their life cycle.",
+        "to": "Purchase new fiberglass poles and energy efficient LED luminaires to replace obsolete luminaires and aluminum poles that have reached the end of their life cycle."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 336,
+    "project_name": "Street Lighting Improvements-FY22",
+    "project_id": "STR.714A",
+    "source_page": "219",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 74 500",
+        "to": "See description under line item 74"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 337,
+    "project_name": "Street Lighting Improvements-FY21",
+    "project_id": "STR.71B",
+    "source_page": "219",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 71 388",
+        "to": "See description under line item 71"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 338,
+    "project_name": "Street Lighting Improvements-FY20",
+    "project_id": "STR.71C",
+    "source_page": "220",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 71 499 71D. Street Lighting Improvements-FY16 See description under line item 74 59 71E. Alley Lighting Improvements-FY12 See description under line item 71",
+        "to": "See description under line item 71 D. Street Lighting Improvements-FY See description under line item 74 E. Alley Lighting Improvements-FY See description under line item 71"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 340,
+    "project_name": "Salt & Brine Facilities",
+    "project_id": "STR.72.2",
+    "source_page": "221",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Improvements to Streets Department Facilities 600",
+        "to": "Improvements to Streets Department Facilities"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 341,
+    "project_name": "Upgrade Facility Storm/Sewer Site Drain Systems",
+    "project_id": "STR.72.3",
+    "source_page": "221",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Conduct a field study of all storm and drain systems for 100 sewer all Streets Facilities; upgrade and or replace systems to bring up to current environmental standards.",
+        "to": "Conduct a field study of all storm and drain systems for sewer all Streets Facilities; upgrade and or replace systems to bring up to current environmental standards."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 344,
+    "project_name": "Streets Department Facilities-FY19",
+    "project_id": "STR.72C",
+    "source_page": "222",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 72. 681 \u201c40",
+        "to": "See description under line item 72. \u201c"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 345,
+    "project_name": "Vision Zero",
+    "project_id": "STR.73.1",
+    "source_page": "222",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Make ongoing citywide traffic safety improvements consistent 5,000 with Vision Zero objectives.",
+        "to": "Make ongoing citywide traffic safety improvements consistent with Vision Zero objectives."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 347,
+    "project_name": "Material Requisition",
+    "project_id": "STR.2.3",
+    "source_page": "223",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Improve traffic control equipment streets recently resurfaced 200 on in the city; upgrade existing traffic signals and signs to PennDOT 120 and FHWA standards.",
+        "to": "Improve traffic control equipment streets recently resurfaced on in the city; upgrade existing traffic signals and signs to PennDOT and FHWA standards."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 348,
+    "project_name": "Traffic Control Equipment Replacement",
+    "project_id": "STR.2.4",
+    "source_page": "223",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Remove/replace aging electromechanical controllers with 200 solid-state equipment, and replace all traffic control signage citywide with new State and Federally mandated high reflectivity materials.",
+        "to": "Remove/replace aging electromechanical controllers with solid-state equipment, and replace all traffic control signage citywide with new State and Federally mandated high reflectivity materials."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 350,
+    "project_name": "City Automated Speed Enforcement",
+    "project_id": "STR.2.6",
+    "source_page": "223",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "For ongoing citywide safety improvements consistent with Vision 5,000 Zero objectives.",
+        "to": "For ongoing citywide safety improvements consistent with Vision Zero objectives."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 351,
+    "project_name": "Automated Red Light Enforcement Project (ARLE)",
+    "project_id": "STR.7",
+    "source_page": "224",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "For ongoing citywide safety improvements consistent with Vision 3,000 Zero objectives.",
+        "to": "For ongoing citywide safety improvements consistent with Vision Zero objectives."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 359,
+    "project_name": "Regional Rail Signal System Modernization (RRD)",
+    "project_id": "TRN.4.5",
+    "source_page": "231",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Provide for modernization of the train signal for 1,375 systems Regional Rail lines, including installation of Automatic Train Control, Positive Train Control and signal power reinforcements.",
+        "to": "Provide for modernization of the train signal for systems Regional Rail lines, including installation of Automatic Train Control, Positive Train Control and signal power reinforcements."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 369,
+    "project_name": "SEPTA Key (New Payment Technologies) (ALL)",
+    "project_id": "TRN.76.1",
+    "source_page": "233",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Design and implement phase 2 of fare collection 13,882 a system that willreplace and/or enhance the entire array of current revenuecollection equipment.",
+        "to": "Design and implement phase of fare collection a system that willreplace and/or enhance the entire array of current revenuecollection equipment."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 382,
+    "project_name": "Improvements to Conveyance System-FY20",
+    "project_id": "WAT.79C",
+    "source_page": "242",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 79. 35,000 Totals CONVEYANCE SYSTEMS - CAPITAL -",
+        "to": "See description under line item 79. Totals CONVEYANCE SYSTEMS - CAPITAL"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 384,
+    "project_name": "Vehicles",
+    "project_id": "WAT.80.2",
+    "source_page": "243",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Replace Water Department vehicles that have exceeded their 12,000 useful life.",
+        "to": "Replace Water Department vehicles that have exceeded their useful life."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 385,
+    "project_name": "Engineering and Material Support-FY22",
+    "project_id": "WAT.80A",
+    "source_page": "243",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 80. 8.211",
+        "to": "See description under line item 80.."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 388,
+    "project_name": "Improvements to Treatment Facilities-FY22",
+    "project_id": "WAT.81A",
+    "source_page": "244",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 81 500",
+        "to": "See description under line item 81"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T07:19:40.794284Z",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 390,
+    "project_name": "Improvements to Treatment Facilities-FY20",
+    "project_id": "WAT.81C",
+    "source_page": "244",
+    "status": "corrected",
+    "issue_type": "description_number_cleanup",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 81 678",
+        "to": "See description under line item 81"
       }
     }
   }
