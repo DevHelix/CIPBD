@@ -90,46 +90,29 @@
     "edits": []
   },
   {
-    "timestamp": "2026-07-10T16:05:51",
-    "city": "Philadelphia",
-    "file_stem": "2024",
-    "row_index": 97,
-    "project_name": "Fire Academy",
-    "project_id": "FIRE.8.10",
-    "source_page": 87,
-    "status": "incorrect",
-    "notes": "",
-    "edits": []
-  },
-  {
-    "timestamp": "2026-07-16T07:19:41.201951Z",
-    "city": "Philadelphia",
-    "file_stem": "2024",
-    "row_index": 160,
-    "project_name": "Citywide Technology Improvements & Enhancements-FY23",
-    "project_id": "OIT.36B",
-    "source_page": "129",
-    "status": "corrected",
-    "issue_type": "description_number_cleanup",
-    "notes": "Bare numbers removed from description by clean_descriptions.py",
-    "edits": {
-      "project_description": {
-        "from": "See description under line item 36, 17,523",
-        "to": "See description under line item 36,"
-      }
-    }
-  },
-  {
     "timestamp": "2026-07-10T16:06:10",
     "city": "Philadelphia",
     "file_stem": "2024",
     "row_index": 86,
     "project_name": "City Council - ITEF CD10-FY22",
     "project_id": "FIN.25C",
-    "source_page": 79,
+    "source_page": "79",
     "status": "incorrect",
     "notes": "",
-    "edits": []
+    "edits": [
+      {
+        "timestamp": "2026-07-16T17:52:41",
+        "column": "year_2025",
+        "old": "379.0",
+        "new": "171"
+      },
+      {
+        "timestamp": "2026-07-16T17:52:41",
+        "column": "project_total",
+        "old": "379.0",
+        "new": "171"
+      }
+    ]
   },
   {
     "timestamp": "2026-07-16T07:19:41.201951Z",
@@ -5979,5 +5962,47 @@
         "to": "Renovate multiple infrastructure systems City-owned 'CN in buildings."
       }
     }
+  },
+  {
+    "timestamp": "2026-07-16T17:51:41",
+    "city": "Philadelphia",
+    "file_stem": "2024",
+    "row_index": 160,
+    "project_name": "Citywide Technology Improvements & Enhancements-FY23",
+    "project_id": "OIT.36B",
+    "source_page": 129,
+    "status": "correct",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 36, 17,523",
+        "to": "See description under line item 36,"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T17:52:02",
+    "city": "Philadelphia",
+    "file_stem": "2024",
+    "row_index": 97,
+    "project_name": "Fire Academy",
+    "project_id": "FIRE.8.10",
+    "source_page": "87",
+    "status": "correct",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-07-16T17:52:07",
+        "column": "year_2029",
+        "old": "5000.0",
+        "new": ""
+      },
+      {
+        "timestamp": "2026-07-16T17:52:07",
+        "column": "project_total",
+        "old": "10000.0",
+        "new": "5000.0"
+      }
+    ]
   }
 ]

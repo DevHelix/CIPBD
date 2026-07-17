@@ -1,0 +1,1584 @@
+[
+  {
+    "project_id": "AVN.2A",
+    "project_name": "Airfield Area-FY22",
+    "page": 36,
+    "fund_codes": [
+      "FB",
+      "PB",
+      "SB",
+      "XN",
+      "XT"
+    ],
+    "n_sources": 5
+  },
+  {
+    "project_id": "AVN.3A",
+    "project_name": "Terminal Area-FY22",
+    "page": 37,
+    "fund_codes": [
+      "FB",
+      "SB",
+      "XN",
+      "XR",
+      "XT"
+    ],
+    "n_sources": 5
+  },
+  {
+    "project_id": "AVN.4B",
+    "project_name": "Outside Terminal Area (OTA)-FY21",
+    "page": 38,
+    "fund_codes": [
+      "FB",
+      "SB",
+      "XN",
+      "XT"
+    ],
+    "n_sources": 4
+  },
+  {
+    "project_id": "AVN.5A",
+    "project_name": "Other Airport Services-FY22",
+    "page": 38,
+    "fund_codes": [
+      "FB",
+      "PB",
+      "SB",
+      "ST",
+      "XN",
+      "XT"
+    ],
+    "n_sources": 6
+  },
+  {
+    "project_id": "COM.6C",
+    "project_name": "Neighborhood Commercial Centers - Site Improvements-FY20",
+    "page": 44,
+    "fund_codes": [
+      "CR",
+      "CT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "COM.6C",
+    "project_name": "Neighborhood Commercial Centers - Site Improvements-FY20",
+    "page": 44,
+    "fund_codes": [
+      "CT",
+      "PT",
+      "ST"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "COM.6C",
+    "project_name": "Neighborhood Commercial Centers - Site Improvements-FY20",
+    "page": 44,
+    "fund_codes": [
+      "CN",
+      "CR",
+      "CT",
+      "PT",
+      "ST"
+    ],
+    "n_sources": 5
+  },
+  {
+    "project_id": "COM.7B",
+    "project_name": "Industrial Districts-FY21",
+    "page": 45,
+    "fund_codes": [
+      "FT",
+      "ST"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "COM.7C",
+    "project_name": "Industrial Districts-FY17",
+    "page": 46,
+    "fund_codes": [
+      "CN",
+      "ST"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "COM.8A",
+    "project_name": "Navy Yard Infrastructure Improvements-FY17",
+    "page": 46,
+    "fund_codes": [
+      "CN",
+      "CT",
+      "FT",
+      "ST",
+      "Z"
+    ],
+    "n_sources": 5
+  },
+  {
+    "project_id": "? (126. p49)",
+    "project_name": "126. Central Delaware River Waterfront-FY17",
+    "page": 49,
+    "fund_codes": [
+      "PT",
+      "ST"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "COM.12C",
+    "project_name": "Central Delaware River Waterfront-FY16",
+    "page": 49,
+    "fund_codes": [
+      "CN",
+      "FT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "COM.13A",
+    "project_name": "Schuylkill River Waterfront-FY22",
+    "page": 49,
+    "fund_codes": [
+      "CT",
+      "ST"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "? (138. p50)",
+    "project_name": "138. Schuylkill River Waterfront-FY21",
+    "page": 50,
+    "fund_codes": [
+      "PT",
+      "ST"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "? (43C. p50)",
+    "project_name": "43C. Schuylkill River Waterfront-F\u00a520",
+    "page": 50,
+    "fund_codes": [
+      "CR",
+      "FT",
+      "ST"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "COM.13B",
+    "project_name": "Schuylkill River Waterfront-FY21",
+    "page": 50,
+    "fund_codes": [
+      "PT",
+      "ST"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "? (43E. p50)",
+    "project_name": "43E. Schuylkill River Waterfront-FY17",
+    "page": 50,
+    "fund_codes": [
+      "CN",
+      "FT",
+      "ST"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "COM.14B",
+    "project_name": "North Delaware River Waterfront-FY17",
+    "page": 51,
+    "fund_codes": [
+      "FT",
+      "PT",
+      "ST"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "? (14D. p52)",
+    "project_name": "14D. North Delaware River Waterfront-FY15",
+    "page": 52,
+    "fund_codes": [
+      "CN",
+      "CR",
+      "CT",
+      "FT",
+      "PT",
+      "SB",
+      "ST",
+      "Z"
+    ],
+    "n_sources": 8
+  },
+  {
+    "project_id": "FIN.15A",
+    "project_name": "Improvements to Facilities-FY22",
+    "page": 56,
+    "fund_codes": [
+      "A",
+      "CR",
+      "CT",
+      "FT"
+    ],
+    "n_sources": 4
+  },
+  {
+    "project_id": "FIN.15B",
+    "project_name": "Improvements to Facilities-FY21",
+    "page": 57,
+    "fund_codes": [
+      "CR",
+      "CT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "FIN.15C",
+    "project_name": "Improvements to Facilities-FY20",
+    "page": 57,
+    "fund_codes": [
+      "CR",
+      "CT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "FIN.15B",
+    "project_name": "Improvements to Facilities-FY21",
+    "page": 57,
+    "fund_codes": [
+      "CR",
+      "CT",
+      "PT",
+      "TT"
+    ],
+    "n_sources": 4
+  },
+  {
+    "project_id": "FIN.151",
+    "project_name": "Improvements to Facilities-FY14",
+    "page": 58,
+    "fund_codes": [
+      "CN",
+      "CT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "? (18J. p64)",
+    "project_name": "18J. City Council - ITEF CD3-FY13",
+    "page": 64,
+    "fund_codes": [
+      "CN",
+      "CT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "FIN.20C",
+    "project_name": "City Council - ITEF CD5-FY20",
+    "page": 68,
+    "fund_codes": [
+      "CR",
+      "CT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "? (21G. p71)",
+    "project_name": "21G. City Council - ITEF CD6-FY16",
+    "page": 71,
+    "fund_codes": [
+      "CN",
+      "CT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "FIN.241",
+    "project_name": "City Council - ITEF CD9-FY14",
+    "page": 78,
+    "fund_codes": [
+      "CN",
+      "CT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "FIN.251",
+    "project_name": "City Council - ITEF CD10-FY13",
+    "page": 80,
+    "fund_codes": [
+      "A",
+      "CA",
+      "CN",
+      "CR",
+      "CT",
+      "FT",
+      "PT",
+      "TT"
+    ],
+    "n_sources": 8
+  },
+  {
+    "project_id": "FIRE.26C",
+    "project_name": "Fire Department Interior and Exterior Renovations-FY20",
+    "page": 88,
+    "fund_codes": [
+      "CR",
+      "CT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "? (26H. p89)",
+    "project_name": "26H. Fire Department Interior and Exterior Renovations-FY15",
+    "page": 89,
+    "fund_codes": [
+      "CA",
+      "CN",
+      "CR",
+      "CT"
+    ],
+    "n_sources": 4
+  },
+  {
+    "project_id": "FIRE.27.1",
+    "project_name": "Interior and Exterior Improvements",
+    "page": 92,
+    "fund_codes": [
+      "CN",
+      "CT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "? (27D. p93)",
+    "project_name": "27D. Fleet Management Facilities-FY18",
+    "page": 93,
+    "fund_codes": [
+      "CN",
+      "CT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "FIRE.28.3",
+    "project_name": "Fuel Site Environmental Remediation",
+    "page": 93,
+    "fund_codes": [
+      "CN",
+      "CT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "FIRE.28C",
+    "project_name": "Fuel Tank Replacement-FY20",
+    "page": 94,
+    "fund_codes": [
+      "CR",
+      "CT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "FIRE.28C",
+    "project_name": "Fuel Tank Replacement-FY20",
+    "page": 94,
+    "fund_codes": [
+      "CN",
+      "CT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "FIRE.29C",
+    "project_name": "Vehicle Purchases-FY20",
+    "page": 95,
+    "fund_codes": [
+      "CR",
+      "ST"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "FIRE.29A",
+    "project_name": "Vehicle Purchases-FY22",
+    "page": 95,
+    "fund_codes": [
+      "CR",
+      "FT",
+      "ST"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "? (29. p96)",
+    "project_name": "29. Vehicle Purchases-FY18",
+    "page": 96,
+    "fund_codes": [
+      "CN",
+      "CR",
+      "CT",
+      "FT",
+      "ST",
+      "TT"
+    ],
+    "n_sources": 6
+  },
+  {
+    "project_id": "LIB.30B",
+    "project_name": "Free Library Improvements-FY20",
+    "page": 100,
+    "fund_codes": [
+      "CR",
+      "CT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "LIB.30C",
+    "project_name": "Free Library Improvements-FY19",
+    "page": 101,
+    "fund_codes": [
+      "A",
+      "CN",
+      "CR",
+      "CT",
+      "SB"
+    ],
+    "n_sources": 5
+  },
+  {
+    "project_id": "HLTH.32A",
+    "project_name": "Health Department Equipment and Improvements-FY22",
+    "page": 106,
+    "fund_codes": [
+      "CR",
+      "ST"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "HLTH.32C",
+    "project_name": "Health Department Equipment and Improvements-FY20",
+    "page": 107,
+    "fund_codes": [
+      "CR",
+      "ST"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "HLTH.33C",
+    "project_name": "Health Facility Renovations-FY20",
+    "page": 108,
+    "fund_codes": [
+      "CN",
+      "CR",
+      "CT",
+      "SB",
+      "ST"
+    ],
+    "n_sources": 5
+  },
+  {
+    "project_id": "HLTH.34C",
+    "project_name": "Equipment and Renovations - Philadelphia Nursing Home-FY19",
+    "page": 109,
+    "fund_codes": [
+      "CN",
+      "CR",
+      "CT",
+      "SB",
+      "ST"
+    ],
+    "n_sources": 5
+  },
+  {
+    "project_id": "MDO.35.3",
+    "project_name": "Rebuilding Community Infrastructure",
+    "page": 112,
+    "fund_codes": [
+      "FB",
+      "PB",
+      "TB"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "MDO.35A",
+    "project_name": "Citywide Facilities-FY22",
+    "page": 113,
+    "fund_codes": [
+      "CT",
+      "FT",
+      "PT",
+      "ST"
+    ],
+    "n_sources": 4
+  },
+  {
+    "project_id": "MDO.35B",
+    "project_name": "Citywide Facilities-FY21",
+    "page": 113,
+    "fund_codes": [
+      "CT",
+      "FT",
+      "PT",
+      "ST",
+      "TT"
+    ],
+    "n_sources": 5
+  },
+  {
+    "project_id": "MDO.35C",
+    "project_name": "Citywide Facilities-FY20",
+    "page": 113,
+    "fund_codes": [
+      "CR",
+      "CT",
+      "FT",
+      "PB",
+      "PT",
+      "SB",
+      "ST",
+      "TB",
+      "TT"
+    ],
+    "n_sources": 9
+  },
+  {
+    "project_id": "OHS.36C",
+    "project_name": "OSH Facility Renovations-FY20",
+    "page": 121,
+    "fund_codes": [
+      "CN",
+      "CR",
+      "CT"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "SUST.37A",
+    "project_name": "Energy and Sustainability Improvements-FY22",
+    "page": 124,
+    "fund_codes": [
+      "CR",
+      "CT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "SUST.37B",
+    "project_name": "Energy and Sustainability Improvements-FY21",
+    "page": 125,
+    "fund_codes": [
+      "CN",
+      "CR"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "OIT.38C",
+    "project_name": "Citywide Technology Improvements & Enhancements-FY20",
+    "page": 129,
+    "fund_codes": [
+      "CN",
+      "CT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "PRK.39.2",
+    "project_name": "Swimming Pool Improvements",
+    "page": 134,
+    "fund_codes": [
+      "CN",
+      "CT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "PRK.41.3",
+    "project_name": "Neighborhood Park Improvements - Citywide",
+    "page": 136,
+    "fund_codes": [
+      "CN",
+      "CT",
+      "PT",
+      "ST"
+    ],
+    "n_sources": 4
+  },
+  {
+    "project_id": "PRK.41B",
+    "project_name": "Neighborhood Parks-FY21",
+    "page": 137,
+    "fund_codes": [
+      "CT",
+      "PT",
+      "ST"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "PRK.42.1",
+    "project_name": "Exterior Improvements",
+    "page": 138,
+    "fund_codes": [
+      "CN",
+      "PB"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "PRK.2.4",
+    "project_name": "Creek Banks, Terrain, Drainage, Paths, Bridges and Infrastruc",
+    "page": 139,
+    "fund_codes": [
+      "CN",
+      "FB",
+      "SB"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "PRK.6.7",
+    "project_name": "Horticultural Center - Building and Site Improvements",
+    "page": 140,
+    "fund_codes": [
+      "CN",
+      "CT",
+      "FT",
+      "PT",
+      "ST"
+    ],
+    "n_sources": 5
+  },
+  {
+    "project_id": "PRK.2.3-2",
+    "project_name": "Cobbs Creek Golf Course",
+    "page": 143,
+    "fund_codes": [
+      "CN",
+      "CT",
+      "FB",
+      "FT",
+      "PB",
+      "PT",
+      "SB",
+      "ST"
+    ],
+    "n_sources": 8
+  },
+  {
+    "project_id": "? (438. p144)",
+    "project_name": "438. Parks and Recreation Projects-FY21",
+    "page": 144,
+    "fund_codes": [
+      "FT",
+      "PT",
+      "ST"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "PRK.43A",
+    "project_name": "Parks and Recreation Projects-FY22",
+    "page": 144,
+    "fund_codes": [
+      "CT",
+      "FT",
+      "PT",
+      "ST"
+    ],
+    "n_sources": 4
+  },
+  {
+    "project_id": "PRK.43A",
+    "project_name": "Parks and Recreation Projects-FY22",
+    "page": 144,
+    "fund_codes": [
+      "FT",
+      "PT",
+      "ST"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "PRK.46.1",
+    "project_name": "Improvements to Existing Recreation Facilities-CD3",
+    "page": 150,
+    "fund_codes": [
+      "CN",
+      "CT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "PRK.47.1",
+    "project_name": "Improvements to Existing Recreation Facilities-CD4",
+    "page": 153,
+    "fund_codes": [
+      "CN",
+      "CT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "? (47N. p155)",
+    "project_name": "47N. Improvements to Existing Recreation Facilities-CD4-FY09",
+    "page": 155,
+    "fund_codes": [
+      "CN",
+      "CT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "PRK.54.2",
+    "project_name": "Improvements to the Various Cultural Facilities",
+    "page": 174,
+    "fund_codes": [
+      "CN",
+      "CR",
+      "CT"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "? (558. p176)",
+    "project_name": "558. Building Improvements-FY13",
+    "page": 176,
+    "fund_codes": [
+      "PT",
+      "ST"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "PRK.56A",
+    "project_name": "Parkland - Site Improvements-FY14",
+    "page": 176,
+    "fund_codes": [
+      "CT",
+      "PT",
+      "ST"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "PRK.56B",
+    "project_name": "Parkland - Site Improvements-FY13",
+    "page": 177,
+    "fund_codes": [
+      "PT",
+      "ST"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "PRK.56B",
+    "project_name": "Parkland - Site Improvements-FY13",
+    "page": 177,
+    "fund_codes": [
+      "FT",
+      "PT",
+      "ST"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "PRK.56B",
+    "project_name": "Parkland - Site Improvements-FY13",
+    "page": 177,
+    "fund_codes": [
+      "FT",
+      "ST",
+      "TT"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "PRK.57B",
+    "project_name": "Roadways, Footways, and Parking-FY13",
+    "page": 178,
+    "fund_codes": [
+      "FT",
+      "PT",
+      "ST"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "? (59D. p180)",
+    "project_name": "59D. Grant Funded Recreation Improvements-FY11",
+    "page": 180,
+    "fund_codes": [
+      "CN",
+      "CR",
+      "CT",
+      "FB",
+      "FT",
+      "PB",
+      "PT",
+      "SB",
+      "ST",
+      "TT"
+    ],
+    "n_sources": 10
+  },
+  {
+    "project_id": "POL.60C",
+    "project_name": "Police Facilities - Renovations-FY20",
+    "page": 185,
+    "fund_codes": [
+      "CR",
+      "CT",
+      "TT"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "? (60F. p186)",
+    "project_name": "60F. Police Facilities - Renovations-FY16",
+    "page": 186,
+    "fund_codes": [
+      "A",
+      "CT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "? (80H. p186)",
+    "project_name": "80H. Police Facilities - Renovations-FY08",
+    "page": 186,
+    "fund_codes": [
+      "A",
+      "CN",
+      "CR",
+      "CT",
+      "TT"
+    ],
+    "n_sources": 5
+  },
+  {
+    "project_id": "PRS.61B",
+    "project_name": "Prison System - Renovations-FY21",
+    "page": 191,
+    "fund_codes": [
+      "CN",
+      "CR",
+      "TT"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "PPD.63.1",
+    "project_name": "City Improvements",
+    "page": 196,
+    "fund_codes": [
+      "CN",
+      "CR"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "PPD.63.3",
+    "project_name": "City Hall Exterior Renovations",
+    "page": 196,
+    "fund_codes": [
+      "CN",
+      "PB"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "PPD.63.4",
+    "project_name": "Conservation of Art",
+    "page": 196,
+    "fund_codes": [
+      "CN",
+      "FB",
+      "PB"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "PPD.63A",
+    "project_name": "Improvements to Municipal Facilities-FY22",
+    "page": 197,
+    "fund_codes": [
+      "CR",
+      "CT",
+      "FT"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "? (638. p197)",
+    "project_name": "638. Improvements to Municipal Facilities-FY21",
+    "page": 197,
+    "fund_codes": [
+      "CR",
+      "CT",
+      "FT",
+      "PT"
+    ],
+    "n_sources": 4
+  },
+  {
+    "project_id": "PPD.63C",
+    "project_name": "Improvements to Municipal Facilities-FY20",
+    "page": 198,
+    "fund_codes": [
+      "CR",
+      "FT",
+      "TT"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "PPD.63C",
+    "project_name": "Improvements to Municipal Facilities-FY20",
+    "page": 198,
+    "fund_codes": [
+      "CR",
+      "FT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "PPD.63C",
+    "project_name": "Improvements to Municipal Facilities-FY20",
+    "page": 198,
+    "fund_codes": [
+      "FT",
+      "PT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "? (63G. p199)",
+    "project_name": "63G. Improvements to Municipal Facilities-FY14",
+    "page": 199,
+    "fund_codes": [
+      "CN",
+      "CR",
+      "CT",
+      "FB",
+      "FT",
+      "PB",
+      "PT",
+      "TT"
+    ],
+    "n_sources": 8
+  },
+  {
+    "project_id": "? (1144. p200)",
+    "project_name": "1144. CN 5000 CN 5,000 CN 5,200 CN 6.700 CN 6,700 CN 29,744 ",
+    "page": 200,
+    "fund_codes": [
+      "CR",
+      "CT",
+      "FB",
+      "FT",
+      "PB",
+      "PT",
+      "TT"
+    ],
+    "n_sources": 7
+  },
+  {
+    "project_id": "STR.65.1",
+    "project_name": "Bridge Reconstruction, Rehabilitation, and Restoration",
+    "page": 206,
+    "fund_codes": [
+      "FB",
+      "SB",
+      "TB"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "STR.65.3",
+    "project_name": "Bridge Reconstruction and Improvements - Act 89 & Act 44 (fk",
+    "page": 206,
+    "fund_codes": [
+      "CN",
+      "FT",
+      "PT",
+      "SB",
+      "ST"
+    ],
+    "n_sources": 5
+  },
+  {
+    "project_id": "STR.65B",
+    "project_name": "Bridge Reconstruction & Improvements-FY21",
+    "page": 207,
+    "fund_codes": [
+      "CT",
+      "FT",
+      "ST",
+      "TT"
+    ],
+    "n_sources": 4
+  },
+  {
+    "project_id": "STR.65C",
+    "project_name": "Bridge Reconstruction & Improvements-FY20",
+    "page": 207,
+    "fund_codes": [
+      "CT",
+      "FT",
+      "PT",
+      "ST"
+    ],
+    "n_sources": 4
+  },
+  {
+    "project_id": "STR.65A",
+    "project_name": "Bridge Reconstruction & Improvements-FY22",
+    "page": 207,
+    "fund_codes": [
+      "CT",
+      "FT",
+      "ST"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "? (65E. p208)",
+    "project_name": "65E. Bridge Reconstruction & Improvements-FY18",
+    "page": 208,
+    "fund_codes": [
+      "FT",
+      "ST"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "? (65F. p208)",
+    "project_name": "65F. Bridge Reconstruction & Improvements-FY17",
+    "page": 208,
+    "fund_codes": [
+      "CN",
+      "CT",
+      "FB",
+      "FT",
+      "PT",
+      "SB",
+      "ST",
+      "TB",
+      "TT"
+    ],
+    "n_sources": 9
+  },
+  {
+    "project_id": "STR.66.1",
+    "project_name": "Reconstruction/Resurfacing and ADA Ramp Reconstruction",
+    "page": 209,
+    "fund_codes": [
+      "CA",
+      "CN",
+      "FB"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "STR.66.3",
+    "project_name": "ADA Evaluation",
+    "page": 209,
+    "fund_codes": [
+      "CN",
+      "PB"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "STR.66A",
+    "project_name": "Reconstruction/Resurfacing of Streets-FY22",
+    "page": 209,
+    "fund_codes": [
+      "CT",
+      "PT",
+      "ST"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "? (668. p210)",
+    "project_name": "668. Reconstruction/Resurtacing of Streets-FY21",
+    "page": 210,
+    "fund_codes": [
+      "CT",
+      "FT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "STR.66C",
+    "project_name": "Reconstruction/Resurfacing of Streets-FY20",
+    "page": 210,
+    "fund_codes": [
+      "CR",
+      "CT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "STR.68A",
+    "project_name": "Highways Citywide-FY22",
+    "page": 211,
+    "fund_codes": [
+      "A",
+      "CA",
+      "CN",
+      "CR",
+      "CT",
+      "FB",
+      "FT",
+      "PB",
+      "PT",
+      "SB",
+      "ST",
+      "TT"
+    ],
+    "n_sources": 12
+  },
+  {
+    "project_id": "STR.69.1",
+    "project_name": "Citywide 3R",
+    "page": 213,
+    "fund_codes": [
+      "CA",
+      "CN",
+      "FB"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "STR.69.2",
+    "project_name": "County Fee for Local Capital Projects",
+    "page": 213,
+    "fund_codes": [
+      "CN",
+      "FB",
+      "PB",
+      "SB",
+      "TB"
+    ],
+    "n_sources": 5
+  },
+  {
+    "project_id": "STR.69.4",
+    "project_name": "Swanson Street Reconstruction",
+    "page": 213,
+    "fund_codes": [
+      "CN",
+      "FB",
+      "SB"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "STR.69A",
+    "project_name": "Federal Aid Highway Program-FY22",
+    "page": 214,
+    "fund_codes": [
+      "CT",
+      "FT",
+      "PT",
+      "ST",
+      "TT"
+    ],
+    "n_sources": 5
+  },
+  {
+    "project_id": "? (698. p215)",
+    "project_name": "698. Federal Ald Highway Program-FY21",
+    "page": 215,
+    "fund_codes": [
+      "CT",
+      "FT",
+      "PT",
+      "ST",
+      "TT"
+    ],
+    "n_sources": 5
+  },
+  {
+    "project_id": "STR.69C",
+    "project_name": "Federal Aid Highway Program-FY20",
+    "page": 215,
+    "fund_codes": [
+      "FT",
+      "ST"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "STR.69B",
+    "project_name": "Federal Aid Highway Program-FY21",
+    "page": 215,
+    "fund_codes": [
+      "CT",
+      "FT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "? (69F. p216)",
+    "project_name": "69F. Federal Ald Highway Program-FY17",
+    "page": 216,
+    "fund_codes": [
+      "CN",
+      "CT",
+      "FB",
+      "FT",
+      "PB",
+      "PT",
+      "SB",
+      "ST",
+      "TB",
+      "TT"
+    ],
+    "n_sources": 10
+  },
+  {
+    "project_id": "STR.70.5",
+    "project_name": "Streets Department-Wide Facility Improvements",
+    "page": 217,
+    "fund_codes": [
+      "CN",
+      "CT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "STR.70B",
+    "project_name": "Modernization of Sanitation Facilities-FY21",
+    "page": 218,
+    "fund_codes": [
+      "CN",
+      "CT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "STR.71.1",
+    "project_name": "Street Lighting Improvements",
+    "page": 219,
+    "fund_codes": [
+      "CN",
+      "PB"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "STR.71.3",
+    "project_name": "Street Alley Lighting Improvements",
+    "page": 219,
+    "fund_codes": [
+      "CN",
+      "CT",
+      "PT"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "? (74B. p219)",
+    "project_name": "74B. Street Lighting Improvements-FY21",
+    "page": 219,
+    "fund_codes": [
+      "CT",
+      "PT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "STR.71C",
+    "project_name": "Street Lighting Improvements-FY20",
+    "page": 220,
+    "fund_codes": [
+      "CN",
+      "CT",
+      "PB",
+      "PT"
+    ],
+    "n_sources": 4
+  },
+  {
+    "project_id": "STR.2",
+    "project_name": "Signal Synchronization/Modernization",
+    "page": 223,
+    "fund_codes": [
+      "CN",
+      "PB"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "STR.2.5",
+    "project_name": "Signal Synchronization - Transit Improvements",
+    "page": 223,
+    "fund_codes": [
+      "CN",
+      "CT",
+      "FB",
+      "FT",
+      "PT",
+      "SB",
+      "ST"
+    ],
+    "n_sources": 7
+  },
+  {
+    "project_id": "STR.73B",
+    "project_name": "Traffic Control-FY21",
+    "page": 224,
+    "fund_codes": [
+      "CT",
+      "FT",
+      "PT",
+      "ST"
+    ],
+    "n_sources": 4
+  },
+  {
+    "project_id": "? (73D. p225)",
+    "project_name": "73D. Traffic Control-FY19",
+    "page": 225,
+    "fund_codes": [
+      "FT",
+      "ST"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "? (73E. p225)",
+    "project_name": "73E. Traffic Control-FY18",
+    "page": 225,
+    "fund_codes": [
+      "CA",
+      "CN",
+      "CR",
+      "CT",
+      "ST"
+    ],
+    "n_sources": 5
+  },
+  {
+    "project_id": "? (6752. p225)",
+    "project_name": "6752. CT 6752 CT",
+    "page": 225,
+    "fund_codes": [
+      "A",
+      "CA",
+      "CN",
+      "CR",
+      "FB",
+      "FT",
+      "PB",
+      "PT",
+      "SB",
+      "ST",
+      "TB",
+      "TT"
+    ],
+    "n_sources": 12
+  },
+  {
+    "project_id": "TRN.74.1",
+    "project_name": "Infrastructure Safety Renewal Program (ISRP) (ALL)",
+    "page": 230,
+    "fund_codes": [
+      "CN",
+      "SO",
+      "TO"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "TRN.74.2",
+    "project_name": "State of Good Repair Program (ALL)",
+    "page": 230,
+    "fund_codes": [
+      "FO",
+      "SO",
+      "TO"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "TRN.74.3",
+    "project_name": "Maintenance & Transportation Facilities and Roofs",
+    "page": 230,
+    "fund_codes": [
+      "CN",
+      "FO",
+      "SO"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "TRN.4",
+    "project_name": "Regional Rail Substation Improvements (RRD)",
+    "page": 231,
+    "fund_codes": [
+      "CN",
+      "FO",
+      "SO",
+      "TO"
+    ],
+    "n_sources": 4
+  },
+  {
+    "project_id": "TRN.4.5",
+    "project_name": "Regional Rail Signal System Modernization (RRD)",
+    "page": 231,
+    "fund_codes": [
+      "CN",
+      "FO",
+      "SO",
+      "TO"
+    ],
+    "n_sources": 4
+  },
+  {
+    "project_id": "TRN.75.1",
+    "project_name": "Railroad and Transit Stations and Parking Improvements",
+    "page": 232,
+    "fund_codes": [
+      "CN",
+      "FO",
+      "SO"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "TRN.75.2",
+    "project_name": "Station Accessibility Program (CTD)",
+    "page": 232,
+    "fund_codes": [
+      "CN",
+      "FO",
+      "SO"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "TRN.76.1",
+    "project_name": "SEPTA Key (New Payment Technologies) (ALL)",
+    "page": 233,
+    "fund_codes": [
+      "CN",
+      "FO",
+      "SO",
+      "TO"
+    ],
+    "n_sources": 4
+  },
+  {
+    "project_id": "TRN.76A",
+    "project_name": "SEPTA Passenger Information, Communications, and System Controls-FY22",
+    "page": 234,
+    "fund_codes": [
+      "CN",
+      "CT",
+      "FO",
+      "SO",
+      "TO"
+    ],
+    "n_sources": 5
+  },
+  {
+    "project_id": "? (4. p239)",
+    "project_name": "4. Collector System Improvements _",
+    "page": 239,
+    "fund_codes": [
+      "SB",
+      "XN",
+      "XR"
+    ],
+    "n_sources": 3
+  },
+  {
+    "project_id": "WAT.78.2",
+    "project_name": "Expansion of Collector System",
+    "page": 239,
+    "fund_codes": [
+      "PB",
+      "XN"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "WAT.78A",
+    "project_name": "Improvements to Collector System-FY22",
+    "page": 239,
+    "fund_codes": [
+      "XR",
+      "XT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "WAT.78B",
+    "project_name": "Improvements to Collector System-FY21",
+    "page": 240,
+    "fund_codes": [
+      "FB",
+      "PB",
+      "SB",
+      "TB",
+      "XN",
+      "XR",
+      "XT"
+    ],
+    "n_sources": 7
+  },
+  {
+    "project_id": "WAT.3",
+    "project_name": "Expansion of Conveyance Systems",
+    "page": 242,
+    "fund_codes": [
+      "PB",
+      "XN"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "? (798. p242)",
+    "project_name": "798. Improvements to Conveyance System-FY21",
+    "page": 242,
+    "fund_codes": [
+      "XR",
+      "XT"
+    ],
+    "n_sources": 2
+  },
+  {
+    "project_id": "WAT.79C",
+    "project_name": "Improvements to Conveyance System-FY20",
+    "page": 242,
+    "fund_codes": [
+      "PB",
+      "SB",
+      "XN",
+      "XR",
+      "XT"
+    ],
+    "n_sources": 5
+  }
+]

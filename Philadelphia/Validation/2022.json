@@ -1,17 +1,5 @@
 [
   {
-    "timestamp": "2026-07-10T16:06:14",
-    "city": "Philadelphia",
-    "file_stem": "2022",
-    "row_index": 172,
-    "project_name": "Rebuilding Community Infrastructure-FY18",
-    "project_id": "PRK.40C",
-    "source_page": 136,
-    "status": "incorrect",
-    "notes": "",
-    "edits": []
-  },
-  {
     "timestamp": "2026-07-10T16:40:14",
     "city": "Philadelphia",
     "file_stem": "2022",
@@ -1062,19 +1050,6 @@
         "to": "See description under line item 32. D. Health Department Equipment and Improvements-FY See description under line item 32."
       }
     }
-  },
-  {
-    "timestamp": "2026-07-10T16:40:14",
-    "city": "Philadelphia",
-    "file_stem": "2022",
-    "row_index": 133,
-    "project_name": "Health Facility Renovations-FY22",
-    "project_id": "HLTH.33A",
-    "source_page": 107,
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description absorbs trailing funding value \"1,500\". Strip trailing number from project_description.",
-    "edits": []
   },
   {
     "timestamp": "2026-07-16T07:19:40.794284Z",
@@ -2876,42 +2851,6 @@
     "timestamp": "2026-07-12T16:40:57.222081",
     "city": "Philadelphia",
     "file_stem": "2022",
-    "row_index": 134,
-    "project_name": "Health Facility Renovations-FY21",
-    "project_id": "HLTH.33B",
-    "source_page": "108",
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
-    "edits": {
-      "project_description": {
-        "old": "See description under line item 33. 162 CT",
-        "new": "See description under line item 33."
-      }
-    }
-  },
-  {
-    "timestamp": "2026-07-16T07:19:40.794284Z",
-    "city": "Philadelphia",
-    "file_stem": "2022",
-    "row_index": 135,
-    "project_name": "Health Facility Renovations-FY20",
-    "project_id": "HLTH.33C",
-    "source_page": "108",
-    "status": "corrected",
-    "issue_type": "description_number_cleanup",
-    "notes": "Bare numbers removed from description by clean_descriptions.py",
-    "edits": {
-      "project_description": {
-        "from": "See description under line item 33. 19 CT 4,000CN 1,000 CN_\u2014 1,000 CN 1,000 CN 6,000 CN 6,000 88,203CR 10,500CR 10,500CR 10,500CR 10,500 CR 1,681 CT 5,000 SB 5,000 SB 5,000 SB 5,000 SB 5,000 SB 20,000 ST",
-        "to": "See description under line item 33. CT CN CN_\u2014 CN CN CN CR CR CR CR CR CT SB SB SB SB SB ST"
-      }
-    }
-  },
-  {
-    "timestamp": "2026-07-12T16:40:57.222081",
-    "city": "Philadelphia",
-    "file_stem": "2022",
     "row_index": 150,
     "project_name": "OSH Facility Renovations-FY20",
     "project_id": "OHS.36C",
@@ -3103,24 +3042,6 @@
       "project_description": {
         "old": "See description under line item 70. 2,200 70D. Modernization of Sanitation Facilities-FY18 See description under line item 70. 7CT",
         "new": "See description under line item 70."
-      }
-    }
-  },
-  {
-    "timestamp": "2026-07-16T07:19:40.794284Z",
-    "city": "Philadelphia",
-    "file_stem": "2022",
-    "row_index": 1,
-    "project_name": "Airfield Area-FY22",
-    "project_id": "AVN.2A",
-    "source_page": "36",
-    "status": "corrected",
-    "issue_type": "description_number_cleanup",
-    "notes": "Bare numbers removed from description by clean_descriptions.py",
-    "edits": {
-      "project_description": {
-        "from": "See description under line item 2. 3,000 XT",
-        "to": "See description under line item 2. XT"
       }
     }
   },
@@ -4003,24 +3924,6 @@
       "project_description": {
         "from": "Implement and improve Electronic Health Records (EHR) 500 system. -",
         "to": "Implement and improve Electronic Health Records (EHR) system."
-      }
-    }
-  },
-  {
-    "timestamp": "2026-07-16T07:19:40.794284Z",
-    "city": "Philadelphia",
-    "file_stem": "2022",
-    "row_index": 131,
-    "project_name": "HVAC and Infrastructure Improvements",
-    "project_id": "HLTH.33.1",
-    "source_page": "107",
-    "status": "corrected",
-    "issue_type": "description_number_cleanup",
-    "notes": "Bare numbers removed from description by clean_descriptions.py",
-    "edits": {
-      "project_description": {
-        "from": "Replace/upgrade HVAC, infrastructure, and safety systems at 4,000 various health centers.",
-        "to": "Replace/upgrade HVAC, infrastructure, and safety systems at various health centers."
       }
     }
   },
@@ -5839,6 +5742,110 @@
       "project_description": {
         "from": "See description under line item 81 678",
         "to": "See description under line item 81"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T17:53:22",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 172,
+    "project_name": "Rebuilding Community Infrastructure-FY18",
+    "project_id": "PRK.40C",
+    "source_page": 136,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-07-16T20:48:10",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 131,
+    "project_name": "HVAC and Infrastructure Improvements",
+    "project_id": "HLTH.33.1",
+    "source_page": 107,
+    "status": "correct",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Replace/upgrade HVAC, infrastructure, and safety systems at 4,000 various health centers.",
+        "to": "Replace/upgrade HVAC, infrastructure, and safety systems at various health centers."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T20:48:21",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 132,
+    "project_name": "Interior and Exterior Renovations",
+    "project_id": "HLTH.33.2",
+    "source_page": 107,
+    "status": "correct",
+    "notes": "",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-07-16T20:48:25",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 133,
+    "project_name": "Health Facility Renovations-FY22",
+    "project_id": "HLTH.33A",
+    "source_page": 107,
+    "status": "correct",
+    "notes": "Description absorbs trailing funding value \"1,500\". Strip trailing number from project_description.",
+    "edits": []
+  },
+  {
+    "timestamp": "2026-07-16T20:48:32",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 134,
+    "project_name": "Health Facility Renovations-FY21",
+    "project_id": "HLTH.33B",
+    "source_page": 108,
+    "status": "correct",
+    "notes": "Description contains embedded funding codes. Year columns populated; description stripped.",
+    "edits": {
+      "project_description": {
+        "old": "See description under line item 33. 162 CT",
+        "new": "See description under line item 33."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T20:48:59",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 135,
+    "project_name": "Health Facility Renovations-FY20",
+    "project_id": "HLTH.33C",
+    "source_page": 108,
+    "status": "correct",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 33. 19 CT 4,000CN 1,000 CN_\u2014 1,000 CN 1,000 CN 6,000 CN 6,000 88,203CR 10,500CR 10,500CR 10,500CR 10,500 CR 1,681 CT 5,000 SB 5,000 SB 5,000 SB 5,000 SB 5,000 SB 20,000 ST",
+        "to": "See description under line item 33. CT CN CN_\u2014 CN CN CN CR CR CR CR CR CT SB SB SB SB SB ST"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T21:10:20",
+    "city": "Philadelphia",
+    "file_stem": "2022",
+    "row_index": 1,
+    "project_name": "Airfield Area-FY22",
+    "project_id": "AVN.2A",
+    "source_page": 36,
+    "status": "correct",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "See description under line item 2. 3,000 XT",
+        "to": "See description under line item 2. XT"
       }
     }
   }

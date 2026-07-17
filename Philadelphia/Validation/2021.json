@@ -1077,56 +1077,6 @@
     }
   },
   {
-    "timestamp": "2026-07-14T03:35:56.813336Z",
-    "city": "Philadelphia",
-    "file_stem": "2021",
-    "row_index": 48,
-    "project_name": "City Council - ITEF CD3",
-    "project_id": "FIN.18.1",
-    "source_page": "74",
-    "status": "corrected",
-    "issue_type": "description_bleed+missing_years",
-    "notes": "auto-extracted from description bleed; sources: ['CN']",
-    "edits": {
-      "project_description": {
-        "from": "Fund critical renovations and other improvements to City-owned 255 CN 255CN 255 CN 255 CN 255 CN 255CN sites as needed.",
-        "to": "Fund critical renovations and other improvements to City-owned sites as needed."
-      },
-      "project_total": {
-        "from": "",
-        "to": "1530"
-      },
-      "validation_label": {
-        "from": "incorrect",
-        "to": "corrected"
-      },
-      "year_2022": {
-        "from": "",
-        "to": "255"
-      },
-      "year_2023": {
-        "from": "",
-        "to": "255"
-      },
-      "year_2024": {
-        "from": "",
-        "to": "255"
-      },
-      "year_2025": {
-        "from": "",
-        "to": "255"
-      },
-      "year_2026": {
-        "from": "",
-        "to": "255"
-      },
-      "year_2027": {
-        "from": "",
-        "to": "255"
-      }
-    }
-  },
-  {
     "timestamp": "2026-07-12T16:40:26.712124",
     "city": "Philadelphia",
     "file_stem": "2021",
@@ -3025,42 +2975,6 @@
       "year_2024": {
         "from": "",
         "to": "300"
-      }
-    }
-  },
-  {
-    "timestamp": "2026-07-12T16:40:26.712124",
-    "city": "Philadelphia",
-    "file_stem": "2021",
-    "row_index": 128,
-    "project_name": "Health Facility Renovations-FY21",
-    "project_id": "HLTH.33A",
-    "source_page": "118",
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description contains embedded funding codes (year values in description). Year columns populated; description can be stripped.",
-    "edits": {
-      "project_description": {
-        "old": "See description under line item 33. 600 CT",
-        "new": "See description under line item 33."
-      }
-    }
-  },
-  {
-    "timestamp": "2026-07-12T16:40:26.712124",
-    "city": "Philadelphia",
-    "file_stem": "2021",
-    "row_index": 129,
-    "project_name": "Health Facility Renovations-FY20",
-    "project_id": "HLTH.33B",
-    "source_page": "118",
-    "status": "incorrect",
-    "issue_type": "description_bleed",
-    "notes": "Description contains embedded funding codes (year values in description). Year columns populated; description can be stripped.",
-    "edits": {
-      "project_description": {
-        "old": "See description under line item 33. 824 CT | CITY OF PHILADELPHIA CAPITAL PROGRAM AND BUDGET FISCAL YEARS 2022-2027",
-        "new": "See description under line item 33."
       }
     }
   },
@@ -9057,6 +8971,89 @@
       "project_total": {
         "from": "250.0",
         "to": "1250"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T20:42:44",
+    "city": "Philadelphia",
+    "file_stem": "2021",
+    "row_index": 48,
+    "project_name": "City Council - ITEF CD3",
+    "project_id": "FIN.18.1",
+    "source_page": 74,
+    "status": "correct",
+    "notes": "auto-extracted from description bleed; sources: ['CN']",
+    "edits": {
+      "project_description": {
+        "from": "Fund critical renovations and other improvements to City-owned 255 CN 255CN 255 CN 255 CN 255 CN 255CN sites as needed.",
+        "to": "Fund critical renovations and other improvements to City-owned sites as needed."
+      },
+      "project_total": {
+        "from": "",
+        "to": "1530"
+      },
+      "validation_label": {
+        "from": "incorrect",
+        "to": "corrected"
+      },
+      "year_2022": {
+        "from": "",
+        "to": "255"
+      },
+      "year_2023": {
+        "from": "",
+        "to": "255"
+      },
+      "year_2024": {
+        "from": "",
+        "to": "255"
+      },
+      "year_2025": {
+        "from": "",
+        "to": "255"
+      },
+      "year_2026": {
+        "from": "",
+        "to": "255"
+      },
+      "year_2027": {
+        "from": "",
+        "to": "255"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T20:46:32",
+    "city": "Philadelphia",
+    "file_stem": "2021",
+    "row_index": 128,
+    "project_name": "Health Facility Renovations-FY21",
+    "project_id": "HLTH.33A",
+    "source_page": 118,
+    "status": "correct",
+    "notes": "Description contains embedded funding codes (year values in description). Year columns populated; description can be stripped.",
+    "edits": {
+      "project_description": {
+        "old": "See description under line item 33. 600 CT",
+        "new": "See description under line item 33."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T20:46:43",
+    "city": "Philadelphia",
+    "file_stem": "2021",
+    "row_index": 129,
+    "project_name": "Health Facility Renovations-FY20",
+    "project_id": "HLTH.33B",
+    "source_page": 118,
+    "status": "correct",
+    "notes": "Description contains embedded funding codes (year values in description). Year columns populated; description can be stripped.",
+    "edits": {
+      "project_description": {
+        "old": "See description under line item 33. 824 CT | CITY OF PHILADELPHIA CAPITAL PROGRAM AND BUDGET FISCAL YEARS 2022-2027",
+        "new": "See description under line item 33."
       }
     }
   }

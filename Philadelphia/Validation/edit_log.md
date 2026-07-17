@@ -46,3 +46,44 @@
   - **project_total**: "15000.0" → "18000.0"
 - 2026-07-13 18:06:14 — Philadelphia/2024 row 350 [STR.70.8 — Automated Red Light Enforcement Project (ARLE) p.233]
   - **year_2030**: "" → "3000.0"
+- 2026-07-16 17:48:40 — Philadelphia/2024 row 293 [PPD.4.623 — W Lehigh Renovations & Roof Replacement p.203]
+  - **project_description**: "Elevator @ Front & Hunting Park $ Elevator @ E Erie$" → "623 W Lehigh Renovations & Roof Replacement $500,000, Elevator @ Front & Hunting Park $35,000 Elevator @ E Erie$32,000"
+- 2026-07-16 17:49:28 — Philadelphia/2024 row 294 [PPD.4.5 — 1801 Vine Master Plan p.203]
+  - **project_description**: "Master Plan for major improvement at Vine St. Major projects include museum relocation, library renovation and parking garage." → "Master Plan for major improvement at 1801 Vine St. Major projects include museum relocation, library renovation and parking garage."
+- 2026-07-16 17:50:23 — Philadelphia/2025 row 148 [MDO.7 — Bike Share Infrastructure p.107]
+  - **project_description**: "Improvements to infrastructure for Bike Share Program, SOOCN CN CN CN SOOCN expansion of service area" → "Improvements to infrastructure for Bike Share Program, expansion of service area"
+- 2026-07-16 17:50:52 — Philadelphia/2025 row 148 [MDO.33.7 — Bike Share Infrastructure p.107]
+  - **project_id**: "MDO.7" → "MDO.33.7"
+- 2026-07-16 17:51:37 — Philadelphia/2024 row 160 [OIT.36B — Citywide Technology Improvements & Enhancements-FY23 p.129]
+  - **year_2030**: "17523.0" → ""
+  - **year_2025**: "17523.0" → "19523.0"
+  - **project_total**: "35046.0" → "19523.0"
+- 2026-07-16 17:52:07 — Philadelphia/2024 row 97 [FIRE.8.10 — Fire Academy p.87]
+  - **year_2029**: "5000.0" → ""
+  - **project_total**: "10000.0" → "5000.0"
+- 2026-07-16 17:52:41 — Philadelphia/2024 row 86 [FIN.25C — City Council - ITEF CD10-FY22 p.79]
+  - **year_2025**: "379.0" → "171"
+  - **project_total**: "379.0" → "171"
+- 2026-07-16 20:43:27 — Philadelphia/2021 row 92 [FIRE.26.4 — Fire Facilties: Mechanical, Electrical, and Plumbling p.96]
+  - **project_description**: "Mechanical, electrical, and plumbing improvements SOCN SO.CN SOCN" → "Mechanical, electrical, and plumbing improvements"
+  - **project_total**: "5.0" → "750"
+  - **year_2022**: "" → "50"
+  - **year_2023**: "" → "50"
+  - **year_2024**: "" → "50"
+  - **year_2025**: "" → "50"
+  - **year_2026**: "5.0" → "50"
+  - **year_2027**: "" → "50"
+- 2026-07-16 20:46:23 — Philadelphia/2021 row 127 [HLTH.33.2 — Interior and Exterior Renovations p.118]
+  - **project_total**: "700.0" → "9700.0"
+  - **year_2022**: "700.0" → "1000.0"
+  - **year_2023**: "" → "5000"
+  - **year_2024**: "" → "700"
+  - **year_2025**: "" → "1000"
+  - **year_2026**: "" → "1000"
+  - **year_2027**: "" → "1000"
+- 2026-07-16 20:49:04 — Philadelphia/2022 row 135 [HLTH.33C — Health Facility Renovations-FY20 p.108.0]
+  - **project_description**: "See description under line item 33. CT CN CN_— CN CN CN CR CR CR CR CR CT SB SB SB SB SB ST" → "See description under line item 33."
+  - **project_total**: "" → "19"
+  - **year_2023**: "" → "19"
+- 2026-07-16 21:10:32 — Philadelphia/2022 row 1 [AVN.2A — Airfield Area-FY22 p.36]
+  - **project_description**: "See description under line item 2. XT" → "See description under line item 2."

@@ -3,42 +3,6 @@
     "timestamp": "2026-07-16T07:19:41.397324Z",
     "city": "Philadelphia",
     "file_stem": "2025",
-    "row_index": 148,
-    "project_name": "Bike Share Infrastructure",
-    "project_id": "MDO.7",
-    "source_page": "107",
-    "status": "corrected",
-    "issue_type": "description_number_cleanup",
-    "notes": "Bare numbers removed from description by clean_descriptions.py",
-    "edits": {
-      "project_description": {
-        "from": "Improvements to infrastructure for Bike Share Program, SOOCN 500 CN 500 CN 500 CN SOOCN expansion of service area",
-        "to": "Improvements to infrastructure for Bike Share Program, SOOCN CN CN CN SOOCN expansion of service area"
-      }
-    }
-  },
-  {
-    "timestamp": "2026-07-16T07:14:27.787270Z",
-    "city": "Philadelphia",
-    "file_stem": "2025",
-    "row_index": 174,
-    "project_name": "Life Safety Improvements",
-    "project_id": "PRK.37.3",
-    "source_page": "128",
-    "status": "corrected",
-    "issue_type": "description_bleed",
-    "notes": "Stripped 6\u00d7500 CN year values (incl. OCR noise SOOCN/S00CN); year_2026\u20132031 and total=3000 already correct",
-    "edits": {
-      "project_description": {
-        "from": "Make life safety improvements including installation of fire alarm systems and security surveillance systems at various Parks and Recreation facilities.",
-        "to": "Make life safety improvements including installation of fire alarm systems and security surveillance systems at various Parks and Recreation facilities."
-      }
-    }
-  },
-  {
-    "timestamp": "2026-07-16T07:19:41.397324Z",
-    "city": "Philadelphia",
-    "file_stem": "2025",
     "row_index": 2,
     "project_name": "Airfield Area of",
     "project_id": "AVN.2.1",
@@ -3128,6 +3092,40 @@
       "project_description": {
         "from": "Renovate multiple infrastructure systems in City-owned 500 CN SOOCN 500 CN 500 CN 500 CN SO0OCN buildings.",
         "to": "Renovate multiple infrastructure systems in City-owned CN SOOCN CN CN CN SOOCN buildings."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T17:50:01",
+    "city": "Philadelphia",
+    "file_stem": "2025",
+    "row_index": 174,
+    "project_name": "Life Safety Improvements",
+    "project_id": "PRK.37.3",
+    "source_page": 128,
+    "status": "correct",
+    "notes": "Stripped 6\u00d7500 CN year values (incl. OCR noise SOOCN/S00CN); year_2026\u20132031 and total=3000 already correct",
+    "edits": {
+      "project_description": {
+        "from": "Make life safety improvements including installation of fire alarm systems and security surveillance systems at various Parks and Recreation facilities.",
+        "to": "Make life safety improvements including installation of fire alarm systems and security surveillance systems at various Parks and Recreation facilities."
+      }
+    }
+  },
+  {
+    "timestamp": "2026-07-16T17:50:49",
+    "city": "Philadelphia",
+    "file_stem": "2025",
+    "row_index": 148,
+    "project_name": "Bike Share Infrastructure",
+    "project_id": "MDO.7",
+    "source_page": 107,
+    "status": "correct",
+    "notes": "Bare numbers removed from description by clean_descriptions.py",
+    "edits": {
+      "project_description": {
+        "from": "Improvements to infrastructure for Bike Share Program, SOOCN 500 CN 500 CN 500 CN SOOCN expansion of service area",
+        "to": "Improvements to infrastructure for Bike Share Program, SOOCN CN CN CN SOOCN expansion of service area"
       }
     }
   }
