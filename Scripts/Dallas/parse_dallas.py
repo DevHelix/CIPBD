@@ -43,75 +43,62 @@ class Parser:
         #print("headers: "+self.headers)
 
     def process_yrHeaders(self):
-        for i in [7, 8, 9]:
+        last_yr = None
+        for i in [7, 8, 9, 10]:
             m = re.search(r'(\d{4})-(\d{2})', self.headers[i])
             if m:
-                yr = "20" + m.group(2)
+                last_yr = "20" + m.group(2)
+                self.years[self.headers[i]] = "year_" + last_yr
+                self.column_headers.append("year_" + last_yr)
+            elif 'future' in self.headers[i].lower():
+                yr = "year_" + str(int(last_yr) + 1) if last_yr else str("year_"+self.cip_year)
                 self.years[self.headers[i]] = yr
                 self.column_headers.append(yr)
-            else: 
-                self.years[self.headers[i]] = self.cip_year
-                self.column_headers.append(self.cip_year)
-        
+            else:
+                self.years[self.headers[i]] = "year_"+str(self.cip_year)
+                self.column_headers.append("year_"+str(self.cip_year))
         print("Headers imported")
-        #print("years dict: " + str(self.years.keys()) + ', ' + str(self.years.values()))
-        #print(self.column_headers)
 
     def process_IDs(self):
-        # add id, start_year, end_year, and cip_year to rows
         ids_raw = {}
-
         for row in self.cleaned:
-            
-            project_id = ''
-            start_year = ''
-            end_year = ''
-            
+            project_id = start_year = end_year = ''
             raw_id = row[0][-4:]
-            if raw_id in ids_raw: # if id already exists, increment subcount by 1
-                ids_raw[raw_id] += 1
-            else:
-                ids_raw[raw_id] = 1 # if not, set subcount to 1
-
+            ids_raw[raw_id] = ids_raw.get(raw_id, 0) + 1
             project_id = f"{raw_id}.{ids_raw[raw_id]}"
 
-            year_cells = []
-            for i, cell in enumerate(row):
-                if i >= 7 and i < 10:
-                    year_cells.append((self.years[self.headers[i]], cell))
+            year_cells = [(self.years[self.headers[i]], cell)
+                        for i, cell in enumerate(row) if 7 <= i <= 10]  # extended to 10
 
-            start_year = next((y for y, cell in year_cells if cell != '0'), '')
-            end_year   = next((y for y, cell in reversed(year_cells) if cell != '0'), '')
-            
-            row.append(project_id)
-            row.append(start_year)
-            row.append(end_year)
-            row.append(self.cip_year) # cip_year
-            
-            #print(row)
-        
+            start_year = next((y for y, cell in year_cells if cell != '0' and y != 'future_costs'), '')
+            end_year   = next((y for y, cell in reversed(year_cells) if cell != '0' and y != 'future_costs'), '')
+
+            row += [project_id, start_year, end_year, self.cip_year]
         print("IDs processed")
 
     def clean_num(self, cell):
-        return cell.replace(",","").replace(" ","")
-    
+        if cell=='' or cell=='-':
+            return 0
+        cleaned_cell = cell.replace(",", "").replace(" ", "").replace("$", "")
+        if cleaned_cell.startswith("(") and cleaned_cell.endswith(")"):
+            cleaned_cell = "-" + cleaned_cell[1:-1]
+        try:
+            return int(cleaned_cell)
+        except ValueError:
+            return cleaned_cell
+
     def format_rows(self):
-        # up to this point, cleaned rows are in arrangement of 
-        # project, service, funding source, council district, completion date
-        # budget, previous_appropriations, y1, y2, y3, future costs, projec_total, source_page, 
-        # project_id, start year, end year, cip_year
-
-        # new arrangement:
-        # cip_year, project_type, source_page, service, project_name
-        # project_id, start_year, end_year, previous_appropriations
-        # project_total, y1, y2, y3, ... everything else
-
+        # original: project(0), service(1), funding(2), council(3), completion(4),
+        #           budget(5), prev_approp(6), y1(7), y2(8), y3(9), future(10), total(11),
+        #           source_page(12), project_id(13), start_yr(14), end_yr(15), cip_yr(16)
+        # new: cip_yr, service, source_page, funding, project, id, start, end,
+        #      prev_approp, total, y1, y2, y3, future_costs
         for row in self.cleaned:
-            numeric_indices = {8, 9, 10}  # positions in new_row: previous_appropriations, project_total, y1, y2, y3
-            new_order = [16, 1, 12, 2, 0, 13, 14, 15, 6, 11, 7, 8, 9, 3, 4, 5, 10]
-            new_row = [row[i] for i in new_order][:-4]
-            new_row = [self.clean_num(cell) if i in numeric_indices else cell 
-                        for i, cell in enumerate(new_row)]
+            numeric_indices = {8, 9, 10, 11, 12, 13}  # prev_approp, total, y1, y2, y3, future
+            new_order = [16, 1, 12, 2, 0, 13, 14, 15, 6, 11, 7, 8, 9, 10]  # future costs now included
+            new_row = [row[i] for i in new_order]
+            new_row = [self.clean_num(cell) if i in numeric_indices else cell
+                    for i, cell in enumerate(new_row)]
             self.final.append(new_row)
         print("Rows formatted")
 
