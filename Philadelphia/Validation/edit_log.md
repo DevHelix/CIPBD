@@ -87,3 +87,71 @@
   - **year_2023**: "" → "19"
 - 2026-07-16 21:10:32 — Philadelphia/2022 row 1 [AVN.2A — Airfield Area-FY22 p.36]
   - **project_description**: "See description under line item 2. XT" → "See description under line item 2."
+- 2026-07-17 02:43:27 — Philadelphia/2024 row 157 [HLTH.31C — Health Department Equipment and Improvements-FY22 p.106]
+  - **year_2030**: "73077.0" → ""
+- 2026-07-17 02:44:10 — Philadelphia/2024 row 388 [STR.64C — Reconstruction/Resurfacing of Streets-FY22 p.217]
+  - **year_2030**: "17750.0" → ""
+- 2026-07-17 02:44:22 — Philadelphia/2024 row 405 [STR.66B — Federal Aid Highway Program-FY23 p.223]
+  - **year_2030**: "13074.0" → ""
+- 2026-07-17 02:44:44 — Philadelphia/2024 row 371 [PPD.61C — Improvements to Municipal Facilities-FY22 p.204]
+  - **year_2030**: "11844.0" → ""
+  - **project_total**: "12340" → "8340"
+  - **year_2025**: "12340" → "8340"
+- 2026-07-17 02:45:03 — Philadelphia/2024 row 356 [PRS.59C — Prison System - Renovations-FY22 p.197]
+  - **year_2030**: "8625.0" → ""
+- 2026-07-17 02:45:12 — Philadelphia/2024 row 321 [PRK.52C — Cultural Facilities Improvements-FY18 p.181]
+  - **year_2030**: "3295.0" → ""
+- 2026-07-17 02:45:21 — Philadelphia/2024 row 72 [FIN.20C — City Council - ITEF CD5-FY22 p.67]
+  - **year_2030**: "2865.0" → ""
+- 2026-07-17 02:45:35 — Philadelphia/2024 row 329 [PRK.54C — Parkland - Site Improvements-FY11 p.183]
+  - **year_2030**: "2316.0" → ""
+- 2026-07-17 02:45:40 — Philadelphia/2024 row 329 [PRK.54C — Parkland - Site Improvements-FY11 p.183]
+  - **project_type**: "See description under line item 44. 7CT" → "See description under line item 44."
+- 2026-07-17 02:45:57 — Philadelphia/2024 row 247 [PRK.41C — Parks and Recreation Projects-FY22 p.147]
+  - **year_2030**: "2000.0" → ""
+- 2026-07-17 02:46:09 — Philadelphia/2024 row 101 [FIN.24C — City Council - ITEF CD9-FY22 p.77]
+  - **year_2030**: "1805.0" → ""
+- 2026-07-17 02:46:18 — Philadelphia/2024 row 337 [PRK.57C — Grant Funded Recreation Improvements-FY12 p.185]
+  - **year_2030**: "1629.0" → ""
+- 2026-07-17 02:46:28 — Philadelphia/2024 row 337 [PRK.57C — Grant Funded Recreation Improvements-FY12 p.185]
+  - **project_type**: "See description under line item 44. 7CT" → "See description under line item 44."
+- 2026-07-17 02:46:58 — Philadelphia/2024 row 92 [FIN.23C — City Council - ITEF CD8-FY22 p.74]
+  - **year_2030**: "1611.0" → ""
+- 2026-07-17 02:47:08 — Philadelphia/2024 row 18 [COM.7C — Industrial Districts-FY22 p.42]
+  - **year_2030**: "1500.0" → ""
+- 2026-07-17 02:47:19 — Philadelphia/2024 row 296 [PRK.49C — Improvements to Existing Recreation Facilities-CD8-FY22 p.171]
+  - **year_2030**: "1310.0" → ""
+  - **project_type**: "See description under line item 44. 7CT" → "See description under line item 44."
+- 2026-07-17 02:47:31 — Philadelphia/2024 row 175 [MDO.33C — Citywide Facilities-FY22 p.113]
+  - **year_2030**: "1099.0" → ""
+- 2026-07-17 02:47:46 — Philadelphia/2024 row 175 [MDO.33C — Citywide Facilities-FY22 p.113]
+  - **end_year**: "2030.0" → "2025.0"
+- 2026-07-17 02:49:05 — Philadelphia/2024 row 237 [PRK.40C — Natural Lands/Large Manicured Parks-FY22 p.143]
+  - **project_type**: "See description under line item 44. 7CT" → "See description under line item 44."
+  - **year_2030**: "1418.0" → ""
+- 2026-07-17 02:49:26 — Philadelphia/2024 row 237 [PRK.40C — Natural Lands/Large Manicured Parks-FY22 p.143]
+  - **end_year**: "2030.0" → "2025.0"
+- 2026-07-17 02:49:59 — Philadelphia/2024 row 127 [FIRE.27C — Fleet Management Facilities-FY22 p.92]
+  - **year_2030**: "132.0" → ""
+- 2026-07-17 02:50:48 — Philadelphia/2024 row 148 [LIB.30C — Free Library Improvements-FY22 p.101]
+  - **year_2030**: "1000.0" → ""
+  - **year_2025**: "4000" → "1000"
+  - **project_total**: "4000" → "1000"
+- 2026-07-17 02:51:10 — Philadelphia/2024 row 394 [STR.65C — Highways Citywide-FY22 p.219]
+  - **year_2030**: "1000.0" → ""
+  - **year_2025**: "41000" → "1000"
+  - **project_total**: "41000" → "1000"
+  - **end_year**: "2030.0" → "2025.0"
+- 2026-07-17 02:51:58 — Philadelphia/2021 row 92 [FIRE.26.4 — Fire Facilties: Mechanical, Electrical, and Plumbling p.96]
+  - **year_2022**: "50" → "500"
+  - **end_year**: "2026" → "2027"
+  - **start_year**: "2026" → "2022"
+- 2026-07-17 02:52:21 — Philadelphia/2024 row 225 [PRK.39C — Neighborhood Parks-FY22 p.139]
+  - **year_2030**: "757.0" → ""
+  - **project_type**: "See description under line item 44. 7CT" → "See description under line item 44."
+- 2026-07-17 02:52:41 — Philadelphia/2024 row 426 [STR.69C — Streets Department Facilities-FY22 p.230]
+  - **year_2030**: "606.0" → ""
+  - **end_year**: "2030.0" → "2025.0"
+- 2026-07-17 02:52:57 — Philadelphia/2024 row 287 [PRK.48C — Improvements to Existing Recreation Facilities-CD7-FY22 p.168]
+  - **project_type**: "See description under line item 44. 7CT" → "See description under line item 44."
+  - **year_2030**: "505.0" → ""

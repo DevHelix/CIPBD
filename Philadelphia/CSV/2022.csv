@@ -89,8 +89,17 @@ cip_year,project_type,source_page,department,project_name,project_id,address_loc
 2022,See description under line item 22.,78,FINANCE,City Council - ITEF CD10,FIN.25.1,,2023,2027,Fund critical renovations and other improvements to City-owned sites as needed,,,2550,510,510,510,510,510,,,
 2022,See description under line item 22.,78,FINANCE,City Council - ITEF CD10-FY22,FIN.25A,,2023,2023,See description under line item 25.,,,255,255,,,,,,corrected,
 2022,See description under line item 22.,79,FINANCE,City Council - ITEF CD10-FY21,FIN.25B,,2023,2023,See description under line item 25.,,,255,255,,,,,,corrected,
-2022,See description under line item 22.,79,FINANCE,City Council - ITEF CD10-FY20,FIN.25C,,2023,2023,"See description under line item 25. S D. City Council - ITEF CD-FY See description under line item 25. E. City Council - ITEF CD-FY See description under line item 25. F. City Council - ITEF CD-FY See description under line item 25. G, City Council - ITEF CD-FY See description under line item 25.",,,2313,2313,,,,,,corrected,
-2022,See description under line item 22.,80,FINANCE,City Council - ITEF CD10-FY13,FIN.251,,2023,2023,See description under line item 25. J. City Council - ITEF CD-FY See description under line item 25. K. City Council - ITEF CD-FY See description under line item 25.: L. City Council - ITEF CD-FY See description under line item 25. OB M. City Council - ITEF CD-FY See description under line item 25.,,,79,79,,,,,,,
+2022,See description under line item 22.,79,FINANCE,City Council - ITEF CD10-FY20,FIN.25C,,2023,2023,See description under line item 25.,,,510,510,,,,,,corrected,
+2022,See description under line item 22.,79,FINANCE,City Council - ITEF CD10-FY17,FIN.25F,,,,See description under line item 25.,,,410,410,,,,,,corrected,Inserted: was merged into FIN.25C description.
+2022,See description under line item 22.,79,FINANCE,City Council - ITEF CD10-FY16,FIN.25G,,,,See description under line item 25.,,,373,373,,,,,,corrected,Inserted: OCR suffix 6→G fix.
+2022,See description under line item 22.,79,FINANCE,City Council - ITEF CD10-FY15,FIN.25H,,,,See description under line item 25.,,,,,,,,,,corrected,Inserted: was merged into FIN.25C description.
+2022,See description under line item 22.,79,FINANCE,City Council - ITEF CD10-FY12,FIN.25J,,,,See description under line item 25.,,,,,,,,,,corrected,Inserted: was merged into FIN.25C description.
+2022,See description under line item 22.,79,FINANCE,City Council - ITEF CD10-FY11,FIN.25K,,,,See description under line item 25.,,,71,71,,,,,,corrected,Inserted: was merged into FIN.25C description.
+2022,See description under line item 22.,79,FINANCE,City Council - ITEF CD10-FY06,FIN.25L,,,,See description under line item 25.,,,45,45,,,,,,corrected,Inserted: was merged into FIN.25C description.
+2022,See description under line item 22.,79,FINANCE,City Council - ITEF CD10-FY03,FIN.25M,,,,See description under line item 25.,,,,,,,,,,corrected,Inserted: was merged into FIN.25C description.
+2022,See description under line item 22.,79,FINANCE,City Council - ITEF CD10-FY19,FIN.25D,,,,See description under line item 25.,,,510,510,,,,,,corrected,Row inserted: was merged into FIN.25C description bleed.
+2022,See description under line item 22.,79,FINANCE,City Council - ITEF CD10-FY18,FIN.25E,,,,See description under line item 25.,,,510,510,,,,,,corrected,Row inserted: was merged into FIN.25C description bleed.
+2022,See description under line item 22.,80,FINANCE,City Council - ITEF CD10-FY13,FIN.251,,2023,2023,See description under line item 25,,,79,79,,,,,,,
 2022,FIRE FACILITIES,86,FIRE,Holistic Fire Facilty Improvements Engine 57,FIRE.26.14,,2023,2028,Design and construct holistic improvements to Fire Engines.,,,15700,700,,5000,,5000,5000,corrected,
 2022,FIRE FACILITIES,86,FIRE,Health and Safety Improvements,FIRE.26.2,,2023,2028,Health and Safety Improvements,,,1700,500,100,100,500,250,250,,
 2022,FIRE FACILITIES,86,FIRE,Fire Facility Exterior Window and Door Improvements,FIRE.26.3,,2023,2028,Design and construct Fire Facility exterior improvements.,,,1700,500,100,100,500,250,250,corrected,
@@ -294,7 +303,11 @@ cip_year,project_type,source_page,department,project_name,project_id,address_loc
 2022,BUILDINGS AND FACILITIES - OTHER,197,PUBLIC PROPERTY,Haddington House,PPD.5.7,,2024,2025,Improvements to Haddington House,,,250,,150,100,,,,,
 2022,BUILDINGS AND FACILITIES - OTHER,197,PUBLIC PROPERTY,Improvements to Municipal Facilities-FY22,PPD.63A,,2023,2023,See description under line item 63.,,,5500,5500,,,,,,corrected,
 2022,BUILDINGS AND FACILITIES - OTHER,197,PUBLIC PROPERTY,Improvements to Municipal Facilities-FY21,PPD.63B,,2023,2023,See description under line item 63.,,,500,500,,,,,,corrected,
-2022,BUILDINGS AND FACILITIES - OTHER,198,PUBLIC PROPERTY,Improvements to Municipal Facilities-FY20,PPD.63C,,2023,2023,See description under line item 63. D. Improvements to Municipal Facilities-FY See description under line item 63. E. Improvements to Municipal Facilities-FY See description under line item 63. F. Improvements to Municipal Facilities-FY See description under line item 63.,,,8698,8698,,,,,,corrected,
+2022,BUILDINGS AND FACILITIES - OTHER,198,PUBLIC PROPERTY,Improvements to Municipal Facilities-FY20,PPD.63C,,2023,2023,See description under line item 63,,,19035,19035,,,,,,corrected,
+2022,BUILDINGS AND FACILITIES - OTHER,198,PUBLIC PROPERTY,Improvements to Municipal Facilities-FY17,PPD.63F,,,,See description under line item 63.,,,,,,,,,,corrected,Inserted: was merged into PPD.63C description.
+2022,BUILDINGS AND FACILITIES - OTHER,198,PUBLIC PROPERTY,Improvements to Municipal Facilities-FY14,PPD.63G,,,,See description under line item 63.,,,49793,49793,,,,,,corrected,Inserted: was merged into PPD.63C description.
+2022,BUILDINGS AND FACILITIES - OTHER,198,PUBLIC PROPERTY,Improvements to Municipal Facilities-FY19,PPD.63D,,,,See description under line item 63.,,,9140,9140,,,,,,corrected,Row inserted: was merged into PPD.63C description bleed.
+2022,BUILDINGS AND FACILITIES - OTHER,198,PUBLIC PROPERTY,Improvements to Municipal Facilities-FY18,PPD.63E,,,,See description under line item 63.,,,795,795,,,,,,corrected,Row inserted: was merged into PPD.63C description bleed.
 2022,CAPITAL PROJECTS,203,RECORDS,Records Improvements-FY20,REC.64A,,,,See description under line item 64. CR,,,,,,,,,,incorrect,
 2022,CAPITAL PROJECTS,203,RECORDS,Records Improvements-FY18,REC.64B,,2028,2028,See description under line item 64,,,93,,,,,,93,corrected,
 2022,CAPITAL PROJECTS,203,RECORDS,Records Improvements-FY15,REC.64C,,2028,2028,See description under line item 64.,,,29,,,,,,29,corrected,
@@ -375,7 +388,10 @@ cip_year,project_type,source_page,department,project_name,project_id,address_loc
 2022,COLLECTOR SYSTEMS - CAPITAL,239,WATER,Expansion of Collector System,WAT.78.2,,2023,2028,Extend the public collection system citywide.,,,60,10,10,10,10,10,10,,
 2022,COLLECTOR SYSTEMS - CAPITAL,239,WATER,Improvements to Collector System-FY22,WAT.78A,,2023,2023,See description under line item 78.,,,225,225,,,,,,corrected,
 2022,COLLECTOR SYSTEMS - CAPITAL,240,WATER,Improvements to Collector System-FY21,WAT.78B,,2023,2023,See description under line item 78.,,,35,35,,,,,,corrected,
-2022,COLLECTOR SYSTEMS - CAPITAL,240,WATER,Improvements to Collector System-FY20,WAT.78C,,2023,2023,See description under line item 78. D. Improvements to Collector System-FY See description under line item 78. E. Improvements to Collector System-FY See description under line item 78. F. Improvements to Collector System-FY See description under line item 78.,,,10098,10098,,,,,,corrected,
+2022,COLLECTOR SYSTEMS - CAPITAL,240,WATER,Improvements to Collector System-FY20,WAT.78C,,2023,2023,See description under line item 78,,,10098,10098,,,,,,corrected,
+2022,COLLECTOR SYSTEMS - CAPITAL,240,WATER,Improvements to Collector System-FY17,WAT.78D,,,,See description under line item 78.,,,100,100,,,,,,corrected,Row inserted: was merged into WAT.78C description bleed.
+2022,COLLECTOR SYSTEMS - CAPITAL,240,WATER,Improvements to Collector System-FY16,WAT.78E,,,,See description under line item 78.,,,105,105,,,,,,corrected,Row inserted: was merged into WAT.78C description bleed.
+2022,COLLECTOR SYSTEMS - CAPITAL,240,WATER,Improvements to Collector System-FY14,WAT.78F,,,,See description under line item 78.,,,29,29,,,,,,corrected,Row inserted: was merged into WAT.78C description bleed.
 2022,CONVEYANCE SYSTEMS - CAPITAL,241,WATER,Reconstruction of Conveyance Systems,WAT.79.1,,2023,2028,Reconstruct water mains throughout the city.,,,600,100,100,100,100,100,100,corrected,
 2022,CONVEYANCE SYSTEMS - CAPITAL,241,WATER,Meter Replacement,WAT.79.2,,2023,2028,Purchase water meters to replace obsolete meters.,,,30000,5000,5000,5000,5000,5000,5000,corrected,
 2022,CONVEYANCE SYSTEMS - CAPITAL,242,WATER,Expansion of Conveyance Systems,WAT.3,,2023,2028,Expand water citywide to the of the city not mains service areas currently supplied by public water mains.,,,720,60,60,120,60,60,360,,
@@ -390,4 +406,4 @@ cip_year,project_type,source_page,department,project_name,project_id,address_loc
 2022,TREATMENT FACILITIES - CAPITAL,244,WATER,Improvements to Treatment Facilities-FY22,WAT.81A,,2023,2023,See description under line item 81,,,500,500,,,,,,,
 2022,TREATMENT FACILITIES - CAPITAL,244,WATER,Improvements to Treatment Facilities-FY21,WAT.81B,,2023,2023,See description under line item 81.,,,60600,60600,,,,,,corrected,
 2022,TREATMENT FACILITIES - CAPITAL,244,WATER,Improvements to Treatment Facilities-FY20,WAT.81C,,2023,2023,See description under line item 81,,,678,678,,,,,,,
-
+,,,,,,,,,,,,,,,,,,,,
