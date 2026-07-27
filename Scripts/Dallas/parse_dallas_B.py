@@ -1,3 +1,5 @@
+# typical parser, Dallas 2022-2025
+
 import pdfplumber
 import csv
 import re
@@ -27,7 +29,8 @@ class Parser:
                 
                 source_page += 1
 
-                if pg_table and "District" in pg_text and "Service" in pg_text and "Completion" in pg_text:
+                if pg_table and "District" in pg_text and "Service" in pg_text and "Comp" in pg_text:
+                    
                     if first_page:
                         self.headers = pg_table[0]
                         first_page = False
@@ -40,7 +43,7 @@ class Parser:
                         self.cleaned.append(cleaned_row)
         print("Data imported")
         #print(self.cleaned)
-        #print("headers: "+self.headers)
+        print(self.headers)
 
     def process_yrHeaders(self):
         last_yr = None
@@ -118,6 +121,6 @@ class Parser:
         self.write_csv()
         #print(self.column_headers)
 
-for i in range(2022,2026):
+for i in range(2019,2020):
     p = Parser(i)
     p.combine()
