@@ -1,0 +1,2 @@
+- 2026-08-16 02:20:01 — Dallas/2024 row 311 [ — Homeowner Stabilization Home Repairs & Mitigation Program p.60]
+  - **previous_appropriations**: "0" → "440045"

@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": null,
+    "city": "Dallas",
+    "file_stem": "2024",
+    "row_index": 311,
+    "project_name": "Homeowner Stabilization Home Repairs & Mitigation Program",
+    "project_id": "",
+    "source_page": "60",
+    "status": "",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-08-16T02:20:01",
+        "column": "previous_appropriations",
+        "old": "0",
+        "new": "440045"
+      }
+    ]
+  }
+]
