@@ -1,4 +1,4 @@
-# 2017 - 2025
+# <= 2016
 
 import pdfplumber
 import csv
@@ -39,7 +39,7 @@ def extract_text_fields(txt, left_text, right_text):
     end_year   = dur_m.group(2) if dur_m else ''
 
     description   = extract_field(left_text, 'Description')
-    justification = extract_field(left_text, 'Justification')
+    justification = extract_field(left_text, 'Justification') or extract_field(right_text, 'Justification')
 
     return {
         'department':        department,
@@ -72,6 +72,11 @@ def extract_table_fields(pg_table):
         ]
     else:
         header = table[header_idx]
+
+    # Fix 2016 PDF total row shift: Exp/Enc value lands at Fund No position (col 1),
+    # leaving col 2 (Exp/Enc column) empty. Swap to restore alignment.
+    if len(total_row) > 2 and clean_num(total_row[1]) != 0 and total_row[2] == '':
+        total_row[1], total_row[2] = total_row[2], total_row[1]
 
     year_cols     = {}
     prev_approp   = 0
@@ -175,5 +180,5 @@ def combine(cip_year):
 
     write_csv(records, r"C:\Users\vince\Documents\GitHub\CIPBD\Scripts\San-Diego\outputs\\" + f"{cip_year}.csv")
 
-for year in range(2017, 2026):
-    combine(year)
+for i in range(2012,2016):
+    combine(i)
