@@ -16,12 +16,8 @@ def extract_field(text, label):
     m = re.search(label + r'\s*:\s*(.+?)(?=' + stop + r'|$)', text, re.S | re.I)
     return re.sub(r'\s+', ' ', m.group(1)).strip() if m else ''
 
-def parse_text(right_text, txt):
-    """
-    2007 layout: department / project_type / 'Project Name XX-XXX.X' are in the right half.
-    Description, Justification etc. span the full page.
-    """
-    lines = [l.strip() for l in right_text.splitlines() if l.strip()]
+def parse_text(txt):
+    lines = [l.strip() for l in txt.splitlines() if l.strip()]
     department   = lines[0] if len(lines) > 0 else ''
     project_type = lines[1] if len(lines) > 1 else ''
     project_name, project_id = '', ''
@@ -139,8 +135,7 @@ def combine(cip_year):
             if not pg_table:
                 continue
 
-            right_text = pg.within_bbox((pg.width / 2, 0, pg.width, pg.height)).extract_text() or ''
-            text       = parse_text(right_text, txt)
+            text       = parse_text(txt)
             yc, pa, pt = parse_table(pg_table)
             pt = pa + sum(yc.values())
 
@@ -164,5 +159,5 @@ def combine(cip_year):
     print(f"Done: {cip_year}.csv — {len(records)} records")
 
 
-for year in range(2009, 2010):
+for year in range(2007, 2009):
     combine(year)
