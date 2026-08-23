@@ -146,6 +146,7 @@ def combine(cip_year):
                 (t for t in pg_tables if any('Fund Name' in str(cell or '') for row in t for cell in row)),
                 None
             )
+
             if not (pg_table and "Duration" in txt and "Justification" in txt):
                 continue
 
@@ -180,5 +181,5 @@ def combine(cip_year):
 
     write_csv(records, r"C:\Users\vince\Documents\GitHub\CIPBD\Scripts\San-Diego\outputs\\" + f"{cip_year}.csv")
 
-for i in range(2012,2016):
+for i in range(2007,2008):
     combine(i)
