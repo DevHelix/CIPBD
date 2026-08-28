@@ -1,0 +1,2 @@
+- 2026-08-28 15:59:48 — Long Beach/2016 row 42 [AP1270 — Rental Car Facility p.87]
+  - **previous_appropriations**: "135003" → "6614997"

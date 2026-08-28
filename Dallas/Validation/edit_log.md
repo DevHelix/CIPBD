@@ -1,2 +1,43 @@
 - 2026-08-16 02:20:01 — Dallas/2024 row 311 [ — Homeowner Stabilization Home Repairs & Mitigation Program p.60]
   - **previous_appropriations**: "0" → "440045"
+- 2026-08-25 00:00:23 — Dallas/2018 row 340 [P472 — Skillman Corridor TIF - Repayment of Advances p.85]
+  - **previous_appropriations**: "4" → "5055246"
+- 2026-08-25 00:02:20 — Dallas/2018 row 340 [P472 — Skillman Corridor TIF - Repayment of Advances p.85]
+  - **previous_appropriations**: "5055246" → "5055246.0"
+- 2026-08-25 00:03:25 — Dallas/2018 row 340 [P472 — Skillman Corridor TIF - Repayment of Advances p.85]
+  - **year_2019**: "5055246" → ""
+  - **project_total**: "0" → "5055246"
+- 2026-08-25 00:07:44 — Dallas/2018 row 1860 [W213 — Guildhall-McCree Storm Drainage Relief System p.209]
+  - **project_total**: "0" → "4230000"
+  - **previous_appropriations**: "10" → ""
+  - **council_district**: "Citywide," → "Citywide, 10"
+- 2026-08-25 00:08:29 — Dallas/2018 row 359 [P559 — TOD - TIF p.86]
+  - **previous_appropriations**: "14" → "3304510"
+  - **council_district**: "2, 3, 4, 8" → "2, 3, 4, 8, 14"
+- 2026-08-25 00:09:47 — Dallas/2018 row 360 [P564 — Transit Oriented - Repayment of Advances p.86]
+  - **council_district**: "2, 3, 4, 8" → "2, 3, 4, 8, 14"
+  - **year_2019**: "2349221" → ""
+  - **previous_appropriations**: "14" → "2349221"
+  - **project_total**: "0" → "2349221"
+- 2026-08-25 00:10:59 — Dallas/2018 row 359 [P559 — TOD - TIF p.86]
+  - **year_2019**: "3304510" → ""
+  - **project_total**: "0" → "3304510"
+- 2026-08-25 00:13:28 — Dallas/2018 row 357 [P948 — District Alamo Drafthouse Cinema p.86]
+  - **council_district**: "2,4,5,7,8" → "2,4,5,7,8,14"
+  - **previous_appropriations**: "14" → "301401"
+- 2026-08-25 00:14:15 — Dallas/2018 row 357 [P948 — District Alamo Drafthouse Cinema p.86]
+  - **project_total**: "0" → "1377543"
+- 2026-08-25 00:25:55 — Dallas/2018 row 309 [P853 — Olympic Development Project p.83]
+  - **previous_appropriations**: "686234" → "0"
+- 2026-08-25 00:26:36 — Dallas/2018 row 358 [P665 — Blvd-Mockingbird/Lovers Lane Sub- District p.86]
+  - **council_district**: "2,3,4,8" → "2,3,4,8, 14"
+  - **previous_appropriations**: "14" → "0"
+  - **project_total**: "0" → "400000"
+- 2026-08-25 00:37:08 — Dallas/2018 row 353 [P898 — Two-Way Signage Project p.86]
+  - **previous_appropriations**: "6538164" → "2073809"
+  - **project_total**: "10486008" → "4197559"
+  - **end_year**: "2020" → "2019"
+  - **year_2020**: "665792" → "0"
+  - **year_2019**: "3864496" → "582444"
+- 2026-08-25 00:38:11 — Dallas/2018 row 358 [P665 — Blvd-Mockingbird/Lovers Lane Sub- District p.86]
+  - **council_district**: "2,3,4,8, 14" → "2,3,4,8,14"

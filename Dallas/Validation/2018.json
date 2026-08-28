@@ -1,0 +1,274 @@
+[
+  {
+    "timestamp": null,
+    "city": "Dallas",
+    "file_stem": "2018",
+    "row_index": 340,
+    "project_name": "Skillman Corridor TIF - Repayment of Advances",
+    "project_id": "P472",
+    "source_page": "85",
+    "status": "",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-08-25T00:00:23",
+        "column": "previous_appropriations",
+        "old": "4",
+        "new": "5055246"
+      },
+      {
+        "timestamp": "2026-08-25T00:02:20",
+        "column": "previous_appropriations",
+        "old": "5055246",
+        "new": "5055246.0"
+      },
+      {
+        "timestamp": "2026-08-25T00:03:25",
+        "column": "year_2019",
+        "old": "5055246",
+        "new": ""
+      },
+      {
+        "timestamp": "2026-08-25T00:03:25",
+        "column": "project_total",
+        "old": "0",
+        "new": "5055246"
+      }
+    ]
+  },
+  {
+    "timestamp": null,
+    "city": "Dallas",
+    "file_stem": "2018",
+    "row_index": 1860,
+    "project_name": "Guildhall-McCree Storm Drainage Relief System",
+    "project_id": "W213",
+    "source_page": "209",
+    "status": "",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-08-25T00:07:45",
+        "column": "project_total",
+        "old": "0",
+        "new": "4230000"
+      },
+      {
+        "timestamp": "2026-08-25T00:07:45",
+        "column": "previous_appropriations",
+        "old": "10",
+        "new": ""
+      },
+      {
+        "timestamp": "2026-08-25T00:07:45",
+        "column": "council_district",
+        "old": "Citywide,",
+        "new": "Citywide, 10"
+      }
+    ]
+  },
+  {
+    "timestamp": null,
+    "city": "Dallas",
+    "file_stem": "2018",
+    "row_index": 359,
+    "project_name": "TOD - TIF",
+    "project_id": "P559",
+    "source_page": "86",
+    "status": "",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-08-25T00:08:29",
+        "column": "previous_appropriations",
+        "old": "14",
+        "new": "3304510"
+      },
+      {
+        "timestamp": "2026-08-25T00:08:29",
+        "column": "council_district",
+        "old": "2, 3, 4, 8",
+        "new": "2, 3, 4, 8, 14"
+      },
+      {
+        "timestamp": "2026-08-25T00:10:59",
+        "column": "year_2019",
+        "old": "3304510",
+        "new": ""
+      },
+      {
+        "timestamp": "2026-08-25T00:10:59",
+        "column": "project_total",
+        "old": "0",
+        "new": "3304510"
+      }
+    ]
+  },
+  {
+    "timestamp": null,
+    "city": "Dallas",
+    "file_stem": "2018",
+    "row_index": 360,
+    "project_name": "Transit Oriented - Repayment of Advances",
+    "project_id": "P564",
+    "source_page": "86",
+    "status": "",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-08-25T00:09:47",
+        "column": "council_district",
+        "old": "2, 3, 4, 8",
+        "new": "2, 3, 4, 8, 14"
+      },
+      {
+        "timestamp": "2026-08-25T00:09:47",
+        "column": "year_2019",
+        "old": "2349221",
+        "new": ""
+      },
+      {
+        "timestamp": "2026-08-25T00:09:47",
+        "column": "previous_appropriations",
+        "old": "14",
+        "new": "2349221"
+      },
+      {
+        "timestamp": "2026-08-25T00:09:47",
+        "column": "project_total",
+        "old": "0",
+        "new": "2349221"
+      }
+    ]
+  },
+  {
+    "timestamp": null,
+    "city": "Dallas",
+    "file_stem": "2018",
+    "row_index": 357,
+    "project_name": "District Alamo Drafthouse Cinema",
+    "project_id": "P948",
+    "source_page": "86",
+    "status": "",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-08-25T00:13:28",
+        "column": "council_district",
+        "old": "2,4,5,7,8",
+        "new": "2,4,5,7,8,14"
+      },
+      {
+        "timestamp": "2026-08-25T00:13:28",
+        "column": "previous_appropriations",
+        "old": "14",
+        "new": "301401"
+      },
+      {
+        "timestamp": "2026-08-25T00:14:15",
+        "column": "project_total",
+        "old": "0",
+        "new": "1377543"
+      }
+    ]
+  },
+  {
+    "timestamp": null,
+    "city": "Dallas",
+    "file_stem": "2018",
+    "row_index": 309,
+    "project_name": "Olympic Development Project",
+    "project_id": "P853",
+    "source_page": "83",
+    "status": "",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-08-25T00:25:55",
+        "column": "previous_appropriations",
+        "old": "686234",
+        "new": "0"
+      }
+    ]
+  },
+  {
+    "timestamp": null,
+    "city": "Dallas",
+    "file_stem": "2018",
+    "row_index": 358,
+    "project_name": "Blvd-Mockingbird/Lovers Lane Sub- District",
+    "project_id": "P665",
+    "source_page": "86",
+    "status": "",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-08-25T00:26:36",
+        "column": "council_district",
+        "old": "2,3,4,8",
+        "new": "2,3,4,8, 14"
+      },
+      {
+        "timestamp": "2026-08-25T00:26:36",
+        "column": "previous_appropriations",
+        "old": "14",
+        "new": "0"
+      },
+      {
+        "timestamp": "2026-08-25T00:26:36",
+        "column": "project_total",
+        "old": "0",
+        "new": "400000"
+      },
+      {
+        "timestamp": "2026-08-25T00:38:11",
+        "column": "council_district",
+        "old": "2,3,4,8, 14",
+        "new": "2,3,4,8,14"
+      }
+    ]
+  },
+  {
+    "timestamp": null,
+    "city": "Dallas",
+    "file_stem": "2018",
+    "row_index": 353,
+    "project_name": "Two-Way Signage Project",
+    "project_id": "P898",
+    "source_page": "86",
+    "status": "",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-08-25T00:37:08",
+        "column": "previous_appropriations",
+        "old": "6538164",
+        "new": "2073809"
+      },
+      {
+        "timestamp": "2026-08-25T00:37:08",
+        "column": "project_total",
+        "old": "10486008",
+        "new": "4197559"
+      },
+      {
+        "timestamp": "2026-08-25T00:37:08",
+        "column": "end_year",
+        "old": "2020",
+        "new": "2019"
+      },
+      {
+        "timestamp": "2026-08-25T00:37:08",
+        "column": "year_2020",
+        "old": "665792",
+        "new": "0"
+      },
+      {
+        "timestamp": "2026-08-25T00:37:08",
+        "column": "year_2019",
+        "old": "3864496",
+        "new": "582444"
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": null,
+    "city": "Long Beach",
+    "file_stem": "2016",
+    "row_index": 42,
+    "project_name": "Rental Car Facility",
+    "project_id": "AP1270",
+    "source_page": "87",
+    "status": "",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-08-28T15:59:48",
+        "column": "previous_appropriations",
+        "old": "135003",
+        "new": "6614997"
+      }
+    ]
+  }
+]
