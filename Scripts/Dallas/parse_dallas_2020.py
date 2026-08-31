@@ -1,133 +1,126 @@
-# Dallas 2020 CIP PDF parser
-import pdfplumber, csv, re
-
-PDF_PATH = r"C:\Users\vince\Documents\GitHub\CIPBD\Dallas\PDF\2020.pdf"
-OUT_PATH = r"C:\Users\vince\Documents\GitHub\CIPBD\Dallas\CSV\2020.csv"
-
-# Pages (1-indexed) that belong to Transportation/Street Services
-# (no explicit dept header exists in this PDF for this section)
-STREET_PAGES = set(range(57, 84))
+import csv
+import re
+import pdfplumber
+from collections import defaultdict
 
 def clean_num(v):
-    v = str(v or '').replace(',', '').replace('$', '').strip()
-    if v in ('', '-', '—'): return 0
-    try: return int(float(v))
-    except: return 0
+    s = str(v or '').strip().replace(',', '').replace(' ', '').lstrip('$')
+    if s.startswith('(') and s.endswith(')'):
+        s = '-' + s[1:-1]
+    if not s or s in ('-', '—', 'N/A', 'n/a', 'TBD'):
+        return 0
+    try:
+        return int(float(s))
+    except:
+        return 0
+
+def clean_text(v):
+    return ' '.join(str(v or '').replace('\n', ' ').split())
+
+def get_department(txt):
+    lines = [l.strip() for l in txt.splitlines() if l.strip()]
+    return lines[0].title().strip() if lines else ''
 
 
-def is_dept_header(lines):
-    """True if this page starts with a department name line."""
-    if not lines: return False
-    first = lines[0]
-    second = lines[1] if len(lines) > 1 else ''
+def is_data_page(pg, t):
     return (
-        len(first) < 50
-        and not first[0].isdigit()
-        and first not in ('Estimated',)
-        and any(kw in second for kw in ('MISSION', 'Project list', 'Project List', 'HIGHLIGHTED'))
+        pg.rotation == 0
+        and len(t[0]) == 10
+        and 'Project Name' in str(t[0][0] or '')
     )
 
-def parse_project_table(table, dept, source_page):
-    """Extract records from a project-list table."""
-    records = []
-    # Identify header row (contains 'Project Name')
-    header_idx = next((i for i, row in enumerate(table)
-                       if any('Project Name' in str(c or '') for c in row)), None)
-    if header_idx is None:
-        return records
+def is_skip_row(row):
+    name = clean_text(str(row[0] or ''))
+    if not name:
+        return True
+    if re.match(r'^(grand\s+)?total\b', name, re.I):
+        return True
+    return False
 
-    # Identify column indices from merged 3-row header
-    # Row: Project Name | Service Name | Funding Source | Council District | Completion Date | FY 2020-21 | FY 2021-22 | FY 2022-23
-    # pdfplumber splits the header across 3 rows; col positions are fixed:
-    col_name   = 0
-    col_type   = 1
-    col_dist   = 3
-    col_date   = 4
-    col_2021   = 7
-    col_2022   = 8
-    col_2023   = 9
+SUM_FIELDS = ['year_2021', 'year_2022', 'year_2023', 'project_total']
+YEAR_COLS   = {2021: 'year_2021', 2022: 'year_2022', 2023: 'year_2023'}
 
-    data_start = header_idx + 3  # skip 3 header rows
+def merge_projects(records):
+    groups = defaultdict(list)
+    for r in records:
+        key = (r['project_name'], r['department'])
+        groups[key].append(r)
 
-    for row in table[data_start:]:
-        if not row or not row[0]: continue
-        name = str(row[0] or '').replace('\n', ' ').strip()
-        if not name or name.lower().startswith('grand total'): continue
+    merged = []
+    for (project_name, department), rows in groups.items():
+        base = dict(rows[0])
+        for field in SUM_FIELDS:
+            base[field] = sum(r[field] for r in rows)
+        seen, sources = set(), []
+        for r in rows:
+            fs = r['funding_source']
+            if fs and fs not in seen:
+                sources.append(fs)
+                seen.add(fs)
+        base['funding_source'] = ' / '.join(sources)
+        pages = sorted(set(r['source_page'] for r in rows))
+        base['source_page'] = ', '.join(str(p) for p in pages)
+        active = [yr for yr, col in YEAR_COLS.items() if base[col] != 0]
+        base['start_year'] = min(active) if active else ''
+        base['end_year']   = max(active) if active else ''
+        merged.append(base)
+    return merged
 
-        project_type   = str(row[col_type] or '').replace('\n', ' ').strip() if col_type < len(row) else ''
-        council_dist   = str(row[col_dist] or '').replace('\n', ' ').strip() if col_dist < len(row) else ''
-        yr_2021        = clean_num(row[col_2021]) if col_2021 < len(row) else 0
-        yr_2022        = clean_num(row[col_2022]) if col_2022 < len(row) else 0
-        yr_2023        = clean_num(row[col_2023]) if col_2023 < len(row) else 0
+def parse_2020():
+    pdf_path = r"C:\Users\vince\Documents\GitHub\CIPBD\Dallas\PDF\2020.pdf"
+    cip_year = 2020
+    records  = []
+    department = ''
 
-        year_vals = {'year_2021': yr_2021, 'year_2022': yr_2022, 'year_2023': yr_2023}
-        funded = [yr for yr, val in sorted(year_vals.items()) if val != 0]
-        start_year = funded[0].split('_')[1] if funded else ''
-        end_year   = funded[-1].split('_')[1] if funded else ''
-
-        project_total  = yr_2021 + yr_2022 + yr_2023
-        addr           = f"Council District: {council_dist}" if council_dist and council_dist != '-' else ''
-
-        records.append({
-            'cip_year':               2020,
-            'project_type':           project_type,
-            'source_page':            source_page,
-            'department':             dept,
-            'project_name':           name,
-            'start_year':             start_year,
-            'end_year':               end_year,
-            'address_location':       addr,
-            'previous_appropriations': 0,
-            'project_total':          project_total,
-            'year_2021':              yr_2021,
-            'year_2022':              yr_2022,
-            'year_2023':              yr_2023,
-        })
-    return records
-
-def combine():
-    records = []
-    current_dept = ''
-
-    with pdfplumber.open(PDF_PATH) as pdf:
+    with pdfplumber.open(pdf_path) as pdf:
         for pg in pdf.pages:
-            pg_num = pg.page_number  # 1-indexed
-            txt = pg.extract_text() or ''
-            lines = [l.strip() for l in txt.splitlines() if l.strip()]
-
-            # Update current department
-            if pg_num in STREET_PAGES:
-                current_dept = 'Street Services'
-            elif is_dept_header(lines):
-                current_dept = lines[0]
-
-            # Find project list table
+            txt    = pg.extract_text() or ''
             tables = pg.extract_tables()
-            proj_table = next(
-                (t for t in tables if any(
-                    'Project Name' in str(c or '') for row in t for c in row)),
-                None
-            )
-            if proj_table is None:
+            t      = max(tables, key=len) if tables else []
+
+            if not t or not is_data_page(pg, t):
                 continue
 
-            records.extend(parse_project_table(proj_table, current_dept, pg_num))
+            dept_candidate = get_department(txt)
+            if dept_candidate:
+                department = dept_candidate
 
-    # Write CSV
-    fieldnames = ['cip_year', 'project_type', 'source_page', 'department',
-                  'project_name', 'start_year', 'end_year', 'address_location',
-                  'previous_appropriations', 'project_total',
-                  'year_2021', 'year_2022', 'year_2023']
-    with open(OUT_PATH, 'w', newline='', encoding='utf-8') as f:
-        w = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
-        w.writeheader()
-        w.writerows(records)
+            for row in t[3:]:          # skip 3-row header
+                if is_skip_row(row):
+                    continue
 
-    print(f"Done: 2020.csv — {len(records)} records")
-    # Department breakdown
-    from collections import Counter
-    depts = Counter(r['department'] for r in records)
-    for d, n in depts.most_common():
-        print(f"  {d}: {n}")
+                records.append({
+                    'cip_year':         cip_year,
+                    'source_page':      pg.page_number,
+                    'department':       department,
+                    'project_name':     clean_text(str(row[0] or '')),
+                    'project_type':     clean_text(str(row[1] or '')),
+                    'funding_source':   clean_text(str(row[2] or '')),
+                    'address_location': clean_text(str(row[3] or '')),
+                    'comp_date':        clean_text(str(row[4] or '')),
+                    'year_2021':        clean_num(row[7]),
+                    'year_2022':        clean_num(row[8]),
+                    'year_2023':        clean_num(row[9]),
+                    'project_total':    clean_num(row[7]) + clean_num(row[8]) + clean_num(row[9]),
+                })
 
-combine()
+    print(f"Raw rows before merge: {len(records)}")
+    merged = merge_projects(records)
+    print(f"Rows after merge:      {len(merged)}")
+
+
+    out = r"C:\Users\vince\Documents\GitHub\CIPBD\Scripts\Dallas\outputs\2020.csv"
+    fieldnames = [
+        'cip_year', 'source_page', 'department', 'project_name',
+        'project_type', 'funding_source', 'address_location', 'comp_date',
+        'year_2021', 'year_2022', 'year_2023',
+        'project_total', 'start_year', 'end_year',
+    ]
+    with open(out, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
+        writer.writeheader()
+        writer.writerows(merged)
+
+    print(f"Done: 2020.csv — {len(merged)} projects")
+
+parse_2020()

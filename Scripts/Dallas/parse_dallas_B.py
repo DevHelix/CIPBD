@@ -1,165 +1,323 @@
-# typical parser, Dallas 2022-2025
+# ── SHARED HELPERS ────────────────────────────────────────────────────────────
+import csv, re, pdfplumber
+from collections import defaultdict
 
-import pdfplumber
-import csv
-import re
+def clean_num(v):
+    s = str(v or '').strip().replace(',', '').replace(' ', '')
+    if s.startswith('(') and s.endswith(')'):
+        s = '-' + s[1:-1]
+    if not s or s in ('-', '—', 'N/A', 'n/a', 'TBD'):
+        return 0
+    try:
+        return int(float(s))
+    except:
+        return 0
 
-class Parser:
-    
-    def __init__(self, cip_year):
-        self.cip_year=cip_year
-        self.column_headers = ['cip_year', 'project_type', 'source_page', 'department', 'project_name',
-                   'start_year', 'end_year', 'address_location',
-                   'previous_appropriations', 'project_total']
-        self.years = {}
-        self.column_headers
-        self.headers = []
-        self.cleaned = []
-        self.years = {}
-        self.final = []
-    
-    def import_data(self):
-        first_page = True
-        seen = {}
+def clean_text(v):
+    return ' '.join(str(v or '').replace('\n', ' ').split())
 
-        def parse(v):
-            if isinstance(v, (int, float)):   # guard against source_page int
-                return int(v)
-            v = (v or '').replace(',', '').replace('$', '').replace(' ', '').strip()
-            if v.startswith('(') and v.endswith(')'):
-                return -int(v[1:-1])
-            try:
-                return int(v)
-            except:
-                return 0
+def get_department(txt):
+    lines = [l.strip() for l in txt.splitlines() if l.strip()]
+    return lines[0].title().strip() if lines else ''
 
-        def fmt(n):
-            return f'({-n})' if n < 0 else str(n)
+def is_data_page(pg, t):
+    return (
+        pg.rotation == 0
+        and len(t) >= 3
+        and len(t[0]) == 12
+        and 'Project' in str(t[0][0] or '')
+    )
 
-        with pdfplumber.open(r"C:\Users\vince\Documents\GitHub\CIPBD\Dallas\PDF\\" + f"{self.cip_year}.pdf") as pdf:
-            source_page = 0
-            for pg in pdf.pages:
+def is_skip_row(row):
+    name = clean_text(str(row[0] or ''))
+    if not name:
+        return True
+    if re.match(r'^total\b', name, re.I):
+        return True
+    return False
 
-                pg_text = pg.extract_text() or ''
-                pg_table = pg.extract_table()
-                
-                source_page += 1
+def stringify(record, str_fields):
+    for f in str_fields:
+        record[f] = str(record[f])
+    return record
 
-                if pg_table and len(pg_table[0]) >= 8 and "District" in pg_text and "Service" in pg_text and "Comp" in pg_text:
-                    
-                    if first_page:
-                        for candidate in pg_table:
-                            if candidate[0] and candidate[0].isupper() and all(c is None for c in candidate[1:]):
-                                continue  # section title row, skip
-                            self.headers = candidate
-                            first_page = False
-                            break
-                    for row in pg_table[1:]:
-                        
-                        cleaned_row = [
-                            cell.replace('\n', ' ').replace(',', '').replace('$', '').strip() if cell else ''
-                            for cell in row
-                        ]
+def merge_projects(records, sum_fields, year_cols, str_fields):
+    groups = defaultdict(list)
+    for r in records:
+        key = (r['project_name'], r['department'])
+        groups[key].append(r)
 
-                        parts = cleaned_row[0].split(' - ')
-                        cleaned_row[0] = ' - '.join(parts[:-1]) if len(parts) > 1 else parts[0]
-                        project_name = cleaned_row[0]
+    merged = []
+    for (project_name, department), rows in groups.items():
+        base = dict(rows[0])
+        for field in sum_fields:
+            base[field] = sum(r[field] for r in rows)
+        seen, sources = set(), []
+        for r in rows:
+            fs = r['funding_source']
+            if fs and fs not in seen:
+                sources.append(fs); seen.add(fs)
+        base['funding_source'] = ' / '.join(sources)
+        pages = sorted(set(r['source_page'] for r in rows))
+        base['source_page'] = ', '.join(str(p) for p in pages)
+        active = [yr for yr, col in year_cols.items() if base[col] != 0]
+        base['start_year'] = min(active) if active else ''
+        base['end_year']   = max(active) if active else ''
+        merged.append(stringify(base, str_fields))
+    return merged
 
-                        if any('grand total' in str(cell).lower() for cell in cleaned_row):
-                            continue
-                        cleaned_row.append(str(source_page))
+def split_project_id(name):
+    # ' - ' (with spaces) avoids false splits on:
+    #   intra-word hyphens:  'DAL-Entrance Road - W167'  →  splits only on ' - W167'
+    #   highway refs:        'Bridge at IH-30 - W722'    →  splits only on ' - W722'
+    #   road names ending:   'Chalk Hill Rd - Davis St to IH-30'  →  no split (IH-30 has no ' - ')
+    # \d{3,} avoids matching highway numbers (IH-30, US-75) even if spaced
+    m = re.search(r' - ([A-Za-z][A-Za-z_]*\d+|\d{3,})$', name)
+    if m:
+        return name[:m.start()].strip(), m.group(1)
+    return name, ''
 
+# ── 2022 PARSER ───────────────────────────────────────────────────────────────
+# Cols: Project | Service | Funding | Council District | Comp Date |
+#       Budget ITD | Spent | Remaining | FY2022-23 | FY2023-24 | Future Costs | Total
+# Year cols: year_2023, year_2024
 
-                        if project_name in seen:
-                            merge_end = min(12, len(seen[project_name]), len(cleaned_row))
-                            for i in range(5, merge_end):
-                                result = parse(seen[project_name][i]) + parse(cleaned_row[i])
-                                seen[project_name][i] = fmt(result)
-                        else:
-                            seen[project_name] = cleaned_row
+def parse_2022():
+    pdf_path = r"C:\Users\vince\Documents\GitHub\CIPBD\Dallas\PDF\2022.pdf"
+    cip_year = 2022
+    year_cols = {2023: 'year_2023', 2024: 'year_2024'}
+    sum_fields = ['previous_appropriations', 'spent', 'remaining',
+                  'year_2023', 'year_2024', 'project_total']
+    str_fields = ['spent', 'remaining']
+    records = []
+    department = ''
 
+    with pdfplumber.open(pdf_path) as pdf:
+        for pg in pdf.pages:
+            txt = pg.extract_text() or ''
+            tables = pg.extract_tables()
+            t = max(tables, key=len) if tables else []
+            if not t or not is_data_page(pg, t):
+                continue
+            dept = get_department(txt)
+            if dept:
+                department = dept
+            for row in t[1:]:
+                if is_skip_row(row):
+                    continue
+                total_cost  = clean_num(row[11])
+                future_cost = clean_num(row[10])
+                records.append({
+                    'cip_year': cip_year, 'source_page': pg.page_number,
+                    'department': department,
+                    'project_name':            clean_text(row[0]),
+                    'project_type':            clean_text(row[1]),
+                    'funding_source':          clean_text(row[2]),
+                    'address_location':        clean_text(row[3]),
+                    'comp_date':               clean_text(row[4]),
+                    'previous_appropriations': clean_num(row[5]),
+                    'spent':                   clean_num(row[6]),
+                    'remaining':               clean_num(row[7]),
+                    'year_2023':               clean_num(row[8]),
+                    'year_2024':               clean_num(row[9]),
+                    'project_total':           total_cost - future_cost,
+                })
 
+    merged = merge_projects(records, sum_fields, year_cols, str_fields)
+    for rec in merged:
+        rec['project_name'], rec['project_id'] = split_project_id(rec['project_name'])
 
-        for i in seen.keys():
-            self.cleaned.append(seen[i])
+    out = r"C:\Users\vince\Documents\GitHub\CIPBD\Scripts\Dallas\outputs\2022.csv"
+    fieldnames = ['cip_year','source_page','department','project_name','project_id','project_type',
+              'funding_source','address_location','comp_date',
+              'previous_appropriations','spent','remaining',
+              'year_2023','year_2024','project_total','start_year','end_year']
+    with open(out, 'w', newline='', encoding='utf-8') as f:
+        csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore').writeheader()
+        csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore').writerows(merged)
+    print(f"Raw: {len(records)}  Merged: {len(merged)}  → 2022.csv")
 
-        print("Data imported")
-        #print(self.cleaned)
-        print(self.headers)
+# ── 2023 PARSER ───────────────────────────────────────────────────────────────
+# Same layout as 2022; numbers may contain spaces (e.g. '1 ,521,648') — clean_num handles it
+# Year cols: year_2024, year_2025
 
-    def process_yrHeaders(self):
-        last_yr = None
-        for i in [7, 8, 9, 10]:
-            m = re.search(r'(\d{4})-(\d{2})', self.headers[i])
-            if m:
-                last_yr = "20" + m.group(2)
-                self.years[self.headers[i]] = "year_" + last_yr
-                self.column_headers.append("year_" + last_yr)
-            elif 'future' in self.headers[i].lower():
-                yr = "year_" + str(int(last_yr) + 1) if last_yr else str("year_"+self.cip_year)
-                self.years[self.headers[i]] = yr
-                self.column_headers.append(yr)
-            else:
-                self.years[self.headers[i]] = "year_"+str(self.cip_year)
-                self.column_headers.append("year_"+str(self.cip_year))
-        print("Headers imported")
+def parse_2023():
+    pdf_path = r"C:\Users\vince\Documents\GitHub\CIPBD\Dallas\PDF\2023.pdf"
+    cip_year = 2023
+    year_cols = {2024: 'year_2024', 2025: 'year_2025'}
+    sum_fields = ['previous_appropriations', 'spent', 'remaining',
+                  'year_2024', 'year_2025', 'project_total']
+    str_fields = ['spent', 'remaining']
+    records = []
+    department = ''
 
-    def process_years(self):
-        # Row layout after appending: 0-11 original, 12 source_page,
-        #   13 start_yr, 14 end_yr, 15 cip_yr
-        for row in self.cleaned:
-            year_cells = [(self.years[self.headers[i]], cell)
-                        for i, cell in enumerate(row) if 7 <= i <= 10]
+    with pdfplumber.open(pdf_path) as pdf:
+        for pg in pdf.pages:
+            txt = pg.extract_text() or ''
+            tables = pg.extract_tables()
+            t = max(tables, key=len) if tables else []
+            if not t or not is_data_page(pg, t):
+                continue
+            dept = get_department(txt)
+            if dept:
+                department = dept
+            for row in t[1:]:
+                if is_skip_row(row):
+                    continue
+                total_cost  = clean_num(row[11])
+                future_cost = clean_num(row[10])
+                records.append({
+                    'cip_year': cip_year, 'source_page': pg.page_number,
+                    'department': department,
+                    'project_name':            clean_text(row[0]),
+                    'project_type':            clean_text(row[1]),
+                    'funding_source':          clean_text(row[2]),
+                    'address_location':        clean_text(row[3]),
+                    'comp_date':               clean_text(row[4]),
+                    'previous_appropriations': clean_num(row[5]),
+                    'spent':                   clean_num(row[6]),
+                    'remaining':               clean_num(row[7]),
+                    'year_2024':               clean_num(row[8]),
+                    'year_2025':               clean_num(row[9]),
+                    'project_total':           total_cost - future_cost,
+                })
 
-            start_year = next((y for y, cell in year_cells if cell != '0' and y != 'future_costs'), '')
-            end_year   = next((y for y, cell in reversed(year_cells) if cell != '0' and y != 'future_costs'), '')
+    merged = merge_projects(records, sum_fields, year_cols, str_fields)
+    for rec in merged:
+        rec['project_name'], rec['project_id'] = split_project_id(rec['project_name'])
 
-            row += [start_year.split('_')[-1], end_year.split('_')[-1], self.cip_year]
-        print("Years processed")
+    out = r"C:\Users\vince\Documents\GitHub\CIPBD\Scripts\Dallas\outputs\2023.csv"
+    fieldnames = ['cip_year','source_page','department','project_name','project_id','project_type',
+              'funding_source','address_location','comp_date',
+              'previous_appropriations','spent','remaining',
+              'year_2024','year_2025','project_total','start_year','end_year']
+    with open(out, 'w', newline='', encoding='utf-8') as f:
+        csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore').writeheader()
+        csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore').writerows(merged)
+    print(f"Raw: {len(records)}  Merged: {len(merged)}  → 2023.csv")
 
-    def clean_num(self, cell):
-        if cell=='' or cell=='-':
-            return 0
-        cleaned_cell = cell.replace(",", "").replace(" ", "").replace("$", "")
-        if cleaned_cell.startswith("(") and cleaned_cell.endswith(")"):
-            cleaned_cell = "-" + cleaned_cell[1:-1]
-        try:
-            return int(cleaned_cell)
-        except ValueError:
-            return cleaned_cell
+# ── 2024 PARSER ───────────────────────────────────────────────────────────────
+# Same layout as 2022/2023; spaces in numbers continue
+# Year cols: year_2025, year_2026
 
-    def format_rows(self):
-        # source: project(0), service(1), funding(2), council(3), completion(4),
-        #         budget(5), prev_approp(6), y1(7), y2(8), y3(9), future(10), total(11),
-        #         source_page(12), start_yr(13), end_yr(14), cip_yr(15)
-        # output: cip_yr, service, source_page, funding, project,
-        #         start_yr, end_yr, council, prev_approp, total, y1, y2, y3, future
-        NEW_ORDER       = [15, 1, 12, 2, 0, 13, 14, 3, 6, 11, 7, 8, 9, 10]
-        NUMERIC_INDICES = {8, 9, 10, 11, 12, 13}
+def parse_2024():
+    pdf_path = r"C:\Users\vince\Documents\GitHub\CIPBD\Dallas\PDF\2024.pdf"
+    cip_year = 2024
+    year_cols = {2025: 'year_2025', 2026: 'year_2026'}
+    sum_fields = ['previous_appropriations', 'spent', 'remaining',
+                  'year_2025', 'year_2026', 'project_total']
+    str_fields = ['spent', 'remaining']
+    records = []
+    department = ''
 
-        for row in self.cleaned:
-            new_row = [row[i] for i in NEW_ORDER]
-            new_row = [self.clean_num(cell) if i in NUMERIC_INDICES else cell
-                    for i, cell in enumerate(new_row)]
-            self.final.append(new_row)
-        print("Rows formatted")
+    with pdfplumber.open(pdf_path) as pdf:
+        for pg in pdf.pages:
+            txt = pg.extract_text() or ''
+            tables = pg.extract_tables()
+            t = max(tables, key=len) if tables else []
+            if not t or not is_data_page(pg, t):
+                continue
+            dept = get_department(txt)
+            if dept:
+                department = dept
+            for row in t[1:]:
+                if is_skip_row(row):
+                    continue
+                total_cost  = clean_num(row[11])
+                future_cost = clean_num(row[10])
+                records.append({
+                    'cip_year': cip_year, 'source_page': pg.page_number,
+                    'department': department,
+                    'project_name':            clean_text(row[0]),
+                    'project_type':            clean_text(row[1]),
+                    'funding_source':          clean_text(row[2]),
+                    'address_location':        clean_text(row[3]),
+                    'comp_date':               clean_text(row[4]),
+                    'previous_appropriations': clean_num(row[5]),
+                    'spent':                   clean_num(row[6]),
+                    'remaining':               clean_num(row[7]),
+                    'year_2025':               clean_num(row[8]),
+                    'year_2026':               clean_num(row[9]),
+                    'project_total':           total_cost - future_cost,
+                })
 
-    def write_csv(self):
-        with open(r"C:\Users\vince\Documents\GitHub\CIPBD\Scripts\Dallas\outputs\\"+str(self.cip_year)+".csv", "a", newline="",
-                  encoding='utf-8') as f:
-            writer = csv.writer(f)
-            writer.writerow(self.column_headers)
-            writer.writerows(self.final)
-        print("CSV written")
+    merged = merge_projects(records, sum_fields, year_cols, str_fields)
+    for rec in merged:
+        rec['project_name'], rec['project_id'] = split_project_id(rec['project_name'])
 
-    def combine(self):
-        self.import_data()
-        self.process_yrHeaders()
-        self.process_years()
-        self.format_rows()
-        self.write_csv()
-        #print(self.column_headers)
+    out = r"C:\Users\vince\Documents\GitHub\CIPBD\Scripts\Dallas\outputs\2024.csv"
+    fieldnames = ['cip_year','source_page','department','project_name','project_id','project_type',
+              'funding_source','address_location','comp_date',
+              'previous_appropriations','spent','remaining',
+              'year_2025','year_2026','project_total','start_year','end_year']
+    with open(out, 'w', newline='', encoding='utf-8') as f:
+        csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore').writeheader()
+        csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore').writerows(merged)
+    print(f"Raw: {len(records)}  Merged: {len(merged)}  → 2024.csv")
 
-for i in range(2008, 2014):
-    p = Parser(i)
-    p.combine()
+# ── 2025 PARSER ───────────────────────────────────────────────────────────────
+# DIFFERENCE: col6 and col7 are SWAPPED vs 2022-2024
+#   col6 = Remaining (not Spent)
+#   col7 = Spent or Committed (not Remaining)
+# No space artifacts in numbers (back to normal formatting)
+# Year cols: year_2026, year_2027
+
+def parse_2025():
+    pdf_path = r"C:\Users\vince\Documents\GitHub\CIPBD\Dallas\PDF\2025.pdf"
+    cip_year = 2025
+    year_cols = {2026: 'year_2026', 2027: 'year_2027'}
+    sum_fields = ['previous_appropriations', 'spent', 'remaining',
+                  'year_2026', 'year_2027', 'project_total']
+    str_fields = ['spent', 'remaining']
+    records = []
+    department = ''
+
+    with pdfplumber.open(pdf_path) as pdf:
+        for pg in pdf.pages:
+            txt = pg.extract_text() or ''
+            tables = pg.extract_tables()
+            t = max(tables, key=len) if tables else []
+            if not t or not is_data_page(pg, t):
+                continue
+            dept = get_department(txt)
+            if dept:
+                department = dept
+            for row in t[1:]:
+                if is_skip_row(row):
+                    continue
+                total_cost  = clean_num(row[11])
+                future_cost = clean_num(row[10])
+                records.append({
+                    'cip_year': cip_year, 'source_page': pg.page_number,
+                    'department': department,
+                    'project_name':            clean_text(row[0]),
+                    'project_type':            clean_text(row[1]),
+                    'funding_source':          clean_text(row[2]),
+                    'address_location':        clean_text(row[3]),
+                    'comp_date':               clean_text(row[4]),
+                    'previous_appropriations': clean_num(row[5]),
+                    'remaining':               clean_num(row[6]),   # ← swapped
+                    'spent':                   clean_num(row[7]),   # ← swapped
+                    'year_2026':               clean_num(row[8]),
+                    'year_2027':               clean_num(row[9]),
+                    'project_total':           total_cost - future_cost,
+                })
+
+    merged = merge_projects(records, sum_fields, year_cols, str_fields)
+    for rec in merged:
+        rec['project_name'], rec['project_id'] = split_project_id(rec['project_name'])
+
+    out = r"C:\Users\vince\Documents\GitHub\CIPBD\Scripts\Dallas\outputs\2025.csv"
+    fieldnames = ['cip_year','source_page','department','project_name','project_type',
+                  'funding_source','address_location','comp_date',
+                  'previous_appropriations','spent','remaining',
+                  'year_2026','year_2027','project_total','start_year','end_year']
+    with open(out, 'w', newline='', encoding='utf-8') as f:
+        csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore').writeheader()
+        csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore').writerows(merged)
+    print(f"Raw: {len(records)}  Merged: {len(merged)}  → 2025.csv")
+
+# parse_2025()
+# parse_2024()
+# parse_2023()
+parse_2022()
