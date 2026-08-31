@@ -76,7 +76,7 @@ def merge_projects(records):
     return merged
 
 def split_project_id(name):
-    m = re.search(r' - ([A-Za-z][A-Za-z_]*\d+|\d{3,})', name)
+    m = re.search(r' - ([A-Za-z][A-Za-z_]*\d+|\d{3,})$', name)
     if m:
         return name[:m.start()].strip(), m.group(1)
     return name, ''

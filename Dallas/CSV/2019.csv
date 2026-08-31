@@ -43,7 +43,7 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2019,14,Aviation,Rehab TWY B PH III RWY 31R-TWY B1,D015,Pavement Maintenance/Constructi on,Aviation Capital Program,Citywide,9/30/20,17062000,19178999,-2116999,0,0,0,17062000,,
 2019,14,Aviation,Rehab TWY B PH IV Extend TWY M to TWY DB4,D017,Pavement Maintenance/Constructi on,Aviation Capital Program,Citywide,9/30/20,12298500,13495844,-1197344,0,0,0,12298500,,
 2019,15,Aviation,Rehabilitate Taxiway B - Phase 4: RWY 18-36 - TWY B1,W216,Pavement Maintenance/Constructi on,Aviation Capital Program,Citywide,9/30/20,305000,0,305000,0,0,0,305000,,
-2019,15,Aviation,Rehabilitate Taxiway B from B1 to B3 and Connectors B3,B4,Pavement Maintenance/Constructi on,Aviation Capital Program,Citywide,9/30/19,12760879,3640504,9120376,0,0,0,12760879,,
+2019,15,Aviation,Rehabilitate Taxiway B from B1 to B3 and Connectors B3 - B4,W003,Pavement Maintenance/Constructi on,Aviation Capital Program,Citywide,9/30/19,12760879,3640504,9120376,0,0,0,12760879,,
 2019,15,Aviation,Rehabilitate Taxiway B: Runway 13L to Runway 18-36,W121,Pavement Maintenance/Constructi on,Aviation Capital Program,Citywide,9/30/20,999734,13611221,-12611487,0,0,0,999734,,
 2019,15,Aviation,Rehabilitate Taxiway C Phase 3,W281,Pavement Maintenance/Constructi on,Aviation Capital Program,Citywide,9/30/23,0,0,0,0,0,3440000,3440000,2022,2022
 2019,15,Aviation,Rehabilitate Taxiway C: Taxi D to Taxi C2,W122,Pavement Maintenance/Constructi on,Aviation Capital Program,Citywide,9/30/21,2445000,0,2445000,22453000,0,0,24898000,2020,2020
@@ -53,7 +53,6 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2019,15,Aviation,Taxiway A 18-36 Runway Incursion Mitigation Project,W047,Pavement Maintenance/Constructi on,Aviation Capital Program,Citywide,9/30/19,2858981,3102333,-243352,0,0,0,2858981,,
 2019,15,Aviation,Taxiway B Reconstruction and Rehabilitation,P942,Pavement Maintenance/Constructi on,Aviation Capital Program,Citywide,9/30/19,946760,852560,94200,0,0,0,946760,,
 2019,15,Aviation,Taxiway M Extension - RWY 13L to 18-36 Design,W153,Pavement Maintenance/Constructi on,Aviation Capital Program,Citywide,9/30/20,698488,174564,523924,0,0,0,698488,,
-2019,15,Aviation,Grand Total,,,,,,0,0,0,0,0,0,0,,
 2019,21,City Facilities,10345 Webb Chapel Road,VJ05,Housing Services,2017 General Obligation Bond Program,13,,5000,2505,2495,0,0,0,5000,,
 2019,21,City Facilities,12000 Greenville Avenue,VJ02,Housing Services,2017 General Obligation Bond Program,10,,5000,2435,2566,0,0,0,5000,,
 2019,21,City Facilities,1805 North Haskell Avenue,VJ03,Housing Services,2017 General Obligation Bond Program,14,,5000,2257,2743,0,0,0,5000,,
@@ -173,7 +172,6 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2019,27,City Facilities,Vickery Meadow Branch Library,VE03,Library Facilities,2017 General Obligation Bond Program,13,4/30/20,6283008,820692,5462316,1500000,0,0,7783008,2020,2020
 2019,27,City Facilities,Vickery Meadow Community Court,W141,City and Municipal Court Facilities,2006 General Obligation Bond Program,13,12/30/19,557337,224639,332698,0,0,0,557337,,
 2019,27,City Facilities,West Dallas Multipurpose Center,VH13,City and Municipal Court Facilities,2017 General Obligation Bond Program,6,6/30/20,2255597,9995,2245603,0,0,244403,2500000,2022,2022
-2019,27,City Facilities,Grand Total,,,,,,0,0,0,0,0,0,0,,
 2019,31,Convention & Event Services,82 Rev Bonds Completed,8208,Convention Center Improvement,Convention Center Capital Program,2,Ongoing,42149170,40177812,1971358,0,0,0,42149170,,
 2019,31,Convention & Event Services,Ballroom A Electrical Upgrade Project,W103,Convention Center Improvement,Convention Center Capital Program,2,9/30/19,2000000,265025,1734975,350000,0,0,2350000,2020,2020
 2019,31,Convention & Event Services,C and D Meeting Room Renovation,W293,Convention Center Improvement,Convention Center Capital Program,2,12/31/20,0,0,0,0,0,2000000,2000000,2022,2022
@@ -196,7 +194,6 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2019,31,Convention & Event Services,Reunion Parking Garage Renovation,W291,Convention Center Improvement,Convention Center Capital Program,2,9/30/20,3767033,235000,3532033,2000000,1000000,3000000,9767033,2020,2022
 2019,31,Convention & Event Services,Revenue Contingency,9070,Convention Center Improvement,Reserve Fund,2,Ongoing,11977188,11947693,29495,0,0,0,11977188,,
 2019,32,Convention & Event Services,War Memorial Repairs,W294,Convention Center Improvement,Convention Center Capital Program,2,9/30/20,0,0,0,150000,178296,0,328296,2020,2021
-2019,32,Convention & Event Services,Grand Total,,,,,,0,0,0,0,0,0,0,,
 2019,35,Cultural Facilities,Bath House Cultural Center,VF01,Cultural Facilities,2017 General Obligation Bond Program,9,Ongoing,831700,131910,699790,590000,0,0,1421700,2020,2020
 2019,35,Cultural Facilities,Dallas Black Dance Theatre,VF08,Cultural Facilities,2017 General Obligation Bond Program,14,Ongoing,78300,78300,0,687060,0,212940,978300,2020,2022
 2019,35,Cultural Facilities,Dallas Black Dancetheater,R917,Cultural Facilities,2003 General Obligation Bond Program / Other GO CIP - Non- Debt,14,9/30/20,5638457,5724847,-86391,0,0,0,5638457,,
@@ -214,7 +211,6 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2019,35,Cultural Facilities,Public Art Proj-Park,N810,Public Art,2006 General Obligation Bond Program / Other GO CIP - Non- Debt,Citywide,12/31/99,2846076,1523698,1322379,0,0,0,2846076,,
 2019,35,Cultural Facilities,Sammons Center,VF07,Cultural Facilities,2017 General Obligation Bond Program,2,Ongoing,765260,77300,687960,0,0,134740,900000,2022,2022
 2019,36,Cultural Facilities,South Dallas Cultural Center,VF09,Cultural Facilities,2017 General Obligation Bond Program,7,Ongoing,250000,0,250000,0,0,0,250000,,
-2019,36,Cultural Facilities,Grand Total,,,,,,0,0,0,0,0,0,0,,
 2019,45,Economic Development,1401 Elm Redevelopment Project,P853,Downtown Connection Tax Increment Financing District,Other GO CIP - Non- Debt,14,12/31/24,1372468,0,1372468,0,20309544,11072343,32754355,2021,2022
 2019,45,Economic Development,1712 Commerce Hotel,P952,Downtown Connection Tax Increment Financing District,Other GO CIP - Non- Debt,14,12/31/27,352856,0,352856,195000,148709,148709,845274,2020,2022
 2019,45,Economic Development,2101 Taylor St Development,P847,Farmers Market Tax Increment Financing District,Other GO CIP - Non- Debt,2,Ongoing,0,0,0,122595,107595,1912308,2142498,2020,2022
@@ -355,7 +351,6 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2019,52,Economic Development,Victory SU-District Retail,W151,Sports Arena Tax Increment Financing District,Other GO CIP - Non- Debt,2,12/31/18,0,0,0,1166668,1166666,1166666,3500000,2020,2022
 2019,52,Economic Development,"Workforce Readiness, Placement and Retention Program",W178,Public/Private Partnership Program,Other GO CIP - Non- Debt,Citywide,9/30/20,1641898,1166391,475507,0,0,0,1641898,,
 2019,52,Economic Development,Wynnewood Village Drainage Imp - ECO,VI05,Capital Budget,2017 General Obligation Bond Program,1,12/31/20,1304463,1304463,0,0,0,0,1304463,,
-2019,52,Economic Development,Grand Total,,,,,,0,0,0,0,0,0,0,,
 2019,57,Flood Protection & Storm Drainage Management,"10836, 10840, 10844 Meadowcliff Cir",W093,Erosion Control,1995 General Obligation Bond Program,10,Ongoing,3370,0,3370,0,0,0,3370,,
 2019,57,Flood Protection & Storm Drainage Management,845 N Oak Cliff Blvd,W090,Erosion Control,2006 General Obligation Bond Program,1,Ongoing,286325,286903,-578,0,0,0,286325,,
 2019,57,Flood Protection & Storm Drainage Management,Abshire Lane,VD62,Stormwater Drainage Management,2017 General Obligation Bond Program,7,Ongoing,189000,0,189000,0,756000,0,945000,2021,2021
@@ -378,18 +373,18 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2019,58,Flood Protection & Storm Drainage Management,"Brushy Creek Trail, 5719",VD23,Erosion Control,2017 General Obligation Bond Program,12,Ongoing,63000,0,63000,0,252000,0,315000,2021,2021
 2019,58,Flood Protection & Storm Drainage Management,Burninglog 13156,S709,Erosion Control,2012 General Obligation Bond Program,10,Ongoing,68600,7600,61000,0,0,0,68600,,
 2019,58,Flood Protection & Storm Drainage Management,Calcutta 616 (RL Area 40),W273,Stormwater Drainage Management,Other GO CIP - Non- Debt,3,Ongoing,0,0,0,440000,0,194644,634644,2020,2022
-2019,58,Flood Protection & Storm Drainage Management,Caracas 5410,5416,Erosion Control,1995 General Obligation Bond Program,3,Ongoing,500,0,500,0,0,0,500,,
+2019,58,Flood Protection & Storm Drainage Management,Caracas 5410 - 5416,S710,Erosion Control,1995 General Obligation Bond Program,3,Ongoing,500,0,500,0,0,0,500,,
 2019,58,Flood Protection & Storm Drainage Management,Cavender 445,S711,Erosion Control,1995 General Obligation Bond Program,1,Ongoing,805,305,500,0,0,0,805,,
 2019,58,Flood Protection & Storm Drainage Management,Cedar Creek Bridge @ Clarendon,W403,Storm Drainage Relief System,Other GO CIP - Non- Debt,4,Ongoing,0,0,0,0,0,281000,281000,2022,2022
 2019,58,Flood Protection & Storm Drainage Management,Cedar Creek Bridge @ Moore,W404,Storm Drainage Relief System,Other GO CIP - Non- Debt,4,Ongoing,0,0,0,0,0,147600,147600,2022,2022
 2019,58,Flood Protection & Storm Drainage Management,Cedar Creek Culvert @ W. Clarendon Drive,W230,Stormwater Drainage Management,Other GO CIP - Non- Debt,1,Ongoing,206250,0,206250,0,0,0,206250,,
 2019,58,Flood Protection & Storm Drainage Management,Cedar Springs 5910,S712,Erosion Control,1995 General Obligation Bond Program,2,Ongoing,710,305,405,0,0,0,710,,
-2019,58,Flood Protection & Storm Drainage Management,Chalkhill Branch,I30,Stormwater Drainage Management,2017 General Obligation Bond Program,6,Ongoing,156000,0,156000,0,624000,0,780000,2021,2021
+2019,58,Flood Protection & Storm Drainage Management,Chalkhill Branch - I30/Loop 12 iInterchange,VD33,Stormwater Drainage Management,2017 General Obligation Bond Program,6,Ongoing,156000,0,156000,0,624000,0,780000,2021,2021
 2019,58,Flood Protection & Storm Drainage Management,Church Rd 9233,S713,Erosion Control,2012 General Obligation Bond Program,10,Ongoing,339010,338485,525,0,0,0,339010,,
 2019,58,Flood Protection & Storm Drainage Management,"Claren Court 7106, 7110, 7114",VD24,Erosion Control,2017 General Obligation Bond Program,12,Ongoing,34600,0,34600,0,138400,0,173000,2021,2021
 2019,58,Flood Protection & Storm Drainage Management,Clearbrook Lane 10500 Blk,VD17,Erosion Control,2017 General Obligation Bond Program,9,Ongoing,30000,0,30000,0,120000,0,150000,2021,2021
 2019,58,Flood Protection & Storm Drainage Management,"Clubcreek Circle 8903, 8907, 8911",VD14,Erosion Control,2017 General Obligation Bond Program,10,Ongoing,877000,0,877000,0,0,0,877000,,
-2019,58,Flood Protection & Storm Drainage Management,Clubhouse Circle 6523,6527,Erosion Control,2012 General Obligation Bond Program,11,Ongoing,112341,15186,97155,0,0,0,112341,,
+2019,58,Flood Protection & Storm Drainage Management,Clubhouse Circle 6523 - 6527,S715,Erosion Control,2012 General Obligation Bond Program,11,Ongoing,112341,15186,97155,0,0,0,112341,,
 2019,58,Flood Protection & Storm Drainage Management,Coolgreene 8208,W231,Stormwater Drainage Management,Other GO CIP - Non- Debt,7,Ongoing,315000,0,315000,0,76575,0,391575,2021,2021
 2019,58,Flood Protection & Storm Drainage Management,Coombs Creek - Hampton to Davis,VD01,Erosion Control,2017 General Obligation Bond Program,1,Ongoing,2100000,0,2100000,0,525000,0,2625000,2021,2021
 2019,58,Flood Protection & Storm Drainage Management,Coombs I-30 Outfalls,W091,Erosion Control,2006 General Obligation Bond Program,1,Ongoing,337651,327851,9800,0,0,0,337651,,
@@ -463,7 +458,7 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2019,62,Flood Protection & Storm Drainage Management,Lake June @ St. Augustine,VD72,Stormwater Drainage Management,2017 General Obligation Bond Program,5,Ongoing,0,0,0,144200,576800,0,721000,2020,2021
 2019,62,Flood Protection & Storm Drainage Management,"Lakeland, 2214",W235,Stormwater Drainage Management,Other GO CIP - Non- Debt,9,Ongoing,343750,0,343750,0,0,0,343750,,
 2019,62,Flood Protection & Storm Drainage Management,Lanett Circle N 10741,S737,Erosion Control,2012 General Obligation Bond Program,10,Ongoing,338150,334409,3742,0,0,0,338150,,
-2019,62,Flood Protection & Storm Drainage Management,Langdale Circle 8668,8656,Erosion Control,2012 General Obligation Bond Program,10,Ongoing,856195,855139,1056,0,0,0,856195,,
+2019,62,Flood Protection & Storm Drainage Management,Langdale Circle 8668 - 8656,S738,Erosion Control,2012 General Obligation Bond Program,10,Ongoing,856195,855139,1056,0,0,0,856195,,
 2019,62,Flood Protection & Storm Drainage Management,"Leeshire, 2921",W415,Storm Drainage Relief System,Other GO CIP - Non- Debt,7,Ongoing,0,0,0,0,0,42000,42000,2022,2022
 2019,62,Flood Protection & Storm Drainage Management,Levee Drainage System- Sump A [Able Pump Station],S768,Flood Management,2012 General Obligation Bond Program,Citywide,Ongoing,89985556,75773070,14212487,0,0,0,89985556,,
 2019,62,Flood Protection & Storm Drainage Management,Lisbon Area C,W204,Stormwater Drainage Management,Other GO CIP - Non- Debt,4,Ongoing,0,0,0,0,1562922,0,1562922,2021,2021
@@ -481,7 +476,7 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2019,63,Flood Protection & Storm Drainage Management,"Munger, 1300, 1301",VD40,Stormwater Drainage Management,2017 General Obligation Bond Program,"2, 14",Ongoing,16000,0,16000,0,64000,0,80000,2021,2021
 2019,63,Flood Protection & Storm Drainage Management,Nandina - Pine Trail Area,VD63,Stormwater Drainage Management,2017 General Obligation Bond Program,8,Ongoing,182000,0,182000,0,728000,0,910000,2021,2021
 2019,63,Flood Protection & Storm Drainage Management,"Nedra Way, 15821, 15827",VD25,Erosion Control,2017 General Obligation Bond Program,12,Ongoing,29000,0,29000,0,116000,0,145000,2021,2021
-2019,63,Flood Protection & Storm Drainage Management,Oak Creek Circle 3504,3508,Storm Drainage Relief System,2017 General Obligation Bond Program,5,Ongoing,177238,176289,949,0,0,0,177238,,
+2019,63,Flood Protection & Storm Drainage Management,Oak Creek Circle 3504 - 3508 RL Voluntary Purchase,VD09,Storm Drainage Relief System,2017 General Obligation Bond Program,5,Ongoing,177238,176289,949,0,0,0,177238,,
 2019,63,Flood Protection & Storm Drainage Management,Oates Drive 1407,VD19,Erosion Control,2017 General Obligation Bond Program,9,Ongoing,38000,0,38000,0,152000,0,190000,2021,2021
 2019,63,Flood Protection & Storm Drainage Management,"Ohio, W. 412, 416",W236,Stormwater Drainage Management,Other GO CIP - Non- Debt,4,Ongoing,111875,0,111875,0,0,0,111875,,
 2019,63,Flood Protection & Storm Drainage Management,Pagewood 10553,S743,Erosion Control,2012 General Obligation Bond Program,11,Ongoing,29700,0,29700,0,0,0,29700,,
@@ -507,9 +502,9 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2019,64,Flood Protection & Storm Drainage Management,Rexford Drive @ Shorecrest Drive,VD53,Stormwater Drainage Management,2017 General Obligation Bond Program,13,Ongoing,18477,0,18477,0,149523,0,168000,2021,2021
 2019,64,Flood Protection & Storm Drainage Management,Richwood,W241,Stormwater Drainage Management,Other GO CIP - Non- Debt,3,Ongoing,2034376,0,2034376,0,0,0,2034376,,
 2019,64,Flood Protection & Storm Drainage Management,"Riverhill Drive, 17418",VD22,Erosion Control,2017 General Obligation Bond Program,12,Ongoing,37600,0,37600,0,150400,0,188000,2021,2021
-2019,64,Flood Protection & Storm Drainage Management,Riverview 6431,W422,Storm Drainage Relief System,Other GO CIP - Non- Debt,12,Ongoing,0,0,0,633000,0,0,633000,2020,2020
+2019,64,Flood Protection & Storm Drainage Management,Riverview 6431 - W422,W422,Storm Drainage Relief System,Other GO CIP - Non- Debt,12,Ongoing,0,0,0,633000,0,0,633000,2020,2020
 2019,64,Flood Protection & Storm Drainage Management,Rosemont Rd 7322,S745,Erosion Control,2006 General Obligation Bond Program,5,Ongoing,5748,0,5748,0,0,0,5748,,
-2019,64,Flood Protection & Storm Drainage Management,Royal Lane 7832,7920,Erosion Control,1995 General Obligation Bond Program,11,Ongoing,1036,551,485,0,0,0,1036,,
+2019,64,Flood Protection & Storm Drainage Management,Royal Lane 7832 - 7920,S746,Erosion Control,1995 General Obligation Bond Program,11,Ongoing,1036,551,485,0,0,0,1036,,
 2019,65,Flood Protection & Storm Drainage Management,"Royal Lane, 3162 (RL Area 7)",VD52,Stormwater Drainage Management,2017 General Obligation Bond Program,13,Ongoing,0,0,0,22000,198000,0,220000,2020,2021
 2019,65,Flood Protection & Storm Drainage Management,"Royal Lane, 7012",VD50,Stormwater Drainage Management,2017 General Obligation Bond Program,11,Ongoing,0,0,0,105000,945000,0,1050000,2020,2021
 2019,65,Flood Protection & Storm Drainage Management,Royal Lne 9750 [Jackson Branch - E Branch],S747,Erosion Control,2006 General Obligation Bond Program / 2012 General Obligation Bond Program,10,Ongoing,358840,321005,37835,0,0,0,358840,,
@@ -555,7 +550,6 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2019,67,Flood Protection & Storm Drainage Management,Woody Branch @ S Polk St,W430,Storm Drainage Relief System,Other GO CIP - Non- Debt,3,Ongoing,0,0,0,0,0,659500,659500,2022,2022
 2019,67,Flood Protection & Storm Drainage Management,Woody Branch Floodplain Management Study (TWM000075),W271,Stormwater Drainage Management,Other GO CIP - Non- Debt,4,Ongoing,0,0,0,0,0,250000,250000,2022,2022
 2019,67,Flood Protection & Storm Drainage Management,Wynnewood Village Drainage Improvements,VD32,Stormwater Drainage Management,2017 General Obligation Bond Program,1,Ongoing,1157857,1151427,6430,0,569143,0,1727000,2021,2021
-2019,67,Flood Protection & Storm Drainage Management,Grand Total,,,,,,0,0,0,0,0,0,0,,
 2019,75,Park & Recreation,Accessibility and Code Compliance,T046,"Code Compliance, Safety and Security",2006 General Obligation Bond Program,Citywide,12/31/99,923651,856219,67432,0,0,0,923651,,
 2019,75,Park & Recreation,ADA/Code Allowance (locations TBD),VB14,"Code Compliance, Safety and Security",2017 General Obligation Bond Program,Citywide,12/31/99,0,0,0,25000,125000,0,150000,2020,2021
 2019,75,Park & Recreation,Add Discretionary Funds [Singing Hills Rec. Ctr.[Amended],VB54,Recreation Centers,2017 General Obligation Bond Program,3,7/19/19,915000,0,915000,0,0,0,915000,,
@@ -797,139 +791,138 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2019,90,Park & Recreation,Willie Mae Butler Park - Convert Tennis Court to Basketball,VK07,Community Parks,2017 General Obligation Bond Program,7,6/20/20,0,0,0,42000,0,0,42000,2020,2020
 2019,90,Park & Recreation,Willie Mae Butler Park - Portable Facility Enclosure,VK09,Community Parks,2017 General Obligation Bond Program,7,6/20/20,0,0,0,60000,0,0,60000,2020,2020
 2019,90,Park & Recreation,Willoughby Park - Playground Replacement,VK10,Playground Improvement,2017 General Obligation Bond Program,8,6/20/20,40000,21727,18273,160000,0,0,200000,2020,2020
-2019,90,Park & Recreation,Grand Total,,,,,,0,0,0,0,0,0,0,,
-2019,95,Street & Transportation,10005-10119 Shayna Dr,10002,Alley Reconstruction,2017 General Obligation Bond Program,5,6/2/22,38947,36140,2807,189677,0,0,228624,2020,2020
-2019,95,Street & Transportation,10106-10160 Caribou Trail,10127,Alley Reconstruction,2017 General Obligation Bond Program,10,3/2/21,40332,31119,9213,224660,0,0,264992,2020,2020
-2019,95,Street & Transportation,10163-10199 Vistadale Dr,10200,Alley Reconstruction,2017 General Obligation Bond Program,10,3/29/21,24926,24926,0,203120,0,0,228046,2020,2020
-2019,95,Street & Transportation,10315-10542 Castlerock Dr,10315,Alley Reconstruction,2017 General Obligation Bond Program,5,6/2/22,72329,67114,5215,436116,0,0,508445,2020,2020
-2019,95,Street & Transportation,10445,10461,Alley Reconstruction,2017 General Obligation Bond Program,13,10/13/22,29973,29609,364,85961,0,0,115934,2020,2020
+2019,95,Street & Transportation,10005-10119 Shayna Dr - 10002-10106 Hymie Cir,V032,Alley Reconstruction,2017 General Obligation Bond Program,5,6/2/22,38947,36140,2807,189677,0,0,228624,2020,2020
+2019,95,Street & Transportation,10106-10160 Caribou Trail - 10127-10143 Ferndale Rd,V079,Alley Reconstruction,2017 General Obligation Bond Program,10,3/2/21,40332,31119,9213,224660,0,0,264992,2020,2020
+2019,95,Street & Transportation,10163-10199 Vistadale Dr - 10200-10200 Trailcliff Dr,V080,Alley Reconstruction,2017 General Obligation Bond Program,10,3/29/21,24926,24926,0,203120,0,0,228046,2020,2020
+2019,95,Street & Transportation,10315-10542 Castlerock Dr - 10315 Checota Dr - Gardenside,V033,Alley Reconstruction,2017 General Obligation Bond Program,5,6/2/22,72329,67114,5215,436116,0,0,508445,2020,2020
+2019,95,Street & Transportation,10445 - 10461 Carry Back Cir - 10419 - 10427 Carry Back Pl,V113,Alley Reconstruction,2017 General Obligation Bond Program,13,10/13/22,29973,29609,364,85961,0,0,115934,2020,2020
 2019,95,Street & Transportation,10th St from I-35 to Clarendon Dr,V198,Street Reconstruction,2017 General Obligation Bond Program,4,8/28/22,238361,693,237668,487839,2764421,0,3490621,2020,2021
 2019,95,Street & Transportation,10th Street Historic District Sidewalk Improvements,V149,Sidewalk Improvements,2017 General Obligation Bond Program,4,11/28/21,20312,0,20312,0,0,0,20312,,
-2019,95,Street & Transportation,11133-11139 Cotillion Dr,3609,Alley Reconstruction,2017 General Obligation Bond Program,9,10/4/22,13173,13173,0,89852,0,0,103025,2020,2020
-2019,95,Street & Transportation,11205-11335 Buchannan Dr,11200,Alley Reconstruction,2017 General Obligation Bond Program,9,10/2/22,36170,36170,0,370080,0,0,406250,2020,2020
-2019,95,Street & Transportation,11306-11340 Dumbarton Dr,11323,Alley Reconstruction,2017 General Obligation Bond Program,9,10/4/22,23332,23332,0,182068,0,0,205400,2020,2020
-2019,95,Street & Transportation,11312-11344 Glen Cross Dr,11341,Alley Reconstruction,2017 General Obligation Bond Program,9,7/17/22,29427,29427,0,213023,0,0,242450,2020,2020
-2019,95,Street & Transportation,1225-1423 Kirnwood Dr,7601,Alley Reconstruction,2017 General Obligation Bond Program,8,5/1/22,33852,33852,0,328601,0,0,362453,2020,2020
-2019,95,Street & Transportation,127-231 W Louisiana Ave,118,Alley Reconstruction,2017 General Obligation Bond Program,4,7/18/22,43484,43484,0,372819,0,0,416303,2020,2020
+2019,95,Street & Transportation,11133-11139 Cotillion Dr - 3609 Bon Park Ct,V069,Alley Reconstruction,2017 General Obligation Bond Program,9,10/4/22,13173,13173,0,89852,0,0,103025,2020,2020
+2019,95,Street & Transportation,11205-11335 Buchannan Dr - 11200- 11298 Ferguson Rd,V070,Alley Reconstruction,2017 General Obligation Bond Program,9,10/2/22,36170,36170,0,370080,0,0,406250,2020,2020
+2019,95,Street & Transportation,11306-11340 Dumbarton Dr - 11323- 11357 Glen Cross Dr,V071,Alley Reconstruction,2017 General Obligation Bond Program,9,10/4/22,23332,23332,0,182068,0,0,205400,2020,2020
+2019,95,Street & Transportation,11312-11344 Glen Cross Dr - 11341-11367 Drummond Dr,V072,Alley Reconstruction,2017 General Obligation Bond Program,9,7/17/22,29427,29427,0,213023,0,0,242450,2020,2020
+2019,95,Street & Transportation,1225-1423 Kirnwood Dr - 7601 S Polk St,V062,Alley Reconstruction,2017 General Obligation Bond Program,8,5/1/22,33852,33852,0,328601,0,0,362453,2020,2020
+2019,95,Street & Transportation,127-231 W Louisiana Ave - 118-228 Conrad St,V022,Alley Reconstruction,2017 General Obligation Bond Program,4,7/18/22,43484,43484,0,372819,0,0,416303,2020,2020
 2019,95,Street & Transportation,12Th St From Upton To 200 Ft East Of Upton,V992,Target Neighborhood,2017 General Obligation Bond Program,4,6/21/22,34558,31478,3080,0,313045,0,347603,2021,2021
-2019,95,Street & Transportation,1503-1551 Briarcliff Rd,5503,Alley Reconstruction,2017 General Obligation Bond Program,2,5/30/21,37292,37292,0,172281,0,0,209573,2020,2020
+2019,95,Street & Transportation,1503-1551 Briarcliff Rd - 5503-5537 Mesa Cir,V008,Alley Reconstruction,2017 General Obligation Bond Program,2,5/30/21,37292,37292,0,172281,0,0,209573,2020,2020
 2019,95,Street & Transportation,15632-15724 Golden Creek Rd -6231 - La Cosa Dr - Bay Point,V086,Alley Reconstruction,2017 General Obligation Bond Program,11,5/1/22,27451,27451,0,324000,0,0,351451,2020,2020
-2019,96,Street & Transportation,1608-1620 Day Star Dr,1603,Alley Reconstruction,2017 General Obligation Bond Program,4,9/1/22,35278,35278,0,317819,0,0,353097,2020,2020
-2019,96,Street & Transportation,1611-1727 Red Cloud Dr,9704,Alley Reconstruction,2017 General Obligation Bond Program,5,6/2/22,59193,54926,4267,341288,0,0,400481,2020,2020
-2019,96,Street & Transportation,1621-1631 Windchime Dr,1614,Alley Reconstruction,2017 General Obligation Bond Program,4,9/1/22,9133,9133,0,77244,0,0,86377,2020,2020
-2019,96,Street & Transportation,1708-1920 Vatican Ln,1705,Alley Reconstruction,2017 General Obligation Bond Program,4,9/1/22,32562,32562,0,310781,0,0,343343,2020,2020
+2019,96,Street & Transportation,1608-1620 Day Star Dr - 1603-1633 Hanging Cliff Dr,V023,Alley Reconstruction,2017 General Obligation Bond Program,4,9/1/22,35278,35278,0,317819,0,0,353097,2020,2020
+2019,96,Street & Transportation,1611-1727 Red Cloud Dr - 9704-9780 Faircloud Dr [A7003],V034,Alley Reconstruction,2017 General Obligation Bond Program,5,6/2/22,59193,54926,4267,341288,0,0,400481,2020,2020
+2019,96,Street & Transportation,1621-1631 Windchime Dr - 1614-1626 Vatican Ln,V024,Alley Reconstruction,2017 General Obligation Bond Program,4,9/1/22,9133,9133,0,77244,0,0,86377,2020,2020
+2019,96,Street & Transportation,1708-1920 Vatican Ln - 1705-1921 Windchime Dr,V025,Alley Reconstruction,2017 General Obligation Bond Program,4,9/1/22,32562,32562,0,310781,0,0,343343,2020,2020
 2019,96,Street & Transportation,17604-17630 Davenport Alley Construction,VA05,Target Neighborhood,2017 General Obligation Bond Program,12,5/1/22,49767,28407,21360,0,0,450812,500579,2022,2022
-2019,96,Street & Transportation,1830-1886 Red Cloud Dr,9803,Alley Reconstruction,2017 General Obligation Bond Program,5,6/2/22,34874,32359,2515,189635,0,0,224509,2020,2020
-2019,96,Street & Transportation,18603-18707 Amador Ave,6505,Alley Reconstruction,2017 General Obligation Bond Program,12,8/23/22,37577,37577,0,512154,0,0,549731,2020,2020
-2019,96,Street & Transportation,1885-2025 Red Cloud Dr,2002,Alley Reconstruction,2017 General Obligation Bond Program,5,6/2/22,72075,66879,5196,406412,0,0,478487,2020,2020
+2019,96,Street & Transportation,1830-1886 Red Cloud Dr - 9803-9851 Glengreen Dr [A6972],V035,Alley Reconstruction,2017 General Obligation Bond Program,5,6/2/22,34874,32359,2515,189635,0,0,224509,2020,2020
+2019,96,Street & Transportation,18603-18707 Amador Ave - 6505-6511 Villa Rd,V095,Alley Reconstruction,2017 General Obligation Bond Program,12,8/23/22,37577,37577,0,512154,0,0,549731,2020,2020
+2019,96,Street & Transportation,1885-2025 Red Cloud Dr - 2002-2080 Corvette Dr [A6966],V036,Alley Reconstruction,2017 General Obligation Bond Program,5,6/2/22,72075,66879,5196,406412,0,0,478487,2020,2020
 2019,96,Street & Transportation,19003-19039 Bilbrook Ln,V096,Alley Reconstruction,2017 General Obligation Bond Program,12,8/23/22,28455,28455,0,316162,0,0,344617,2020,2020
 2019,96,Street & Transportation,2019 Assessment for Sidewalk Improvements,W308,Sidewalk Improvements,Other GO CIP - Non- Debt,Citywide,,2693140,888586,1804554,446483,0,0,3139623,2020,2020
-2019,96,Street & Transportation,207-347 Bettyrae Way,7708,Alley Reconstruction,2017 General Obligation Bond Program,8,5/1/22,36175,36175,0,389659,0,0,425834,2020,2020
-2019,96,Street & Transportation,2104-2336 Dugald Pl,2005,Alley Reconstruction,2017 General Obligation Bond Program,4,3/12/22,43223,43681,-458,607483,0,0,650706,2020,2020
-2019,96,Street & Transportation,2205-2341 Freeland,2336,Alley Reconstruction,2017 General Obligation Bond Program,7,7/16/22,34845,34845,0,393985,0,0,428830,2020,2020
-2019,96,Street & Transportation,2211-2323 Deer Path Dr,2905,Alley Reconstruction,2017 General Obligation Bond Program,4,3/12/22,46878,47341,-463,505300,0,0,552178,2020,2020
-2019,96,Street & Transportation,2304-2348 Hunters Run Dr,7407,Alley Reconstruction,2017 General Obligation Bond Program,8,5/1/22,38700,38700,0,367706,0,0,406406,2020,2020
-2019,96,Street & Transportation,2306,2440,Alley Reconstruction,2017 General Obligation Bond Program,7,9/25/22,38826,38826,0,312798,0,0,351624,2020,2020
-2019,97,Street & Transportation,2408-2564 Club Manor Dr,2435,Alley Reconstruction,2017 General Obligation Bond Program,3,8/10/22,61821,54918,6903,556388,0,0,618209,2020,2020
+2019,96,Street & Transportation,207-347 Bettyrae Way - 7708-7770 Ryan Ridge Dr,V063,Alley Reconstruction,2017 General Obligation Bond Program,8,5/1/22,36175,36175,0,389659,0,0,425834,2020,2020
+2019,96,Street & Transportation,2104-2336 Dugald Pl - 2005-2249 E Illinois Ave,V026,Alley Reconstruction,2017 General Obligation Bond Program,4,3/12/22,43223,43681,-458,607483,0,0,650706,2020,2020
+2019,96,Street & Transportation,2205-2341 Freeland - 2336-2328 Homeway - 2204-2340 Babalos,V060,Alley Reconstruction,2017 General Obligation Bond Program,7,7/16/22,34845,34845,0,393985,0,0,428830,2020,2020
+2019,96,Street & Transportation,2211-2323 Deer Path Dr - 2905-3311 Kellogg Ave,V027,Alley Reconstruction,2017 General Obligation Bond Program,4,3/12/22,46878,47341,-463,505300,0,0,552178,2020,2020
+2019,96,Street & Transportation,2304-2348 Hunters Run Dr - 7407-7415 Mesa Verde Trl,V064,Alley Reconstruction,2017 General Obligation Bond Program,8,5/1/22,38700,38700,0,367706,0,0,406406,2020,2020
+2019,96,Street & Transportation,2306 - 2440 Bluffton Dr - 2307 - 2439 Blaydon Dr,V042,Alley Reconstruction,2017 General Obligation Bond Program,7,9/25/22,38826,38826,0,312798,0,0,351624,2020,2020
+2019,97,Street & Transportation,2408-2564 Club Manor Dr - 2435-2549 Matland Dr,V017,Alley Reconstruction,2017 General Obligation Bond Program,3,8/10/22,61821,54918,6903,556388,0,0,618209,2020,2020
 2019,97,Street & Transportation,2503-2623 W Lovers Ln 2502-2614 W Amherst Ave,V009,- Alley Reconstruction,2017 General Obligation Bond Program,2,5/30/21,30314,30314,0,165564,0,0,195878,2020,2020
-2019,97,Street & Transportation,2507,2537,Alley Reconstruction,2017 General Obligation Bond Program,7,6/3/22,29197,29197,0,138015,0,0,167212,2020,2020
-2019,97,Street & Transportation,2603-2931 Garapan Dr,2502,Alley Reconstruction,2017 General Obligation Bond Program,4,9/1/22,62206,62206,0,599758,0,0,661964,2020,2020
-2019,97,Street & Transportation,2703-2743 April Hill Ln,2710,Alley Reconstruction,2017 General Obligation Bond Program,12,8/23/22,24034,24034,0,251787,0,0,275821,2020,2020
+2019,97,Street & Transportation,2507 - 2537 Blaydon Dr - 2506 - 2536 Bluffton Dr,V043,Alley Reconstruction,2017 General Obligation Bond Program,7,6/3/22,29197,29197,0,138015,0,0,167212,2020,2020
+2019,97,Street & Transportation,2603-2931 Garapan Dr - 2502-2922 Nicholson Dr,V028,Alley Reconstruction,2017 General Obligation Bond Program,4,9/1/22,62206,62206,0,599758,0,0,661964,2020,2020
+2019,97,Street & Transportation,2703-2743 April Hill Ln - 2710-2750 Stevens Point Ln,V097,Alley Reconstruction,2017 General Obligation Bond Program,12,8/23/22,24034,24034,0,251787,0,0,275821,2020,2020
 2019,97,Street & Transportation,2703-2829 Klondike - Dr 2704-2830 Lockhart Ave,V044,Alley Reconstruction,2017 General Obligation Bond Program,7,8/28/22,39356,39356,0,253664,0,0,293020,2020,2020
-2019,97,Street & Transportation,2703-2831 Scottsbluff Dr,2802,Alley Reconstruction,2017 General Obligation Bond Program,7,8/28/22,37759,37759,0,325331,0,0,363090,2020,2020
-2019,97,Street & Transportation,2707,2757,Alley Reconstruction,2017 General Obligation Bond Program,7,8/28/22,38190,38190,0,263111,0,0,301301,2020,2020
-2019,97,Street & Transportation,2707,2837,Alley Reconstruction,2017 General Obligation Bond Program,7,8/28/22,42062,42062,0,254780,0,0,296842,2020,2020
+2019,97,Street & Transportation,2703-2831 Scottsbluff Dr - 2802-2826 La Prada Ct,V045,Alley Reconstruction,2017 General Obligation Bond Program,7,8/28/22,37759,37759,0,325331,0,0,363090,2020,2020
+2019,97,Street & Transportation,2707 - 2757 Runningbrook Ln - 2700 N Buckner Blvd,V046,Alley Reconstruction,2017 General Obligation Bond Program,7,8/28/22,38190,38190,0,263111,0,0,301301,2020,2020
+2019,97,Street & Transportation,2707 - 2837 Blyth Dr - 2706-2838 Gross Rd,V047,Alley Reconstruction,2017 General Obligation Bond Program,7,8/28/22,42062,42062,0,254780,0,0,296842,2020,2020
 2019,97,Street & Transportation,"2711-2733 Groveridge, 9606-9674 Briggs, 9605- 9621 Altacrest",V061,Alley Reconstruction,2017 General Obligation Bond Program,7,7/16/22,39450,39450,0,469151,0,0,508601,2020,2020
-2019,97,Street & Transportation,299-385 Stoneport Dr,320,Alley Reconstruction,2017 General Obligation Bond Program,8,9/30/20,41118,818,40300,370066,0,0,411184,2020,2020
-2019,97,Street & Transportation,3004-3150 Kinkaid Dr,3045,Alley Reconstruction,2017 General Obligation Bond Program,6,9/8/22,79625,75859,3766,716625,0,0,796250,2020,2020
-2019,97,Street & Transportation,3105-3161 Waldrop Drive,3106,Alley Reconstruction,2017 General Obligation Bond Program,13,3/12/22,43544,43544,0,279415,0,0,322959,2020,2020
-2019,97,Street & Transportation,3105-3171 Newcastle Dr,3104,Alley Reconstruction,2017 General Obligation Bond Program,6,9/9/22,37122,37122,0,268320,0,0,305442,2020,2020
-2019,97,Street & Transportation,3163-3241 E Ledbetter Dr,3132,Alley Reconstruction,2017 General Obligation Bond Program,4,3/12/22,28212,26254,1958,324108,0,0,352320,2020,2020
-2019,97,Street & Transportation,3206-3232 Rotan Lane,3207,Alley Reconstruction,2017 General Obligation Bond Program,13,3/12/22,27872,27872,0,160998,0,0,188870,2020,2020
-2019,97,Street & Transportation,3207,3349,Alley Reconstruction,2017 General Obligation Bond Program,13,3/12/22,62917,62620,297,227555,0,0,290472,2020,2020
-2019,98,Street & Transportation,3505-3523 Park Ln,3511,Alley Reconstruction,2017 General Obligation Bond Program / Other GO CIP - Non- Debt,6,12/15/18,74866,0,74866,55443,0,0,130309,2020,2020
-2019,98,Street & Transportation,3506-3658 High Vista Dr,11960,Alley Reconstruction,2017 General Obligation Bond Program,6,9/9/22,35477,33623,1854,412490,0,0,447967,2020,2020
-2019,98,Street & Transportation,3544,3638,Alley Reconstruction,2017 General Obligation Bond Program,13,3/12/22,53696,53696,0,257478,0,0,311174,2020,2020
-2019,98,Street & Transportation,3609-3615 Bon Park Ct,3608,Alley Reconstruction,2017 General Obligation Bond Program,9,7/18/22,11959,11959,0,76116,0,0,88075,2020,2020
-2019,98,Street & Transportation,3610-3668 Weeburn Dr,3623,Alley Reconstruction,2017 General Obligation Bond Program,13,3/12/22,38255,38255,0,213360,0,0,251615,2020,2020
-2019,98,Street & Transportation,3703-3771 Cortez Dr,3702,Alley Reconstruction,2017 General Obligation Bond Program / Other GO CIP - Non- Debt,2,7/23/21,69159,0,69159,254451,0,0,323610,2020,2020
-2019,98,Street & Transportation,3805-3945 Hawick Ln,3804,Alley Reconstruction,2017 General Obligation Bond Program,2,5/30/21,45617,45617,0,285305,0,0,330922,2020,2020
-2019,98,Street & Transportation,3864-3872 Treeline Cir,1618,Alley Reconstruction,2017 General Obligation Bond Program,4,9/1/22,29237,29237,0,237634,0,0,266871,2020,2020
-2019,98,Street & Transportation,3903-3991 Cortez Dr,3904,Alley Reconstruction,2017 General Obligation Bond Program,6,11/1/18,445210,287359,157851,0,0,0,445210,,
-2019,98,Street & Transportation,4104-4124 Firebrick Ln,4103,Alley Reconstruction,2017 General Obligation Bond Program,12,8/23/22,14641,14641,0,136328,0,0,150969,2020,2020
-2019,98,Street & Transportation,4202-4272 Timberglen Rd,4203,Alley Reconstruction,2017 General Obligation Bond Program,12,8/23/22,19715,19715,0,198776,0,0,218491,2020,2020
-2019,98,Street & Transportation,4307-4435 Bonnie View Rd,4302,Alley Reconstruction,2017 General Obligation Bond Program,4,3/12/22,31363,31363,0,395040,0,0,426403,2020,2020
-2019,98,Street & Transportation,4403-4451 Cinnabar Dr,6102,Alley Reconstruction,2017 General Obligation Bond Program,7,7/16/22,33607,33607,0,287760,0,0,321367,2020,2020
-2019,98,Street & Transportation,4503-4535 Live Oak St,4514,Alley Reconstruction,2017 General Obligation Bond Program,2,5/30/21,29869,29869,0,163779,0,0,193648,2020,2020
-2019,98,Street & Transportation,4804-4950 Ashbrook Rd,4803,Alley Reconstruction,2017 General Obligation Bond Program,7,7/3/22,47134,47134,0,439534,0,0,486668,2020,2020
-2019,99,Street & Transportation,4806-5034 Mill Creek Rd,4807,Alley Reconstruction,2017 General Obligation Bond Program,13,12/20/21,47940,47940,0,413573,0,0,461513,2020,2020
-2019,99,Street & Transportation,4812-4840 Worth St,4807,Alley Petitions,2017 General Obligation Bond Program,2,5/1/22,16195,16195,0,189232,0,0,205427,2020,2020
-2019,99,Street & Transportation,4902-5032 Thursh St,4903,Alley Reconstruction,2017 General Obligation Bond Program,2,5/30/21,37382,37382,0,224744,0,0,262126,2020,2020
-2019,99,Street & Transportation,5005-5207 Banting Way,5411,Alley Reconstruction,2017 General Obligation Bond Program,7,7/3/22,41318,41318,0,357444,0,0,398762,2020,2020
-2019,99,Street & Transportation,503-511 N Prairie Ave,4721,Alley Reconstruction,2017 General Obligation Bond Program,2,5/30/21,19695,19695,0,39865,0,0,59560,2020,2020
-2019,99,Street & Transportation,5100-5152 Lahoma St,5101,Alley Reconstruction,2017 General Obligation Bond Program,2,5/30/21,35717,35717,0,180863,0,0,216580,2020,2020
-2019,99,Street & Transportation,5107-5143 Breakwood Dr,5116,Alley Reconstruction,2017 General Obligation Bond Program,7,7/3/22,20094,20094,0,151578,0,0,171672,2020,2020
-2019,99,Street & Transportation,5179-5107 Chalet,1404,Alley Reconstruction,2017 General Obligation Bond Program,3,5/30/22,38341,38341,0,333667,0,0,372008,2020,2020
-2019,99,Street & Transportation,5300-5358 Willis Ave,5303,Alley Reconstruction,2017 General Obligation Bond Program,2,5/30/21,35869,35869,0,207784,0,0,243653,2020,2020
-2019,99,Street & Transportation,5303-5347 Blaney Way,5204,Alley Reconstruction,2017 General Obligation Bond Program,7,7/3/22,38387,38387,0,334895,0,0,373282,2020,2020
-2019,99,Street & Transportation,5306-5342 Lake Placid Dr,1572,Alley Reconstruction,2017 General Obligation Bond Program,3,5/30/22,17943,17943,0,178296,0,0,196239,2020,2020
-2019,99,Street & Transportation,5500-5552 Longview St,5503,Alley Reconstruction,2017 General Obligation Bond Program,14,8/14/22,23009,23009,0,217777,0,0,240786,2020,2020
-2019,99,Street & Transportation,5501-5527 Harbor Town Dr,5506,Alley Reconstruction,2017 General Obligation Bond Program,12,8/23/22,22493,22493,0,237721,0,0,260214,2020,2020
-2019,99,Street & Transportation,5601-5639 Morningside Ave,5602,Alley Reconstruction,2017 General Obligation Bond Program,14,8/14/22,20920,20920,0,184831,0,0,205751,2020,2020
-2019,99,Street & Transportation,5605-5831 Everglade Rd,5606,Alley Reconstruction,2017 General Obligation Bond Program,7,8/28/22,45392,45392,0,419618,0,0,465010,2020,2020
-2019,99,Street & Transportation,5620-5832 Everglade Rd,5707,Alley Reconstruction,2017 General Obligation Bond Program,7,7/3/22,52875,52875,0,436978,0,0,489853,2020,2020
-2019,99,Street & Transportation,5701-5745 Palo Pinto Ave,5702,Target Neighborhood,2017 General Obligation Bond Program,14,11/4/22,28358,28358,0,0,0,183126,211484,2022,2022
-2019,100,Street & Transportation,5703-5747 Vanderbilt Ave,5710,Alley Reconstruction,2017 General Obligation Bond Program,14,8/14/22,19995,19995,0,194356,0,0,214351,2020,2020
-2019,100,Street & Transportation,5710-5814 Meadowick Ln,5274,Alley Reconstruction,2017 General Obligation Bond Program,7,8/30/22,20634,20634,0,148490,0,0,169124,2020,2020
-2019,100,Street & Transportation,5737-5763 Caruth Blvd,5708,Alley Reconstruction,2017 General Obligation Bond Program,13,12/20/21,17068,17068,0,133583,0,0,150651,2020,2020
+2019,97,Street & Transportation,299-385 Stoneport Dr - 320 Pemberton Hill Rd,V065,Alley Reconstruction,2017 General Obligation Bond Program,8,9/30/20,41118,818,40300,370066,0,0,411184,2020,2020
+2019,97,Street & Transportation,3004-3150 Kinkaid Dr - 3045-3155 Park Ln,V037,Alley Reconstruction,2017 General Obligation Bond Program,6,9/8/22,79625,75859,3766,716625,0,0,796250,2020,2020
+2019,97,Street & Transportation,3105-3161 Waldrop Drive - 3106-3160 Rotan Lane,V114,Alley Reconstruction,2017 General Obligation Bond Program,13,3/12/22,43544,43544,0,279415,0,0,322959,2020,2020
+2019,97,Street & Transportation,3105-3171 Newcastle Dr - 3104-3170 Walnut Hill,V038,Alley Reconstruction,2017 General Obligation Bond Program,6,9/9/22,37122,37122,0,268320,0,0,305442,2020,2020
+2019,97,Street & Transportation,3163-3241 E Ledbetter Dr - 3132-3244 Dahlia Dr,V029,Alley Reconstruction,2017 General Obligation Bond Program,4,3/12/22,28212,26254,1958,324108,0,0,352320,2020,2020
+2019,97,Street & Transportation,3206-3232 Rotan Lane - 3207-3233 Waldrop Drive,V115,Alley Reconstruction,2017 General Obligation Bond Program,13,3/12/22,27872,27872,0,160998,0,0,188870,2020,2020
+2019,97,Street & Transportation,3207 - 3349 Citation Dr - 3208 - 3330 Timberview Rd,V116,Alley Reconstruction,2017 General Obligation Bond Program,13,3/12/22,62917,62620,297,227555,0,0,290472,2020,2020
+2019,98,Street & Transportation,3505-3523 Park Ln - 3511 Valley Ridge Rd,V039,Alley Reconstruction,2017 General Obligation Bond Program / Other GO CIP - Non- Debt,6,12/15/18,74866,0,74866,55443,0,0,130309,2020,2020
+2019,98,Street & Transportation,3506-3658 High Vista Dr - 11960 Highdale Dr,V040,Alley Reconstruction,2017 General Obligation Bond Program,6,9/9/22,35477,33623,1854,412490,0,0,447967,2020,2020
+2019,98,Street & Transportation,3544 - 3638 Ainsworth Dr - 3615 - 3675 Norcross Ln,V117,Alley Reconstruction,2017 General Obligation Bond Program,13,3/12/22,53696,53696,0,257478,0,0,311174,2020,2020
+2019,98,Street & Transportation,3609-3615 Bon Park Ct - 3608-3614 Parader Ct,V073,Alley Reconstruction,2017 General Obligation Bond Program,9,7/18/22,11959,11959,0,76116,0,0,88075,2020,2020
+2019,98,Street & Transportation,3610-3668 Weeburn Dr - 3623-3651 Midpines Dr,V118,Alley Reconstruction,2017 General Obligation Bond Program,13,3/12/22,38255,38255,0,213360,0,0,251615,2020,2020
+2019,98,Street & Transportation,3703-3771 Cortez Dr - 3702-3770 Durango Dr,V010,Alley Reconstruction,2017 General Obligation Bond Program / Other GO CIP - Non- Debt,2,7/23/21,69159,0,69159,254451,0,0,323610,2020,2020
+2019,98,Street & Transportation,3805-3945 Hawick Ln - 3804-3858 Eaton Dr,V011,Alley Reconstruction,2017 General Obligation Bond Program,2,5/30/21,45617,45617,0,285305,0,0,330922,2020,2020
+2019,98,Street & Transportation,3864-3872 Treeline Cir - 1618-1626 Five Mile Ct,V030,Alley Reconstruction,2017 General Obligation Bond Program,4,9/1/22,29237,29237,0,237634,0,0,266871,2020,2020
+2019,98,Street & Transportation,3903-3991 Cortez Dr - 3904-3990 Durango Dr,V041,Alley Reconstruction,2017 General Obligation Bond Program,6,11/1/18,445210,287359,157851,0,0,0,445210,,
+2019,98,Street & Transportation,4104-4124 Firebrick Ln - 4103-4119 Country Brook Dr,V098,Alley Reconstruction,2017 General Obligation Bond Program,12,8/23/22,14641,14641,0,136328,0,0,150969,2020,2020
+2019,98,Street & Transportation,4202-4272 Timberglen Rd - 4203-4231 Lawngate Dr,V099,Alley Reconstruction,2017 General Obligation Bond Program,12,8/23/22,19715,19715,0,198776,0,0,218491,2020,2020
+2019,98,Street & Transportation,4307-4435 Bonnie View Rd - 4302-4446 Cicero St,V031,Alley Reconstruction,2017 General Obligation Bond Program,4,3/12/22,31363,31363,0,395040,0,0,426403,2020,2020
+2019,98,Street & Transportation,4403-4451 Cinnabar Dr - 6102-6150 Symphony Ln,V048,Alley Reconstruction,2017 General Obligation Bond Program,7,7/16/22,33607,33607,0,287760,0,0,321367,2020,2020
+2019,98,Street & Transportation,4503-4535 Live Oak St - 4514-4522 Bryan St,V012,Alley Reconstruction,2017 General Obligation Bond Program,2,5/30/21,29869,29869,0,163779,0,0,193648,2020,2020
+2019,98,Street & Transportation,4804-4950 Ashbrook Rd - 4803-4945 Chilton Dr,V049,Alley Reconstruction,2017 General Obligation Bond Program,7,7/3/22,47134,47134,0,439534,0,0,486668,2020,2020
+2019,99,Street & Transportation,4806-5034 Mill Creek Rd - 4807-4923 -12515 Planters Glen Dr,V123,Alley Reconstruction,2017 General Obligation Bond Program,13,12/20/21,47940,47940,0,413573,0,0,461513,2020,2020
+2019,99,Street & Transportation,4812-4840 Worth St - 4807-4841 Tremont St,V007,Alley Petitions,2017 General Obligation Bond Program,2,5/1/22,16195,16195,0,189232,0,0,205427,2020,2020
+2019,99,Street & Transportation,4902-5032 Thursh St - 4903-5033 Wenonah Dr,V013,Alley Reconstruction,2017 General Obligation Bond Program,2,5/30/21,37382,37382,0,224744,0,0,262126,2020,2020
+2019,99,Street & Transportation,5005-5207 Banting Way - 5411-5445 Endlery Pl,V050,Alley Reconstruction,2017 General Obligation Bond Program,7,7/3/22,41318,41318,0,357444,0,0,398762,2020,2020
+2019,99,Street & Transportation,503-511 N Prairie Ave - 4721-4721 Tremont St,V014,Alley Reconstruction,2017 General Obligation Bond Program,2,5/30/21,19695,19695,0,39865,0,0,59560,2020,2020
+2019,99,Street & Transportation,5100-5152 Lahoma St - 5101-5147 N Hall St,V015,Alley Reconstruction,2017 General Obligation Bond Program,2,5/30/21,35717,35717,0,180863,0,0,216580,2020,2020
+2019,99,Street & Transportation,5107-5143 Breakwood Dr - 5116-5152 Colter Dr,V051,Alley Reconstruction,2017 General Obligation Bond Program,7,7/3/22,20094,20094,0,151578,0,0,171672,2020,2020
+2019,99,Street & Transportation,5179-5107 Chalet - 1404-1550 Drury Dr,V018,Alley Reconstruction,2017 General Obligation Bond Program,3,5/30/22,38341,38341,0,333667,0,0,372008,2020,2020
+2019,99,Street & Transportation,5300-5358 Willis Ave - 5303-5355 Richard Ave,V016,Alley Reconstruction,2017 General Obligation Bond Program,2,5/30/21,35869,35869,0,207784,0,0,243653,2020,2020
+2019,99,Street & Transportation,5303-5347 Blaney Way - 5204-5240 Banting Way,V052,Alley Reconstruction,2017 General Obligation Bond Program,7,7/3/22,38387,38387,0,334895,0,0,373282,2020,2020
+2019,99,Street & Transportation,5306-5342 Lake Placid Dr - 1572-1568 Drury Pl,V019,Alley Reconstruction,2017 General Obligation Bond Program,3,5/30/22,17943,17943,0,178296,0,0,196239,2020,2020
+2019,99,Street & Transportation,5500-5552 Longview St - 5503-5549 Mccommas Blvd,V125,Alley Reconstruction,2017 General Obligation Bond Program,14,8/14/22,23009,23009,0,217777,0,0,240786,2020,2020
+2019,99,Street & Transportation,5501-5527 Harbor Town Dr - 5506-5530 Tamaron Ct,V100,Alley Reconstruction,2017 General Obligation Bond Program,12,8/23/22,22493,22493,0,237721,0,0,260214,2020,2020
+2019,99,Street & Transportation,5601-5639 Morningside Ave - 5602-5634 Mccommas Blvd,V126,Alley Reconstruction,2017 General Obligation Bond Program,14,8/14/22,20920,20920,0,184831,0,0,205751,2020,2020
+2019,99,Street & Transportation,5605-5831 Everglade Rd - 5606-5824 Twineing St,V053,Alley Reconstruction,2017 General Obligation Bond Program,7,8/28/22,45392,45392,0,419618,0,0,465010,2020,2020
+2019,99,Street & Transportation,5620-5832 Everglade Rd - 5707-5861 Marview Ln,V054,Alley Reconstruction,2017 General Obligation Bond Program,7,7/3/22,52875,52875,0,436978,0,0,489853,2020,2020
+2019,99,Street & Transportation,5701-5745 Palo Pinto Ave - 5702-5746 Velasco Ave [Alley Imp],VA06,Target Neighborhood,2017 General Obligation Bond Program,14,11/4/22,28358,28358,0,0,0,183126,211484,2022,2022
+2019,100,Street & Transportation,5703-5747 Vanderbilt Ave - 5710-5750 Marquita Ave,V127,Alley Reconstruction,2017 General Obligation Bond Program,14,8/14/22,19995,19995,0,194356,0,0,214351,2020,2020
+2019,100,Street & Transportation,5710-5814 Meadowick Ln - 5274-5290 Ponderosa Cir,V055,Alley Reconstruction,2017 General Obligation Bond Program,7,8/30/22,20634,20634,0,148490,0,0,169124,2020,2020
+2019,100,Street & Transportation,5737-5763 Caruth Blvd - 5708-5728 Surrey Square Lane,V119,Alley Reconstruction,2017 General Obligation Bond Program,13,12/20/21,17068,17068,0,133583,0,0,150651,2020,2020
 2019,100,Street & Transportation,6020-6040 Fieldstone,V101,Alley Reconstruction,2017 General Obligation Bond Program,12,8/24/22,42252,42252,0,227248,0,0,269500,2020,2020
-2019,100,Street & Transportation,6024-6300 Samuell Blvd,6205,Alley Reconstruction,2017 General Obligation Bond Program,7,8/28/22,45654,45654,0,430822,0,0,476476,2020,2020
+2019,100,Street & Transportation,6024-6300 Samuell Blvd - 6205-6441 Symphony Ln,V056,Alley Reconstruction,2017 General Obligation Bond Program,7,8/28/22,45654,45654,0,430822,0,0,476476,2020,2020
 2019,100,Street & Transportation,6100 Blk Of Calm Meadow,V282,Street Reconstruction,2017 General Obligation Bond Program,12,7/17/22,52854,41762,11092,0,475685,0,528539,2021,2021
-2019,100,Street & Transportation,6103-6129 Mercedes Ave,6100,Alley Reconstruction,2017 General Obligation Bond Program,14,8/14/22,16046,16046,0,122501,0,0,138547,2020,2020
-2019,100,Street & Transportation,6139-6179 Monticello Ave,6202,Alley Reconstruction,2017 General Obligation Bond Program,14,8/14/22,22800,22800,0,178174,0,0,200974,2020,2020
+2019,100,Street & Transportation,6103-6129 Mercedes Ave - 6100-6126 Morningside Ave,V128,Alley Reconstruction,2017 General Obligation Bond Program,14,8/14/22,16046,16046,0,122501,0,0,138547,2020,2020
+2019,100,Street & Transportation,6139-6179 Monticello Ave - 6202-6238 Mercedes Ave,V129,Alley Reconstruction,2017 General Obligation Bond Program,14,8/14/22,22800,22800,0,178174,0,0,200974,2020,2020
 2019,100,Street & Transportation,6201- 6333 Bryan Pkwy 5808-5842 Live Oak St,V130,- Alley Reconstruction,2017 General Obligation Bond Program,14,8/14/22,22654,22654,0,201252,0,0,223906,2020,2020
-2019,100,Street & Transportation,6206-6440 Symphony Ln,4307,Alley Reconstruction,2017 General Obligation Bond Program,7,8/28/22,30863,30863,0,278401,0,0,309264,2020,2020
-2019,100,Street & Transportation,6216-6226 Autumn Woods Trl,804,Alley Reconstruction,2017 General Obligation Bond Program,3,5/30/22,13870,13603,267,125840,0,0,139710,2020,2020
-2019,100,Street & Transportation,6302-6326 Oakleaf Rd,6301,Alley Reconstruction,2017 General Obligation Bond Program,12,8/14/22,27993,27993,0,186676,0,0,214669,2020,2020
-2019,100,Street & Transportation,6407-6475 Glendora Ave,6406,Alley Reconstruction,2017 General Obligation Bond Program,13,12/20/21,31754,31104,650,285791,0,0,317545,2020,2020
-2019,100,Street & Transportation,6421-6543 Northwood Road,6426,Alley Reconstruction,2017 General Obligation Bond Program,13,12/20/21,33347,31772,1575,300123,0,0,333470,2020,2020
-2019,100,Street & Transportation,6505-6635 Mimosa Ln,6506,Alley Reconstruction,2017 General Obligation Bond Program,13,12/20/21,30990,31237,-247,278911,0,0,309901,2020,2020
-2019,100,Street & Transportation,6506-6556 Crestmere Dr,6515,Alley Reconstruction,2017 General Obligation Bond Program,11,5/1/22,21783,21783,0,225594,0,0,247377,2020,2020
-2019,100,Street & Transportation,6510-6580 Calais Dr,6509,Alley Reconstruction,2017 General Obligation Bond Program,11,5/1/22,23426,23426,0,255118,0,0,278544,2020,2020
-2019,101,Street & Transportation,6607-6831 Desco Drive,6706,Alley Reconstruction,2017 General Obligation Bond Program,13,12/20/21,49037,49037,0,377753,0,0,426790,2020,2020
-2019,101,Street & Transportation,6808-7038 Hunters Ridge Dr,6807,Alley Reconstruction,2017 General Obligation Bond Program,11,5/1/22,50355,41112,9243,453193,0,0,503548,2020,2020
+2019,100,Street & Transportation,6206-6440 Symphony Ln - 4307-4339 Cinnabar Dr,V057,Alley Reconstruction,2017 General Obligation Bond Program,7,8/28/22,30863,30863,0,278401,0,0,309264,2020,2020
+2019,100,Street & Transportation,6216-6226 Autumn Woods Trl - 804-814 W Red Bird Ln,V020,Alley Reconstruction,2017 General Obligation Bond Program,3,5/30/22,13870,13603,267,125840,0,0,139710,2020,2020
+2019,100,Street & Transportation,6302-6326 Oakleaf Rd - 6301-6323 Warm Mist Ln,V102,Alley Reconstruction,2017 General Obligation Bond Program,12,8/14/22,27993,27993,0,186676,0,0,214669,2020,2020
+2019,100,Street & Transportation,6407-6475 Glendora Ave - 6406-6474 Meadow Road,V120,Alley Reconstruction,2017 General Obligation Bond Program,13,12/20/21,31754,31104,650,285791,0,0,317545,2020,2020
+2019,100,Street & Transportation,6421-6543 Northwood Road - 6426-6542 Deloache Ave,V121,Alley Reconstruction,2017 General Obligation Bond Program,13,12/20/21,33347,31772,1575,300123,0,0,333470,2020,2020
+2019,100,Street & Transportation,6505-6635 Mimosa Ln - 6506-6630 Lakehurst Ave,V122,Alley Reconstruction,2017 General Obligation Bond Program,13,12/20/21,30990,31237,-247,278911,0,0,309901,2020,2020
+2019,100,Street & Transportation,6506-6556 Crestmere Dr - 6515-6555 Meadowcreek Dr,V087,Alley Reconstruction,2017 General Obligation Bond Program,11,5/1/22,21783,21783,0,225594,0,0,247377,2020,2020
+2019,100,Street & Transportation,6510-6580 Calais Dr - 6509-6565 Crestmere Dr,V088,Alley Reconstruction,2017 General Obligation Bond Program,11,5/1/22,23426,23426,0,255118,0,0,278544,2020,2020
+2019,101,Street & Transportation,6607-6831 Desco Drive - 6706-6838 Prestonshire Lane,V124,Alley Reconstruction,2017 General Obligation Bond Program,13,12/20/21,49037,49037,0,377753,0,0,426790,2020,2020
+2019,101,Street & Transportation,6808-7038 Hunters Ridge Dr - 6807-6959 Town Bluff Dr,V089,Alley Reconstruction,2017 General Obligation Bond Program,11,5/1/22,50355,41112,9243,453193,0,0,503548,2020,2020
 2019,101,Street & Transportation,6816-6858 Freemont St 6809-6851 Whitehill St,V074,- Alley Reconstruction,2017 General Obligation Bond Program,9,10/3/22,21692,21692,0,189233,0,0,210925,2020,2020
-2019,101,Street & Transportation,6906-6954 Kingsbury Dr,6907,Alley Reconstruction,2017 General Obligation Bond Program,9,7/18/22,23627,23627,0,208423,0,0,232050,2020,2020
-2019,101,Street & Transportation,6906-7030 Orchid Ln,6909,Alley Reconstruction,2017 General Obligation Bond Program,11,5/1/22,35535,28138,7397,319813,0,0,355348,2020,2020
+2019,101,Street & Transportation,6906-6954 Kingsbury Dr - 6907-6949 Winchester St,V075,Alley Reconstruction,2017 General Obligation Bond Program,9,7/18/22,23627,23627,0,208423,0,0,232050,2020,2020
+2019,101,Street & Transportation,6906-7030 Orchid Ln - 6909-7007 Meadoebriar Ln - Pemberton Dr,V094,Alley Reconstruction,2017 General Obligation Bond Program,11,5/1/22,35535,28138,7397,319813,0,0,355348,2020,2020
 2019,101,Street & Transportation,6915-6965 Freemont St 6914-6964 Wakefield St,V076,- Alley Reconstruction,2017 General Obligation Bond Program,9,7/18/22,21367,21367,0,206458,0,0,227825,2020,2020
-2019,101,Street & Transportation,6920-7038 Midbury Dr,6919,Alley Reconstruction,2017 General Obligation Bond Program,11,5/1/22,39417,39417,0,4313,0,0,43730,2020,2020
+2019,101,Street & Transportation,6920-7038 Midbury Dr - 6919-7033 Northaven Rd,V090,Alley Reconstruction,2017 General Obligation Bond Program,11,5/1/22,39417,39417,0,4313,0,0,43730,2020,2020
 2019,101,Street & Transportation,7005-7065 Freemont St 7006-7066 Wakefield St,V077,- Alley Reconstruction,2017 General Obligation Bond Program,9,7/16/22,24966,24966,0,248684,0,0,273650,2020,2020
-2019,101,Street & Transportation,7023-7031 Wakefield St,7049,Alley Reconstruction,2017 General Obligation Bond Program,9,7/18/22,14874,14874,0,71901,0,0,86775,2020,2020
-2019,101,Street & Transportation,7027-7203 Hunnicut Rd,7012,Alley Reconstruction,2017 General Obligation Bond Program,7,7/3/22,33005,33005,0,228165,0,0,261170,2020,2020
-2019,101,Street & Transportation,7103-7133 Echo Bluff Dr,7202,Alley Reconstruction,2017 General Obligation Bond Program,12,8/14/22,42944,42944,0,242750,0,0,285694,2020,2020
-2019,101,Street & Transportation,7105-7227 Bluefield Dr,7311,Alley Reconstruction,2017 General Obligation Bond Program,12,8/14/22,68852,68852,0,359898,0,0,428750,2020,2020
-2019,101,Street & Transportation,7129-7195 Elliott Dr,7130,Alley Reconstruction,2017 General Obligation Bond Program,7,6/21/22,28200,28200,0,253991,0,0,282191,2020,2020
-2019,101,Street & Transportation,7151-7203 Gracefield Ln,7101,Alley Reconstruction,2017 General Obligation Bond Program,12,8/14/22,54839,54839,0,401572,0,0,456411,2020,2020
-2019,101,Street & Transportation,7206 -7446 La Sobrina Dr,7223,Alley Reconstruction,2017 General Obligation Bond Program,12,8/14/22,57057,57057,0,465601,0,0,522658,2020,2020
-2019,101,Street & Transportation,7306-7540 Gayglen Dr,7303,Alley Reconstruction,2017 General Obligation Bond Program,8,9/30/20,0,0,0,513104,0,0,513104,2020,2020
-2019,101,Street & Transportation,7309-7435 Tangleglen Dr,7364,Alley Reconstruction,2017 General Obligation Bond Program,11,5/1/22,29300,25691,3609,263700,0,0,293000,2020,2020
-2019,102,Street & Transportation,7405-7443 Lynworth Dr,7408,Alley Reconstruction,2017 General Obligation Bond Program,11,5/1/22,21403,19421,1982,192629,0,0,214032,2020,2020
-2019,102,Street & Transportation,7501-7631 Ashcrest Ln,7502,Alley Reconstruction,2017 General Obligation Bond Program,3,5/30/22,40268,41154,-886,410770,0,0,451038,2020,2020
-2019,102,Street & Transportation,7604-7608 Dornoch Ln,7603,Alley Reconstruction,2017 General Obligation Bond Program,12,8/14/22,28033,28033,0,78027,0,0,106060,2020,2020
-2019,102,Street & Transportation,7606-7672 Rolling Acres Dr,7615,Alley Reconstruction,2017 General Obligation Bond Program,11,5/1/22,25321,22531,2790,227886,0,0,253207,2020,2020
-2019,102,Street & Transportation,7607-777 La Sobrina Dr,7624,Alley Reconstruction,2017 General Obligation Bond Program,12,7/3/22,70983,63983,7000,493710,0,0,564693,2020,2020
-2019,102,Street & Transportation,7620-7768 La Manga Dr,7625,Alley Reconstruction,2017 General Obligation Bond Program,12,3/12/22,59204,52704,6500,451800,0,0,511004,2020,2020
-2019,102,Street & Transportation,7704-78400 Carbondale St,7703,Target Neighborhood,2017 General Obligation Bond Program,7,8/28/22,35021,34378,643,0,0,317240,352261,2022,2022
-2019,102,Street & Transportation,7805-7871 La Verdura Dr,7806,Alley Reconstruction,2017 General Obligation Bond Program,12,7/3/22,37838,34138,3700,235632,0,0,273470,2020,2020
-2019,102,Street & Transportation,7805-7887 Querida Ln,7808,Alley Reconstruction,2017 General Obligation Bond Program,12,7/3/22,35682,32082,3600,241509,0,0,277191,2020,2020
-2019,102,Street & Transportation,7806-7870 Querida Ln,7807,Alley Reconstruction,2017 General Obligation Bond Program,12,7/3/22,44781,40581,4200,292889,0,0,337670,2020,2020
-2019,102,Street & Transportation,7905-7933 Olusta Dr,7932,Alley Reconstruction,2017 General Obligation Bond Program,8,9/30/20,16345,16345,0,190782,0,0,207127,2020,2020
-2019,102,Street & Transportation,806-954 Ivywood Dr,807,Alley Reconstruction,2017 General Obligation Bond Program,8,5/1/22,33902,33902,0,351802,0,0,385704,2020,2020
-2019,102,Street & Transportation,9003-9131 Webb Kay Dr,9006,Alley Reconstruction,2017 General Obligation Bond Program,10,3/29/21,53957,53957,0,439718,0,0,493675,2020,2020
-2019,102,Street & Transportation,9506-9650 Dartridge Dr,9605,Alley Reconstruction,2017 General Obligation Bond Program,10,3/29/21,41723,41723,0,406088,0,0,447811,2020,2020
-2019,102,Street & Transportation,9603-9616 Greensprint Drive,9626,Alley Reconstruction,2017 General Obligation Bond Program,10,6/19/22,14220,14220,0,89293,0,0,103513,2020,2020
-2019,102,Street & Transportation,9606-9734 Shady Dale Lane,9709,Alley Reconstruction,2017 General Obligation Bond Program,10,6/19/22,27140,27140,0,241674,0,0,268814,2020,2020
-2019,103,Street & Transportation,9805-8805 Buxhill Dr,9804,Alley Reconstruction,2017 General Obligation Bond Program,10,11/30/20,32037,32037,0,267059,0,0,299096,2020,2020
+2019,101,Street & Transportation,7023-7031 Wakefield St - 7049-7053 Wakefield Cir,V078,Alley Reconstruction,2017 General Obligation Bond Program,9,7/18/22,14874,14874,0,71901,0,0,86775,2020,2020
+2019,101,Street & Transportation,7027-7203 Hunnicut Rd - 7012-7108 Belteau Ln,V058,Alley Reconstruction,2017 General Obligation Bond Program,7,7/3/22,33005,33005,0,228165,0,0,261170,2020,2020
+2019,101,Street & Transportation,7103-7133 Echo Bluff Dr - 7202-7226 Rustic Valley Dr,V103,Alley Reconstruction,2017 General Obligation Bond Program,12,8/14/22,42944,42944,0,242750,0,0,285694,2020,2020
+2019,101,Street & Transportation,7105-7227 Bluefield Dr - 7311- 7427 Carta Valley Dr,V104,Alley Reconstruction,2017 General Obligation Bond Program,12,8/14/22,68852,68852,0,359898,0,0,428750,2020,2020
+2019,101,Street & Transportation,7129-7195 Elliott Dr - 7130-7184 Rolling Fork Dr,V059,Alley Reconstruction,2017 General Obligation Bond Program,7,6/21/22,28200,28200,0,253991,0,0,282191,2020,2020
+2019,101,Street & Transportation,7151-7203 Gracefield Ln - 7101-7145 Crooked Oak Dr,V105,Alley Reconstruction,2017 General Obligation Bond Program,12,8/14/22,54839,54839,0,401572,0,0,456411,2020,2020
+2019,101,Street & Transportation,7206 -7446 La Sobrina Dr - 7223-7441 Whispering Pine Dr,V106,Alley Reconstruction,2017 General Obligation Bond Program,12,8/14/22,57057,57057,0,465601,0,0,522658,2020,2020
+2019,101,Street & Transportation,7306-7540 Gayglen Dr - 7303-7533 Neuhoff Dr,V066,Alley Reconstruction,2017 General Obligation Bond Program,8,9/30/20,0,0,0,513104,0,0,513104,2020,2020
+2019,101,Street & Transportation,7309-7435 Tangleglen Dr - 7364-7450 Tophill Ln,V091,Alley Reconstruction,2017 General Obligation Bond Program,11,5/1/22,29300,25691,3609,263700,0,0,293000,2020,2020
+2019,102,Street & Transportation,7405-7443 Lynworth Dr - 7408-7438 Chattington Dr,V092,Alley Reconstruction,2017 General Obligation Bond Program,11,5/1/22,21403,19421,1982,192629,0,0,214032,2020,2020
+2019,102,Street & Transportation,7501-7631 Ashcrest Ln - 7502-7578 Christie Ln,V021,Alley Reconstruction,2017 General Obligation Bond Program,3,5/30/22,40268,41154,-886,410770,0,0,451038,2020,2020
+2019,102,Street & Transportation,7604-7608 Dornoch Ln - 7603-7605 Lairds Ln,V107,Alley Reconstruction,2017 General Obligation Bond Program,12,8/14/22,28033,28033,0,78027,0,0,106060,2020,2020
+2019,102,Street & Transportation,7606-7672 Rolling Acres Dr - 7615-7651 Tophill Ln,V093,Alley Reconstruction,2017 General Obligation Bond Program,11,5/1/22,25321,22531,2790,227886,0,0,253207,2020,2020
+2019,102,Street & Transportation,7607-777 La Sobrina Dr - 7624-7772 Querida Ln,V108,Alley Reconstruction,2017 General Obligation Bond Program,12,7/3/22,70983,63983,7000,493710,0,0,564693,2020,2020
+2019,102,Street & Transportation,7620-7768 La Manga Dr - 7625-7771 Querida Ln,V109,Alley Reconstruction,2017 General Obligation Bond Program,12,3/12/22,59204,52704,6500,451800,0,0,511004,2020,2020
+2019,102,Street & Transportation,7704-78400 Carbondale St - 7703- 7835 Brownville [Alley Imp],VA01,Target Neighborhood,2017 General Obligation Bond Program,7,8/28/22,35021,34378,643,0,0,317240,352261,2022,2022
+2019,102,Street & Transportation,7805-7871 La Verdura Dr - 7806-7846 El Pastel Dr,V110,Alley Reconstruction,2017 General Obligation Bond Program,12,7/3/22,37838,34138,3700,235632,0,0,273470,2020,2020
+2019,102,Street & Transportation,7805-7887 Querida Ln - 7808-7858 La Manga Dr,V111,Alley Reconstruction,2017 General Obligation Bond Program,12,7/3/22,35682,32082,3600,241509,0,0,277191,2020,2020
+2019,102,Street & Transportation,7806-7870 Querida Ln - 7807-7867 La Sobrina Dr,V112,Alley Reconstruction,2017 General Obligation Bond Program,12,7/3/22,44781,40581,4200,292889,0,0,337670,2020,2020
+2019,102,Street & Transportation,7905-7933 Olusta Dr - 7932 Great Trinity Forest Way,V067,Alley Reconstruction,2017 General Obligation Bond Program,8,9/30/20,16345,16345,0,190782,0,0,207127,2020,2020
+2019,102,Street & Transportation,806-954 Ivywood Dr - 807-951 Jadewood Dr,V068,Alley Reconstruction,2017 General Obligation Bond Program,8,5/1/22,33902,33902,0,351802,0,0,385704,2020,2020
+2019,102,Street & Transportation,9003-9131 Webb Kay Dr - 9006-9132 Windy Crest Dr,V081,Alley Reconstruction,2017 General Obligation Bond Program,10,3/29/21,53957,53957,0,439718,0,0,493675,2020,2020
+2019,102,Street & Transportation,9506-9650 Dartridge Dr - 9605-9679 Covemeadow Dr,V082,Alley Reconstruction,2017 General Obligation Bond Program,10,3/29/21,41723,41723,0,406088,0,0,447811,2020,2020
+2019,102,Street & Transportation,9603-9616 Greensprint Drive - 9626-9626 Church Rd,V083,Alley Reconstruction,2017 General Obligation Bond Program,10,6/19/22,14220,14220,0,89293,0,0,103513,2020,2020
+2019,102,Street & Transportation,9606-9734 Shady Dale Lane - 9709-9733 Shoreview Rd,V084,Alley Reconstruction,2017 General Obligation Bond Program,10,6/19/22,27140,27140,0,241674,0,0,268814,2020,2020
+2019,103,Street & Transportation,9805-8805 Buxhill Dr - 9804-9846 Chiswell - 8805 Fenchurch,V085,Alley Reconstruction,2017 General Obligation Bond Program,10,11/30/20,32037,32037,0,267059,0,0,299096,2020,2020
 2019,103,Street & Transportation,Aberdeen Ave From Edgemere Rd To Thackery St,V285,Street Reconstruction,2017 General Obligation Bond Program,13,7/17/22,79397,79233,164,0,714568,0,793965,2021,2021
 2019,103,Street & Transportation,Abrams Rd from E University Blvd to Chesley Ln,V942,Street Resurfacing,2017 General Obligation Bond Program,9,9/30/21,0,0,0,0,146300,0,146300,2021,2021
 2019,103,Street & Transportation,Abrams Rd from Gaston Ave to S Beacon St,VA14,Thoroughfares,2017 General Obligation Bond Program,14,5/10/22,294574,294574,0,0,0,3455426,3750000,2022,2022
@@ -1034,7 +1027,7 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2019,108,Street & Transportation,Brentridge Dr from Deermont Trl to Brentridge Ct,V494,Street Resurfacing,2017 General Obligation Bond Program,10,9/30/19,64690,64690,0,0,0,0,64690,,
 2019,108,Street & Transportation,Briar Tree Dr from Village Ln to Village Ln,V427,Street Resurfacing,2017 General Obligation Bond Program,11,2/4/19,110850,110850,0,0,0,0,110850,,
 2019,108,Street & Transportation,Briaridge Rd from Spring Creek Rd to Coit Rd,V813,Street Resurfacing,2017 General Obligation Bond Program,11,9/30/21,0,0,0,0,154375,0,154375,2021,2021
-2019,109,Street & Transportation,Bridge Repair and Modification,W010,Bridge Repair and Modification,2006 General Obligation Bond Program,Citywide,9/30/18,1900,0,1900,0,0,0,1900,,
+2019,109,Street & Transportation,Bridge Repair and Modification - W010,W010,Bridge Repair and Modification,2006 General Obligation Bond Program,Citywide,9/30/18,1900,0,1900,0,0,0,1900,,
 2019,109,Street & Transportation,Bristol Ave From March Ave To Hopkins Ave,V155,Sidewalk Improvements,2017 General Obligation Bond Program,2,8/31/21,79872,0,79872,0,0,0,79872,,
 2019,109,Street & Transportation,Broadmoor Dr from Broadmoor Dr to Garland Rd,V847,Street Resurfacing,2017 General Obligation Bond Program,9,9/30/22,0,0,0,0,0,663137,663137,2022,2022
 2019,109,Street & Transportation,Brockbank Dr from Coogan Dr to Royal Ln,V875,Street Resurfacing,2017 General Obligation Bond Program,6,9/30/19,510223,510223,0,0,0,0,510223,,
@@ -1949,27 +1942,26 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2019,161,Street & Transportation,Yorkmont Cir from End of Pavement to Evangeline Way,V510,Street Resurfacing,2017 General Obligation Bond Program,9,9/30/18,157231,157231,0,0,0,0,157231,,
 2019,161,Street & Transportation,Yorksprings Dr from Meadowspring Ln to Yorksprings Pl,V695,Street Resurfacing,2017 General Obligation Bond Program,9,9/30/21,0,0,0,0,85800,0,85800,2021,2021
 2019,161,Street & Transportation,Yorksprings Dr from Valley Spring Dr to Meadowspring Ln,V717,Street Resurfacing,2017 General Obligation Bond Program,9,9/30/21,0,0,0,0,145275,0,145275,2021,2021
-2019,161,Street & Transportation,Grand Total,,,,,,0,0,0,0,0,0,0,,
-2019,167,Water Utilities Facilities,Bachman Water Tr Pl,Facil1,Water Treatment Plants and Associated Facilities,Water Capital Program,6,9/30/23,16875554,16052738,822816,19000000,0,0,35875554,2020,2020
-2019,167,Water Utilities Facilities,Bachman Water Tr Pl,Facil1,Water Treatment Plants and Associated Facilities,Water Capital Program,6,9/30/23,200350831,189686609,10664222,9000000,0,0,209350831,2020,2020
+2019,167,Water Utilities Facilities,Bachman Water Tr Pl - Facil1,CW30,Water Treatment Plants and Associated Facilities,Water Capital Program,6,9/30/23,16875554,16052738,822816,19000000,0,0,35875554,2020,2020
+2019,167,Water Utilities Facilities,Bachman Water Tr Pl - Facil1,PW30,Water Treatment Plants and Associated Facilities,Water Capital Program,6,9/30/23,200350831,189686609,10664222,9000000,0,0,209350831,2020,2020
 2019,167,Water Utilities Facilities,Central Ww Treat Pl - Facil,PS30,Wastewater Treatment Plants and Associated Facilities,Sewer Capital Program,Citywide,9/30/23,474158485,410271896,63886589,36430000,2800000,37000000,550388485,2020,2022
 2019,167,Water Utilities Facilities,Central Ww Treat Pl- Facil,CS30,Wastewater Treatment Plants and Associated Facilities,Sewer Capital Program,4,9/30/23,59622504,51041858,8580646,0,0,2000000,61622504,2022,2022
-2019,167,Water Utilities Facilities,East Side Water Tr Pl,Facil3,Water Treatment Plants and Associated Facilities,Water Capital Program,Outside City,9/30/23,47479438,40564135,6915303,0,0,7000000,54479438,2022,2022
-2019,167,Water Utilities Facilities,East Side Water Tr Pl,Facil3,Water Treatment Plants and Associated Facilities,Water Capital Program,Outside City,9/30/23,579909298,497881926,82027371,17700000,25000000,40000000,662609298,2020,2022
-2019,167,Water Utilities Facilities,Elm Fork Water Tr Pl,Facil2,Water Treatment Plants and Associated Facilities,Water Capital Program,Outside City,9/30/23,47221605,45203468,2018137,0,6000000,0,53221605,2021,2021
-2019,167,Water Utilities Facilities,Elm Fork Water Tr Pl,Facil2,Water Treatment Plants and Associated Facilities,Water Capital Program,Outside City,9/30/23,376334704,348773690,27561014,12000000,130000000,32000000,550334704,2020,2022
+2019,167,Water Utilities Facilities,East Side Water Tr Pl - Facil3,CW32,Water Treatment Plants and Associated Facilities,Water Capital Program,Outside City,9/30/23,47479438,40564135,6915303,0,0,7000000,54479438,2022,2022
+2019,167,Water Utilities Facilities,East Side Water Tr Pl - Facil3,PW32,Water Treatment Plants and Associated Facilities,Water Capital Program,Outside City,9/30/23,579909298,497881926,82027371,17700000,25000000,40000000,662609298,2020,2022
+2019,167,Water Utilities Facilities,Elm Fork Water Tr Pl - Facil2,CW31,Water Treatment Plants and Associated Facilities,Water Capital Program,Outside City,9/30/23,47221605,45203468,2018137,0,6000000,0,53221605,2021,2021
+2019,167,Water Utilities Facilities,Elm Fork Water Tr Pl - Facil2,PW31,Water Treatment Plants and Associated Facilities,Water Capital Program,Outside City,9/30/23,376334704,348773690,27561014,12000000,130000000,32000000,550334704,2020,2022
 2019,167,Water Utilities Facilities,Future Development Initiatives - Wastewater,CS97,Homeowner Extensions and Unserved Areas,Sewer Capital Program,Citywide,9/30/23,8500000,0,8500000,0,0,0,8500000,,
 2019,167,Water Utilities Facilities,Future Development Initiatives - Water,CW97,Homeowner Extensions and Unserved Areas,Water Capital Program,Citywide,9/30/23,8500000,0,8500000,0,0,0,8500000,,
 2019,167,Water Utilities Facilities,Home-Unserv Exten - Improv,PW41,Homeowner Extensions and Unserved Areas,Water Capital Program,Citywide,9/30/23,1260770,760770,500000,0,0,0,1260770,,
-2019,167,Water Utilities Facilities,Home-Unserv Exten,Improv2,Homeowner Extensions and Unserved Areas,Sewer Capital Program,Citywide,9/30/23,39151984,28689025,10462959,1250000,1250000,1250000,42901984,2020,2022
-2019,167,Water Utilities Facilities,Home-Unserv Exten,Improv3,Homeowner Extensions and Unserved Areas,Water Capital Program,Citywide,9/30/23,94603012,95007307,-404295,1900000,1900000,1900000,100303012,2020,2022
+2019,167,Water Utilities Facilities,Home-Unserv Exten - Improv2,CS41,Homeowner Extensions and Unserved Areas,Sewer Capital Program,Citywide,9/30/23,39151984,28689025,10462959,1250000,1250000,1250000,42901984,2020,2022
+2019,167,Water Utilities Facilities,Home-Unserv Exten - Improv3,CW41,Homeowner Extensions and Unserved Areas,Water Capital Program,Citywide,9/30/23,94603012,95007307,-404295,1900000,1900000,1900000,100303012,2020,2022
 2019,167,Water Utilities Facilities,Mains Intercept - Lift Sta,PS40,"Mains, Pump Stations, and Associated Facilities",Sewer Capital Program,Citywide,9/30/23,654213388,571678676,82534712,36500000,16000000,13000000,719713388,2020,2022
 2019,167,Water Utilities Facilities,Mains Interecpt - Lift Sta,CS40,"Mains, Pump Stations, and Associated Facilities",Sewer Capital Program,Citywide,9/30/23,151146514,134662368,16484146,6200000,8200000,8200000,173746514,2020,2022
 2019,167,Water Utilities Facilities,Mains-Pumping - Storage Fa,PW40,"Mains, Pump Stations, and Associated Facilities",Water Capital Program,Citywide,9/30/23,1013949723,906486542,107463181,23300000,4000000,33500000,1074749723,2020,2022
 2019,167,Water Utilities Facilities,Mains-Pumping - Storage Fa2,CW40,"Mains, Pump Stations, and Associated Facilities",Water Capital Program,Citywide,9/30/23,173618902,165609366,8009536,8700000,17100000,10100000,209518902,2020,2022
 2019,167,Water Utilities Facilities,Major Maintenace - Rehab,CW50,Rehabilitation and Equipment,Water Capital Program,Citywide,9/30/23,179356651,156909929,22446722,6300000,9000000,5300000,199956651,2020,2022
 2019,167,Water Utilities Facilities,Major Maintenance - Rehab,PW50,Rehabilitation and Equipment,Water Capital Program,Citywide,9/30/23,12561741,4456776,8104965,6000000,0,6000000,24561741,2020,2022
-2019,167,Water Utilities Facilities,Major Maintenance,Rehab1,Rehabilitation and Equipment,Sewer Capital Program,Citywide,9/30/23,84014797,79632446,4382351,500000,2000000,4500000,91014797,2020,2022
+2019,167,Water Utilities Facilities,Major Maintenance - Rehab1,CS50,Rehabilitation and Equipment,Sewer Capital Program,Citywide,9/30/23,84014797,79632446,4382351,500000,2000000,4500000,91014797,2020,2022
 2019,168,Water Utilities Facilities,Major Maintenance - Rehabilitation,PS50,Rehabilitation and Equipment,Sewer Capital Program,Citywide,9/30/23,6075000,75000,6000000,4000000,2000000,0,12075000,2020,2021
 2019,168,Water Utilities Facilities,Public Art Admin - Water Utilities,CW95,Public Art,Water Public Arts Fund,Citywide,9/30/23,2050750,701836,1348914,30000,130500,101250,2312500,2020,2022
 2019,168,Water Utilities Facilities,PW01_Studies-Master Plans,PW01,Studies and Master Plans,Water Capital Program,Citywide & Outside City,9/30/23,900000,0,900000,0,0,0,900000,,
@@ -1983,13 +1975,13 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2019,168,Water Utilities Facilities,Service Ctr-Ofcs- Research2,CS60,"Service Centers, Offices, and Research Facilities",Sewer Capital Program,Citywide,9/30/23,14024746,7499452,6525294,0,0,0,14024746,,
 2019,168,Water Utilities Facilities,Service Ctr-Ofcs- Research3,CW60,"Service Centers, Offices, and Research Facilities",Water Capital Program,Citywide,9/30/23,47311317,38170107,9141211,3000000,3000000,3000000,56311317,2020,2022
 2019,168,Water Utilities Facilities,Service Ctr-Ofcs- Research4,PS60,"Service Centers, Offices, and Research Facilities",Sewer Capital Program,Citywide,9/30/23,11423811,3473810,7950001,0,0,0,11423811,,
-2019,168,Water Utilities Facilities,Southside Ww Treat Pl,Fa2,Wastewater Treatment Plants and Associated Facilities,Sewer Capital Program,8,9/30/23,108066321,105152770,2913551,0,0,2200000,110266321,2022,2022
+2019,168,Water Utilities Facilities,Southside Ww Treat Pl - Fa2,CS31,Wastewater Treatment Plants and Associated Facilities,Sewer Capital Program,8,9/30/23,108066321,105152770,2913551,0,0,2200000,110266321,2022,2022
 2019,168,Water Utilities Facilities,Southside Ww Treat Pl - Facil,PS31,Wastewater Treatment Plants and Associated Facilities,Sewer Capital Program,Citywide,9/30/23,392155190,354130697,38024493,14000000,8000000,23000000,437155190,2020,2022
 2019,168,Water Utilities Facilities,Studies-Master Plan2,CW01,Studies and Master Plans,Water Capital Program,Citywide & Outside City,9/30/24,44484974,38286114,6198860,2100000,50000,100000,46734974,2020,2022
 2019,168,Water Utilities Facilities,Studies-Master Plans1,CS01,Studies and Master Plans,Sewer Capital Program,Citywide,9/30/23,22276454,15210979,7065475,2000000,1000000,1000000,26276454,2020,2022
 2019,168,Water Utilities Facilities,Studies-Master Plans3,PS01,Studies and Master Plans,Sewer Capital Program,Citywide,9/30/23,15573071,15371647,201424,0,0,0,15573071,,
 2019,168,Water Utilities Facilities,Supply Reservoirs - Dams,PW10,Water Supply Reservoirs and Dams,Water Capital Program,Citywide & Outside City,9/30/23,32575167,17744817,14830349,3000000,25000000,0,60575167,2020,2021
-2019,168,Water Utilities Facilities,Supply Reservoirs,Dams1,Water Supply Reservoirs and Dams,Water Capital Program,Citywide & Outside City,9/30/24,36682884,35223932,1458952,1000000,1500000,0,39182884,2020,2021
+2019,168,Water Utilities Facilities,Supply Reservoirs - Dams1,CW10,Water Supply Reservoirs and Dams,Water Capital Program,Citywide & Outside City,9/30/24,36682884,35223932,1458952,1000000,1500000,0,39182884,2020,2021
 2019,168,Water Utilities Facilities,TWDB Wastewater (Clean Water) Project,FS40,"Mains, Pump Stations, and Associated Facilities",Water Capital Program,Citywide,9/30/23,22000000,3857858,18142142,22000000,22000000,22000000,88000000,2020,2022
 2019,169,Water Utilities Facilities,TWDB Water (Drinking Water),FW40,"Mains, Pump Stations, and Associated Facilities",Water Capital Program,Citywide,9/30/23,44000000,4209192,39790808,44000000,44000000,44000000,176000000,2020,2022
 2019,169,Water Utilities Facilities,Wastewater Facl Public Art,CS95,Public Art,Water Public Arts Fund,Citywide,9/30/23,2127500,0,2127500,40000,12000,0,2179500,2020,2021
@@ -1998,4 +1990,3 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2019,169,Water Utilities Facilities,Wholesale Customer Facils,CW43,Wholesale Customer Facilities,Water Capital Program,Citywide,9/30/23,8386119,5572743,2813376,0,500000,500000,9386119,2021,2022
 2019,169,Water Utilities Facilities,Wholesale Customer Facils1,CS43,Wholesale Customer Facilities,Sewer Capital Program,Citywide,9/30/23,525365,25365,500000,0,500000,500000,1525365,2021,2022
 2019,169,Water Utilities Facilities,Wholesale Customers Facilities,PS43,Wholesale Customer Facilities,Sewer Capital Program,Citywide,Ongoing,0,0,0,2000000,0,0,2000000,2020,2020
-2019,169,Water Utilities Facilities,Grand Total,,,,,,0,0,0,0,0,0,0,,
