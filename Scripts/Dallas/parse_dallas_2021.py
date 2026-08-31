@@ -74,14 +74,12 @@ def is_skip_col(t, ci):
         return True
     return False
 
-# Add this function alongside the other helpers
 def split_project_id(name):
-    m = re.search(r' - ([A-Za-z][A-Za-z_]*\d+|\d{3,})', name)
+    m = re.search(r' - ([A-Za-z][A-Za-z_]*\d+|\d{3,})$', name)
     if m:
         return name[:m.start()].strip(), m.group(1)
     return name, ''
 
-# 1. Add to SUM_FIELDS
 SUM_FIELDS = [
     'previous_appropriations', 'spent', 'remaining',
     'year_2022', 'year_2023',

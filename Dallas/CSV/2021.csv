@@ -42,6 +42,7 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2021,20,Aviation,Rehabilitate Taxiway C: Taxi D to Taxi C,W122,Pavement Construction Maintenance/,Aviation Program Capital,Citywide,09/2022,43341140,21635432,21705707,0,0,43341140,0,,
 2021,20,Aviation,Reonstruct Taxiway A (Phase 1) TWY D to,W288,Pavement Construction Maintenance/,Aviation Program Capital,Citywide,09/2024,0,589500,-589500,0,1975200,1975200,22028760,2023,2023
 2021,20,Aviation,Reonstruct Taxiway A (Phase 1) TWY D to,W798,Pavement Construction Maintenance/,FAA Grants,Citywide,09/2024,0,0,0,0,3600000,3600000,10200000,2023,2023
+2021,20,Aviation,Grand Total,,,,,,0,0,0,0,0,0,0,,
 2021,24,City Facilities,10345 Webb Chapel Road,VJ05,Homeless Services Housing,2017 Bonds,13,09/2023,7320,7320,0,0,0,7320,0,,
 2021,24,City Facilities,12000 Greenville Avenue,VJ02,Homeless Services Housing,2017 Bonds,10,09/2023,5000,2652,2349,0,0,5000,0,,
 2021,24,City Facilities,1805 North Haskell Avenue,VJ03,Homeless Services Housing,2017 Bonds,14,09/2023,5000,3247,1753,0,0,5000,0,,
@@ -173,6 +174,7 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2021,35,City Facilities,Vickery Meadow Community Court,W141,City Court and Facilities Municipal,2006 Bonds,Citywide,06/2021,532790,454427,78363,0,0,532790,0,,
 2021,35,City Facilities,West Dallas Multipurpose Center,VH13,City Court and Facilities Municipal,2017 Bonds,6,07/2021,2761000,2353659,407341,0,0,2761000,0,,
 2021,35,City Facilities,Wingate Inn- 8650 N. Stemmons Fwy,VJ09,Homeless Services Housing,2017 Bonds,2,09/2023,2590,2590,0,0,0,2590,0,,
+2021,35,City Facilities,Grand Total,,,,,,0,0,0,0,0,-38000000,38000000,,
 2021,40,Convention & Event Services,Convention Center Facility Improvements,W111,Convention Improvement Center,Center Program Convention Capital,2,Ongoing,8659638,2209580,6450058,1500000,2000000,12159638,13437500,2022,2023
 2021,40,Convention & Event Services,Convention Center Master Plan,W433,Convention Improvement Center,Center Program Convention Capital,2,08/2021,4953198,0,4953198,3572237,7352793,15878228,9771004,2022,2023
 2021,40,Convention & Event Services,Convention Facility ElevatorEscalator Improvement Project,W106,Convention Improvement Center,Center Program Convention Capital,2,09/2023,4658334,332178,4326156,2094763,918482,7671579,0,2022,2023
@@ -193,6 +195,7 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2021,42,Convention & Event Services,Spectra Projects,W603,Convention Improvement Center,Center Program Convention Capital,2,Ongoing,0,0,0,1784000,5000000,6784000,8535537,2022,2023
 2021,42,Convention & Event Services,TBAAL Capital Improvements,W432,Convention Improvement Center,Center Program Convention Capital,2,Ongoing,720135,464445,255690,805000,800000,2325135,3788917,2022,2023
 2021,42,Convention & Event Services,War Memorial Repairs,W294,Convention Improvement Center,Center Program Convention Capital,2,09/2021,150000,260028,-110028,0,0,260028,0,,
+2021,42,Convention & Event Services,Grand Total,,,,,,0,0,0,0,0,0,0,,
 2021,50,Economic Development,1632 MLK Blvd. Project - St. Phillips Redevelopment Project,VI27,Development Economic Bonds,2017 Bonds,7,12/2022,1000000,1000000,0,0,0,1000000,0,,
 2021,50,Economic Development,1712 Commerce Hotel,P952,District Connection Downtown TIF,Other GO Non-Debt CIP -,14,09/2024,713880,0,713880,141712,141712,997304,9905961,2022,2023
 2021,50,Economic Development,2101 Taylor St Development,P847,Farmers District Market TIF,Other GO Non-Debt CIP -,2,09/2022,1033665,0,1033665,3156799,0,4190464,0,2022,2022
@@ -347,6 +350,7 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2021,63,Economic Development,Virgin Hotel Project,W301,Design District District TIF,Other GO Non-Debt CIP -,6,12/2023,6896962,2842733,4054229,792981,0,7689943,0,2022,2022
 2021,63,Economic Development,Water Main Installations and Wastewater,VI34,Development Economic Bonds,2017 Bonds,8,10/2023,508739,0,508739,0,0,508739,0,,
 2021,63,Economic Development,West Dallas - Target Rehab Program,VI31,Housing,2017 Bonds,4,09/2024,0,0,0,800001,0,800001,0,2022,2022
+2021,63,Economic Development,Grand Total,,,,,,0,0,0,0,0,-420096547,420096547,,
 2021,69,Flood Protection & Storm Drainage Management,"10836, 10840, 10844 Meadowcliff Cir",W093,Stormwater Management Drainage,2006 Bonds / 2012 Bonds,7,06/2023,587134,587134,0,0,0,587134,0,,
 2021,69,Flood Protection & Storm Drainage Management,1700 N Field Street Drainage Repair,W706,Stormwater Management Drainage,Other GO Non-Debt CIP -,14,05/2025,0,0,0,0,0,0,75000,,
 2021,69,Flood Protection & Storm Drainage Management,2133 Province,W707,Stormwater Management Drainage,Other GO Non-Debt CIP -,9,05/2025,0,0,0,0,0,0,75000,,
@@ -393,7 +397,7 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2021,73,Flood Protection & Storm Drainage Management,Chalk Hill Branch @ N.Counts,W727,Stormwater Management Drainage,Other GO Non-Debt CIP -,3,05/2025,0,0,0,0,0,0,123750,,
 2021,73,Flood Protection & Storm Drainage Management,Chalk Hill Branch @ S.Counts,W728,Stormwater Management Drainage,Other GO Non-Debt CIP -,3,05/2025,0,0,0,0,0,0,206250,,
 2021,73,Flood Protection & Storm Drainage Management,Chalk Hill Branch Culvert @ Jefferson,W729,Stormwater Management Drainage,Other GO Non-Debt CIP -,3,05/2025,0,0,0,0,0,0,75000,,
-2021,73,Flood Protection & Storm Drainage Management,Chalkhill Branch,I30,Stormwater Management Drainage,2017 Bonds,6,07/2023,780000,91408,688592,0,0,780000,0,,
+2021,73,Flood Protection & Storm Drainage Management,Chalkhill Branch - I30/Loop 12 Interchange,VD33,Stormwater Management Drainage,2017 Bonds,6,07/2023,780000,91408,688592,0,0,780000,0,,
 2021,73,Flood Protection & Storm Drainage Management,Channel - Major Maintenance,W195,Stormwater Management Drainage,Other GO Non-Debt CIP -,Citywide,Ongoing,0,0,0,175000,300000,475000,750000,2022,2023
 2021,73,Flood Protection & Storm Drainage Management,Chantilly Lane 6916,W730,Stormwater Management Drainage,Other GO Non-Debt CIP -,9,05/2025,0,0,0,0,0,0,36000,,
 2021,73,Flood Protection & Storm Drainage Management,"Claren Court 7106, 7110, 7114",VD24,Erosion Control,2017 Bonds,12,04/2023,173000,23924,149076,0,0,173000,0,,
@@ -619,6 +623,7 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2021,92,Flood Protection & Storm Drainage Management,Wynnewood Village Drainage Improvements,VD32,Stormwater Management Drainage,2017 Bonds,4,05/2022,1157857,1151427,6430,177184,0,1335041,0,2022,2022
 2021,92,Flood Protection & Storm Drainage Management,Yewpon - Kingsley Area,T543,Storm System Drainage Relief,2006 Bonds,4,06/2023,1996008,33900,1962108,0,0,1996008,0,,
 2021,92,Flood Protection & Storm Drainage Management,Yosemite 6664,W789,Stormwater Management Drainage,Other GO Non-Debt CIP -,9,05/2025,0,0,0,0,0,0,6300,,
+2021,92,Flood Protection & Storm Drainage Management,Grand Total,,,,,,0,0,0,0,0,0,0,,
 2021,98,Park & Recreation,Accessibility and Code Compliance,T046,"Safety Code and Security Compliance,",2006 Bonds,Citywide,12/2021,217313,214780,2532,0,0,217313,0,,
 2021,98,Park & Recreation,ADA/Code Allowance,VB14,"Safety Code and Security Compliance,",2017 Bonds,Citywide,09/2023,25000,0,25000,125000,0,150000,0,2022,2022
 2021,98,Park & Recreation,Anderson Bonner - Creek Bank Stabilization,VK45,"Safety Code and Security Compliance,",2017 Bonds,11,12/2023,70000,0,70000,0,430000,500000,0,2023,2023
@@ -727,7 +732,7 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2021,108,Park & Recreation,Land Acq for the Cedars [Supplemental to SW allocation],VB45,Park Land Acquisition,2017 Bonds,2,12/2024,5932,5932,0,0,0,5932,0,,
 2021,108,Park & Recreation,Land Acq. and development of neighborhood- community park,VK54,"Safety Code and Security Compliance,",2017 Bonds,11,09/2021,332939,78926,254013,0,0,332939,0,,
 2021,108,Park & Recreation,Land Acquisiiton for CD 10 (to supplement CD 10 funds),VB29,Park Land Acquisition,2017 Bonds,10,09/2023,1000000,640646,359354,0,0,1000000,0,,
-2021,109,Park & Recreation,Land Acquisition,919,Park Land Acquisition,Other GO Non-Debt CIP -,Citywide,09/2024,3801028,2356087,1444941,0,0,3801028,0,,
+2021,109,Park & Recreation,Land Acquisition - 919A,,Park Land Acquisition,Other GO Non-Debt CIP -,Citywide,09/2024,3801028,2356087,1444941,0,0,3801028,0,,
 2021,109,Park & Recreation,Land Acquisition - CW Allowance,VB04,Park Land Acquisition,2017 Bonds,Citywide,09/2023,2200000,1983219,216781,0,0,2200000,0,,
 2021,109,Park & Recreation,Land Acquisition,VB57,Park Land Acquisition,2017 Bonds,4,09/2023,200000,11380,188620,200000,0,400000,0,2022,2022
 2021,109,Park & Recreation,Land Acquisition,VK55,"Safety Code and Security Compliance,",2017 Bonds,11,09/2021,128000,21498,106502,0,0,128000,0,,
@@ -816,6 +821,7 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2021,117,Park & Recreation,Willie Mae Butler Park - Convert Tennis Court to Basketball,VK07,"Safety Code and Security Compliance,",2017 Bonds,7,12/2021,42000,0,42000,0,0,42000,0,,
 2021,117,Park & Recreation,Willie Mae Butler Park - Portable Facility Enclosure,VK09,"Safety Code and Security Compliance,",2017 Bonds,7,12/2021,60000,4323,55677,0,0,60000,0,,
 2021,117,Park & Recreation,Willoughby Park - Playground Replacement,VK10,"Safety Code and Security Compliance,",2017 Bonds,8,07/2021,228763,224492,4270,0,0,228763,0,,
+2021,117,Park & Recreation,Grand Total,,,,,,0,0,0,0,0,0,0,,
 2021,121,Sanitation Services,Collection Equipment Purchase,E601,Replacement Fleet/Equipment,Other GO Non-Debt CIP -,Citywide,Ongoing,3000000,3260802,-260802,0,0,3260802,0,,
 2021,121,Sanitation Services,Construction of the Swale and Wetlands per the 404 Permit,W324,Solid Facilities Waste,Other GO Non-Debt CIP -,Citywide,Ongoing,2089775,0,2089775,0,2500000,4589775,5700000,2023,2023
 2021,121,Sanitation Services,ECO Park-Admin,W317,Solid Facilities Waste,Other GO Non-Debt CIP -,Citywide,Ongoing,750000,0,750000,0,0,750000,0,,
@@ -827,134 +833,135 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2021,121,Sanitation Services,Other Sanitation Projects,W325,Solid Facilities Waste,Other GO Non-Debt CIP -,Citywide,Ongoing,13900372,0,13900372,0,4500000,18400372,12647730,2023,2023
 2021,121,Sanitation Services,Post Closure Cost,W326,Solid Facilities Waste,Other GO Non-Debt CIP -,Citywide,Ongoing,500000,0,500000,0,0,500000,0,,
 2021,121,Sanitation Services,Transfer Stations,W315,Solid Facilities Waste,Other GO Non-Debt CIP -,Citywide,Ongoing,1450000,0,1450000,0,0,1450000,0,,
-2021,129,Street & Transportation,10005-10119 Shayna Dr,10002,Alley Reconstruction,2017 Bonds,5,06/2021,347594,367238,-19644,0,0,367238,0,,
-2021,129,Street & Transportation,10106-10160 Caribou Trail,10127,Alley Reconstruction,2017 Bonds,10,12/2023,55992,45979,10013,0,9000,64992,0,2023,2023
-2021,129,Street & Transportation,10163-10199 Vistadale Dr,10200,Alley Reconstruction,2017 Bonds,10,12/2023,39348,41754,-2406,0,0,41754,0,,
-2021,129,Street & Transportation,10315-10542 Castlerock Dr,10315,Alley Reconstruction,2017 Bonds,5,06/2021,508561,466672,41890,0,0,508561,0,,
-2021,129,Street & Transportation,10445,10461,Alley Reconstruction,2017 Bonds,13,12/2024,116684,50820,65864,0,0,116684,0,,
+2021,121,Sanitation Services,Grand Total,,,,,,0,0,0,0,0,0,0,,
+2021,129,Street & Transportation,10005-10119 Shayna Dr - 10002- 10106 Hymie Cir,V032,Alley Reconstruction,2017 Bonds,5,06/2021,347594,367238,-19644,0,0,367238,0,,
+2021,129,Street & Transportation,10106-10160 Caribou Trail - 10127-10143 Ferndale Rd,V079,Alley Reconstruction,2017 Bonds,10,12/2023,55992,45979,10013,0,9000,64992,0,2023,2023
+2021,129,Street & Transportation,10163-10199 Vistadale Dr - 10200-10200 Trailcliff Dr,V080,Alley Reconstruction,2017 Bonds,10,12/2023,39348,41754,-2406,0,0,41754,0,,
+2021,129,Street & Transportation,10315-10542 Castlerock Dr - 10315 Checota Dr - Gardenside,V033,Alley Reconstruction,2017 Bonds,5,06/2021,508561,466672,41890,0,0,508561,0,,
+2021,129,Street & Transportation,10445 - 10461 Carry Back Cir - 10419 - 10427 Carry Back Pl,V113,Alley Reconstruction,2017 Bonds,13,12/2024,116684,50820,65864,0,0,116684,0,,
 2021,129,Street & Transportation,10th St from I-35 to Clarendon Dr.,V198,Street Reconstruction,2017 Bonds,4,12/2024,260705,266221,-5515,2526059,0,2786764,0,2022,2022
 2021,130,Street & Transportation,10th Street Historic District Sidewalk and Barrier Free Ramp Improvements,V149,Free Sidewalk and Ramp Improvements Barrier,2017 Bonds,4,04/2023,692982,9234,683747,0,0,692982,0,,
-2021,130,Street & Transportation,11133-11139 Cotillion Dr,3609,Alley Reconstruction,2017 Bonds,9,06/2023,104988,37090,67898,0,0,104988,0,,
-2021,130,Street & Transportation,11205-11335 Buchannan Dr,11200,Alley Reconstruction,2017 Bonds,9,06/2023,407810,58423,349386,0,0,407810,0,,
-2021,130,Street & Transportation,11306-11340 Dumbarton Dr,11323,Alley Reconstruction,2017 Bonds,9,06/2023,207200,46153,161047,0,0,207200,0,,
-2021,130,Street & Transportation,11312-11344 Glen Cross Dr,11341,Alley Reconstruction,2017 Bonds,9,06/2023,243800,79960,163840,0,0,243800,0,,
-2021,130,Street & Transportation,1225-1423 Kirnwood Dr,7601,Alley Reconstruction,2017 Bonds,8,04/2022,365124,290421,74703,0,0,365124,0,,
-2021,130,Street & Transportation,127-231 W Louisiana Ave,118,Alley Reconstruction,2017 Bonds,4,03/2024,66727,68968,-2240,0,356919,423646,0,2023,2023
+2021,130,Street & Transportation,11133-11139 Cotillion Dr - 3609 Bon Park Ct,V069,Alley Reconstruction,2017 Bonds,9,06/2023,104988,37090,67898,0,0,104988,0,,
+2021,130,Street & Transportation,11205-11335 Buchannan Dr - 11200-11298 Ferguson Rd,V070,Alley Reconstruction,2017 Bonds,9,06/2023,407810,58423,349386,0,0,407810,0,,
+2021,130,Street & Transportation,11306-11340 Dumbarton Dr - 11323-11357 Glen Cross Dr,V071,Alley Reconstruction,2017 Bonds,9,06/2023,207200,46153,161047,0,0,207200,0,,
+2021,130,Street & Transportation,11312-11344 Glen Cross Dr - 11341- 11367 Drummond Dr,V072,Alley Reconstruction,2017 Bonds,9,06/2023,243800,79960,163840,0,0,243800,0,,
+2021,130,Street & Transportation,1225-1423 Kirnwood Dr - 7601 S Polk St,V062,Alley Reconstruction,2017 Bonds,8,04/2022,365124,290421,74703,0,0,365124,0,,
+2021,130,Street & Transportation,127-231 W Louisiana Ave - 118- 228 Conrad St,V022,Alley Reconstruction,2017 Bonds,4,03/2024,66727,68968,-2240,0,356919,423646,0,2023,2023
 2021,130,Street & Transportation,12Th St From Upton To 200 Ft East Of Upton,V992,Target Neighborhood,2017 Bonds,4,02/2024,41966,45492,-3526,0,310289,352255,0,2023,2023
-2021,131,Street & Transportation,1503-1551 Briarcliff Rd,5503,Alley Reconstruction,2017 Bonds,2,06/2021,297521,301848,-4327,0,0,301848,0,,
-2021,131,Street & Transportation,15632-15724 Golden Creek Rd,6231,Alley Reconstruction,2017 Bonds,11,12/2023,45081,47771,-2691,0,323772,368853,0,2023,2023
-2021,131,Street & Transportation,1608-1620 Day Star Dr,1603,Alley Reconstruction,2017 Bonds,4,03/2024,46571,49025,-2454,0,308104,354675,0,2023,2023
-2021,131,Street & Transportation,1611-1727 Red Cloud Dr,9704,Alley Reconstruction,2017 Bonds,5,06/2021,421851,431270,-9420,0,0,431270,0,,
-2021,131,Street & Transportation,1621-1631 Windchime Dr,1614,Alley Reconstruction,2017 Bonds,4,03/2024,20378,22408,-2030,0,67577,87955,0,2023,2023
-2021,131,Street & Transportation,1708-1920 Vatican Ln,1705,Alley Reconstruction,2017 Bonds,4,03/2024,44632,46048,-1416,0,300381,345013,0,2023,2023
+2021,131,Street & Transportation,1503-1551 Briarcliff Rd - 5503- 5537 Mesa Cir,V008,Alley Reconstruction,2017 Bonds,2,06/2021,297521,301848,-4327,0,0,301848,0,,
+2021,131,Street & Transportation,15632-15724 Golden Creek Rd - 6231 - La Cosa Dr - Bay Point,V086,Alley Reconstruction,2017 Bonds,11,12/2023,45081,47771,-2691,0,323772,368853,0,2023,2023
+2021,131,Street & Transportation,1608-1620 Day Star Dr - 1603- 1633 Hanging Cliff Dr,V023,Alley Reconstruction,2017 Bonds,4,03/2024,46571,49025,-2454,0,308104,354675,0,2023,2023
+2021,131,Street & Transportation,1611-1727 Red Cloud Dr - 9704- 9780 Faircloud Dr [A7003],V034,Alley Reconstruction,2017 Bonds,5,06/2021,421851,431270,-9420,0,0,431270,0,,
+2021,131,Street & Transportation,1621-1631 Windchime Dr - 1614-1626 Vatican Ln,V024,Alley Reconstruction,2017 Bonds,4,03/2024,20378,22408,-2030,0,67577,87955,0,2023,2023
+2021,131,Street & Transportation,1708-1920 Vatican Ln - 1705-1921 Windchime Dr,V025,Alley Reconstruction,2017 Bonds,4,03/2024,44632,46048,-1416,0,300381,345013,0,2023,2023
 2021,131,Street & Transportation,17604-17630 Davenport Alley Construction,VA05,Target Neighborhood,2017 Bonds,12,10/2022,500579,42281,458298,0,0,500579,0,,
-2021,131,Street & Transportation,1830-1886 Red Cloud Dr,9803,Alley Reconstruction,2017 Bonds,5,06/2021,337651,346968,-9316,0,0,346968,0,,
-2021,131,Street & Transportation,18603-18707 Amador Ave,6505,Alley Reconstruction,2017 Bonds,12,12/2022,1018459,543511,474947,0,0,1018459,0,,
-2021,131,Street & Transportation,1885-2025 Red Cloud Dr,2002,Alley Reconstruction,2017 Bonds,5,06/2021,461394,293459,167935,0,0,461394,0,,
+2021,131,Street & Transportation,1830-1886 Red Cloud Dr - 9803- 9851 Glengreen Dr [A6972],V035,Alley Reconstruction,2017 Bonds,5,06/2021,337651,346968,-9316,0,0,346968,0,,
+2021,131,Street & Transportation,18603-18707 Amador Ave - 6505- 6511 Villa Rd,V095,Alley Reconstruction,2017 Bonds,12,12/2022,1018459,543511,474947,0,0,1018459,0,,
+2021,131,Street & Transportation,1885-2025 Red Cloud Dr - 2002- 2080 Corvette Dr [A6966],V036,Alley Reconstruction,2017 Bonds,5,06/2021,461394,293459,167935,0,0,461394,0,,
 2021,132,Street & Transportation,19003-19039 Bilbrook Ln,V096,Alley Reconstruction,2017 Bonds,12,12/2022,334963,334963,0,0,0,334963,0,,
 2021,132,Street & Transportation,2017 Bond Program Reserved Contingency,VA38,Bridge Repair Modification and,2017 Bonds,Citywide,04/2025,3270269,0,3270269,0,0,3270269,0,,
 2021,132,Street & Transportation,2022 Certificate of Obligation- Sidewalks,W796,Free Sidewalk and Ramp Improvements Barrier,Other Debt GO CIP -,Citywide,Ongoing,0,0,0,5000000,5000000,10000000,0,2022,2023
 2021,132,Street & Transportation,2022 Certificate of Obligation-Streets,W795,Street Reconstruction,Other Debt GO CIP -,Citywide,Ongoing,0,0,0,50000000,50000000,100000000,0,2022,2023
-2021,132,Street & Transportation,207-347 Bettyrae Way,7708,Alley Reconstruction,2017 Bonds,8,04/2022,426262,279249,147013,0,0,426262,0,,
-2021,132,Street & Transportation,2104-2336 Dugald Pl,2005,Alley Reconstruction,2017 Bonds,4,12/2023,62634,65360,-2725,623794,0,686428,0,2022,2022
-2021,132,Street & Transportation,2205-2341 Freeland,2336,Alley Reconstruction,2017 Bonds,7,12/2024,54047,59128,-5081,0,351916,405963,0,2023,2023
-2021,132,Street & Transportation,2211-2323 Deer Path Dr,2905,Alley Reconstruction,2017 Bonds,4,12/2021,79164,81735,-2571,503660,0,582824,0,2022,2022
-2021,132,Street & Transportation,2304-2348 Hunters Run Dr,7407,Alley Reconstruction,2017 Bonds,8,04/2022,406808,287183,119625,0,0,406808,0,,
-2021,132,Street & Transportation,2306-2440 Bluffton Dr,2307,Alley Reconstruction,2017 Bonds,7,09/2022,497095,505006,-7911,56222,0,553317,0,2022,2022
-2021,133,Street & Transportation,2408-2564 Club Manor Dr,2435,Alley Reconstruction,2017 Bonds,3,01/2024,70601,72392,-1792,554715,0,625316,0,2022,2022
-2021,133,Street & Transportation,2503-2623 W Lovers Ln,2502,Alley Reconstruction,2017 Bonds,2,06/2021,259060,265485,-6425,0,0,265485,0,,
-2021,133,Street & Transportation,2507-2537 Blaydon Dr,2506,Alley Reconstruction,2017 Bonds,7,09/2022,340279,348141,-7862,0,0,348141,0,,
-2021,133,Street & Transportation,2603-2931 Garapan Dr,2502,Alley Reconstruction,2017 Bonds,4,03/2024,70714,71627,-913,0,595683,666397,0,2023,2023
-2021,133,Street & Transportation,2703-2743 April Hill Ln,2710,Alley Reconstruction,2017 Bonds,12,12/2022,445396,224183,221212,0,0,445396,0,,
+2021,132,Street & Transportation,207-347 Bettyrae Way - 7708-7770 Ryan Ridge Dr,V063,Alley Reconstruction,2017 Bonds,8,04/2022,426262,279249,147013,0,0,426262,0,,
+2021,132,Street & Transportation,2104-2336 Dugald Pl - 2005-2249 E Illinois Ave,V026,Alley Reconstruction,2017 Bonds,4,12/2023,62634,65360,-2725,623794,0,686428,0,2022,2022
+2021,132,Street & Transportation,2205-2341 Freeland - 2336- 2328 Homeway - 2204-2340 Babalos,V060,Alley Reconstruction,2017 Bonds,7,12/2024,54047,59128,-5081,0,351916,405963,0,2023,2023
+2021,132,Street & Transportation,2211-2323 Deer Path Dr - 2905- 3311 Kellogg Ave,V027,Alley Reconstruction,2017 Bonds,4,12/2021,79164,81735,-2571,503660,0,582824,0,2022,2022
+2021,132,Street & Transportation,2304-2348 Hunters Run Dr - 7407-7415 Mesa Verde Trl,V064,Alley Reconstruction,2017 Bonds,8,04/2022,406808,287183,119625,0,0,406808,0,,
+2021,132,Street & Transportation,2306-2440 Bluffton Dr - 2307 - 2439 Blaydon Dr,V042,Alley Reconstruction,2017 Bonds,7,09/2022,497095,505006,-7911,56222,0,553317,0,2022,2022
+2021,133,Street & Transportation,2408-2564 Club Manor Dr - 2435- 2549 Matland Dr,V017,Alley Reconstruction,2017 Bonds,3,01/2024,70601,72392,-1792,554715,0,625316,0,2022,2022
+2021,133,Street & Transportation,2503-2623 W Lovers Ln - 2502- 2614 W Amherst Ave,V009,Alley Reconstruction,2017 Bonds,2,06/2021,259060,265485,-6425,0,0,265485,0,,
+2021,133,Street & Transportation,2507-2537 Blaydon Dr - 2506 - 2536 Bluffton Dr,V043,Alley Reconstruction,2017 Bonds,7,09/2022,340279,348141,-7862,0,0,348141,0,,
+2021,133,Street & Transportation,2603-2931 Garapan Dr - 2502- 2922 Nicholson Dr,V028,Alley Reconstruction,2017 Bonds,4,03/2024,70714,71627,-913,0,595683,666397,0,2023,2023
+2021,133,Street & Transportation,2703-2743 April Hill Ln - 2710-2750 Stevens Point Ln,V097,Alley Reconstruction,2017 Bonds,12,12/2022,445396,224183,221212,0,0,445396,0,,
 2021,133,Street & Transportation,2703-2829 Klondike - Dr 2704- 2830 Lockhart Ave,V044,Alley Reconstruction,2017 Bonds,7,09/2022,624429,629911,-5482,0,0,629911,0,,
-2021,133,Street & Transportation,2703-2831 Scottsbluff Dr,2802,Alley Reconstruction,2017 Bonds,7,09/2022,470810,476078,-5268,0,0,476078,0,,
-2021,133,Street & Transportation,2707-2757 Runningbrook Ln,2700,Alley Reconstruction,2017 Bonds,7,09/2022,301301,278362,22938,0,0,301301,0,,
-2021,133,Street & Transportation,2707-2837 Blyth Dr,2706,Alley Reconstruction,2017 Bonds,7,09/2022,369781,379444,-9663,0,0,379444,0,,
+2021,133,Street & Transportation,2703-2831 Scottsbluff Dr - 2802-2826 La Prada Ct,V045,Alley Reconstruction,2017 Bonds,7,09/2022,470810,476078,-5268,0,0,476078,0,,
+2021,133,Street & Transportation,2707-2757 Runningbrook Ln - 2700 N Buckner Blvd,V046,Alley Reconstruction,2017 Bonds,7,09/2022,301301,278362,22938,0,0,301301,0,,
+2021,133,Street & Transportation,2707-2837 Blyth Dr - 2706-2838 Gross Rd,V047,Alley Reconstruction,2017 Bonds,7,09/2022,369781,379444,-9663,0,0,379444,0,,
 2021,134,Street & Transportation,"2711-2733 Groveridge, 9606- 9674 Briggs, 9605- 9621 Altacrest",V061,Alley Reconstruction,2017 Bonds,7,12/2024,54964,57070,-2106,0,421787,476751,0,2023,2023
-2021,134,Street & Transportation,3004-3150 Kinkaid Dr,3045,Alley Reconstruction,2017 Bonds,6,01/2024,87336,90158,-2822,0,711707,799043,0,2023,2023
-2021,134,Street & Transportation,3105-3161 Waldrop Drive,3106,Alley Reconstruction,2017 Bonds,13,12/2024,323624,66297,257327,0,0,323624,0,,
-2021,134,Street & Transportation,3105-3171 Newcastle Dr,3104,Alley Reconstruction,2017 Bonds,6,01/2024,50299,52070,-1771,0,257926,308225,0,2023,2023
-2021,134,Street & Transportation,3163-3241 E Ledbetter Dr,3244,- Alley Reconstruction,2017 Bonds,4,12/2023,41235,43308,-2074,326961,0,368196,0,2022,2022
-2021,134,Street & Transportation,3206-3232 Rotan Lane,3207,Alley Reconstruction,2017 Bonds,13,12/2024,189386,48443,140943,0,0,189386,0,,
-2021,134,Street & Transportation,3207,3349,Alley Reconstruction,2017 Bonds,13,12/2024,290644,81663,208981,0,0,290644,0,,
-2021,134,Street & Transportation,3505-3523 Park Ln,3511,Alley Reconstruction,2017 Bonds,6,07/2021,51697,8109,43588,0,0,51697,0,,
+2021,134,Street & Transportation,3004-3150 Kinkaid Dr - 3045-3155 Park Ln,V037,Alley Reconstruction,2017 Bonds,6,01/2024,87336,90158,-2822,0,711707,799043,0,2023,2023
+2021,134,Street & Transportation,3105-3161 Waldrop Drive - 3106-3160 Rotan Lane,V114,Alley Reconstruction,2017 Bonds,13,12/2024,323624,66297,257327,0,0,323624,0,,
+2021,134,Street & Transportation,3105-3171 Newcastle Dr - 3104-3170 Walnut Hill,V038,Alley Reconstruction,2017 Bonds,6,01/2024,50299,52070,-1771,0,257926,308225,0,2023,2023
+2021,134,Street & Transportation,3163-3241 E Ledbetter Dr - 3244 Dahlia Dr,V029,- Alley Reconstruction,2017 Bonds,4,12/2023,41235,43308,-2074,326961,0,368196,0,2022,2022
+2021,134,Street & Transportation,3206-3232 Rotan Lane - 3207-3233 Waldrop Drive,V115,Alley Reconstruction,2017 Bonds,13,12/2024,189386,48443,140943,0,0,189386,0,,
+2021,134,Street & Transportation,3207 - 3349 Citation Dr - 3208 - 3330 Timberview Rd,V116,Alley Reconstruction,2017 Bonds,13,12/2024,290644,81663,208981,0,0,290644,0,,
+2021,134,Street & Transportation,3505-3523 Park Ln - 3511 Valley Ridge Rd,V039,Alley Reconstruction,2017 Bonds,6,07/2021,51697,8109,43588,0,0,51697,0,,
 2021,134,Street & Transportation,3505-3523 Park Ln & 3511 Valley Ridge Rd,V039,Alley Reconstruction,Capital Reimbursement Projects,6,07/2021,15330,0,15330,0,0,15330,0,,
-2021,135,Street & Transportation,3506-3658 High Vista Dr,11960,Alley Reconstruction,2017 Bonds,6,01/2024,77039,46649,30390,0,381282,458321,0,2023,2023
-2021,135,Street & Transportation,3544,3638,Alley Reconstruction,2017 Bonds,13,12/2024,311387,77142,234246,0,0,311387,0,,
-2021,135,Street & Transportation,3609-3615 Bon Park Ct,3608,Alley Reconstruction,2017 Bonds,9,06/2023,89061,32802,56259,0,0,89061,0,,
-2021,135,Street & Transportation,3610-3668 Weeburn Dr,3623,Alley Reconstruction,2017 Bonds,13,12/2024,252265,87745,164520,0,0,252265,0,,
-2021,135,Street & Transportation,3703-3771 Cortez Dr,3702,Alley Reconstruction,2017 Bonds,2,06/2021,-11769,11460,-23230,0,0,11460,0,,
+2021,135,Street & Transportation,3506-3658 High Vista Dr - 11960 Highdale Dr,V040,Alley Reconstruction,2017 Bonds,6,01/2024,77039,46649,30390,0,381282,458321,0,2023,2023
+2021,135,Street & Transportation,3544 - 3638 Ainsworth Dr - 3615 - 3675 Norcross Ln,V117,Alley Reconstruction,2017 Bonds,13,12/2024,311387,77142,234246,0,0,311387,0,,
+2021,135,Street & Transportation,3609-3615 Bon Park Ct - 3608- 3614 Parader Ct,V073,Alley Reconstruction,2017 Bonds,9,06/2023,89061,32802,56259,0,0,89061,0,,
+2021,135,Street & Transportation,3610-3668 Weeburn Dr - 3623- 3651 Midpines Dr,V118,Alley Reconstruction,2017 Bonds,13,12/2024,252265,87745,164520,0,0,252265,0,,
+2021,135,Street & Transportation,3703-3771 Cortez Dr - 3702-3770 Durango Dr,V010,Alley Reconstruction,2017 Bonds,2,06/2021,-11769,11460,-23230,0,0,11460,0,,
 2021,135,Street & Transportation,3703-3771 Cortez Dr & 3702-3770 Durango,V010,Alley Reconstruction,Capital Reimbursement Projects,2,06/2021,21990,0,21990,0,0,21990,0,,
-2021,135,Street & Transportation,3805-3945 Hawick Ln,3804,Alley Reconstruction,2017 Bonds,2,06/2021,341249,341249,0,0,0,341249,0,,
-2021,135,Street & Transportation,3864-3872 Treeline Cir,1618,Alley Reconstruction,2017 Bonds,4,03/2024,44576,47123,-2547,0,230169,274745,0,2023,2023
-2021,135,Street & Transportation,4104-4124 Firebrick Ln,4103,Alley Reconstruction,2017 Bonds,12,12/2022,283048,174410,108639,0,0,283048,0,,
-2021,136,Street & Transportation,4202-4272 Timberglen Rd,4203,Alley Reconstruction,2017 Bonds,12,12/2022,227459,231945,-4486,0,0,231945,0,,
-2021,136,Street & Transportation,4307-4435 Bonnie View Rd,4302,Alley Reconstruction,2017 Bonds,4,12/2023,46827,48958,-2131,400103,0,446930,0,2022,2022
-2021,136,Street & Transportation,4403-4451 Cinnabar Dr,6102,Alley Reconstruction,2017 Bonds,7,12/2024,345371,61441,283930,0,0,345371,0,,
-2021,136,Street & Transportation,4503-4535 Live Oak St,4514,Alley Reconstruction,2017 Bonds,2,06/2021,274143,276701,-2558,0,0,276701,0,,
-2021,136,Street & Transportation,4804-4950 Ashbrook Rd,4803,Alley Reconstruction,2017 Bonds,7,11/2023,86784,71103,15681,0,0,86784,0,,
-2021,136,Street & Transportation,4806-5034 Mill Creek Rd,4807,Alley Reconstruction,2017 Bonds,13,09/2021,462189,462174,16,0,0,462189,0,,
-2021,136,Street & Transportation,4812-4840 Worth St,4807,Alley Petitions,2017 Bonds,2,10/2022,143396,44116,99279,0,0,143396,0,,
-2021,136,Street & Transportation,4902-5032 Thursh St,4903,Alley Reconstruction,2017 Bonds,2,06/2021,282331,278218,4113,0,0,282331,0,,
-2021,136,Street & Transportation,5005-5207 Banting Way,5411,Alley Reconstruction,2017 Bonds,7,11/2023,58878,61504,-2625,0,0,61504,0,,
-2021,137,Street & Transportation,503-511 N Prairie Ave,4721,Alley Reconstruction,2017 Bonds,2,06/2021,125679,128692,-3013,0,0,128692,0,,
-2021,137,Street & Transportation,5100-5152 Lahoma St,5101,Alley Reconstruction,2017 Bonds,2,06/2021,239683,245358,-5675,0,0,245358,0,,
-2021,137,Street & Transportation,5107-5143 Breakwood Dr,5116,Alley Reconstruction,2017 Bonds,7,11/2023,33545,36686,-3141,0,0,36686,0,,
-2021,137,Street & Transportation,5179-5107 Chalet,1404,Alley Reconstruction,2017 Bonds,3,12/2023,56438,59227,-2789,322594,0,379032,0,2022,2022
-2021,137,Street & Transportation,5300-5358 Willis Ave,5303,Alley Reconstruction,2017 Bonds,2,06/2021,253089,260084,-6994,0,0,260084,0,,
-2021,137,Street & Transportation,5303-5347 Blaney Way,5204,Alley Reconstruction,2017 Bonds,7,11/2023,73515,54702,18813,0,0,73515,0,,
-2021,137,Street & Transportation,5306-5342 Lake Placid Dr,1572,Alley Reconstruction,2017 Bonds,3,12/2023,34618,37026,-2408,170320,0,204938,0,2022,2022
-2021,137,Street & Transportation,5500-5552 Longview St,5503,Alley Reconstruction,2017 Bonds,14,11/2022,240786,177718,63068,0,0,240786,0,,
-2021,137,Street & Transportation,5501-5527 Harbor Town Dr,5506,Alley Reconstruction,2017 Bonds,12,12/2022,496609,283198,213411,0,0,496609,0,,
-2021,138,Street & Transportation,5601-5639 Morningside Ave,5602,Alley Reconstruction,2017 Bonds,14,11/2022,205751,174408,31343,0,0,205751,0,,
-2021,138,Street & Transportation,5605-5831 Everglade Rd,5606,Alley Reconstruction,2017 Bonds,7,12/2024,478582,75802,402780,0,0,478582,0,,
-2021,138,Street & Transportation,5620-5832 Everglade Rd,5707,Alley Reconstruction,2017 Bonds,7,11/2023,90086,61661,28425,0,0,90086,0,,
-2021,138,Street & Transportation,5701-5745 Palo Pinto Ave,5702,Target Neighborhood,2017 Bonds,14,02/2024,44805,48014,-3209,0,183125,227930,0,2023,2023
-2021,138,Street & Transportation,5703-5747 Vanderbilt Ave,5710,Alley Reconstruction,2017 Bonds,14,11/2022,214351,188798,25553,0,0,214351,0,,
-2021,138,Street & Transportation,5710-5814 Meadowick Ln,5274,Alley Reconstruction,2017 Bonds,7,12/2024,189335,38725,150610,0,0,189335,0,,
-2021,138,Street & Transportation,5737-5763 Caruth Blvd,5708,Alley Reconstruction,2017 Bonds,13,09/2021,226496,230989,-4493,0,0,230989,0,,
+2021,135,Street & Transportation,3805-3945 Hawick Ln - 3804-3858 Eaton Dr,V011,Alley Reconstruction,2017 Bonds,2,06/2021,341249,341249,0,0,0,341249,0,,
+2021,135,Street & Transportation,3864-3872 Treeline Cir - 1618- 1626 Five Mile Ct,V030,Alley Reconstruction,2017 Bonds,4,03/2024,44576,47123,-2547,0,230169,274745,0,2023,2023
+2021,135,Street & Transportation,4104-4124 Firebrick Ln - 4103- 4119 Country Brook Dr,V098,Alley Reconstruction,2017 Bonds,12,12/2022,283048,174410,108639,0,0,283048,0,,
+2021,136,Street & Transportation,4202-4272 Timberglen Rd - 4203-4231 Lawngate Dr,V099,Alley Reconstruction,2017 Bonds,12,12/2022,227459,231945,-4486,0,0,231945,0,,
+2021,136,Street & Transportation,4307-4435 Bonnie View Rd - 4302- 4446 Cicero St,V031,Alley Reconstruction,2017 Bonds,4,12/2023,46827,48958,-2131,400103,0,446930,0,2022,2022
+2021,136,Street & Transportation,4403-4451 Cinnabar Dr - 6102- 6150 Symphony Ln,V048,Alley Reconstruction,2017 Bonds,7,12/2024,345371,61441,283930,0,0,345371,0,,
+2021,136,Street & Transportation,4503-4535 Live Oak St - 4514-4522 Bryan St,V012,Alley Reconstruction,2017 Bonds,2,06/2021,274143,276701,-2558,0,0,276701,0,,
+2021,136,Street & Transportation,4804-4950 Ashbrook Rd - 4803- 4945 Chilton Dr,V049,Alley Reconstruction,2017 Bonds,7,11/2023,86784,71103,15681,0,0,86784,0,,
+2021,136,Street & Transportation,4806-5034 Mill Creek Rd - 4807- 4923 -12515 Planters Glen Dr,V123,Alley Reconstruction,2017 Bonds,13,09/2021,462189,462174,16,0,0,462189,0,,
+2021,136,Street & Transportation,4812-4840 Worth St - 4807-4841 Tremont St,V007,Alley Petitions,2017 Bonds,2,10/2022,143396,44116,99279,0,0,143396,0,,
+2021,136,Street & Transportation,4902-5032 Thursh St - 4903-5033 Wenonah Dr,V013,Alley Reconstruction,2017 Bonds,2,06/2021,282331,278218,4113,0,0,282331,0,,
+2021,136,Street & Transportation,5005-5207 Banting Way - 5411-5445 Endlery Pl,V050,Alley Reconstruction,2017 Bonds,7,11/2023,58878,61504,-2625,0,0,61504,0,,
+2021,137,Street & Transportation,503-511 N Prairie Ave - 4721-4721 Tremont St,V014,Alley Reconstruction,2017 Bonds,2,06/2021,125679,128692,-3013,0,0,128692,0,,
+2021,137,Street & Transportation,5100-5152 Lahoma St - 5101-5147 N Hall St,V015,Alley Reconstruction,2017 Bonds,2,06/2021,239683,245358,-5675,0,0,245358,0,,
+2021,137,Street & Transportation,5107-5143 Breakwood Dr - 5116-5152 Colter Dr,V051,Alley Reconstruction,2017 Bonds,7,11/2023,33545,36686,-3141,0,0,36686,0,,
+2021,137,Street & Transportation,5179-5107 Chalet - 1404-1550 Drury Dr,V018,Alley Reconstruction,2017 Bonds,3,12/2023,56438,59227,-2789,322594,0,379032,0,2022,2022
+2021,137,Street & Transportation,5300-5358 Willis Ave - 5303-5355 Richard Ave,V016,Alley Reconstruction,2017 Bonds,2,06/2021,253089,260084,-6994,0,0,260084,0,,
+2021,137,Street & Transportation,5303-5347 Blaney Way - 5204-5240 Banting Way,V052,Alley Reconstruction,2017 Bonds,7,11/2023,73515,54702,18813,0,0,73515,0,,
+2021,137,Street & Transportation,5306-5342 Lake Placid Dr - 1572- 1568 Drury Pl,V019,Alley Reconstruction,2017 Bonds,3,12/2023,34618,37026,-2408,170320,0,204938,0,2022,2022
+2021,137,Street & Transportation,5500-5552 Longview St - 5503- 5549 Mccommas Blvd,V125,Alley Reconstruction,2017 Bonds,14,11/2022,240786,177718,63068,0,0,240786,0,,
+2021,137,Street & Transportation,5501-5527 Harbor Town Dr - 5506- 5530 Tamaron Ct,V100,Alley Reconstruction,2017 Bonds,12,12/2022,496609,283198,213411,0,0,496609,0,,
+2021,138,Street & Transportation,5601-5639 Morningside Ave - 5602-5634 Mccommas Blvd,V126,Alley Reconstruction,2017 Bonds,14,11/2022,205751,174408,31343,0,0,205751,0,,
+2021,138,Street & Transportation,5605-5831 Everglade Rd - 5606-5824 Twineing St,V053,Alley Reconstruction,2017 Bonds,7,12/2024,478582,75802,402780,0,0,478582,0,,
+2021,138,Street & Transportation,5620-5832 Everglade Rd - 5707-5861 Marview Ln,V054,Alley Reconstruction,2017 Bonds,7,11/2023,90086,61661,28425,0,0,90086,0,,
+2021,138,Street & Transportation,5701-5745 Palo Pinto Ave - 5702- 5746 Velasco Ave (Alley Improvements),VA06,Target Neighborhood,2017 Bonds,14,02/2024,44805,48014,-3209,0,183125,227930,0,2023,2023
+2021,138,Street & Transportation,5703-5747 Vanderbilt Ave - 5710-5750 Marquita Ave,V127,Alley Reconstruction,2017 Bonds,14,11/2022,214351,188798,25553,0,0,214351,0,,
+2021,138,Street & Transportation,5710-5814 Meadowick Ln - 5274-5290 Ponderosa Cir,V055,Alley Reconstruction,2017 Bonds,7,12/2024,189335,38725,150610,0,0,189335,0,,
+2021,138,Street & Transportation,5737-5763 Caruth Blvd - 5708-5728 Surrey Square Lane,V119,Alley Reconstruction,2017 Bonds,13,09/2021,226496,230989,-4493,0,0,230989,0,,
 2021,138,Street & Transportation,6020-6040 Fieldstone,V101,Alley Reconstruction,2017 Bonds,12,03/2023,70038,73785,-3748,0,0,73785,0,,
-2021,139,Street & Transportation,6024-6300 Samuell Blvd,6205,Alley Reconstruction,2017 Bonds,7,12/2024,476831,67154,409677,0,0,476831,0,,
+2021,139,Street & Transportation,6024-6300 Samuell Blvd - 6205-6441 Symphony Ln,V056,Alley Reconstruction,2017 Bonds,7,12/2024,476831,67154,409677,0,0,476831,0,,
 2021,139,Street & Transportation,6100 Blk Of Calm Meadow,V282,Street Reconstruction,2017 Bonds,12,07/2022,539969,546665,-6696,0,0,546665,0,,
-2021,139,Street & Transportation,6103-6129 Mercedes Ave,6100,Alley Reconstruction,2017 Bonds,14,11/2022,157894,150839,7055,0,0,157894,0,,
-2021,139,Street & Transportation,6139-6179 Monticello Ave,6202,Alley Reconstruction,2017 Bonds,14,09/2022,200974,184531,16443,0,0,200974,0,,
-2021,139,Street & Transportation,6201- 6333 Bryan Pkwy,5808,Alley Reconstruction,2017 Bonds,14,09/2022,223906,202628,21278,0,0,223906,0,,
-2021,139,Street & Transportation,6206-6440 Symphony Ln,4307,Alley Reconstruction,2017 Bonds,7,12/2024,332828,57498,275330,0,0,332828,0,,
-2021,139,Street & Transportation,6216-6226 Autumn Woods Trl,804,Alley Reconstruction,2017 Bonds,3,12/2023,35962,40286,-4323,0,0,40286,0,,
-2021,139,Street & Transportation,6302-6326 Oakleaf Rd,6301,Alley Reconstruction,2017 Bonds,12,09/2023,222471,53001,169470,0,0,222471,0,,
-2021,139,Street & Transportation,6407-6475 Glendora Ave,6406,Alley Reconstruction,2017 Bonds,13,09/2021,317714,322541,-4826,0,0,322541,0,,
-2021,140,Street & Transportation,6421-6543 Northwood Road,6426,Alley Reconstruction,2017 Bonds,13,09/2021,359293,363894,-4601,0,0,363894,0,,
-2021,140,Street & Transportation,6505-6635 Mimosa Ln,6506,Alley Reconstruction,2017 Bonds,13,09/2021,394393,399391,-4998,0,0,399391,0,,
-2021,140,Street & Transportation,6506-6556 Crestmere Dr,6515,Alley Reconstruction,2017 Bonds,11,12/2023,40449,44328,-3879,0,219828,260277,0,2023,2023
-2021,140,Street & Transportation,6510-6580 Calais Dr,6509,Alley Reconstruction,2017 Bonds,11,12/2023,44186,49622,-5437,0,250694,294880,0,2023,2023
-2021,140,Street & Transportation,6607-6831 Desco Drive,6706,Alley Reconstruction,2017 Bonds,13,09/2021,427467,377338,50129,0,0,427467,0,,
-2021,140,Street & Transportation,6808-7038 Hunters Ridge Dr,6807,Alley Reconstruction,2017 Bonds,11,12/2023,60936,65418,-4482,0,452697,513633,0,2023,2023
-2021,140,Street & Transportation,6816-6858 Freemont St,6809,Alley Reconstruction,2017 Bonds,9,06/2023,226629,54072,172557,0,0,226629,0,,
-2021,140,Street & Transportation,6906-6954 Kingsbury Dr,6907,Alley Reconstruction,2017 Bonds,9,06/2023,233707,47145,186562,0,0,233707,0,,
+2021,139,Street & Transportation,6103-6129 Mercedes Ave - 6100-6126 Morningside Ave,V128,Alley Reconstruction,2017 Bonds,14,11/2022,157894,150839,7055,0,0,157894,0,,
+2021,139,Street & Transportation,6139-6179 Monticello Ave - 6202-6238 Mercedes Ave,V129,Alley Reconstruction,2017 Bonds,14,09/2022,200974,184531,16443,0,0,200974,0,,
+2021,139,Street & Transportation,6201- 6333 Bryan Pkwy - 5808-5842 Live Oak St,V130,Alley Reconstruction,2017 Bonds,14,09/2022,223906,202628,21278,0,0,223906,0,,
+2021,139,Street & Transportation,6206-6440 Symphony Ln - 4307-4339 Cinnabar Dr,V057,Alley Reconstruction,2017 Bonds,7,12/2024,332828,57498,275330,0,0,332828,0,,
+2021,139,Street & Transportation,6216-6226 Autumn Woods Trl - 804- 814 W Red Bird Ln,V020,Alley Reconstruction,2017 Bonds,3,12/2023,35962,40286,-4323,0,0,40286,0,,
+2021,139,Street & Transportation,6302-6326 Oakleaf Rd - 6301-6323 Warm Mist Ln,V102,Alley Reconstruction,2017 Bonds,12,09/2023,222471,53001,169470,0,0,222471,0,,
+2021,139,Street & Transportation,6407-6475 Glendora Ave - 6406-6474 Meadow Road,V120,Alley Reconstruction,2017 Bonds,13,09/2021,317714,322541,-4826,0,0,322541,0,,
+2021,140,Street & Transportation,6421-6543 Northwood Road - 6426-6542 Deloache Ave,V121,Alley Reconstruction,2017 Bonds,13,09/2021,359293,363894,-4601,0,0,363894,0,,
+2021,140,Street & Transportation,6505-6635 Mimosa Ln - 6506-6630 Lakehurst Ave,V122,Alley Reconstruction,2017 Bonds,13,09/2021,394393,399391,-4998,0,0,399391,0,,
+2021,140,Street & Transportation,6506-6556 Crestmere Dr - 6515-6555 Meadowcreek Dr,V087,Alley Reconstruction,2017 Bonds,11,12/2023,40449,44328,-3879,0,219828,260277,0,2023,2023
+2021,140,Street & Transportation,6510-6580 Calais Dr - 6509-6565 Crestmere Dr,V088,Alley Reconstruction,2017 Bonds,11,12/2023,44186,49622,-5437,0,250694,294880,0,2023,2023
+2021,140,Street & Transportation,6607-6831 Desco Drive - 6706-6838 Prestonshire Lane,V124,Alley Reconstruction,2017 Bonds,13,09/2021,427467,377338,50129,0,0,427467,0,,
+2021,140,Street & Transportation,6808-7038 Hunters Ridge Dr - 6807-6959 Town Bluff Dr,V089,Alley Reconstruction,2017 Bonds,11,12/2023,60936,65418,-4482,0,452697,513633,0,2023,2023
+2021,140,Street & Transportation,6816-6858 Freemont St - 6809- 6851 Whitehill St,V074,Alley Reconstruction,2017 Bonds,9,06/2023,226629,54072,172557,0,0,226629,0,,
+2021,140,Street & Transportation,6906-6954 Kingsbury Dr - 6907-6949 Winchester St,V075,Alley Reconstruction,2017 Bonds,9,06/2023,233707,47145,186562,0,0,233707,0,,
 2021,141,Street & Transportation,6906-7030 Orchid Ln -6909-7007 Meadoebriar Ln - Pemberton Dr,V094,Alley Reconstruction,2017 Bonds,11,12/2023,46876,50862,-3986,0,319083,365959,0,2023,2023
-2021,141,Street & Transportation,6915-6965 Freemont St,6914,Alley Reconstruction,2017 Bonds,9,06/2023,264480,50364,214116,0,0,264480,0,,
-2021,141,Street & Transportation,6920-7038 Midbury Dr,6919,Alley Reconstruction,2017 Bonds,11,12/2023,58711,63428,-4717,0,0,63428,0,,
-2021,141,Street & Transportation,7005-7065 Freemont St,7006,Alley Reconstruction,2017 Bonds,9,06/2023,324123,51505,272618,0,0,324123,0,,
-2021,141,Street & Transportation,7023-7031 Wakefield St,7049,Alley Reconstruction,2017 Bonds,9,06/2023,175529,46334,129195,0,0,175529,0,,
-2021,141,Street & Transportation,7027-7203 Hunnicut Rd,7012,Alley Reconstruction,2017 Bonds,7,11/2023,61170,40593,20577,0,0,61170,0,,
-2021,141,Street & Transportation,7103-7133 Echo Bluff Dr,7202,Alley Reconstruction,2017 Bonds,12,09/2023,342881,65911,276970,0,0,342881,0,,
-2021,141,Street & Transportation,7105-7227 Bluefield Dr,7311,Alley Reconstruction,2017 Bonds,12,09/2023,504197,93372,410825,0,0,504197,0,,
-2021,142,Street & Transportation,7129-7195 Elliott Dr,7130,Alley Reconstruction,2017 Bonds,7,12/2024,341700,54660,287040,0,0,341700,0,,
-2021,142,Street & Transportation,7151-7203 Gracefield Ln,7101,Alley Reconstruction,2017 Bonds,12,09/2023,456540,77439,379101,0,0,456540,0,,
-2021,142,Street & Transportation,7206 -7446 La Sobrina Dr,7223,Alley Reconstruction,2017 Bonds,12,09/2023,526064,78704,447360,0,0,526064,0,,
-2021,142,Street & Transportation,7309-7435 Tangleglen Dr,7364,Alley Reconstruction,2017 Bonds,11,12/2023,44556,48584,-4028,0,258250,302806,0,2023,2023
-2021,142,Street & Transportation,7405-7443 Lynworth Dr,7408,Alley Reconstruction,2017 Bonds,11,12/2023,38767,42608,-3840,0,185278,224045,0,2023,2023
-2021,142,Street & Transportation,7501-7631 Ashcrest Ln,7502,Alley Reconstruction,2017 Bonds,3,12/2023,54286,56422,-2136,404027,0,458313,0,2022,2022
-2021,142,Street & Transportation,7604-7608 Dornoch Ln,7603,Alley Reconstruction,2017 Bonds,12,09/2023,227803,46688,181115,0,0,227803,0,,
-2021,142,Street & Transportation,7606-7672 Rolling Acres Dr,7615,Alley Reconstruction,2017 Bonds,11,12/2023,41116,44782,-3666,0,221749,262865,0,2023,2023
-2021,142,Street & Transportation,7704-78400 Carbondale St,7703,Target Neighborhood,2017 Bonds,7,12/2024,54273,56677,-2404,0,306312,360585,0,2023,2023
-2021,143,Street & Transportation,7905-7933 Olusta Dr,7932,Alley Reconstruction,2017 Bonds,8,12/2024,24568,26061,-1493,0,168521,193089,0,2023,2023
-2021,143,Street & Transportation,806-954 Ivywood Dr,807,Alley Reconstruction,2017 Bonds,8,04/2022,385703,258461,127242,0,0,385703,0,,
-2021,143,Street & Transportation,9003-9131 Webb Kay Dr,9006,Alley Reconstruction,2017 Bonds,10,07/2021,468020,476451,-8431,0,0,476451,0,,
-2021,143,Street & Transportation,9506-9650 Dartridge Dr,9605,Alley Reconstruction,2017 Bonds,10,07/2021,447811,381690,66122,0,0,447811,0,,
-2021,143,Street & Transportation,9603-9616 Greensprint Drive,9626,Alley Reconstruction,2017 Bonds,10,07/2021,179671,183073,-3402,0,0,183073,0,,
-2021,143,Street & Transportation,9606-9734 Shady Dale Lane,9709,Alley Reconstruction,2017 Bonds,10,07/2021,268115,270427,-2312,0,0,270427,0,,
-2021,143,Street & Transportation,9805-8805 Buxhill Dr,9804,Alley Reconstruction,2017 Bonds,10,07/2021,299096,264012,35084,0,0,299096,0,,
+2021,141,Street & Transportation,6915-6965 Freemont St - 6914- 6964 Wakefield St,V076,Alley Reconstruction,2017 Bonds,9,06/2023,264480,50364,214116,0,0,264480,0,,
+2021,141,Street & Transportation,6920-7038 Midbury Dr - 6919- 7033 Northaven Rd,V090,Alley Reconstruction,2017 Bonds,11,12/2023,58711,63428,-4717,0,0,63428,0,,
+2021,141,Street & Transportation,7005-7065 Freemont St - 7006- 7066 Wakefield St,V077,Alley Reconstruction,2017 Bonds,9,06/2023,324123,51505,272618,0,0,324123,0,,
+2021,141,Street & Transportation,7023-7031 Wakefield St - 7049- 7053 Wakefield Cir,V078,Alley Reconstruction,2017 Bonds,9,06/2023,175529,46334,129195,0,0,175529,0,,
+2021,141,Street & Transportation,7027-7203 Hunnicut Rd - 7012- 7108 Belteau Ln,V058,Alley Reconstruction,2017 Bonds,7,11/2023,61170,40593,20577,0,0,61170,0,,
+2021,141,Street & Transportation,7103-7133 Echo Bluff Dr - 7202- 7226 Rustic Valley Dr,V103,Alley Reconstruction,2017 Bonds,12,09/2023,342881,65911,276970,0,0,342881,0,,
+2021,141,Street & Transportation,7105-7227 Bluefield Dr - 7311- 7427 Carta Valley Dr,V104,Alley Reconstruction,2017 Bonds,12,09/2023,504197,93372,410825,0,0,504197,0,,
+2021,142,Street & Transportation,7129-7195 Elliott Dr - 7130-7184 Rolling Fork Dr,V059,Alley Reconstruction,2017 Bonds,7,12/2024,341700,54660,287040,0,0,341700,0,,
+2021,142,Street & Transportation,7151-7203 Gracefield Ln - 7101-7145 Crooked Oak Dr,V105,Alley Reconstruction,2017 Bonds,12,09/2023,456540,77439,379101,0,0,456540,0,,
+2021,142,Street & Transportation,7206 -7446 La Sobrina Dr - 7223- 7441 Whispering Pine Dr,V106,Alley Reconstruction,2017 Bonds,12,09/2023,526064,78704,447360,0,0,526064,0,,
+2021,142,Street & Transportation,7309-7435 Tangleglen Dr - 7364-7450 Tophill Ln,V091,Alley Reconstruction,2017 Bonds,11,12/2023,44556,48584,-4028,0,258250,302806,0,2023,2023
+2021,142,Street & Transportation,7405-7443 Lynworth Dr - 7408- 7438 Chattington Dr,V092,Alley Reconstruction,2017 Bonds,11,12/2023,38767,42608,-3840,0,185278,224045,0,2023,2023
+2021,142,Street & Transportation,7501-7631 Ashcrest Ln - 7502- 7578 Christie Ln,V021,Alley Reconstruction,2017 Bonds,3,12/2023,54286,56422,-2136,404027,0,458313,0,2022,2022
+2021,142,Street & Transportation,7604-7608 Dornoch Ln - 7603- 7605 Lairds Ln,V107,Alley Reconstruction,2017 Bonds,12,09/2023,227803,46688,181115,0,0,227803,0,,
+2021,142,Street & Transportation,7606-7672 Rolling Acres Dr - 7615- 7651 Tophill Ln,V093,Alley Reconstruction,2017 Bonds,11,12/2023,41116,44782,-3666,0,221749,262865,0,2023,2023
+2021,142,Street & Transportation,7704-78400 Carbondale St - 7703-7835 Brownville (Alley Improvements),VA01,Target Neighborhood,2017 Bonds,7,12/2024,54273,56677,-2404,0,306312,360585,0,2023,2023
+2021,143,Street & Transportation,7905-7933 Olusta Dr - 7932 Great Trinity Forest Way,V067,Alley Reconstruction,2017 Bonds,8,12/2024,24568,26061,-1493,0,168521,193089,0,2023,2023
+2021,143,Street & Transportation,806-954 Ivywood Dr - 807-951 Jadewood Dr,V068,Alley Reconstruction,2017 Bonds,8,04/2022,385703,258461,127242,0,0,385703,0,,
+2021,143,Street & Transportation,9003-9131 Webb Kay Dr - 9006- 9132 Windy Crest Dr,V081,Alley Reconstruction,2017 Bonds,10,07/2021,468020,476451,-8431,0,0,476451,0,,
+2021,143,Street & Transportation,9506-9650 Dartridge Dr - 9605- 9679 Covemeadow Dr,V082,Alley Reconstruction,2017 Bonds,10,07/2021,447811,381690,66122,0,0,447811,0,,
+2021,143,Street & Transportation,9603-9616 Greensprint Drive - 9626-9626 Church Rd,V083,Alley Reconstruction,2017 Bonds,10,07/2021,179671,183073,-3402,0,0,183073,0,,
+2021,143,Street & Transportation,9606-9734 Shady Dale Lane - 9709- 9733 Shoreview Rd,V084,Alley Reconstruction,2017 Bonds,10,07/2021,268115,270427,-2312,0,0,270427,0,,
+2021,143,Street & Transportation,9805-8805 Buxhill Dr - 9804-9846 Chiswell - 8805 Fenchurch,V085,Alley Reconstruction,2017 Bonds,10,07/2021,299096,264012,35084,0,0,299096,0,,
 2021,143,Street & Transportation,Aberdeen Ave From Edgemere Rd To Thackery St,V285,Street Reconstruction,2017 Bonds,13,12/2022,99766,104228,-4462,702657,0,802423,0,2022,2022
 2021,"143, 144",Street & Transportation,Abrams Rd from Gaston Ave to S Beacon St,VA14,Thoroughfares,2017 Bonds / 2006 Bonds,14,12/2022,3260385,3236379,24006,0,0,3260385,0,,
 2021,144,Street & Transportation,Abrams Rd from Glennox Ln to E Lovers Ln,V949,Street Resurfacing,2017 Bonds,2,09/2023,0,0,0,129585,0,129585,0,2022,2022
@@ -1467,6 +1474,7 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2021,201,Street & Transportation,Yancy S from Carbondale St to Saipan St,S610,Target Neighborhood,2006 Bonds / 2012 Bonds / 2017 Bonds,4,12/2023,1191999,1095181,96818,0,0,1191999,0,,
 2021,201,Street & Transportation,Yorksprings Dr from Meadowspring Ln to Yorksprings Pl,V695,Street Resurfacing,2017 Bonds,9,04/2022,117718,0,117718,0,0,117718,0,,
 2021,201,Street & Transportation,Yorksprings Dr from Valley Spring Dr to Meadowspring Ln,V717,Street Resurfacing,2017 Bonds,9,04/2022,199317,0,199317,0,0,199317,0,,
+2021,201,Street & Transportation,Grand Total,,,,,,0,0,0,0,0,0,0,,
 2021,208,Water Utilities Facilities,Administrative Order,CS96,"Offices, Service and Facilities Centers, Research",Sewer Program Capital,Citywide,09/2021,29038136,29035933,2203,0,0,29038136,0,,
 2021,208,Water Utilities Facilities,Adminstrative Order,PS96,"Offices, Service and Facilities Centers, Research",Sewer Program Capital,Citywide,09/2023,10760074,10760074,0,0,0,10760074,0,,
 2021,208,Water Utilities Facilities,AMR,P291,"Offices, Service and Facilities Centers, Research",Water Program Capital,Citywide,09/2023,5000000,3815232,1184768,0,0,5000000,0,,
@@ -1532,3 +1540,4 @@ cip_year,source_page,department,project_name,project_id,project_type,funding_sou
 2021,215,Water Utilities Facilities,Wholesale Customer Facils,CS43,Wholesale Facilities Customer,Sewer Program Capital,Citywide,09/2026,1025365,25365,1000000,2000000,500000,3525365,3000000,2022,2023
 2021,215,Water Utilities Facilities,Wholesale Customer Facils,CW43,Wholesale Facilities Customer,Water Program Capital,Citywide,09/2026,8886119,6846442,2039677,3000000,500000,12386119,4000000,2022,2023
 2021,215,Water Utilities Facilities,Wholesale Customers Facilities,PS43,Wholesale Facilities Customer,Sewer Program Capital,Citywide,Ongoing,2200000,146045,2053955,0,0,2200000,0,,
+2021,215,Water Utilities Facilities,Grand Total,,,,,,0,0,0,0,0,0,0,,
