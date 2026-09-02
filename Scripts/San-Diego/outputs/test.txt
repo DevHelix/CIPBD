@@ -1,9 +1,0 @@
-[[['Expenditures by Revenue Source', None, None], 
-['Revenue Source/Tag Fund Exp/Enc Con Appn', 'FY2008', 'FY2009 FY2010 FY2011 FY2012'], 
-['CAPOUT 030245 17,469\nCMAQ 93 038693 631,130\nPABIKE 030301 81,770\nUnidentified Funding 999999', '', '2,087,100 19,000,000'], 
-['Total 730,369', '', '2,087,100 19,000,000'], 
-['Work Codes DP C C', None, None], 
-['Revenue Source/Tag Fund FY2013 FY2014 FY2015 FY2016 FY2017 FY2018 Total', None, None], 
-['CAPOUT 030245 17,469\nCMAQ 93 038693 631,130\nPABIKE 030301 81,770\nUnidentified Funding 999999 21,087,100', None, None], 
-['Total 21,817,469', None, None], 
-['Work Codes', None, None]]]
