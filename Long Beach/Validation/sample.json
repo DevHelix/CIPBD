@@ -1,0 +1,129 @@
+{
+  "items": [
+    {
+      "file_stem": "2011",
+      "row_index": 11,
+      "project_name": "Storm Drain Pump Station Repair & Certification",
+      "project_id": "PW7020",
+      "source_page": "45",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2012",
+      "row_index": 2,
+      "project_name": "Belmont Pool and Pier Improvements",
+      "project_id": "PW8170",
+      "source_page": "22",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2013",
+      "row_index": 31,
+      "project_name": "Citywide Residential Street Repair",
+      "project_id": "PW5151",
+      "source_page": "73",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2014",
+      "row_index": 22,
+      "project_name": "Light Rail Transit Related Improvements",
+      "project_id": "PWT280",
+      "source_page": "65",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2015",
+      "row_index": 0,
+      "project_name": "Park Bike Path Replacement",
+      "project_id": "PW3010",
+      "source_page": "26",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2016",
+      "row_index": 31,
+      "project_name": "Citywide Residential Street Repair",
+      "project_id": "PW5152",
+      "source_page": "70",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2017",
+      "row_index": 35,
+      "project_name": "GENERAL CITY BUILDING REFURBISHMENT",
+      "project_id": "PW4240",
+      "source_page": "83",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2018",
+      "row_index": 33,
+      "project_name": "STORM DRAIN SYSTEM\u2010WATER QUALITY IMPROVEMENT",
+      "project_id": "PW7060",
+      "source_page": "84",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2019",
+      "row_index": 17,
+      "project_name": "NEIGHBORHOOD TRAFFIC MITIGATION",
+      "project_id": "3003140000",
+      "source_page": "52",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2020",
+      "row_index": 7,
+      "project_name": "ARTERIAL STREET REHABILITATION",
+      "project_id": "3003040000",
+      "source_page": "41",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2021",
+      "row_index": 9,
+      "project_name": "ARTERIAL CORRIDOR ENHANCEMENTS",
+      "project_id": "3003030000",
+      "source_page": "45",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2022",
+      "row_index": 14,
+      "project_name": "ARTERIAL CORRIDOR ENHANCEMENTS",
+      "project_id": "3003030000",
+      "source_page": "54",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2023",
+      "row_index": 29,
+      "project_name": "FACILITY IMPROVEMENTS",
+      "project_id": "3005010000",
+      "source_page": "77",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2024",
+      "row_index": 26,
+      "project_name": "PARK AMENITY IMPROVEMENTS",
+      "project_id": "3004010000",
+      "source_page": "73",
+      "validation_label": ""
+    },
+    {
+      "file_stem": "2025",
+      "row_index": 2,
+      "project_name": "MARINA IMPROVEMENTS",
+      "project_id": "3002080000",
+      "source_page": "41",
+      "validation_label": ""
+    }
+  ],
+  "total_rows": 447,
+  "sample_size": 15,
+  "percent": 3.0,
+  "generated_at": "2026-09-05 00:13:05",
+  "city": "Long Beach"
+}
