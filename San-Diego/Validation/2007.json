@@ -1,0 +1,99 @@
+[
+  {
+    "timestamp": null,
+    "city": "San-Diego",
+    "file_stem": "2007",
+    "row_index": 185,
+    "project_name": "Underground Hazardous Materials Storage Tanks",
+    "project_id": "33-084.0",
+    "source_page": "280",
+    "status": "",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-09-05T01:26:46",
+        "column": "year_2009",
+        "old": "",
+        "new": "420000"
+      },
+      {
+        "timestamp": "2026-09-05T01:26:46",
+        "column": "year_2010",
+        "old": "",
+        "new": "329500"
+      },
+      {
+        "timestamp": "2026-09-05T01:26:46",
+        "column": "year_2011",
+        "old": "",
+        "new": "326500"
+      },
+      {
+        "timestamp": "2026-09-05T01:26:46",
+        "column": "year_2012",
+        "old": "",
+        "new": "326500"
+      },
+      {
+        "timestamp": "2026-09-05T01:26:46",
+        "column": "previous_appropriations",
+        "old": "",
+        "new": "9312882"
+      },
+      {
+        "timestamp": "2026-09-05T01:26:46",
+        "column": "year_2013",
+        "old": "",
+        "new": "326500"
+      },
+      {
+        "timestamp": "2026-09-05T01:26:46",
+        "column": "year_2014",
+        "old": "",
+        "new": "326500"
+      },
+      {
+        "timestamp": "2026-09-05T01:26:46",
+        "column": "year_2015",
+        "old": "",
+        "new": "327500"
+      },
+      {
+        "timestamp": "2026-09-05T01:26:46",
+        "column": "year_2016",
+        "old": "",
+        "new": "327500"
+      },
+      {
+        "timestamp": "2026-09-05T01:26:46",
+        "column": "year_2017",
+        "old": "",
+        "new": "327500"
+      },
+      {
+        "timestamp": "2026-09-05T01:26:46",
+        "column": "year_2018",
+        "old": "",
+        "new": "0"
+      },
+      {
+        "timestamp": "2026-09-05T01:26:46",
+        "column": "end_year",
+        "old": "2008",
+        "new": "2017"
+      },
+      {
+        "timestamp": "2026-09-05T01:26:46",
+        "column": "project_total",
+        "old": "0",
+        "new": "13633324"
+      },
+      {
+        "timestamp": "2026-09-06T00:36:46",
+        "column": "previous_appropriations",
+        "old": "9312882",
+        "new": "9616324"
+      }
+    ]
+  }
+]

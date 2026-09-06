@@ -1,0 +1,24 @@
+- 2026-09-05 01:26:46 — San-Diego/2007 row 185 [33-084.0 — Underground Hazardous Materials Storage Tanks p.280]
+  - **year_2009**: "" → "420000"
+  - **year_2010**: "" → "329500"
+  - **year_2011**: "" → "326500"
+  - **year_2012**: "" → "326500"
+  - **previous_appropriations**: "" → "9312882"
+  - **year_2013**: "" → "326500"
+  - **year_2014**: "" → "326500"
+  - **year_2015**: "" → "327500"
+  - **year_2016**: "" → "327500"
+  - **year_2017**: "" → "327500"
+  - **year_2018**: "" → "0"
+  - **end_year**: "2008" → "2017"
+  - **project_total**: "0" → "13633324"
+- 2026-09-06 00:25:13 — San-Diego/2009 row 376 [29-910.0 — Open Space Improvements p.503]
+  - **unidentified_funding**: "" → "900000"
+- 2026-09-06 00:34:09 — San-Diego/2008 row 407 [34-200.0 — Annual Allocation - QUALCOMM Stadium Improvements p.526]
+  - **year_2009**: "500000" → ""
+  - **year_2008**: "" → "750000"
+- 2026-09-06 00:34:44 — San-Diego/2008 row 405 [31-001.0 — Annual Allocation - Montgomery Field p.524]
+  - **year_2009**: "1000000" → ""
+  - **year_2008**: "" → "300000"
+- 2026-09-06 00:36:46 — San-Diego/2007 row 185 [33-084.0 — Underground Hazardous Materials Storage Tanks p.280]
+  - **previous_appropriations**: "9312882" → "9616324"

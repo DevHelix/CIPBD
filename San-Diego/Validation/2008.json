@@ -1,0 +1,52 @@
+[
+  {
+    "timestamp": null,
+    "city": "San-Diego",
+    "file_stem": "2008",
+    "row_index": 407,
+    "project_name": "Annual Allocation - QUALCOMM Stadium Improvements",
+    "project_id": "34-200.0",
+    "source_page": "526",
+    "status": "",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-09-06T00:34:09",
+        "column": "year_2009",
+        "old": "500000",
+        "new": ""
+      },
+      {
+        "timestamp": "2026-09-06T00:34:09",
+        "column": "year_2008",
+        "old": "",
+        "new": "750000"
+      }
+    ]
+  },
+  {
+    "timestamp": null,
+    "city": "San-Diego",
+    "file_stem": "2008",
+    "row_index": 405,
+    "project_name": "Annual Allocation - Montgomery Field",
+    "project_id": "31-001.0",
+    "source_page": "524",
+    "status": "",
+    "notes": "",
+    "edits": [
+      {
+        "timestamp": "2026-09-06T00:34:44",
+        "column": "year_2009",
+        "old": "1000000",
+        "new": ""
+      },
+      {
+        "timestamp": "2026-09-06T00:34:44",
+        "column": "year_2008",
+        "old": "",
+        "new": "300000"
+      }
+    ]
+  }
+]
